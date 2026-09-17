@@ -1,0 +1,450 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HelmetIcon from '../../components/HelmetIcon.astro';
+import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../../lib/supabase';
+
+export async function getStaticPaths() {
+  const { data } = await supabase
+    .from('blog_posts')
+    .select('slug')
+    .eq('published', true);
+  return (data || []).map((p: { slug: string }) => ({
+    params: { slug: p.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+const { data: post } = await supabase
+  .from('blog_posts')
+  .select('*')
+  .eq('slug', slug)
+  .eq('published', true)
+  .maybeSingle();
+
+if (!post) {
+  return Astro.redirect('/blog');
+}
+
+const { data: related } = await supabase
+  .from('blog_posts')
+  .select('*')
+  .eq('published', true)
+  .eq('category', post.category)
+  .neq('id', post.id)
+  .order('created_at', { ascending: false })
+  .limit(3);
+
+const postData = post as BlogPost;
+---
+
+<Layout title={`${postData.title} - MDO Floripa`} description={postData.excerpt || undefined}>
+  <article class="article-page">
+    <div class="article-hero">
+      <div class="container">
+        <span class="breadcrumb">
+          <a href="/">Início</a> / <a href="/blog">Blog</a> / <a href={`/blog/categoria/${encodeURIComponent(postData.category)}`}>{getCategoryLabel(postData.category)}</a>
+        </span>
+        <div class="hero-badge-row">
+          <HelmetIcon size={20} color="#F5A623" />
+          <span>MDO Floripa</span>
+        </div>
+        <span class="article-category">{getCategoryLabel(postData.category)}</span>
+        <h1>{postData.title}</h1>
+        <div class="article-meta">
+          <span class="author">
+            <span class="author-avatar">{postData.author.charAt(0)}</span>
+            {postData.author}
+          </span>
+          <span class="meta-sep">•</span>
+          <span>{formatDate(postData.created_at)}</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      {postData.image_url && (
+        <div class="article-cover">
+          <img src={postData.image_url} alt={postData.title} />
+        </div>
+      )}
+
+      <div class="article-layout">
+        <div class="article-content">
+          {postData.excerpt && <p class="article-lead">{postData.excerpt}</p>}
+          <div class="article-body" set:html={postData.content} />
+        </div>
+        <aside class="article-sidebar">
+          <div class="sidebar-box">
+            <h3>Categorias</h3>
+            <a href="/blog/categoria/Construcao">Construção</a>
+            <a href="/blog/categoria/Pintura">Pintura</a>
+            <a href="/blog/categoria/Manutencao%20de%20Equipamentos">Manutenção de Equipamentos</a>
+            <a href="/blog/categoria/Limpeza">Limpeza</a>
+          </div>
+          <div class="sidebar-box cta-box">
+            <h3>Precisa de equipamentos?</h3>
+            <p>A MDO Floripa tem tudo o que sua obra precisa. Alugue com o Mestre da Obra Locações — Florianópolis.</p>
+            <a href="/fale-conosco" class="btn-primary">Fale Conosco</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </article>
+
+  {related && related.length > 0 && (
+    <section class="related-section">
+      <div class="container">
+        <h2>Artigos Relacionados</h2>
+        <div class="related-grid">
+          {related.map((rp: BlogPost) => (
+            <a href={`/blog/${rp.slug}`} class="related-card">
+              <div class="card-image">
+                {rp.image_url && <img src={rp.image_url} alt={rp.title} loading="lazy" />}
+              </div>
+              <div class="card-body">
+                <span class="card-category">{getCategoryLabel(rp.category)}</span>
+                <h3>{rp.title}</h3>
+                <span class="card-date">{formatDate(rp.created_at)}</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+</Layout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .article-hero {
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
+    color: white;
+    padding: 140px 24px 48px;
+  }
+
+  .breadcrumb {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .breadcrumb a {
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s;
+  }
+
+  .breadcrumb a:hover {
+    color: #F5A623;
+  }
+
+  .hero-badge-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #F5A623;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .article-category {
+    display: inline-block;
+    color: #F5A623;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 16px;
+  }
+
+  .article-hero h1 {
+    font-size: 42px;
+    font-weight: 900;
+    max-width: 800px;
+    margin-bottom: 24px;
+    line-height: 1.15;
+    color: white;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .author-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+  }
+
+  .article-cover {
+    margin: -32px auto 0;
+    max-width: 900px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    z-index: 2;
+  }
+
+  .article-cover img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+  }
+
+  .article-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 48px auto;
+  }
+
+  .article-content {
+    min-width: 0;
+  }
+
+  .article-lead {
+    font-size: 20px;
+    color: var(--color-text-muted);
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .article-body {
+    font-size: 17px;
+    line-height: 1.8;
+    color: var(--color-text);
+  }
+
+  .article-body :global(h3) {
+    font-size: 24px;
+    margin: 32px 0 16px;
+    color: var(--color-primary-dark);
+  }
+
+  .article-body :global(p) {
+    margin: 0 0 16px;
+  }
+
+  .article-body :global(ul) {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+
+  .article-body :global(li) {
+    margin-bottom: 8px;
+  }
+
+  .article-body :global(strong) {
+    color: var(--color-primary-dark);
+  }
+
+  .article-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .sidebar-box {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+  }
+
+  .sidebar-box h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--color-primary-dark);
+  }
+
+  .sidebar-box a {
+    display: block;
+    padding: 10px 0;
+    color: var(--color-text);
+    border-bottom: 1px solid var(--color-border);
+    font-size: 15px;
+    transition: color 0.3s;
+  }
+
+  .sidebar-box a:last-child {
+    border-bottom: none;
+  }
+
+  .sidebar-box a:hover {
+    color: var(--color-accent-dark);
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #1D3557, #376EA5);
+    border: none;
+    color: white;
+  }
+
+  .cta-box h3 {
+    color: white;
+  }
+
+  .cta-box p {
+    color: rgba(255,255,255,0.75);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.3s, transform 0.3s;
+  }
+
+  .btn-primary:hover {
+    background: var(--color-accent-light);
+    transform: translateY(-2px);
+  }
+
+  /* Related */
+  .related-section {
+    padding: 64px 0;
+    background: white;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .related-section h2 {
+    font-size: 28px;
+    margin-bottom: 32px;
+    color: var(--color-primary-dark);
+  }
+
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .related-card {
+    background: var(--color-bg);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+
+  .related-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+  }
+
+  .related-card .card-image {
+    height: 180px;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .related-card .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+
+  .related-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .related-card .card-body {
+    padding: 20px;
+  }
+
+  .card-category {
+    color: var(--color-accent-dark);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .related-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+  }
+
+  .related-card:hover h3 {
+    color: var(--color-accent-dark);
+  }
+
+  .card-date {
+    font-size: 13px;
+    color: var(--color-text-light);
+  }
+
+  @media (max-width: 968px) {
+    .article-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .article-hero h1 {
+      font-size: 32px;
+    }
+
+    .related-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article-cover img {
+      height: 280px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .article-hero h1 {
+      font-size: 26px;
+    }
+
+    .article-body {
+      font-size: 16px;
+    }
+
+    .related-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .article-cover img {
+      height: 200px;
+    }
+  }
+</style>

@@ -1,0 +1,346 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HelmetIcon from '../components/HelmetIcon.astro';
+import ContactForm from '../components/ContactForm.tsx';
+---
+
+<Layout title="Fale Conosco - MDO Floripa" description="Entre em contato com a equipe da MDO Floripa — Mestre da Obra Locações, Florianópolis.">
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb"><a href="/">Início</a> / Fale Conosco</span>
+      <div class="hero-badge-row">
+        <HelmetIcon size={24} color="#F5A623" />
+        <span>MDO Floripa</span>
+      </div>
+      <h1>Fale Conosco</h1>
+      <p>Tire dúvidas, peça orçamentos ou sugira temas para o blog. A equipe do Mestre da Obra Locações — Florianópolis está aqui para ajudar.</p>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <h2>Canais de atendimento</h2>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h3>E-mail</h3>
+              <p>contato@mdofloripa.com.br</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>Telefone / WhatsApp</h3>
+              <p>(48) 3000-0000</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Endereço</h3>
+              <p>Florianópolis — SC<br/>Santa Catarina, Brasil</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Horário</h3>
+              <p>Seg a Sex: 07:30–17:30<br/>Sáb: 07:30–12:00</p>
+            </div>
+          </div>
+          <div class="info-card brand-card">
+            <div class="info-icon">
+              <HelmetIcon size={24} color="#F5A623" />
+            </div>
+            <div>
+              <h3>MDO Floripa</h3>
+              <p>Mestre da Obra Locações<br/>Unidade Florianópolis</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <ContactForm client:load />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .page-hero {
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
+    color: white;
+    padding: 140px 24px 64px;
+  }
+
+  .breadcrumb {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .breadcrumb a {
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s;
+  }
+
+  .breadcrumb a:hover {
+    color: #F5A623;
+  }
+
+  .hero-badge-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #F5A623;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .page-hero h1 {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: white;
+  }
+
+  .page-hero p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.75);
+    max-width: 600px;
+  }
+
+  .contact-section {
+    padding: 64px 0;
+  }
+
+  .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 48px;
+  }
+
+  .contact-info h2 {
+    font-size: 28px;
+    color: var(--color-primary-dark);
+    margin-bottom: 32px;
+  }
+
+  .info-card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 20px;
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    margin-bottom: 16px;
+    transition: box-shadow 0.3s;
+  }
+
+  .info-card:hover {
+    box-shadow: var(--shadow-md);
+  }
+
+  .brand-card {
+    background: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+  }
+
+  .brand-card h3 {
+    color: white;
+  }
+
+  .brand-card p {
+    color: rgba(255,255,255,0.7);
+  }
+
+  .info-icon {
+    flex-shrink: 0;
+    width: 48px;
+    height: 48px;
+    background: var(--color-primary-dark);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .brand-card .info-icon {
+    background: rgba(245, 166, 35, 0.15);
+  }
+
+  .info-card h3 {
+    font-size: 16px;
+    margin-bottom: 4px;
+    color: var(--color-primary-dark);
+  }
+
+  .info-card p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .contact-form-wrapper {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 32px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Form styles - applied globally for React component */
+  :global(.contact-form) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  :global(.form-row) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  :global(.form-group) {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  :global(.form-group label) {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  :global(.form-group input),
+  :global(.form-group textarea) {
+    padding: 12px 16px;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    font-family: inherit;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background: var(--color-bg);
+  }
+
+  :global(.form-group input:focus),
+  :global(.form-group textarea:focus) {
+    outline: none;
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 3px rgba(245, 166, 35, 0.12);
+    background: white;
+  }
+
+  :global(.input-error) {
+    border-color: var(--color-error) !important;
+  }
+
+  :global(.error-text) {
+    color: var(--color-error);
+    font-size: 13px;
+  }
+
+  :global(.submit-btn) {
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+    border: none;
+    padding: 14px 32px;
+    border-radius: var(--radius-md);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    align-self: flex-start;
+  }
+
+  :global(.submit-btn:hover:not(:disabled)) {
+    background: var(--color-accent-light);
+    transform: translateY(-2px);
+  }
+
+  :global(.submit-btn:disabled) {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  :global(.form-error-banner) {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid var(--color-error);
+    color: var(--color-error);
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    font-size: 14px;
+  }
+
+  :global(.form-success) {
+    text-align: center;
+    padding: 48px 24px;
+    color: var(--color-success);
+  }
+
+  :global(.form-success h3) {
+    font-size: 24px;
+    margin: 16px 0 8px;
+    color: var(--color-primary-dark);
+  }
+
+  :global(.form-success p) {
+    color: var(--color-text-muted);
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  :global(.btn-back) {
+    background: var(--color-primary-dark);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  :global(.btn-back:hover) {
+    background: var(--color-primary-light);
+  }
+
+  @media (max-width: 768px) {
+    .contact-layout {
+      grid-template-columns: 1fr;
+    }
+
+    :global(.form-row) {
+      grid-template-columns: 1fr;
+    }
+
+    .page-hero h1 {
+      font-size: 32px;
+    }
+  }
+</style>

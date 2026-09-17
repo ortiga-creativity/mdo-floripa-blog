@@ -1,0 +1,604 @@
+---
+import Layout from '../layouts/Layout.astro';
+import HelmetIcon from '../components/HelmetIcon.astro';
+import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../lib/supabase';
+
+const { data: featuredPosts } = await supabase
+  .from('blog_posts')
+  .select('*')
+  .eq('published', true)
+  .eq('featured', true)
+  .order('created_at', { ascending: false })
+  .limit(3);
+
+const { data: recentPosts } = await supabase
+  .from('blog_posts')
+  .select('*')
+  .eq('published', true)
+  .order('created_at', { ascending: false })
+  .limit(6);
+
+const heroPost = featuredPosts && featuredPosts.length > 0 ? featuredPosts[0] : (recentPosts && recentPosts.length > 0 ? recentPosts[0] : null);
+const secondaryFeatured = featuredPosts ? featuredPosts.slice(1, 3) : [];
+const restPosts = recentPosts ? recentPosts.filter((p: BlogPost) => p.id !== (heroPost as BlogPost)?.id).slice(0, 4) : [];
+---
+
+<Layout>
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <HelmetIcon size={20} color="#F5A623" />
+        <span>Mestre da Obra Locações — Florianópolis</span>
+      </div>
+      <h1>Tudo o que sua obra <span class="hero-highlight">precisa em um só lugar</span></h1>
+      <p>Dicas, guias e informações práticas para engenheiros, construtores, pintores, pedreiros e profissionais de limpeza. Conteúdo da MDO Floripa para quem constrói, pinta e transforma.</p>
+      <div class="hero-actions">
+        <a href="/blog" class="btn-primary">Ver todos os artigos</a>
+        <a href="/fale-conosco" class="btn-secondary">Fale Conosco</a>
+      </div>
+    </div>
+  </section>
+
+  {heroPost && (
+    <section class="featured-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Em Destaque</h2>
+          <a href="/blog" class="see-all">Ver todos →</a>
+        </div>
+        <div class="featured-grid">
+          <a href={`/blog/${heroPost.slug}`} class="featured-card featured-card-large">
+            <div class="card-image">
+              {heroPost.image_url && <img src={heroPost.image_url} alt={heroPost.title} loading="lazy" />}
+            </div>
+            <div class="card-body">
+              <span class="card-category">{getCategoryLabel(heroPost.category)}</span>
+              <h3>{heroPost.title}</h3>
+              <p>{heroPost.excerpt}</p>
+              <div class="card-meta">
+                <span>{heroPost.author}</span>
+                <span>•</span>
+                <span>{formatDate(heroPost.created_at)}</span>
+              </div>
+            </div>
+          </a>
+          {secondaryFeatured.map((post: BlogPost) => (
+            <a href={`/blog/${post.slug}`} class="featured-card">
+              <div class="card-image">
+                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+              </div>
+              <div class="card-body">
+                <span class="card-category">{getCategoryLabel(post.category)}</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <div class="card-meta">
+                  <span>{formatDate(post.created_at)}</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="categories-section">
+    <div class="container">
+      <div class="section-header center">
+        <h2>Explore por Categoria</h2>
+        <p>Encontre exatamente o que você precisa</p>
+      </div>
+      <div class="categories-grid">
+        <a href="/blog/categoria/Construcao" class="category-card">
+          <div class="category-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 13v.01"/><path d="M9 17v.01"/></svg>
+          </div>
+          <h3>Construção</h3>
+          <p>Fundamentos, técnicas e boas práticas da obra</p>
+        </a>
+        <a href="/blog/categoria/Pintura" class="category-card">
+          <div class="category-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11h2v2h-2zM5 11h10v2H5z"/><path d="M3 7l9-4 9 4v6H3z"/><path d="M7 13v8h10v-8"/></svg>
+          </div>
+          <h3>Pintura</h3>
+          <p>Preparação, técnicas e escolha de materiais</p>
+        </a>
+        <a href="/blog/categoria/Manutencao%20de%20Equipamentos" class="category-card">
+          <div class="category-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Manutenção de Equipamentos</h3>
+          <p>Cuidados preventivos e guias de manutenção</p>
+        </a>
+        <a href="/blog/categoria/Limpeza" class="category-card">
+          <div class="category-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V8l4-4h6l4 4v13"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01"/><path d="M15 12h.01"/></svg>
+          </div>
+          <h3>Limpeza</h3>
+          <p>Produtos, equipamentos e técnicas de limpeza</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  {restPosts.length > 0 && (
+    <section class="recent-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Artigos Recentes</h2>
+          <a href="/blog" class="see-all">Ver todos →</a>
+        </div>
+        <div class="recent-grid">
+          {restPosts.map((post: BlogPost) => (
+            <a href={`/blog/${post.slug}`} class="post-card">
+              <div class="card-image">
+                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+              </div>
+              <div class="card-body">
+                <span class="card-category">{getCategoryLabel(post.category)}</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <div class="card-meta">
+                  <span>{post.author}</span>
+                  <span>•</span>
+                  <span>{formatDate(post.created_at)}</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box">
+        <HelmetIcon size={48} color="#F5A623" />
+        <h2>Precisa de equipamentos para sua obra?</h2>
+        <p>A MDO Floripa tem tudo o que você precisa. Locação rápida, prática e com qualidade profissional. Entre em contato com a equipe do Mestre da Obra Locações — Florianópolis.</p>
+        <a href="/fale-conosco" class="btn-primary">Fale Conosco</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    min-height: 580px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 120px 24px 80px;
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 55%, #2C5B8A 100%);
+    z-index: -2;
+  }
+
+  .hero-bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg') center/cover;
+    opacity: 0.10;
+    z-index: -1;
+  }
+
+  .hero-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(245, 166, 35, 0.15);
+    border: 1px solid rgba(245, 166, 35, 0.4);
+    color: #F5A623;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-size: 56px;
+    font-weight: 900;
+    max-width: 800px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: white;
+  }
+
+  .hero-highlight {
+    color: #F5A623;
+  }
+
+  .hero p {
+    font-size: 18px;
+    max-width: 600px;
+    color: rgba(255,255,255,0.80);
+    margin-bottom: 32px;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+    padding: 14px 28px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 16px;
+    transition: background var(--transition), transform var(--transition);
+  }
+
+  .btn-primary:hover {
+    background: var(--color-accent-light);
+    transform: translateY(-2px);
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: white;
+    padding: 14px 28px;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 16px;
+    border: 2px solid rgba(255,255,255,0.25);
+    transition: border-color var(--transition), background var(--transition);
+  }
+
+  .btn-secondary:hover {
+    border-color: var(--color-accent);
+    background: rgba(245, 166, 35, 0.1);
+    color: var(--color-accent);
+  }
+
+  /* Section headers */
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .section-header.center {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--color-primary-dark);
+  }
+
+  .section-header.center h2 {
+    margin-bottom: 0;
+  }
+
+  .section-header p {
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .see-all {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 15px;
+    transition: color var(--transition);
+  }
+
+  .see-all:hover {
+    color: var(--color-accent);
+  }
+
+  /* Featured */
+  .featured-section {
+    padding: 64px 0;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+  }
+
+  .featured-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow var(--transition), transform var(--transition);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .featured-card-large {
+    grid-row: span 2;
+  }
+
+  .featured-card-large .card-image {
+    height: 320px;
+  }
+
+  .featured-card-large h3 {
+    font-size: 24px;
+  }
+
+  .featured-card-large .card-body {
+    padding: 28px;
+  }
+
+  .card-image {
+    height: 200px;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .featured-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-category {
+    display: inline-block;
+    color: var(--color-accent-dark);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    transition: color var(--transition);
+  }
+
+  .featured-card:hover .card-body h3 {
+    color: var(--color-accent-dark);
+  }
+
+  .card-body p {
+    color: var(--color-text-muted);
+    font-size: 15px;
+    margin: 0 0 16px;
+    flex: 1;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    color: var(--color-text-light);
+  }
+
+  /* Categories */
+  .categories-section {
+    padding: 64px 0;
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .category-card {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    text-align: center;
+    transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+  }
+
+  .category-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+  }
+
+  .category-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 16px;
+    background: var(--color-primary-dark);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+  }
+
+  .category-card:hover .category-icon {
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+  }
+
+  .category-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--color-primary-dark);
+  }
+
+  .category-card p {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  /* Recent */
+  .recent-section {
+    padding: 64px 0;
+  }
+
+  .recent-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .post-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow var(--transition), transform var(--transition);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .post-card .card-image {
+    height: 180px;
+  }
+
+  .post-card .card-body h3 {
+    font-size: 18px;
+  }
+
+  .post-card .card-body p {
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* CTA */
+  .cta-section {
+    padding: 0 0 64px;
+  }
+
+  .cta-box {
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
+    border-radius: var(--radius-xl);
+    padding: 64px 48px;
+    text-align: center;
+    color: white;
+    border: 1px solid rgba(245, 166, 35, 0.2);
+  }
+
+  .cta-box h2 {
+    font-size: 32px;
+    color: white;
+    margin: 16px 0;
+  }
+
+  .cta-box p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 32px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Responsive */
+  @media (max-width: 968px) {
+    .featured-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-card-large {
+      grid-row: auto;
+    }
+
+    .featured-card-large .card-image {
+      height: 240px;
+    }
+
+    .categories-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .recent-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+      font-size: 40px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .categories-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .recent-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .hero h1 {
+      font-size: 32px;
+    }
+
+    .hero p {
+      font-size: 16px;
+    }
+
+    .section-header h2,
+    .cta-box h2 {
+      font-size: 26px;
+    }
+
+    .cta-box {
+      padding: 40px 24px;
+    }
+  }
+</style>

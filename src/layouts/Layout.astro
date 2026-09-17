@@ -1,0 +1,122 @@
+---
+import '../styles/global.css';
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={description} />
+		<title>{title}</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header class="site-header" id="site-header">
+			<div class="header-inner">
+				<a href="/" class="logo">
+					<img class="brand-logo" src="/LOGOMARCA_MDO.png" alt="Mestre da Obra" />
+					<span class="logo-text">
+						<span class="mdo-main">MDO Floripa</span>
+						<span class="mdo-sub">Mestre da Obra Locações</span>
+					</span>
+				</a>
+				<nav class="main-nav" id="main-nav">
+					<a href="/">Início</a>
+					<a href="/blog">Blog</a>
+					<a href="/blog/categoria/Construcao">Construção</a>
+					<a href="/blog/categoria/Pintura">Pintura</a>
+					<a href="/blog/categoria/Manutencao%20de%20Equipamentos">Manutenção</a>
+					<a href="/blog/categoria/Limpeza">Limpeza</a>
+					<a href="/fale-conosco" class="nav-cta">Fale Conosco</a>
+				</nav>
+				<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</header>
+
+		<main>
+			<slot />
+		</main>
+
+		<footer class="site-footer">
+			<div class="footer-inner">
+				<div class="footer-col">
+					<div class="footer-logo">
+						<img class="brand-logo footer-brand-logo" src="/LOGOMARCA_MDO.png" alt="Mestre da Obra" />
+						<span class="logo-text">
+							<span class="mdo-main">MDO Floripa</span>
+							<span class="mdo-sub">Mestre da Obra Locações</span>
+						</span>
+					</div>
+					<p>Tudo o que sua obra precisa em um só lugar. Locação rápida, prática e com qualidade profissional em cada detalhe.</p>
+					<p class="footer-brand-name">Mestre da Obra Locações — Florianópolis</p>
+				</div>
+				<div class="footer-col">
+					<h4>Categorias</h4>
+					<a href="/blog/categoria/Construcao">Construção</a>
+					<a href="/blog/categoria/Pintura">Pintura</a>
+					<a href="/blog/categoria/Manutencao%20de%20Equipamentos">Manutenção de Equipamentos</a>
+					<a href="/blog/categoria/Limpeza">Limpeza</a>
+				</div>
+				<div class="footer-col">
+					<h4>Navegação</h4>
+					<a href="/">Início</a>
+					<a href="/blog">Todos os artigos</a>
+					<a href="/fale-conosco">Fale Conosco</a>
+				</div>
+				<div class="footer-col">
+					<h4>Contato</h4>
+					<p>contato@mdofloripa.com.br</p>
+					<p>(48) 3000-0000</p>
+					<p>Florianópolis - SC</p>
+					<p>Seg a Sex: 07:30–17:30<br/>Sáb: 07:30–12:00</p>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2026 MDO Floripa — Mestre da Obra Locações, Florianópolis. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+
+		<script>
+			const header = document.getElementById('site-header');
+			const toggle = document.getElementById('menu-toggle');
+			const nav = document.getElementById('main-nav');
+
+			toggle?.addEventListener('click', () => {
+				nav?.classList.toggle('open');
+				toggle.classList.toggle('active');
+			});
+
+			window.addEventListener('scroll', () => {
+				if (window.scrollY > 20) {
+					header?.classList.add('scrolled');
+				} else {
+					header?.classList.remove('scrolled');
+				}
+			});
+		</script>
+	</body>
+</html>
+
+<style>
+	:global(body) {
+		margin: 0;
+		font-family: 'Inter', sans-serif;
+		background: #F4F7FA;
+		color: #1D2733;
+	}
+</style>

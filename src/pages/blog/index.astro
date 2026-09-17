@@ -1,0 +1,271 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HelmetIcon from '../../components/HelmetIcon.astro';
+import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../../lib/supabase';
+
+const { data: posts } = await supabase
+  .from('blog_posts')
+  .select('*')
+  .eq('published', true)
+  .order('created_at', { ascending: false });
+---
+
+<Layout title="Blog - MDO Floripa" description="Todos os artigos do blog da MDO Floripa: dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.">
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb"><a href="/">Início</a> / Blog</span>
+      <div class="hero-badge-row">
+        <HelmetIcon size={24} color="#F5A623" />
+        <span>MDO Floripa</span>
+      </div>
+      <h1>Blog da MDO Floripa</h1>
+      <p>Dicas, guias e informações para profissionais da construção, pintura e limpeza em Florianópolis.</p>
+    </div>
+  </section>
+
+  <section class="blog-content">
+    <div class="container">
+      <div class="filter-bar">
+        <a href="/blog" class="filter-chip active">Todos</a>
+        <a href="/blog/categoria/Construcao" class="filter-chip">Construção</a>
+        <a href="/blog/categoria/Pintura" class="filter-chip">Pintura</a>
+        <a href="/blog/categoria/Manutencao%20de%20Equipamentos" class="filter-chip">Manutenção de Equipamentos</a>
+        <a href="/blog/categoria/Limpeza" class="filter-chip">Limpeza</a>
+      </div>
+
+      {posts && posts.length > 0 ? (
+        <div class="posts-grid">
+          {posts.map((post: BlogPost) => (
+            <a href={`/blog/${post.slug}`} class="post-card">
+              <div class="card-image">
+                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+              </div>
+              <div class="card-body">
+                <span class="card-category">{getCategoryLabel(post.category)}</span>
+                <h3>{post.title}</h3>
+                <p>{post.excerpt}</p>
+                <div class="card-meta">
+                  <span>{post.author}</span>
+                  <span>•</span>
+                  <span>{formatDate(post.created_at)}</span>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <div class="empty-state">
+          <h3>Nenhum artigo publicado ainda</h3>
+          <p>Volte em breve para novos conteúdos!</p>
+        </div>
+      )}
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .page-hero {
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
+    color: white;
+    padding: 140px 24px 64px;
+  }
+
+  .breadcrumb {
+    font-size: 14px;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 16px;
+    display: block;
+  }
+
+  .breadcrumb a {
+    color: rgba(255,255,255,0.7);
+    transition: color 0.3s;
+  }
+
+  .breadcrumb a:hover {
+    color: #F5A623;
+  }
+
+  .hero-badge-row {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: #F5A623;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .page-hero h1 {
+    font-size: 44px;
+    font-weight: 900;
+    margin-bottom: 12px;
+    color: white;
+  }
+
+  .page-hero p {
+    font-size: 18px;
+    color: rgba(255,255,255,0.75);
+    max-width: 600px;
+  }
+
+  .blog-content {
+    padding: 48px 0;
+  }
+
+  .filter-bar {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .filter-chip {
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    border: 1px solid var(--color-border);
+    color: var(--color-text);
+    transition: all 0.3s;
+  }
+
+  .filter-chip:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent-dark);
+  }
+
+  .filter-chip.active {
+    background: var(--color-primary-dark);
+    color: white;
+    border-color: var(--color-primary-dark);
+  }
+
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }
+
+  .post-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow 0.3s, transform 0.3s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .card-image {
+    height: 200px;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+
+  .post-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-category {
+    color: var(--color-accent-dark);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+  }
+
+  .post-card:hover .card-body h3 {
+    color: var(--color-accent-dark);
+  }
+
+  .card-body p {
+    color: var(--color-text-muted);
+    font-size: 15px;
+    margin: 0 0 16px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    color: var(--color-text-light);
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 80px 24px;
+  }
+
+  .empty-state h3 {
+    font-size: 24px;
+    color: var(--color-text);
+  }
+
+  .empty-state p {
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 968px) {
+    .posts-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .page-hero h1 {
+      font-size: 36px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .page-hero h1 {
+      font-size: 30px;
+    }
+
+    .page-hero p {
+      font-size: 16px;
+    }
+  }
+</style>
