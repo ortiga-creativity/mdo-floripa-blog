@@ -5,21 +5,6 @@ const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey);
 
-export type BlogPost = {
-  id: string;
-  title: string;
-  slug: string;
-  excerpt: string | null;
-  content: string | null;
-  category: string;
-  image_url: string | null;
-  author: string;
-  published: boolean;
-  featured: boolean;
-  created_at: string;
-  updated_at: string;
-};
-
 export type ContactMessage = {
   id: string;
   name: string;
@@ -41,7 +26,7 @@ export function getCategoryLabel(slug: string): string {
   return CATEGORIES.find(c => c.slug === slug)?.label ?? slug;
 }
 
-export function formatDate(dateStr: string): string {
+export function formatDate(dateStr: string | Date): string {
   return new Date(dateStr).toLocaleDateString('pt-BR', {
     day: '2-digit',
     month: 'long',

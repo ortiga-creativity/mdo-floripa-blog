@@ -1,13 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
-import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../../lib/supabase';
+import { formatDate, getCategoryLabel } from '../../lib/supabase';
+import { getCollection } from 'astro:content';
 
-const { data: posts } = await supabase
-  .from('blog_posts')
-  .select('*')
-  .eq('published', true)
-  .order('created_at', { ascending: false });
+const allPosts = await getCollection('blog', ({ data }) => data.published);
+const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <Layout title="Blog - MDO Floripa" description="Todos os artigos do blog da MDO Floripa: dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.">
@@ -35,19 +33,19 @@ const { data: posts } = await supabase
 
       {posts && posts.length > 0 ? (
         <div class="posts-grid">
-          {posts.map((post: BlogPost) => (
-            <a href={`/blog/${post.slug}`} class="post-card">
+          {posts.map((post) => (
+            <a href={`/blog/${post.id}`} class="post-card">
               <div class="card-image">
-                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+                {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
               </div>
               <div class="card-body">
-                <span class="card-category">{getCategoryLabel(post.category)}</span>
-                <h3>{post.title}</h3>
-                <p>{post.excerpt}</p>
+                <span class="card-category">{getCategoryLabel(post.data.category)}</span>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.excerpt}</p>
                 <div class="card-meta">
-                  <span>{post.author}</span>
+                  <span>{post.data.author}</span>
                   <span>•</span>
-                  <span>{formatDate(post.created_at)}</span>
+                  <span>{formatDate(post.data.pubDate)}</span>
                 </div>
               </div>
             </a>

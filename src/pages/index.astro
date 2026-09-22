@@ -1,26 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import HelmetIcon from '../components/HelmetIcon.astro';
-import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../lib/supabase';
+import { formatDate, getCategoryLabel } from '../lib/supabase';
+import { getCollection } from 'astro:content';
+import siteSettings from '../content/settings/site.json';
 
-const { data: featuredPosts } = await supabase
-  .from('blog_posts')
-  .select('*')
-  .eq('published', true)
-  .eq('featured', true)
-  .order('created_at', { ascending: false })
-  .limit(3);
+const allPosts = (await getCollection('blog', ({ data }) => data.published))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const { data: recentPosts } = await supabase
-  .from('blog_posts')
-  .select('*')
-  .eq('published', true)
-  .order('created_at', { ascending: false })
-  .limit(6);
+const featuredPosts = allPosts.filter((p) => p.data.featured).slice(0, 3);
+const recentPosts = allPosts.slice(0, 6);
 
-const heroPost = featuredPosts && featuredPosts.length > 0 ? featuredPosts[0] : (recentPosts && recentPosts.length > 0 ? recentPosts[0] : null);
-const secondaryFeatured = featuredPosts ? featuredPosts.slice(1, 3) : [];
-const restPosts = recentPosts ? recentPosts.filter((p: BlogPost) => p.id !== (heroPost as BlogPost)?.id).slice(0, 4) : [];
+const heroPost = featuredPosts.length > 0 ? featuredPosts[0] : (recentPosts.length > 0 ? recentPosts[0] : null);
+const secondaryFeatured = featuredPosts.slice(1, 3);
+const restPosts = recentPosts.filter((p) => p.id !== heroPost?.id).slice(0, 4);
 ---
 
 <Layout>
@@ -31,8 +24,8 @@ const restPosts = recentPosts ? recentPosts.filter((p: BlogPost) => p.id !== (he
         <HelmetIcon size={20} color="#F5A623" />
         <span>Mestre da Obra Locações — Florianópolis</span>
       </div>
-      <h1>Tudo o que sua obra <span class="hero-highlight">precisa em um só lugar</span></h1>
-      <p>Dicas, guias e informações práticas para engenheiros, construtores, pintores, pedreiros e profissionais de limpeza. Conteúdo da MDO Floripa para quem constrói, pinta e transforma.</p>
+      <h1>{siteSettings.heroTitle}</h1>
+      <p>{siteSettings.heroSubtitle}</p>
       <div class="hero-actions">
         <a href="/blog" class="btn-primary">Ver todos os artigos</a>
         <a href="/fale-conosco" class="btn-secondary">Fale Conosco</a>
@@ -48,32 +41,32 @@ const restPosts = recentPosts ? recentPosts.filter((p: BlogPost) => p.id !== (he
           <a href="/blog" class="see-all">Ver todos →</a>
         </div>
         <div class="featured-grid">
-          <a href={`/blog/${heroPost.slug}`} class="featured-card featured-card-large">
+          <a href={`/blog/${heroPost.id}`} class="featured-card featured-card-large">
             <div class="card-image">
-              {heroPost.image_url && <img src={heroPost.image_url} alt={heroPost.title} loading="lazy" />}
+              {heroPost.data.image && <img src={heroPost.data.image} alt={heroPost.data.title} loading="lazy" />}
             </div>
             <div class="card-body">
-              <span class="card-category">{getCategoryLabel(heroPost.category)}</span>
-              <h3>{heroPost.title}</h3>
-              <p>{heroPost.excerpt}</p>
+              <span class="card-category">{getCategoryLabel(heroPost.data.category)}</span>
+              <h3>{heroPost.data.title}</h3>
+              <p>{heroPost.data.excerpt}</p>
               <div class="card-meta">
-                <span>{heroPost.author}</span>
+                <span>{heroPost.data.author}</span>
                 <span>•</span>
-                <span>{formatDate(heroPost.created_at)}</span>
+                <span>{formatDate(heroPost.data.pubDate)}</span>
               </div>
             </div>
           </a>
-          {secondaryFeatured.map((post: BlogPost) => (
-            <a href={`/blog/${post.slug}`} class="featured-card">
+          {secondaryFeatured.map((post) => (
+            <a href={`/blog/${post.id}`} class="featured-card">
               <div class="card-image">
-                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+                {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
               </div>
               <div class="card-body">
-                <span class="card-category">{getCategoryLabel(post.category)}</span>
-                <h3>{post.title}</h3>
-                <p>{post.excerpt}</p>
+                <span class="card-category">{getCategoryLabel(post.data.category)}</span>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.excerpt}</p>
                 <div class="card-meta">
-                  <span>{formatDate(post.created_at)}</span>
+                  <span>{formatDate(post.data.pubDate)}</span>
                 </div>
               </div>
             </a>
@@ -130,19 +123,19 @@ const restPosts = recentPosts ? recentPosts.filter((p: BlogPost) => p.id !== (he
           <a href="/blog" class="see-all">Ver todos →</a>
         </div>
         <div class="recent-grid">
-          {restPosts.map((post: BlogPost) => (
-            <a href={`/blog/${post.slug}`} class="post-card">
+          {restPosts.map((post) => (
+            <a href={`/blog/${post.id}`} class="post-card">
               <div class="card-image">
-                {post.image_url && <img src={post.image_url} alt={post.title} loading="lazy" />}
+                {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
               </div>
               <div class="card-body">
-                <span class="card-category">{getCategoryLabel(post.category)}</span>
-                <h3>{post.title}</h3>
-                <p>{post.excerpt}</p>
+                <span class="card-category">{getCategoryLabel(post.data.category)}</span>
+                <h3>{post.data.title}</h3>
+                <p>{post.data.excerpt}</p>
                 <div class="card-meta">
-                  <span>{post.author}</span>
+                  <span>{post.data.author}</span>
                   <span>•</span>
-                  <span>{formatDate(post.created_at)}</span>
+                  <span>{formatDate(post.data.pubDate)}</span>
                 </div>
               </div>
             </a>

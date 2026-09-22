@@ -1,41 +1,27 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
-import { supabase, formatDate, getCategoryLabel, type BlogPost } from '../../lib/supabase';
+import { formatDate, getCategoryLabel } from '../../lib/supabase';
+import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
-  const { data } = await supabase
-    .from('blog_posts')
-    .select('slug')
-    .eq('published', true);
-  return (data || []).map((p: { slug: string }) => ({
-    params: { slug: p.slug },
+  const posts = await getCollection('blog', ({ data }) => data.published);
+  return posts.map((p) => ({
+    params: { slug: p.id },
+    props: { post: p },
   }));
 }
 
-const { slug } = Astro.params;
+const { post } = Astro.props;
+const { Content } = await render(post);
 
-const { data: post } = await supabase
-  .from('blog_posts')
-  .select('*')
-  .eq('slug', slug)
-  .eq('published', true)
-  .maybeSingle();
+const allPosts = await getCollection('blog', ({ data }) => data.published);
+const related = allPosts
+  .filter((p) => p.data.category === post.data.category && p.id !== post.id)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 
-if (!post) {
-  return Astro.redirect('/blog');
-}
-
-const { data: related } = await supabase
-  .from('blog_posts')
-  .select('*')
-  .eq('published', true)
-  .eq('category', post.category)
-  .neq('id', post.id)
-  .order('created_at', { ascending: false })
-  .limit(3);
-
-const postData = post as BlogPost;
+const postData = post.data;
 ---
 
 <Layout title={`${postData.title} - MDO Floripa`} description={postData.excerpt || undefined}>
@@ -57,22 +43,22 @@ const postData = post as BlogPost;
             {postData.author}
           </span>
           <span class="meta-sep">•</span>
-          <span>{formatDate(postData.created_at)}</span>
+          <span>{formatDate(postData.pubDate)}</span>
         </div>
       </div>
     </div>
 
     <div class="container">
-      {postData.image_url && (
+      {postData.image && (
         <div class="article-cover">
-          <img src={postData.image_url} alt={postData.title} />
+          <img src={postData.image} alt={postData.title} />
         </div>
       )}
 
       <div class="article-layout">
         <div class="article-content">
           {postData.excerpt && <p class="article-lead">{postData.excerpt}</p>}
-          <div class="article-body" set:html={postData.content} />
+          <div class="article-body"><Content /></div>
         </div>
         <aside class="article-sidebar">
           <div class="sidebar-box">
@@ -97,15 +83,15 @@ const postData = post as BlogPost;
       <div class="container">
         <h2>Artigos Relacionados</h2>
         <div class="related-grid">
-          {related.map((rp: BlogPost) => (
-            <a href={`/blog/${rp.slug}`} class="related-card">
+          {related.map((rp) => (
+            <a href={`/blog/${rp.id}`} class="related-card">
               <div class="card-image">
-                {rp.image_url && <img src={rp.image_url} alt={rp.title} loading="lazy" />}
+                {rp.data.image && <img src={rp.data.image} alt={rp.data.title} loading="lazy" />}
               </div>
               <div class="card-body">
-                <span class="card-category">{getCategoryLabel(rp.category)}</span>
-                <h3>{rp.title}</h3>
-                <span class="card-date">{formatDate(rp.created_at)}</span>
+                <span class="card-category">{getCategoryLabel(rp.data.category)}</span>
+                <h3>{rp.data.title}</h3>
+                <span class="card-date">{formatDate(rp.data.pubDate)}</span>
               </div>
             </a>
           ))}

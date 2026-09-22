@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import HelmetIcon from '../components/HelmetIcon.astro';
 import ContactForm from '../components/ContactForm.tsx';
+import siteSettings from '../content/settings/site.json';
 ---
 
 <Layout title="Fale Conosco - MDO Floripa" description="Entre em contato com a equipe da MDO Floripa — Mestre da Obra Locações, Florianópolis.">
@@ -28,7 +29,7 @@ import ContactForm from '../components/ContactForm.tsx';
             </div>
             <div>
               <h3>E-mail</h3>
-              <p>florianopolis@mestredaobralocacoes.com.br</p>
+              <p>{siteSettings.contactEmail}</p>
             </div>
           </div>
           <div class="info-card">
@@ -37,7 +38,7 @@ import ContactForm from '../components/ContactForm.tsx';
             </div>
             <div>
               <h3>Telefone / WhatsApp</h3>
-              <p><a href="https://wa.me/5548996126565" target="_blank" rel="noopener noreferrer">(48) 99612-6565</a></p>
+              <p><a href={`https://wa.me/${siteSettings.whatsappNumber}`} target="_blank" rel="noopener noreferrer">{siteSettings.contactPhone}</a></p>
             </div>
           </div>
           <div class="info-card">
@@ -46,7 +47,7 @@ import ContactForm from '../components/ContactForm.tsx';
             </div>
             <div>
               <h3>Endereço</h3>
-              <p>Rua Joe Collaço, 744<br/>Córrego Grande, Florianópolis - SC</p>
+              <p>{siteSettings.address}</p>
             </div>
           </div>
           <div class="info-card">
@@ -55,7 +56,7 @@ import ContactForm from '../components/ContactForm.tsx';
             </div>
             <div>
               <h3>Horário</h3>
-              <p>Seg a Qui: 07:30–17:30<br/>Sex: 07:30–17:00</p>
+              <p>{siteSettings.hoursWeekday}<br/>{siteSettings.hoursFriday}</p>
             </div>
           </div>
           <div class="info-card brand-card">

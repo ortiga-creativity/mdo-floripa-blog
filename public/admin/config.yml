@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/uploads"
+public_folder: "/images/uploads"
+
+locale: "pt"
+
+collections:
+  - name: "blog"
+    label: "Artigos do Blog"
+    label_singular: "Artigo"
+    folder: "src/content/blog"
+    create: true
+    delete: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    summary: "{{title}} — {{category}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Resumo (aparece na listagem)", name: "excerpt", widget: "text" }
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Construção", value: "Construcao" }
+          - { label: "Pintura", value: "Pintura" }
+          - { label: "Manutenção de Equipamentos", value: "Manutencao de Equipamentos" }
+          - { label: "Limpeza", value: "Limpeza" }
+      - { label: "Imagem de capa (URL)", name: "image", widget: "string", required: false }
+      - { label: "Autor", name: "author", widget: "string", default: "Equipe MDO Floripa" }
+      - { label: "Publicado (some do site se desmarcado)", name: "published", widget: "boolean", default: true }
+      - { label: "Destacar na página inicial", name: "featured", widget: "boolean", default: false }
+      - { label: "Data de publicação", name: "pubDate", widget: "date" }
+      - { label: "Conteúdo do artigo", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Configurações do Site"
+    editor:
+      preview: false
+    files:
+      - name: "site"
+        label: "Geral (contato, WhatsApp, catálogo, textos da home)"
+        file: "src/content/settings/site.json"
+        fields:
+          - { label: "Título principal (Home)", name: "heroTitle", widget: "string" }
+          - { label: "Subtítulo (Home)", name: "heroSubtitle", widget: "text" }
+          - { label: "WhatsApp (DDI+DDD+número, só dígitos, ex: 5548999998888)", name: "whatsappNumber", widget: "string" }
+          - { label: "Mensagem padrão do botão de WhatsApp", name: "whatsappMessage", widget: "string" }
+          - { label: "Link do Catálogo Virtual", name: "catalogUrl", widget: "string" }
+          - { label: "E-mail de contato", name: "contactEmail", widget: "string" }
+          - { label: "Telefone exibido no site", name: "contactPhone", widget: "string" }
+          - { label: "Endereço", name: "address", widget: "string" }
+          - { label: "Horário de funcionamento (Seg a Qui)", name: "hoursWeekday", widget: "string" }
+          - { label: "Horário de funcionamento (Sexta)", name: "hoursFriday", widget: "string" }

@@ -1,11 +1,13 @@
 ---
 import '../styles/global.css';
+import siteSettings from '../content/settings/site.json';
 interface Props {
   title?: string;
   description?: string;
 }
 
 const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
+const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encodeURIComponent(siteSettings.whatsappMessage)}`;
 ---
 
 <!doctype html>
@@ -20,6 +22,7 @@ const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+		<script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 	</head>
 	<body>
 		<header class="site-header" id="site-header">
@@ -38,7 +41,7 @@ const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis
 					<a href="/blog/categoria/Pintura">Pintura</a>
 					<a href="/blog/categoria/Manutencao%20de%20Equipamentos">Manutenção</a>
 					<a href="/blog/categoria/Limpeza">Limpeza</a>
-					<a href="https://catalogo.mestredaobralocacoes.com.br/florianopolis" target="_blank" rel="noopener noreferrer">Catálogo</a>
+					<a href={siteSettings.catalogUrl} target="_blank" rel="noopener noreferrer">Catálogo</a>
 					<a href="/fale-conosco" class="nav-cta">Fale Conosco</a>
 				</nav>
 				<button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
@@ -77,15 +80,15 @@ const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis
 					<h4>Navegação</h4>
 					<a href="/">Início</a>
 					<a href="/blog">Todos os artigos</a>
-					<a href="https://catalogo.mestredaobralocacoes.com.br/florianopolis" target="_blank" rel="noopener noreferrer">Catálogo</a>
+					<a href={siteSettings.catalogUrl} target="_blank" rel="noopener noreferrer">Catálogo</a>
 					<a href="/fale-conosco">Fale Conosco</a>
 				</div>
 				<div class="footer-col">
 					<h4>Contato</h4>
-					<p>florianopolis@mestredaobralocacoes.com.br</p>
-					<p>(48) 99612-6565</p>
-					<p>Rua Joe Collaço, 744 - Córrego Grande, Florianópolis - SC</p>
-					<p>Seg a Qui: 07:30–17:30<br/>Sex: 07:30–17:00</p>
+					<p>{siteSettings.contactEmail}</p>
+					<p>{siteSettings.contactPhone}</p>
+					<p>{siteSettings.address}</p>
+					<p>{siteSettings.hoursWeekday}<br/>{siteSettings.hoursFriday}</p>
 				</div>
 			</div>
 			<div class="footer-bottom">
@@ -94,7 +97,7 @@ const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis
 		</footer>
 
 		<a
-			href="https://wa.me/5548996126565?text=Ol%C3%A1%2C%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+			href={whatsappHref}
 			class="whatsapp-float"
 			target="_blank"
 			rel="noopener noreferrer"
@@ -102,6 +105,18 @@ const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis
 		>
 			<svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.005c5.46 0 9.91-4.45 9.91-9.91C21.98 6.46 17.53 2 12.04 2zm5.83 14.12c-.25.7-1.45 1.34-2 1.42-.51.08-1.15.11-1.86-.12-.43-.13-.98-.32-1.69-.62-2.98-1.29-4.92-4.28-5.07-4.48-.15-.2-1.21-1.61-1.21-3.07 0-1.46.77-2.18 1.04-2.48.27-.3.6-.37.8-.37.2 0 .4 0 .58.01.19.01.44-.07.68.52.25.6.86 2.08.93 2.23.07.15.12.33.02.53-.1.2-.15.32-.3.5-.15.18-.31.4-.44.53-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12.99 2.06 1.3 2.36 1.45.3.15.48.12.65-.08.18-.2.75-.87.95-1.17.2-.3.4-.25.68-.15.28.1 1.77.83 2.07.98.3.15.5.23.57.35.07.13.07.72-.18 1.42z"/></svg>
 		</a>
+
+		<script is:inline>
+			if (window.netlifyIdentity) {
+				window.netlifyIdentity.on('init', (user) => {
+					if (!user) {
+						window.netlifyIdentity.on('login', () => {
+							document.location.href = '/admin/';
+						});
+					}
+				});
+			}
+		</script>
 
 		<script>
 			const header = document.getElementById('site-header');
