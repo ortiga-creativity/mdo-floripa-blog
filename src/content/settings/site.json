@@ -8,5 +8,9 @@
   "contactPhone": "(48) 99612-6565",
   "address": "Rua Joe Collaço, 744 - Córrego Grande, Florianópolis - SC",
   "hoursWeekday": "Seg a Qui: 07:30–17:30",
-  "hoursFriday": "Sex: 07:30–17:00"
+  "hoursFriday": "Sex: 07:30–17:00",
+  "logoUrl": "/LOGOMARCA_MDO.png",
+  "heroImageUrl": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg",
+  "colorPrimary": "#1D3557",
+  "colorAccent": "#F5A623"
 }

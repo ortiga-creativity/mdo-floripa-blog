@@ -11,7 +11,7 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 ---
 
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" style={`--color-primary-dark: ${siteSettings.colorPrimary}; --color-accent: ${siteSettings.colorAccent};`}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -28,7 +28,7 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 		<header class="site-header" id="site-header">
 			<div class="header-inner">
 				<a href="/" class="logo">
-					<img class="brand-logo" src="/LOGOMARCA_MDO.png" alt="Mestre da Obra" />
+					<img class="brand-logo" src={siteSettings.logoUrl} alt="Mestre da Obra" />
 					<span class="logo-text">
 						<span class="mdo-main">MDO Floripa</span>
 						<span class="mdo-sub">Mestre da Obra Locações</span>
@@ -60,7 +60,7 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 			<div class="footer-inner">
 				<div class="footer-col">
 					<div class="footer-logo">
-						<img class="brand-logo footer-brand-logo" src="/LOGOMARCA_MDO.png" alt="Mestre da Obra" />
+						<img class="brand-logo footer-brand-logo" src={siteSettings.logoUrl} alt="Mestre da Obra" />
 						<span class="logo-text">
 							<span class="mdo-main">MDO Floripa</span>
 							<span class="mdo-sub">Mestre da Obra Locações</span>

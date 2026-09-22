@@ -1,12 +1,13 @@
 :root {
-  --color-primary: #376EA5;
-  --color-primary-light: #5688B8;
   --color-primary-dark: #1D3557;
-  --color-secondary: #2C5B8A;
   --color-accent: #F5A623;
-  --color-accent-light: #FFBD4A;
-  --color-accent-dark: #C77D00;
-  --color-highlight: #FFD166;
+
+  --color-primary: color-mix(in srgb, var(--color-primary-dark) 70%, white);
+  --color-primary-light: color-mix(in srgb, var(--color-primary-dark) 45%, white);
+  --color-secondary: color-mix(in srgb, var(--color-primary-dark) 80%, white);
+  --color-accent-light: color-mix(in srgb, var(--color-accent) 75%, white);
+  --color-accent-dark: color-mix(in srgb, var(--color-accent) 75%, black);
+  --color-highlight: color-mix(in srgb, var(--color-accent) 60%, white);
   --color-bg: #F4F7FA;
   --color-bg-alt: #FFFFFF;
   --color-bg-dark: #1D3557;

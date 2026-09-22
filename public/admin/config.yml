@@ -29,7 +29,7 @@ collections:
           - { label: "Pintura", value: "Pintura" }
           - { label: "Manutenção de Equipamentos", value: "Manutencao de Equipamentos" }
           - { label: "Limpeza", value: "Limpeza" }
-      - { label: "Imagem de capa (URL)", name: "image", widget: "string", required: false }
+      - { label: "Imagem de capa", name: "image", widget: "image", required: false, hint: "Envie uma foto do seu computador ou cole o link de uma imagem." }
       - { label: "Autor", name: "author", widget: "string", default: "Equipe MDO Floripa" }
       - { label: "Publicado (some do site se desmarcado)", name: "published", widget: "boolean", default: true }
       - { label: "Destacar na página inicial", name: "featured", widget: "boolean", default: false }
@@ -55,3 +55,7 @@ collections:
           - { label: "Endereço", name: "address", widget: "string" }
           - { label: "Horário de funcionamento (Seg a Qui)", name: "hoursWeekday", widget: "string" }
           - { label: "Horário de funcionamento (Sexta)", name: "hoursFriday", widget: "string" }
+          - { label: "Logo do site", name: "logoUrl", widget: "image", hint: "Aparece no topo e no rodapé do site." }
+          - { label: "Foto de fundo da capa (Home)", name: "heroImageUrl", widget: "image" }
+          - { label: "Cor principal (fundo do menu e rodapé)", name: "colorPrimary", widget: "color" }
+          - { label: "Cor de destaque (botões e detalhes)", name: "colorAccent", widget: "color" }

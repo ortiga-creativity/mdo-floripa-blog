@@ -157,7 +157,7 @@ const restPosts = recentPosts.filter((p) => p.id !== heroPost?.id).slice(0, 4);
   </section>
 </Layout>
 
-<style>
+<style define:vars={{ heroImage: `url(${siteSettings.heroImageUrl})` }}>
   .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -185,7 +185,7 @@ const restPosts = recentPosts.filter((p) => p.id !== heroPost?.id).slice(0, 4);
     content: '';
     position: absolute;
     inset: 0;
-    background: url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg') center/cover;
+    background: var(--heroImage) center/cover;
     opacity: 0.10;
     z-index: -1;
   }
