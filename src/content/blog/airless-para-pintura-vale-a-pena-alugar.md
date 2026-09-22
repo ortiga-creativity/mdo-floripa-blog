@@ -7,7 +7,7 @@ excerpt: A máquina airless é a melhor ferramenta para pintura do mercado. Alé
   tamanhos, potencia e marcas. Entenda agora qual delas seria a mais adequada
   para você e em quais situações o aluguel realmente compensa.
 category: Pintura
-image: https://unsplash.com/pt-br/fotografias/pessoa-na-camisa-branca-em-pe-no-campo-verde-da-grama-OZA6YyiP1mE
+image: https://images.unsplash.com/photo-1600815254126-9e583eb53469?q=80&w=1869&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 author: Equipe MDO Floripa
 published: true
 featured: false
