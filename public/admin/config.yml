@@ -59,3 +59,15 @@ collections:
           - { label: "Foto de fundo da capa (Home)", name: "heroImageUrl", widget: "image" }
           - { label: "Cor principal (fundo do menu e rodapé)", name: "colorPrimary", widget: "color" }
           - { label: "Cor de destaque (botões e detalhes)", name: "colorAccent", widget: "color" }
+          - label: "Ordem das seções da Home"
+            name: "homeSectionOrder"
+            widget: "list"
+            hint: "Arraste pelo ícone ⠿ para reordenar os blocos da página inicial."
+            field:
+              label: "Seção"
+              name: "section"
+              widget: "select"
+              options:
+                - { label: "Artigos em Destaque", value: "featured" }
+                - { label: "Categorias", value: "categories" }
+                - { label: "Artigos Recentes", value: "recent" }

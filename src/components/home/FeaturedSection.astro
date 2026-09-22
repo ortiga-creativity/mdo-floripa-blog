@@ -1,0 +1,197 @@
+---
+import { formatDate, getCategoryLabel } from '../../lib/supabase';
+
+interface Props {
+  heroPost: any;
+  secondaryFeatured: any[];
+}
+
+const { heroPost, secondaryFeatured } = Astro.props;
+---
+
+<section class="featured-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Em Destaque</h2>
+      <a href="/blog" class="see-all">Ver todos →</a>
+    </div>
+    <div class="featured-grid">
+      <a href={`/blog/${heroPost.id}`} class="featured-card featured-card-large">
+        <div class="card-image">
+          {heroPost.data.image && <img src={heroPost.data.image} alt={heroPost.data.title} loading="lazy" />}
+        </div>
+        <div class="card-body">
+          <span class="card-category">{getCategoryLabel(heroPost.data.category)}</span>
+          <h3>{heroPost.data.title}</h3>
+          <p>{heroPost.data.excerpt}</p>
+          <div class="card-meta">
+            <span>{heroPost.data.author}</span>
+            <span>•</span>
+            <span>{formatDate(heroPost.data.pubDate)}</span>
+          </div>
+        </div>
+      </a>
+      {secondaryFeatured.map((post: any) => (
+        <a href={`/blog/${post.id}`} class="featured-card">
+          <div class="card-image">
+            {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
+          </div>
+          <div class="card-body">
+            <span class="card-category">{getCategoryLabel(post.data.category)}</span>
+            <h3>{post.data.title}</h3>
+            <p>{post.data.excerpt}</p>
+            <div class="card-meta">
+              <span>{formatDate(post.data.pubDate)}</span>
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+  }
+
+  .section-header h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--color-primary-dark);
+  }
+
+  .see-all {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 15px;
+    transition: color var(--transition);
+  }
+
+  .see-all:hover {
+    color: var(--color-accent);
+  }
+
+  .featured-section {
+    padding: 64px 0;
+  }
+
+  .featured-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 24px;
+  }
+
+  .featured-card {
+    background: white;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow var(--transition), transform var(--transition);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featured-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+  }
+
+  .featured-card-large {
+    grid-row: span 2;
+  }
+
+  .featured-card-large .card-image {
+    height: 320px;
+  }
+
+  .featured-card-large h3 {
+    font-size: 24px;
+  }
+
+  .featured-card-large .card-body {
+    padding: 28px;
+  }
+
+  .card-image {
+    height: 200px;
+    overflow: hidden;
+    background: var(--color-border);
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .featured-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-category {
+    display: inline-block;
+    color: var(--color-accent-dark);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    transition: color var(--transition);
+  }
+
+  .featured-card:hover .card-body h3 {
+    color: var(--color-accent-dark);
+  }
+
+  .card-body p {
+    color: var(--color-text-muted);
+    font-size: 15px;
+    margin: 0 0 16px;
+    flex: 1;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    color: var(--color-text-light);
+  }
+
+  @media (max-width: 968px) {
+    .featured-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .featured-card-large {
+      grid-row: auto;
+    }
+
+    .featured-card-large .card-image {
+      height: 240px;
+    }
+  }
+</style>

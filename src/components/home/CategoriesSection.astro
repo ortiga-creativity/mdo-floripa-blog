@@ -1,0 +1,138 @@
+---
+---
+
+<section class="categories-section">
+  <div class="container">
+    <div class="section-header center">
+      <h2>Explore por Categoria</h2>
+      <p>Encontre exatamente o que você precisa</p>
+    </div>
+    <div class="categories-grid">
+      <a href="/blog/categoria/Construcao" class="category-card">
+        <div class="category-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l8-4v18"/><path d="M19 21V11l-6-4"/><path d="M9 9v.01"/><path d="M9 13v.01"/><path d="M9 17v.01"/></svg>
+        </div>
+        <h3>Construção</h3>
+        <p>Fundamentos, técnicas e boas práticas da obra</p>
+      </a>
+      <a href="/blog/categoria/Pintura" class="category-card">
+        <div class="category-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11h2v2h-2zM5 11h10v2H5z"/><path d="M3 7l9-4 9 4v6H3z"/><path d="M7 13v8h10v-8"/></svg>
+        </div>
+        <h3>Pintura</h3>
+        <p>Preparação, técnicas e escolha de materiais</p>
+      </a>
+      <a href="/blog/categoria/Manutencao%20de%20Equipamentos" class="category-card">
+        <div class="category-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+        </div>
+        <h3>Manutenção de Equipamentos</h3>
+        <p>Cuidados preventivos e guias de manutenção</p>
+      </a>
+      <a href="/blog/categoria/Limpeza" class="category-card">
+        <div class="category-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V8l4-4h6l4 4v13"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01"/><path d="M15 12h.01"/></svg>
+        </div>
+        <h3>Limpeza</h3>
+        <p>Produtos, equipamentos e técnicas de limpeza</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  .section-header.center {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .section-header.center h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--color-primary-dark);
+    margin-bottom: 0;
+  }
+
+  .section-header p {
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .categories-section {
+    padding: 64px 0;
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+  }
+
+  .category-card {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 32px 24px;
+    text-align: center;
+    transition: box-shadow var(--transition), transform var(--transition), border-color var(--transition);
+  }
+
+  .category-card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+  }
+
+  .category-icon {
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 16px;
+    background: var(--color-primary-dark);
+    color: var(--color-accent);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+  }
+
+  .category-card:hover .category-icon {
+    background: var(--color-accent);
+    color: var(--color-primary-dark);
+  }
+
+  .category-card h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: var(--color-primary-dark);
+  }
+
+  .category-card p {
+    color: var(--color-text-muted);
+    font-size: 14px;
+    margin: 0;
+  }
+
+  @media (max-width: 968px) {
+    .categories-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .categories-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

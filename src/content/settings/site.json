@@ -12,5 +12,10 @@
   "logoUrl": "/LOGOMARCA_MDO.png",
   "heroImageUrl": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg",
   "colorPrimary": "#1D3557",
-  "colorAccent": "#F5A623"
+  "colorAccent": "#F5A623",
+  "homeSectionOrder": [
+    { "section": "featured" },
+    { "section": "categories" },
+    { "section": "recent" }
+  ]
 }
