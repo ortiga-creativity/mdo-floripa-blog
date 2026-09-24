@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "O que acontece se eu não trocar as escovas de carvão a tempo?"
+    a: "O contato elétrico passa a acontecer direto entre metais, gerando faíscas que danificam o comutador do motor — uma peça mais cara e trabalhosa de substituir, podendo inviabilizar o conserto e exigir troca do motor inteiro."
+  - q: "Com que frequência devo verificar as escovas de carvão?"
+    a: "Para uso profissional diário, o ideal é verificar a cada 2 ou 3 meses. Ferramentas de uso ocasional podem ser verificadas a cada 6 meses, ou sempre que notar faíscas, perda de potência ou cheiro de queimado."
+  - q: "Equipamentos alugados na MDO Floripa recebem essa manutenção?"
+    a: "Sim, as escovas de carvão e demais componentes de desgaste são verificados na revisão entre locações, para que o equipamento chegue pronto para uso sem risco de queima do motor."
 ---
 <p>As escovas de carvão são um componente barato e simples, mas responsável por um dos problemas mais caros em ferramentas elétricas: a queima do motor. Elas fazem o contato elétrico entre a parte fixa e a parte giratória do motor, e se desgastam naturalmente com o uso — o segredo é trocar antes que o desgaste comprometa o restante do equipamento.</p>
 
@@ -27,3 +34,6 @@ pubDate: "2026-09-18"
 
 <h3>Como é feita a troca</h3>
 <p>Na maioria das furadeiras e esmerilhadeiras profissionais, as escovas ficam acessíveis por pequenas tampas rosqueadas nas laterais do motor, sem necessidade de abrir todo o equipamento. É uma manutenção rápida, geralmente resolvida em poucos minutos — mas que exige sempre trocar o par completo (as duas escovas), mesmo que uma pareça mais gasta que a outra, para manter o equilíbrio de contato do motor.</p>
+
+<h3>Alugue furadeiras e esmerilhadeiras revisadas com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza furadeiras e esmerilhadeiras de linha profissional para locação em Florianópolis, sempre revisadas entre locações. Fale com nossa equipe pelo WhatsApp e trabalhe sem risco de queima do motor.</p>

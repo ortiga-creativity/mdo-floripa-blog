@@ -12,6 +12,7 @@ const blog = defineCollection({
     published: z.boolean().default(true),
     featured: z.boolean().default(false),
     pubDate: z.coerce.date(),
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).optional(),
   }),
 });
 

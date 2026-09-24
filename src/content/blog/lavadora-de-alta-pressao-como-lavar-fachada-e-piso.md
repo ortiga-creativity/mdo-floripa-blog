@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Qual pressão de lavadora usar em piso de garagem?"
+    a: "Pisos de concreto e garagens suportam pressão alta, geralmente acima de 2.000 PSI, ideal para remover manchas de óleo e sujeira pesada de obra."
+  - q: "A lavadora de alta pressão pode danificar o rejunte?"
+    a: "Pode, se usada com jato muito concentrado e próximo à superfície. Para preservar o rejunte, use bicos com abertura maior (verde ou branco) e mantenha distância adequada do piso."
+  - q: "A MDO Floripa aluga lavadora de alta pressão com todos os bicos?"
+    a: "Sim, os equipamentos de locação já incluem o kit de bicos para diferentes tipos de superfície, e nossa equipe orienta sobre qual usar em cada situação."
 ---
 <p>A lavadora de alta pressão remove sujeira pesada, mofo, gordura e resíduos de obra de forma muito mais rápida do que a limpeza manual. Mas o mesmo jato capaz de remover sujeira incrustada também pode danificar superfícies mais sensíveis se usado sem ajuste de pressão e distância adequados.</p>
 
@@ -31,3 +38,6 @@ pubDate: "2026-09-18"
 
 <h3>Erros que danificam o rejunte</h3>
 <p>Usar jato concentrado muito próximo do piso é a causa mais comum de rejunte desgastado ou removido entre as peças. Para pisos com rejunte mais antigo ou frágil, prefira sempre bicos com abertura maior (verde ou branco) e mantenha distância generosa do jato.</p>
+
+<h3>Alugue sua lavadora de alta pressão com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza lavadoras de alta pressão profissionais para locação em Florianópolis, com kit completo de bicos para cada tipo de superfície. Fale com nossa equipe pelo WhatsApp e garanta uma limpeza eficiente sem danificar o revestimento.</p>

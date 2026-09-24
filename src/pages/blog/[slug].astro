@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
 import { getCollection, render } from 'astro:content';
+import siteSettings from '../../content/settings/site.json';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog', ({ data }) => data.published);
@@ -22,9 +23,38 @@ const related = allPosts
   .slice(0, 3);
 
 const postData = post.data;
+const pageUrl = `https://locacaoequipamentos.blog.br/blog/${post.id}`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: postData.title,
+  description: postData.excerpt || postData.title,
+  image: postData.image,
+  author: { '@type': 'Organization', name: postData.author },
+  publisher: {
+    '@type': 'Organization',
+    name: 'MDO Floripa - Mestre da Obra Locações',
+    logo: { '@type': 'ImageObject', url: `https://locacaoequipamentos.blog.br${siteSettings.logoUrl}` },
+  },
+  datePublished: postData.pubDate.toISOString(),
+  mainEntityOfPage: pageUrl,
+};
+
+const faqSchema = postData.faq && postData.faq.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: postData.faq.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a },
+  })),
+} : null;
 ---
 
 <Layout title={`${postData.title} - MDO Floripa`} description={postData.excerpt || undefined}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <article class="article-page">
     <div class="article-hero">
       <div class="container">
@@ -59,6 +89,28 @@ const postData = post.data;
         <div class="article-content">
           {postData.excerpt && <p class="article-lead">{postData.excerpt}</p>}
           <div class="article-body"><Content /></div>
+
+          {postData.faq && postData.faq.length > 0 && (
+            <div class="article-faq">
+              <h2>Perguntas frequentes</h2>
+              {postData.faq.map((item) => (
+                <details class="faq-item">
+                  <summary>{item.q}</summary>
+                  <p>{item.a}</p>
+                </details>
+              ))}
+            </div>
+          )}
+
+          <div class="article-inline-cta">
+            <h3>Precisa alugar equipamentos para sua obra?</h3>
+            <p>A MDO Floripa (Mestre da Obra Locações — Florianópolis) tem o equipamento certo para o seu serviço, com entrega rápida e suporte técnico.</p>
+            <div class="inline-cta-actions">
+              <a href="/fale-conosco" class="btn-primary">Fale Conosco</a>
+              <a href={`https://wa.me/${siteSettings.whatsappNumber}`} target="_blank" rel="noopener noreferrer" class="btn-secondary" data-gtag-event="whatsapp_click">Chamar no WhatsApp</a>
+              <a href={siteSettings.catalogUrl} target="_blank" rel="noopener noreferrer" class="btn-secondary" data-gtag-event="catalog_click">Ver Catálogo</a>
+            </div>
+          </div>
         </div>
         <aside class="article-sidebar">
           <div class="sidebar-box">
@@ -251,6 +303,80 @@ const postData = post.data;
 
   .article-body :global(strong) {
     color: var(--color-primary-dark);
+  }
+
+  .article-faq {
+    margin-top: 40px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border);
+  }
+
+  .article-faq h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: var(--color-primary-dark);
+  }
+
+  .faq-item {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    margin-bottom: 12px;
+  }
+
+  .faq-item summary {
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--color-primary-dark);
+    font-size: 16px;
+  }
+
+  .faq-item p {
+    margin-top: 12px;
+    color: var(--color-text-muted);
+    line-height: 1.7;
+  }
+
+  .article-inline-cta {
+    margin-top: 40px;
+    padding: 28px;
+    border-radius: var(--radius-lg);
+    background: linear-gradient(135deg, #1D3557, #376EA5);
+    color: white;
+  }
+
+  .article-inline-cta h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .article-inline-cta p {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+  }
+
+  .inline-cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.4);
+    color: white;
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.3s;
+  }
+
+  .btn-secondary:hover {
+    background: rgba(255,255,255,0.22);
   }
 
   .article-sidebar {

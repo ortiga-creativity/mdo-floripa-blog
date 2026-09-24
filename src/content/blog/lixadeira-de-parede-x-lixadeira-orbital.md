@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "A lixadeira de parede substitui a orbital em algum caso?"
+    a: "Para lixar superfícies grandes e planas, sim, com vantagem de velocidade. Mas para acabamentos detalhados em madeira, portas e móveis, a orbital continua sendo a ferramenta mais adequada por seu controle e precisão."
+  - q: "Qual grão de lixa usar para o acabamento final antes da pintura?"
+    a: "Para o acabamento final, use lixa de grão 150 a 220 — quanto mais alto o número, mais fina a lixa e mais liso fica o resultado, pronto para receber o fundo preparador."
+  - q: "A MDO Floripa aluga lixadeira com aspirador acoplado?"
+    a: "Sim, os modelos de lixadeira de parede disponíveis para locação contam com sistema de aspiração, reduzindo bastante a poeira em ambientes internos habitados."
 ---
 <p>Antes de qualquer pintura de qualidade, a superfície precisa estar lisa, sem imperfeições e livre de poeira. É nessa etapa que a escolha da lixadeira certa faz diferença tanto no resultado final quanto no tempo gasto na preparação.</p>
 
@@ -36,3 +43,6 @@ pubDate: "2026-09-18"
 
 <h3>Escolha do grão da lixa</h3>
 <p>Para nivelar massa corrida com imperfeições visíveis, comece com grão 80 ou 100. Para o acabamento final antes da pintura, finalize com grão 150 a 220 — quanto mais alto o número, mais fina a lixa e mais liso o resultado.</p>
+
+<h3>Alugue lixadeiras com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza lixadeiras de parede e orbitais para locação em Florianópolis, prontas para deixar a superfície impecável antes da pintura. Fale com nossa equipe pelo WhatsApp e agilize a preparação da sua obra.</p>

@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Betoneira de 200 litros serve para fazer laje?"
+    a: "Serve para lajes pequenas, mas exige mais batidas e mais tempo de concretagem. Para lajes de maior área, a betoneira de 400 litros reduz o tempo total e mantém a equipe trabalhando sem interrupção."
+  - q: "Qual o consumo de energia da betoneira de 400 litros comparado à de 200?"
+    a: "O motor da betoneira de 400 litros tem potência maior, consumindo mais energia por hora de uso. Ainda assim, como ela realiza menos batidas para o mesmo volume, o consumo total pode ser equivalente ou até menor em obras de grande volume."
+  - q: "Preciso de ajuda para transportar a betoneira até a obra?"
+    a: "A MDO Floripa entrega o equipamento no endereço da obra em Florianópolis, já revisado e pronto para uso, sem necessidade de o cliente providenciar transporte."
 ---
 <p>Antes de fechar o aluguel de uma betoneira, a primeira pergunta que qualquer mestre de obras deveria fazer é: qual é o volume de concreto ou argamassa que preciso produzir por dia? A resposta define se 200 litros são suficientes ou se vale a pena partir direto para os 400 litros.</p>
 
@@ -32,3 +39,6 @@ pubDate: "2026-09-18"
 
 <h3>Dica de manutenção rápida antes de usar</h3>
 <p>Independente do tamanho escolhido, sempre lave o tambor com água e um pouco de brita antes da primeira mistura do dia — isso remove resíduos secos da diária anterior e evita que a argamassa nova perca qualidade por contaminação de material endurecido.</p>
+
+<h3>Alugue a betoneira ideal com a MDO Floripa</h3>
+<p>A MDO Floripa tem betoneiras de 200 e 400 litros disponíveis para locação em Florianópolis, revisadas e entregues prontas para uso. Fale com nossa equipe pelo WhatsApp e escolha o tamanho certo para o volume da sua obra.</p>

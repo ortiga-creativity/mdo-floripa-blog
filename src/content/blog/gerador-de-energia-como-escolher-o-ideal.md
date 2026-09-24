@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Quantos watts precisa um gerador para uma obra pequena?"
+    a: "Para ferramentas básicas como furadeira, esmerilhadeira e iluminação, um gerador entre 2.000W e 3.000W costuma atender, desde que se considere o pico de partida dos motores elétricos."
+  - q: "Gerador a gasolina ou a diesel: qual rende mais em obra longa?"
+    a: "Para uso prolongado ao longo do dia, o gerador a diesel costuma ser mais econômico por hora de uso e ter vida útil maior sob operação contínua, compensando o investimento em obras de maior duração."
+  - q: "A MDO Floripa orienta sobre o dimensionamento do gerador?"
+    a: "Sim, nossa equipe ajuda a calcular a potência necessária considerando os equipamentos que serão usados simultaneamente na sua obra, evitando um gerador subdimensionado."
 ---
 <p>Em obras sem acesso à rede elétrica ou em locais onde a energia é instável, o gerador se torna equipamento essencial. O erro mais comum, no entanto, é escolher pela potência genérica do aparelho sem considerar a real demanda das ferramentas que serão ligadas nele.</p>
 
@@ -30,3 +37,6 @@ pubDate: "2026-09-18"
 
 <h3>Cuidado ao ligar ferramentas sensíveis</h3>
 <p>Equipamentos com placas eletrônicas mais sensíveis (algumas máquinas de solda inversora, por exemplo) exigem geradores com onda senoidal estável. Geradores de baixa qualidade, com onda instável, podem danificar esse tipo de equipamento — vale confirmar essa compatibilidade antes de ligar ferramentas mais caras e sensíveis à rede gerada.</p>
+
+<h3>Alugue o gerador ideal com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza geradores de diferentes potências para locação em Florianópolis, com orientação técnica para dimensionar corretamente a carga da sua obra. Fale com nossa equipe pelo WhatsApp e evite imprevistos por gerador subdimensionado.</p>

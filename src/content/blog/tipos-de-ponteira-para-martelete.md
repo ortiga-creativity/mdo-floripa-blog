@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Qual ponteira usar para demolir piso cerâmico?"
+    a: "A ponteira tipo talhadeira (ponta chata) é a mais indicada, pois a lâmina larga desprende cerâmica, argamassa e reboco de forma eficiente, funcionando como uma alavanca acionada por impacto."
+  - q: "Como saber se a ponteira é compatível com meu martelete?"
+    a: "Verifique o padrão de encaixe do equipamento — os mais comuns são SDS-Max e Hex 28mm — antes de escolher a ponteira. Encaixe incompatível não trava corretamente e pode danificar a ferramenta."
+  - q: "A MDO Floripa fornece ponteiras junto com o aluguel do martelete?"
+    a: "Sim, é possível alugar o martelete já com a ponteira adequada para o seu serviço. Fale com nossa equipe pelo WhatsApp para confirmar a disponibilidade do modelo certo."
 ---
 <p>De nada adianta alugar um martelete potente e usar a ponteira errada para o serviço. Cada formato foi desenvolvido para um tipo específico de trabalho, e a escolha certa acelera a obra e evita desgaste desnecessário tanto da ferramenta quanto do material.</p>
 
@@ -27,3 +34,6 @@ pubDate: "2026-09-18"
 
 <h3>Dica prática de obra</h3>
 <p>Para demolição geral de piso, comece com a ponteira em talhadeira nas bordas e cantos — onde há menos resistência — e avance para o centro. Isso reduz o esforço total e poupa a ferramenta de trabalhar contra a resistência máxima do material o tempo todo.</p>
+
+<h3>Alugue martelete e ponteiras com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza marteletes e ponteiras de diferentes formatos para locação em Florianópolis. Fale com nossa equipe pelo WhatsApp e escolha o conjunto certo para o seu serviço.</p>

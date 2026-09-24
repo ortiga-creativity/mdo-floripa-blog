@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Quantas passadas de compactador são necessárias por camada?"
+    a: "Em geral de 4 a 6 passadas sobrepostas por camada, mas o número exato varia conforme o tipo de solo e a umidade. O ideal é observar a superfície: se ainda ceder visivelmente, mais passadas são necessárias."
+  - q: "Posso compactar solo muito molhado ou muito seco?"
+    a: "Nenhum dos dois extremos é ideal. Solo encharcado impede a compressão eficiente e pode formar bolsões de água, enquanto solo muito seco não compacta bem por falta de coesão entre as partículas. O ponto ideal é um solo levemente úmido."
+  - q: "Qual placa vibratória alugar para uma calçada residencial?"
+    a: "Para calçadas e pátios residenciais, uma placa entre 80 e 100 kg costuma ser suficiente, já que o solo geralmente é arenoso ou composto por brita, que compacta com facilidade em poucas passadas."
 ---
 <p>Também conhecido como "placa vibratória" ou, na obra, simplesmente "sapo", o compactador de solo tem uma função que muita gente subestima: preparar o terreno para receber fundação, contrapiso, calçada ou pavimentação sem risco de afundamento posterior.</p>
 
@@ -33,3 +40,6 @@ pubDate: "2026-09-18"
 
 <h3>Erro que compromete o resultado</h3>
 <p>Compactar em camadas muito espessas de uma vez é o erro mais comum. O ideal é compactar em camadas de no máximo 15 a 20 cm de espessura — compactar tudo de uma vez só resulta em uma superfície compactada apenas por cima, com o solo abaixo ainda solto.</p>
+
+<h3>Alugue seu compactador de solo com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza placas vibratórias leves e pesadas para locação em Florianópolis, prontas para preparar o terreno da sua obra com segurança. Fale com nossa equipe pelo WhatsApp e evite trincas e afundamentos futuros.</p>

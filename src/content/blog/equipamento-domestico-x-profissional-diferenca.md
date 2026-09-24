@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Vale a pena comprar uma ferramenta profissional para usar uma vez só?"
+    a: "Normalmente não. O investimento em uma ferramenta profissional só se paga com uso frequente. Para um serviço pontual, alugar entrega o mesmo desempenho sem o custo alto de aquisição."
+  - q: "Ferramenta doméstica quebra mais fácil em obra?"
+    a: "Sim, principalmente por não ser projetada para uso contínuo. O motor superaquece mais rápido e os componentes internos, muitas vezes plásticos, não aguentam o esforço repetido de um canteiro de obras."
+  - q: "A MDO Floripa aluga ferramentas de linha profissional?"
+    a: "Sim, todo o catálogo da MDO Floripa é composto por equipamentos de linha profissional, revisados entre locações, prontos para suportar o ritmo de uma obra."
 ---
 <p>É comum se perguntar por que duas ferramentas aparentemente iguais — mesma função, formato parecido — têm preços tão diferentes. A resposta está nos componentes internos, na durabilidade sob uso intenso e na finalidade para a qual cada linha foi projetada.</p>
 
@@ -27,3 +34,6 @@ pubDate: "2026-09-18"
 
 <h3>Por que alugar em vez de comprar</h3>
 <p>Para quem precisa de desempenho profissional apenas durante o período de uma obra ou reforma pontual, alugar o equipamento profissional costuma ser mais vantajoso do que comprar uma ferramenta doméstica que não aguenta o ritmo — ou investir em uma profissional que ficará parada na maior parte do tempo depois da obra concluída.</p>
+
+<h3>Alugue equipamentos de linha profissional com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza ferramentas e máquinas de linha profissional para locação em Florianópolis, revisadas e prontas para suportar o ritmo da sua obra. Fale com nossa equipe pelo WhatsApp e economize sem abrir mão de desempenho.</p>

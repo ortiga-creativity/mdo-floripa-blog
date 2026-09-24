@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Qual disco usar para cortar porcelanato sem lascar?"
+    a: "Use sempre disco diamantado específico para porcelanato. Discos genéricos para cerâmica comum lascam a borda com mais facilidade por não terem o fio diamantado adequado à dureza do material."
+  - q: "Cortadora de bancada com água é melhor que serra mármore para porcelanato?"
+    a: "Para grandes volumes de corte, sim — a refrigeração por água reduz atrito e lascamento. Já para ajustes pontuais e cortes rápidos no canteiro, a serra mármore portátil é mais prática."
+  - q: "A MDO Floripa aluga cortadora de piso com água para porcelanato grande formato?"
+    a: "Sim, temos cortadoras de bancada com refrigeração por água disponíveis para locação em Florianópolis, ideais para peças de 60x60, 80x80 e formatos maiores."
 ---
 <p>Cortar porcelanato exige mais cuidado do que cortar uma cerâmica comum — o material é mais denso, mais duro e mais propenso a lascar nas bordas se a ferramenta ou a técnica não forem adequadas. Entender a diferença entre serra mármore e cortadora de piso evita desperdício de material.</p>
 
@@ -33,3 +40,6 @@ pubDate: "2026-09-18"
 
 <h3>Manutenção do disco</h3>
 <p>Um disco diamantado gasto ou de baixa qualidade é a causa mais comum de cortes malfeitos. Se o disco está superaquecendo ou "empastando" ao invés de cortar limpo, é sinal de que perdeu o fio diamantado e precisa ser substituído.</p>
+
+<h3>Alugue serra mármore ou cortadora de piso com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza serra mármore e cortadora de piso com água para locação em Florianópolis, com discos adequados para porcelanato. Fale com nossa equipe pelo WhatsApp e evite desperdício de material.</p>

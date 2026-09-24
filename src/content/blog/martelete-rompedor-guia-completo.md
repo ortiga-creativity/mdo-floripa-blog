@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Martelete rompedor elétrico ou a combustão: qual alugar para obra residencial?"
+    a: "Para obras residenciais com acesso à rede elétrica, o modelo elétrico é a escolha mais prática: mais silencioso, sem emissão de gases e mais fácil de operar em ambientes fechados."
+  - q: "Quantos joules de impacto preciso para quebrar contrapiso?"
+    a: "Para quebra de piso e contrapiso residencial, equipamentos entre 10 e 20 joules já resolvem bem. Para concreto armado ou estruturas mais robustas, é necessário partir para modelos acima de 25 joules."
+  - q: "A MDO Floripa fornece EPIs junto com o martelete?"
+    a: "Consulte a disponibilidade com nossa equipe — o essencial é que o operador utilize óculos de proteção, protetor auricular e luvas antivibração durante todo o uso do equipamento."
 ---
 <p>O martelete rompedor é a ferramenta usada quando o trabalho exige força de impacto puro: quebrar piso cerâmico, demolir contrapiso, abrir valas em concreto ou remover revestimentos antigos. Diferente da furadeira de impacto, ele não gira a ponteira — apenas percute, o que o torna muito mais eficiente para demolição.</p>
 
@@ -34,3 +41,6 @@ pubDate: "2026-09-18"
 
 <h3>Erro comum que reduz a vida útil da ferramenta</h3>
 <p>Usar o martelete sem apoiar firme a ponteira na superfície antes de acionar o gatilho causa impacto em vazio, que desgasta o mecanismo interno rapidamente. O procedimento correto é sempre encostar a ponta no ponto de quebra antes de ligar o equipamento.</p>
+
+<h3>Alugue seu martelete rompedor com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza marteletes rompedores de diferentes potências para locação em Florianópolis, com ponteiras adequadas para cada tipo de demolição. Fale com nossa equipe pelo WhatsApp e agilize sua obra.</p>

@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Quantos dias leva para pintar uma casa de médio porte?"
+    a: "Com rolo e pincel, o prazo total costuma ficar entre 7 e 12 dias úteis, considerando preparação, demãos e secagem. Usando máquina airless para as áreas de maior metragem, esse prazo pode cair para 4 a 6 dias."
+  - q: "Trocar de tom escuro para claro aumenta o prazo da pintura?"
+    a: "Sim, geralmente exige uma demão extra para cobrir completamente a cor anterior, o que acrescenta ao menos mais um dia de secagem e aplicação ao cronograma."
+  - q: "Alugar equipamentos reduz o custo total da pintura?"
+    a: "Sim, alugar lixadeira de parede e máquina airless reduz o tempo de mão de obra necessário, o que muitas vezes compensa o valor da diária de locação, especialmente em obras de maior metragem."
 ---
 <p>Uma das perguntas mais comuns antes de iniciar uma pintura é sobre o prazo: quantos dias leva para pintar uma casa inteira? A resposta varia conforme o estado da superfície, a metragem e, principalmente, os equipamentos utilizados em cada etapa.</p>
 
@@ -30,3 +37,6 @@ pubDate: "2026-09-18"
 
 <h3>Planejamento prático</h3>
 <p>Para quem está organizando uma reforma, a recomendação é reservar a preparação de superfície com folga — é a etapa mais imprevisível — e concentrar o orçamento de equipamento profissional (lixadeira de parede e airless) justamente nessas duas frentes, já que são elas que mais afetam o cronograma final.</p>
+
+<h3>Planeje sua pintura com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza lixadeiras de parede e máquinas airless para locação em Florianópolis, reduzindo o prazo total da sua pintura. Fale com nossa equipe pelo WhatsApp e monte o cronograma certo para sua obra.</p>

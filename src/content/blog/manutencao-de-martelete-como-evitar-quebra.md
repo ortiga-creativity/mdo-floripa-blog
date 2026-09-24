@@ -7,6 +7,13 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+faq:
+  - q: "Por que o martelete perde força de impacto durante o uso?"
+    a: "Geralmente por superaquecimento, escovas de carvão desgastadas (em modelos elétricos) ou falta de lubrificação da ponteira. Esses sinais indicam a necessidade de manutenção antes de continuar o serviço."
+  - q: "Posso usar qualquer graxa na ponteira do martelete?"
+    a: "Não. O ideal é usar graxa específica para ferramentas de impacto, que suporta as altas temperaturas geradas pelo atrito. Graxas comuns podem secar rápido e não proteger adequadamente o sistema de fixação."
+  - q: "Equipamentos alugados na MDO Floripa já vêm com manutenção em dia?"
+    a: "Sim, todos os marteletes passam por revisão entre locações, incluindo lubrificação e verificação dos componentes de impacto, garantindo desempenho desde a entrega."
 ---
 <p>Poucas ferramentas sofrem tanto desgaste mecânico quanto o martelete. O impacto constante gera calor, vibração e atrito em componentes internos que, sem manutenção adequada, falham justamente no meio de um serviço — o pior momento possível.</p>
 
@@ -32,3 +39,6 @@ pubDate: "2026-09-18"
 
 <h3>Periodicidade recomendada</h3>
 <p>Para uso profissional intenso, a limpeza interna e troca de graxa dos componentes de impacto deve ser feita a cada 40 a 60 horas de uso. Em aluguéis de curto prazo, isso já é responsabilidade da locadora — mas cuidados básicos como limpeza externa e lubrificação da ponteira continuam sendo do operador, a cada troca de acessório.</p>
+
+<h3>Alugue marteletes revisados com a MDO Floripa</h3>
+<p>A MDO Floripa disponibiliza marteletes elétricos e ponteiras diversas para locação em Florianópolis, sempre revisados entre locações. Fale com nossa equipe pelo WhatsApp e evite pane no meio do serviço.</p>
