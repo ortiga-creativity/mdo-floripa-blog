@@ -1,21 +1,27 @@
 {
-  "heroTitle": "Do fundamento ao acabamento, tudo oque sua obra precisa em um só lugar!",
+  "logoUrl": "/images/uploads/logomestreverticalazulsemlocacao.png",
+  "homeSectionOrder": [
+    {
+      "section": "featured"
+    },
+    {
+      "section": "categories"
+    },
+    {
+      "section": "recent"
+    }
+  ],
+  "colorAccent": "#F5A623",
+  "heroImageUrl": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg",
+  "contactPhone": "(48) 99612-6565",
+  "hoursFriday": "Sex: 07:30–17:00",
   "heroSubtitle": "Dicas, guias e informações práticas para engenheiros, construtores, pintores, pedreiros e profissionais de limpeza. Conteúdo da MDO Floripa para quem constrói, pinta e transforma sonhos em realidade",
-  "whatsappNumber": "5548996126565",
+  "address": "Rua Joe Collaço, 744 - Córrego Grande, Florianópolis - SC",
   "whatsappMessage": "O Blog me mandou aqui e preciso da ajuda de um especialista",
   "catalogUrl": "https://catalogo.mestredaobralocacoes.com.br/florianopolis",
-  "contactEmail": "florianopolis@mestredaobralocacoes.com.br",
-  "contactPhone": "(48) 99612-6565",
-  "address": "Rua Joe Collaço, 744 - Córrego Grande, Florianópolis - SC",
   "hoursWeekday": "Seg a Qui: 07:30–17:30",
-  "hoursFriday": "Sex: 07:30–17:00",
-  "logoUrl": "/LOGOMARCA_MDO.png",
-  "heroImageUrl": "https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg",
-  "colorPrimary": "#1D3557",
-  "colorAccent": "#F5A623",
-  "homeSectionOrder": [
-    { "section": "featured" },
-    { "section": "categories" },
-    { "section": "recent" }
-  ]
+  "whatsappNumber": "5548996126565",
+  "contactEmail": "florianopolis@mestredaobralocacoes.com.br",
+  "heroTitle": "Do fundamento ao acabamento, tudo oque sua obra precisa em um só lugar!",
+  "colorPrimary": "#1D3557"
 }
