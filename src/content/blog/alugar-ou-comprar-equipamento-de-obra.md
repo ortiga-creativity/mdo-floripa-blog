@@ -1,19 +1,27 @@
 ---
 title: "Alugar ou comprar equipamento de obra: como tomar a melhor decisão"
-excerpt: "Descubra quando vale mais a pena alugar ou comprar equipamentos para construção. Compare custos, frequência de uso, manutenção, armazenamento e produtividade."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1518709414768-a88981a4515d?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Descubra quando vale mais a pena alugar ou comprar equipamentos para
+  construção. Compare custos, frequência de uso, manutenção, armazenamento e
+  produtividade.
+category: Construcao
+image: https://images.unsplash.com/photo-1606676539940-12768ce0e762?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-29"
+pubDate: 2026-09-29
 faq:
-  - q: "Quando vale mais a pena alugar equipamentos de construção?"
-    a: "Quando o uso é por período curto, em serviços pontuais ou em etapas que exigem máquinas específicas, como pintura de fachada, compactação de solo, corte de porcelanato em grande volume ou trabalho em altura com andaimes."
-  - q: "Quais custos escondidos existem na compra de equipamentos?"
-    a: "Manutenção preventiva e corretiva, depreciação, armazenamento, transporte e ociosidade da máquina parada. O preço de aquisição é apenas o começo."
-  - q: "Como comparar o custo de aluguel e de compra?"
-    a: "Some, na compra, preço + manutenção + transporte + armazenamento + reparos − valor de revenda. Na locação, some diária ou mensalidade + frete + acessórios + custos previstos em contrato. Depois compare com os dias de uso planejados."
+  - q: Quando vale mais a pena alugar equipamentos de construção?
+    a: Quando o uso é por período curto, em serviços pontuais ou em etapas que
+      exigem máquinas específicas, como pintura de fachada, compactação de solo,
+      corte de porcelanato em grande volume ou trabalho em altura com andaimes.
+  - q: Quais custos escondidos existem na compra de equipamentos?
+    a: Manutenção preventiva e corretiva, depreciação, armazenamento, transporte e
+      ociosidade da máquina parada. O preço de aquisição é apenas o começo.
+  - q: Como comparar o custo de aluguel e de compra?
+    a: Some, na compra, preço + manutenção + transporte + armazenamento + reparos −
+      valor de revenda. Na locação, some diária ou mensalidade + frete +
+      acessórios + custos previstos em contrato. Depois compare com os dias de
+      uso planejados.
 ---
 Em uma obra, comprar um equipamento parece, à primeira vista, uma forma de economizar. Afinal, depois da aquisição, a ferramenta fica disponível sempre que for necessária.
 
