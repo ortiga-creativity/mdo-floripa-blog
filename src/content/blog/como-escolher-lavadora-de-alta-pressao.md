@@ -1,19 +1,28 @@
 ---
-title: "Como escolher uma lavadora de alta pressão para pisos, fachadas e pós-obra"
-excerpt: "Saiba como escolher lavadora de alta pressão para pisos, fachadas, veículos e pós-obra. Entenda PSI, vazão, potência, acessórios e quando alugar."
-category: "Limpeza"
-image: "https://images.unsplash.com/photo-1718152421680-d1580e843cc9?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+title: Como escolher uma lavadora de alta pressão para pisos, fachadas e pós-obra
+excerpt: Saiba como escolher lavadora de alta pressão para pisos, fachadas,
+  veículos e pós-obra. Entenda PSI, vazão, potência, acessórios e quando alugar.
+category: Limpeza
+image: https://images.unsplash.com/photo-1707897283710-4beef9a1b066?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-29"
+pubDate: 2026-09-29
 faq:
-  - q: "O que é PSI em uma lavadora de alta pressão?"
-    a: "PSI é a unidade que indica a pressão da água expelida pela máquina. Quanto maior a pressão, maior tende a ser a força do jato sobre a sujeira, mas mais pressão nem sempre é melhor, pois pode danificar superfícies delicadas."
-  - q: "Qual a diferença entre pressão e vazão?"
-    a: "A pressão é a força do jato e ajuda a soltar a sujeira. A vazão é o volume de água liberado e ajuda a remover e levar embora os resíduos. Para áreas grandes, procure equilíbrio entre os dois."
-  - q: "Quando vale a pena alugar uma lavadora de alta pressão?"
-    a: "Em serviços pontuais, como limpeza pós-obra, lavagem de grandes áreas, higienização de fachada, limpeza de pátio industrial e preparação de piso antes de pintura. Assim você evita investir em uma máquina que ficará parada."
+  - q: O que é PSI em uma lavadora de alta pressão?
+    a: PSI é a unidade que indica a pressão da água expelida pela máquina. Quanto
+      maior a pressão, maior tende a ser a força do jato sobre a sujeira, mas
+      mais pressão nem sempre é melhor, pois pode danificar superfícies
+      delicadas.
+  - q: Qual a diferença entre pressão e vazão?
+    a: A pressão é a força do jato e ajuda a soltar a sujeira. A vazão é o volume de
+      água liberado e ajuda a remover e levar embora os resíduos. Para áreas
+      grandes, procure equilíbrio entre os dois.
+  - q: Quando vale a pena alugar uma lavadora de alta pressão?
+    a: Em serviços pontuais, como limpeza pós-obra, lavagem de grandes áreas,
+      higienização de fachada, limpeza de pátio industrial e preparação de piso
+      antes de pintura. Assim você evita investir em uma máquina que ficará
+      parada.
 ---
 A lavadora de alta pressão é uma das ferramentas mais úteis para limpeza de pisos, muros, fachadas, calçadas, veículos, máquinas e áreas externas. Mas escolher o modelo errado pode trazer frustração: pouca força para remover a sujeira, consumo elevado de tempo ou risco de danificar a superfície.
 
