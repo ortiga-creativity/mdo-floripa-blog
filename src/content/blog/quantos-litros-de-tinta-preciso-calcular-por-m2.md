@@ -1,21 +1,30 @@
 ---
-title: "Quantos litros de tinta preciso? Aprenda a calcular sem desperdício"
-excerpt: "Aprenda a calcular quantos litros de tinta são necessários para pintar uma parede ou ambiente. Veja fórmula, exemplos, rendimento e como evitar desperdício."
-category: "Pintura"
-image: "https://images.pexels.com/photos/3239549/pexels-photo-3239549.jpeg"
-author: "Equipe MDO Floripa"
+title: Quantos litros de tinta preciso? Aprenda a calcular sem desperdício
+excerpt: Aprenda a calcular quantos litros de tinta são necessários para pintar
+  uma parede ou ambiente. Veja fórmula, exemplos, rendimento e como evitar
+  desperdício.
+category: Pintura
+image: https://plus.unsplash.com/premium_photo-1726826693849-208029303ce0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-29"
+pubDate: 2026-09-29
 faq:
-  - q: "Quantos litros de tinta preciso para pintar uma parede?"
-    a: "Multiplique largura por altura para descobrir a área. Depois, multiplique pelo número de demãos e divida pelo rendimento por litro informado na embalagem."
-  - q: "Uma lata de 18 litros pinta quantos metros quadrados?"
-    a: "Depende da tinta e das condições da superfície. Em muitas tintas acrílicas, uma lata de 18 litros pode render algo entre 180 e 216 m² por demão, considerando rendimento aproximado de 10 a 12 m² por litro."
-  - q: "Preciso descontar portas e janelas?"
-    a: "Sim, especialmente quando são grandes. Descontar essas áreas torna o cálculo mais preciso e reduz sobra de material."
-  - q: "É melhor sobrar ou faltar tinta?"
-    a: "Uma pequena sobra é preferível à falta de tinta no meio do trabalho. Compre uma margem de segurança, principalmente se a parede for nova, texturizada ou estiver recebendo uma mudança forte de cor."
+  - q: Quantos litros de tinta preciso para pintar uma parede?
+    a: Multiplique largura por altura para descobrir a área. Depois, multiplique
+      pelo número de demãos e divida pelo rendimento por litro informado na
+      embalagem.
+  - q: Uma lata de 18 litros pinta quantos metros quadrados?
+    a: Depende da tinta e das condições da superfície. Em muitas tintas acrílicas,
+      uma lata de 18 litros pode render algo entre 180 e 216 m² por demão,
+      considerando rendimento aproximado de 10 a 12 m² por litro.
+  - q: Preciso descontar portas e janelas?
+    a: Sim, especialmente quando são grandes. Descontar essas áreas torna o cálculo
+      mais preciso e reduz sobra de material.
+  - q: É melhor sobrar ou faltar tinta?
+    a: Uma pequena sobra é preferível à falta de tinta no meio do trabalho. Compre
+      uma margem de segurança, principalmente se a parede for nova, texturizada
+      ou estiver recebendo uma mudança forte de cor.
 ---
 Uma das dúvidas mais comuns antes de pintar uma casa, um cômodo ou uma fachada é: quantos litros de tinta preciso comprar?
 
