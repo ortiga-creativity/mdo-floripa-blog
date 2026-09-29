@@ -1,19 +1,25 @@
 ---
 title: "Lavadora de alta pressão: como lavar fachada e piso sem danificar"
-excerpt: "A pressão errada pode descascar pintura, danificar rejunte e desgastar revestimentos. Veja como usar a lavadora de alta pressão com segurança."
-category: "Limpeza"
-image: "https://images.unsplash.com/photo-1718152421680-d1580e843cc9?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: A pressão errada pode descascar pintura, danificar rejunte e desgastar
+  revestimentos. Veja como usar a lavadora de alta pressão com segurança.
+category: Limpeza
+image: https://images.pexels.com/photos/14965464/pexels-photo-14965464.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Qual pressão de lavadora usar em piso de garagem?"
-    a: "Pisos de concreto e garagens suportam pressão alta, geralmente acima de 2.000 PSI, ideal para remover manchas de óleo e sujeira pesada de obra."
-  - q: "A lavadora de alta pressão pode danificar o rejunte?"
-    a: "Pode, se usada com jato muito concentrado e próximo à superfície. Para preservar o rejunte, use bicos com abertura maior (verde ou branco) e mantenha distância adequada do piso."
-  - q: "A MDO Floripa aluga lavadora de alta pressão com todos os bicos?"
-    a: "Sim, os equipamentos de locação já incluem o kit de bicos para diferentes tipos de superfície, e nossa equipe orienta sobre qual usar em cada situação."
+  - q: Qual pressão de lavadora usar em piso de garagem?
+    a: Pisos de concreto e garagens suportam pressão alta, geralmente acima de 2.000
+      PSI, ideal para remover manchas de óleo e sujeira pesada de obra.
+  - q: A lavadora de alta pressão pode danificar o rejunte?
+    a: Pode, se usada com jato muito concentrado e próximo à superfície. Para
+      preservar o rejunte, use bicos com abertura maior (verde ou branco) e
+      mantenha distância adequada do piso.
+  - q: A MDO Floripa aluga lavadora de alta pressão com todos os bicos?
+    a: Sim, os equipamentos de locação já incluem o kit de bicos para diferentes
+      tipos de superfície, e nossa equipe orienta sobre qual usar em cada
+      situação.
 ---
 <p>A lavadora de alta pressão remove sujeira pesada, mofo, gordura e resíduos de obra de forma muito mais rápida do que a limpeza manual. Mas o mesmo jato capaz de remover sujeira incrustada também pode danificar superfícies mais sensíveis se usado sem ajuste de pressão e distância adequados.</p>
 
