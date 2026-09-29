@@ -1,19 +1,27 @@
 ---
 title: "Troca de carvão em furadeira e esmerilhadeira: quando fazer"
-excerpt: "Escovas de carvão gastas são a causa mais comum de queima de motor em ferramentas elétricas. Saiba identificar o momento certo de trocar."
-category: "Manutencao de Equipamentos"
-image: "https://images.unsplash.com/photo-1731694411560-050e5b91e943?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Escovas de carvão gastas são a causa mais comum de queima de motor em
+  ferramentas elétricas. Saiba identificar o momento certo de trocar.
+category: Manutencao de Equipamentos
+image: https://images.pexels.com/photos/17419786/pexels-photo-17419786.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "O que acontece se eu não trocar as escovas de carvão a tempo?"
-    a: "O contato elétrico passa a acontecer direto entre metais, gerando faíscas que danificam o comutador do motor — uma peça mais cara e trabalhosa de substituir, podendo inviabilizar o conserto e exigir troca do motor inteiro."
-  - q: "Com que frequência devo verificar as escovas de carvão?"
-    a: "Para uso profissional diário, o ideal é verificar a cada 2 ou 3 meses. Ferramentas de uso ocasional podem ser verificadas a cada 6 meses, ou sempre que notar faíscas, perda de potência ou cheiro de queimado."
-  - q: "Equipamentos alugados na MDO Floripa recebem essa manutenção?"
-    a: "Sim, as escovas de carvão e demais componentes de desgaste são verificados na revisão entre locações, para que o equipamento chegue pronto para uso sem risco de queima do motor."
+  - q: O que acontece se eu não trocar as escovas de carvão a tempo?
+    a: O contato elétrico passa a acontecer direto entre metais, gerando faíscas que
+      danificam o comutador do motor — uma peça mais cara e trabalhosa de
+      substituir, podendo inviabilizar o conserto e exigir troca do motor
+      inteiro.
+  - q: Com que frequência devo verificar as escovas de carvão?
+    a: Para uso profissional diário, o ideal é verificar a cada 2 ou 3 meses.
+      Ferramentas de uso ocasional podem ser verificadas a cada 6 meses, ou
+      sempre que notar faíscas, perda de potência ou cheiro de queimado.
+  - q: Equipamentos alugados na MDO Floripa recebem essa manutenção?
+    a: Sim, as escovas de carvão e demais componentes de desgaste são verificados na
+      revisão entre locações, para que o equipamento chegue pronto para uso sem
+      risco de queima do motor.
 ---
 <p>As escovas de carvão são um componente barato e simples, mas responsável por um dos problemas mais caros em ferramentas elétricas: a queima do motor. Elas fazem o contato elétrico entre a parte fixa e a parte giratória do motor, e se desgastam naturalmente com o uso — o segredo é trocar antes que o desgaste comprometa o restante do equipamento.</p>
 
