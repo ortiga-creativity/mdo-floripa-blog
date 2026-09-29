@@ -1,19 +1,26 @@
 ---
 title: "Limpeza pesada pós-reforma: quais equipamentos realmente fazem diferença"
-excerpt: "Vassoura e pano úmido não dão conta da poeira fina e dos resíduos deixados por uma reforma. Veja quais equipamentos aceleram essa limpeza."
-category: "Limpeza"
-image: "https://images.unsplash.com/photo-1718152423993-a29048dbc223?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Vassoura e pano úmido não dão conta da poeira fina e dos resíduos
+  deixados por uma reforma. Veja quais equipamentos aceleram essa limpeza.
+category: Limpeza
+image: https://images.pexels.com/photos/7667624/pexels-photo-7667624.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Qual equipamento é mais importante na limpeza pós-obra?"
-    a: "O aspirador de pó e água multiuso é o mais essencial, pois lida tanto com a poeira fina quanto com resíduos líquidos, sem risco de danificar o motor com o volume de sujeira típico de pós-obra."
-  - q: "Posso pular a etapa de encerar o piso?"
-    a: "Não é recomendado em pisos de porcelanato ou granito que sofreram com poeira de obra, pois o enceramento remove resíduos finos e devolve o brilho original, evitando um aspecto opaco permanente."
-  - q: "A MDO Floripa aluga o kit completo para limpeza pós-obra?"
-    a: "Sim, é possível alugar lavadora de alta pressão, aspirador industrial e enceradeira juntos, com entrega em Florianópolis. Fale com nossa equipe pelo WhatsApp para montar o kit ideal."
+  - q: Qual equipamento é mais importante na limpeza pós-obra?
+    a: O aspirador de pó e água multiuso é o mais essencial, pois lida tanto com a
+      poeira fina quanto com resíduos líquidos, sem risco de danificar o motor
+      com o volume de sujeira típico de pós-obra.
+  - q: Posso pular a etapa de encerar o piso?
+    a: Não é recomendado em pisos de porcelanato ou granito que sofreram com poeira
+      de obra, pois o enceramento remove resíduos finos e devolve o brilho
+      original, evitando um aspecto opaco permanente.
+  - q: A MDO Floripa aluga o kit completo para limpeza pós-obra?
+    a: Sim, é possível alugar lavadora de alta pressão, aspirador industrial e
+      enceradeira juntos, com entrega em Florianópolis. Fale com nossa equipe
+      pelo WhatsApp para montar o kit ideal.
 ---
 <p>A limpeza pós-obra é diferente de uma faxina comum: envolve poeira fina de gesso e cimento, respingos de tinta, resíduos de argamassa seca e sujeira acumulada em frestas que a limpeza doméstica tradicional não alcança com eficiência. Usar o equipamento certo reduz o tempo de serviço de dias para poucas horas.</p>
 
