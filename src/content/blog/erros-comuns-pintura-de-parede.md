@@ -1,19 +1,27 @@
 ---
-title: "Erros comuns na pintura de parede: como evitar manchas, descascamento e retrabalho"
-excerpt: "Conheça os principais erros na pintura de parede: preparo inadequado, diluição errada, tempo entre demãos, clima e ferramentas. Evite retrabalho."
-category: "Pintura"
-image: "https://images.pexels.com/photos/279606/pexels-photo-279606.jpeg"
-author: "Equipe MDO Floripa"
+title: "Erros comuns na pintura de parede: como evitar manchas, descascamento e
+  retrabalho"
+excerpt: "Conheça os principais erros na pintura de parede: preparo inadequado,
+  diluição errada, tempo entre demãos, clima e ferramentas. Evite retrabalho."
+category: Pintura
+image: https://images.pexels.com/photos/7218005/pexels-photo-7218005.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-29"
+pubDate: 2026-09-29
 faq:
-  - q: "Por que a pintura da parede descasca?"
-    a: "As causas mais comuns são umidade, parede mal preparada, tinta solta da pintura anterior, poeira ou gordura na superfície e uso de produto inadequado. Corrija a causa antes de pintar novamente."
-  - q: "Qual o tempo ideal entre demãos de tinta?"
-    a: "Varia conforme o produto, a temperatura, a ventilação e a umidade. Siga sempre a orientação da embalagem e não use apenas o toque seco como referência."
-  - q: "Como evitar parede manchada após pintar?"
-    a: "Prepare a superfície, aplique fundo preparador quando indicado, dilua a tinta na proporção do fabricante, respeite o intervalo entre demãos e aplique de forma uniforme."
+  - q: Por que a pintura da parede descasca?
+    a: As causas mais comuns são umidade, parede mal preparada, tinta solta da
+      pintura anterior, poeira ou gordura na superfície e uso de produto
+      inadequado. Corrija a causa antes de pintar novamente.
+  - q: Qual o tempo ideal entre demãos de tinta?
+    a: Varia conforme o produto, a temperatura, a ventilação e a umidade. Siga
+      sempre a orientação da embalagem e não use apenas o toque seco como
+      referência.
+  - q: Como evitar parede manchada após pintar?
+    a: Prepare a superfície, aplique fundo preparador quando indicado, dilua a tinta
+      na proporção do fabricante, respeite o intervalo entre demãos e aplique de
+      forma uniforme.
 ---
 Uma pintura bem executada transforma qualquer ambiente. Mas quando o preparo, a tinta, as ferramentas ou o tempo de secagem não são respeitados, o resultado pode ser frustrante: manchas, marcas de rolo, bolhas, descascamento, cobertura irregular e gasto duplicado.
 
