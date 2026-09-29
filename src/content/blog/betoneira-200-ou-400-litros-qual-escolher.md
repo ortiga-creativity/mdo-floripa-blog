@@ -1,19 +1,27 @@
 ---
 title: "Betoneira 200 litros ou 400 litros: qual é a ideal para sua obra"
-excerpt: "A capacidade da betoneira define o ritmo da obra. Entenda quando 200 litros bastam e quando os 400 litros compensam o investimento."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1527410651988-c2f385ccd3f7?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: A capacidade da betoneira define o ritmo da obra. Entenda quando 200
+  litros bastam e quando os 400 litros compensam o investimento.
+category: Construcao
+image: https://images.pexels.com/photos/6138083/pexels-photo-6138083.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Betoneira de 200 litros serve para fazer laje?"
-    a: "Serve para lajes pequenas, mas exige mais batidas e mais tempo de concretagem. Para lajes de maior área, a betoneira de 400 litros reduz o tempo total e mantém a equipe trabalhando sem interrupção."
-  - q: "Qual o consumo de energia da betoneira de 400 litros comparado à de 200?"
-    a: "O motor da betoneira de 400 litros tem potência maior, consumindo mais energia por hora de uso. Ainda assim, como ela realiza menos batidas para o mesmo volume, o consumo total pode ser equivalente ou até menor em obras de grande volume."
-  - q: "Preciso de ajuda para transportar a betoneira até a obra?"
-    a: "A MDO Floripa entrega o equipamento no endereço da obra em Florianópolis, já revisado e pronto para uso, sem necessidade de o cliente providenciar transporte."
+  - q: Betoneira de 200 litros serve para fazer laje?
+    a: Serve para lajes pequenas, mas exige mais batidas e mais tempo de
+      concretagem. Para lajes de maior área, a betoneira de 400 litros reduz o
+      tempo total e mantém a equipe trabalhando sem interrupção.
+  - q: Qual o consumo de energia da betoneira de 400 litros comparado à de 200?
+    a: O motor da betoneira de 400 litros tem potência maior, consumindo mais
+      energia por hora de uso. Ainda assim, como ela realiza menos batidas para
+      o mesmo volume, o consumo total pode ser equivalente ou até menor em obras
+      de grande volume.
+  - q: Preciso de ajuda para transportar a betoneira até a obra?
+    a: A MDO Floripa entrega o equipamento no endereço da obra em Florianópolis, já
+      revisado e pronto para uso, sem necessidade de o cliente providenciar
+      transporte.
 ---
 <p>Antes de fechar o aluguel de uma betoneira, a primeira pergunta que qualquer mestre de obras deveria fazer é: qual é o volume de concreto ou argamassa que preciso produzir por dia? A resposta define se 200 litros são suficientes ou se vale a pena partir direto para os 400 litros.</p>
 
