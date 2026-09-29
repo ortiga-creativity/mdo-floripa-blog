@@ -52,7 +52,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
 } : null;
 ---
 
-<Layout title={`${postData.title} - MDO Floripa`} description={postData.excerpt || undefined}>
+<Layout title={`${postData.title} - MDO Floripa`} description={postData.excerpt || undefined} image={postData.image} type="article">
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
   {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <article class="article-page">

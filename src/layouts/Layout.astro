@@ -4,9 +4,13 @@ import siteSettings from '../content/settings/site.json';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
 }
 
-const { title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
+const { image, type = 'website', title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = image ? new URL(image, Astro.site).href : new URL(siteSettings.heroImageUrl, Astro.site).href;
 const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encodeURIComponent(siteSettings.whatsappMessage)}`;
 ---
 
@@ -19,6 +23,15 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={description} />
 		<title>{title}</title>
+		<link rel="canonical" href={canonicalUrl} />
+		<meta property="og:type" content={type} />
+		<meta property="og:locale" content="pt_BR" />
+		<meta property="og:site_name" content="MDO Floripa - Mestre da Obra Locações" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonicalUrl} />
+		<meta property="og:image" content={ogImage} />
+		<meta name="twitter:card" content="summary_large_image" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
