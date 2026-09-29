@@ -1,19 +1,28 @@
 ---
 title: "Compactador de solo (placa vibratória): quando e como usar"
-excerpt: "Terreno mal compactado gera trincas e afundamento depois da obra pronta. Entenda quando alugar o compactador de solo, popularmente chamado de sapo."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1785484267468-9b9c9f2a4142?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Terreno mal compactado gera trincas e afundamento depois da obra
+  pronta. Entenda quando alugar o compactador de solo, popularmente chamado de
+  sapo.
+category: Construcao
+image: https://plus.unsplash.com/premium_photo-1680787300133-4045e12bd61e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Quantas passadas de compactador são necessárias por camada?"
-    a: "Em geral de 4 a 6 passadas sobrepostas por camada, mas o número exato varia conforme o tipo de solo e a umidade. O ideal é observar a superfície: se ainda ceder visivelmente, mais passadas são necessárias."
-  - q: "Posso compactar solo muito molhado ou muito seco?"
-    a: "Nenhum dos dois extremos é ideal. Solo encharcado impede a compressão eficiente e pode formar bolsões de água, enquanto solo muito seco não compacta bem por falta de coesão entre as partículas. O ponto ideal é um solo levemente úmido."
-  - q: "Qual placa vibratória alugar para uma calçada residencial?"
-    a: "Para calçadas e pátios residenciais, uma placa entre 80 e 100 kg costuma ser suficiente, já que o solo geralmente é arenoso ou composto por brita, que compacta com facilidade em poucas passadas."
+  - q: Quantas passadas de compactador são necessárias por camada?
+    a: "Em geral de 4 a 6 passadas sobrepostas por camada, mas o número exato varia
+      conforme o tipo de solo e a umidade. O ideal é observar a superfície: se
+      ainda ceder visivelmente, mais passadas são necessárias."
+  - q: Posso compactar solo muito molhado ou muito seco?
+    a: Nenhum dos dois extremos é ideal. Solo encharcado impede a compressão
+      eficiente e pode formar bolsões de água, enquanto solo muito seco não
+      compacta bem por falta de coesão entre as partículas. O ponto ideal é um
+      solo levemente úmido.
+  - q: Qual placa vibratória alugar para uma calçada residencial?
+    a: Para calçadas e pátios residenciais, uma placa entre 80 e 100 kg costuma ser
+      suficiente, já que o solo geralmente é arenoso ou composto por brita, que
+      compacta com facilidade em poucas passadas.
 ---
 <p>Também conhecido como "placa vibratória" ou, na obra, simplesmente "sapo", o compactador de solo tem uma função que muita gente subestima: preparar o terreno para receber fundação, contrapiso, calçada ou pavimentação sem risco de afundamento posterior.</p>
 
