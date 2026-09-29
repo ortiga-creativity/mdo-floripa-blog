@@ -1,19 +1,26 @@
 ---
 title: "Tipos de ponteira para martelete: qual usar em cada aplicação"
-excerpt: "Escolher a ponteira errada compromete o resultado e desgasta o martelete antes da hora. Veja as principais opções e para que serve cada uma."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1665885966776-4fde0ade52ed?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Escolher a ponteira errada compromete o resultado e desgasta o
+  martelete antes da hora. Veja as principais opções e para que serve cada uma.
+category: Construcao
+image: https://images.pexels.com/photos/7479039/pexels-photo-7479039.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Qual ponteira usar para demolir piso cerâmico?"
-    a: "A ponteira tipo talhadeira (ponta chata) é a mais indicada, pois a lâmina larga desprende cerâmica, argamassa e reboco de forma eficiente, funcionando como uma alavanca acionada por impacto."
-  - q: "Como saber se a ponteira é compatível com meu martelete?"
-    a: "Verifique o padrão de encaixe do equipamento — os mais comuns são SDS-Max e Hex 28mm — antes de escolher a ponteira. Encaixe incompatível não trava corretamente e pode danificar a ferramenta."
-  - q: "A MDO Floripa fornece ponteiras junto com o aluguel do martelete?"
-    a: "Sim, é possível alugar o martelete já com a ponteira adequada para o seu serviço. Fale com nossa equipe pelo WhatsApp para confirmar a disponibilidade do modelo certo."
+  - q: Qual ponteira usar para demolir piso cerâmico?
+    a: A ponteira tipo talhadeira (ponta chata) é a mais indicada, pois a lâmina
+      larga desprende cerâmica, argamassa e reboco de forma eficiente,
+      funcionando como uma alavanca acionada por impacto.
+  - q: Como saber se a ponteira é compatível com meu martelete?
+    a: Verifique o padrão de encaixe do equipamento — os mais comuns são SDS-Max e
+      Hex 28mm — antes de escolher a ponteira. Encaixe incompatível não trava
+      corretamente e pode danificar a ferramenta.
+  - q: A MDO Floripa fornece ponteiras junto com o aluguel do martelete?
+    a: Sim, é possível alugar o martelete já com a ponteira adequada para o seu
+      serviço. Fale com nossa equipe pelo WhatsApp para confirmar a
+      disponibilidade do modelo certo.
 ---
 <p>De nada adianta alugar um martelete potente e usar a ponteira errada para o serviço. Cada formato foi desenvolvido para um tipo específico de trabalho, e a escolha certa acelera a obra e evita desgaste desnecessário tanto da ferramenta quanto do material.</p>
 
