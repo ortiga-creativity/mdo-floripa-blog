@@ -1,19 +1,26 @@
 ---
 title: "Manutenção de martelete: como evitar quebra e prolongar a vida útil"
-excerpt: "O martelete é uma das ferramentas que mais sofre desgaste na obra. Veja os cuidados que evitam pane no meio do serviço."
-category: "Manutencao de Equipamentos"
-image: "https://images.unsplash.com/photo-1606676539940-12768ce0e762?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: O martelete é uma das ferramentas que mais sofre desgaste na obra. Veja
+  os cuidados que evitam pane no meio do serviço.
+category: Manutencao de Equipamentos
+image: https://images.unsplash.com/photo-1665631153909-ae7a1b6c137f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Por que o martelete perde força de impacto durante o uso?"
-    a: "Geralmente por superaquecimento, escovas de carvão desgastadas (em modelos elétricos) ou falta de lubrificação da ponteira. Esses sinais indicam a necessidade de manutenção antes de continuar o serviço."
-  - q: "Posso usar qualquer graxa na ponteira do martelete?"
-    a: "Não. O ideal é usar graxa específica para ferramentas de impacto, que suporta as altas temperaturas geradas pelo atrito. Graxas comuns podem secar rápido e não proteger adequadamente o sistema de fixação."
-  - q: "Equipamentos alugados na MDO Floripa já vêm com manutenção em dia?"
-    a: "Sim, todos os marteletes passam por revisão entre locações, incluindo lubrificação e verificação dos componentes de impacto, garantindo desempenho desde a entrega."
+  - q: Por que o martelete perde força de impacto durante o uso?
+    a: Geralmente por superaquecimento, escovas de carvão desgastadas (em modelos
+      elétricos) ou falta de lubrificação da ponteira. Esses sinais indicam a
+      necessidade de manutenção antes de continuar o serviço.
+  - q: Posso usar qualquer graxa na ponteira do martelete?
+    a: Não. O ideal é usar graxa específica para ferramentas de impacto, que suporta
+      as altas temperaturas geradas pelo atrito. Graxas comuns podem secar
+      rápido e não proteger adequadamente o sistema de fixação.
+  - q: Equipamentos alugados na MDO Floripa já vêm com manutenção em dia?
+    a: Sim, todos os marteletes passam por revisão entre locações, incluindo
+      lubrificação e verificação dos componentes de impacto, garantindo
+      desempenho desde a entrega.
 ---
 <p>Poucas ferramentas sofrem tanto desgaste mecânico quanto o martelete. O impacto constante gera calor, vibração e atrito em componentes internos que, sem manutenção adequada, falham justamente no meio de um serviço — o pior momento possível.</p>
 
