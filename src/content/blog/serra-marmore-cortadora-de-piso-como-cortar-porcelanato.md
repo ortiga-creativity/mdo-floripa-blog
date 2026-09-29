@@ -1,19 +1,27 @@
 ---
 title: "Serra mármore ou cortadora de piso: como cortar porcelanato sem lascar"
-excerpt: "Porcelanato lascado significa peça perdida e retrabalho. Veja a diferença entre serra mármore e cortadora de piso, e como fazer cortes limpos."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1673978482999-2e7540d134cf?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Porcelanato lascado significa peça perdida e retrabalho. Veja a
+  diferença entre serra mármore e cortadora de piso, e como fazer cortes limpos.
+category: Construcao
+image: https://images.unsplash.com/photo-1738817628118-ad34f40733ee?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Qual disco usar para cortar porcelanato sem lascar?"
-    a: "Use sempre disco diamantado específico para porcelanato. Discos genéricos para cerâmica comum lascam a borda com mais facilidade por não terem o fio diamantado adequado à dureza do material."
-  - q: "Cortadora de bancada com água é melhor que serra mármore para porcelanato?"
-    a: "Para grandes volumes de corte, sim — a refrigeração por água reduz atrito e lascamento. Já para ajustes pontuais e cortes rápidos no canteiro, a serra mármore portátil é mais prática."
-  - q: "A MDO Floripa aluga cortadora de piso com água para porcelanato grande formato?"
-    a: "Sim, temos cortadoras de bancada com refrigeração por água disponíveis para locação em Florianópolis, ideais para peças de 60x60, 80x80 e formatos maiores."
+  - q: Qual disco usar para cortar porcelanato sem lascar?
+    a: Use sempre disco diamantado específico para porcelanato. Discos genéricos
+      para cerâmica comum lascam a borda com mais facilidade por não terem o fio
+      diamantado adequado à dureza do material.
+  - q: Cortadora de bancada com água é melhor que serra mármore para porcelanato?
+    a: Para grandes volumes de corte, sim — a refrigeração por água reduz atrito e
+      lascamento. Já para ajustes pontuais e cortes rápidos no canteiro, a serra
+      mármore portátil é mais prática.
+  - q: A MDO Floripa aluga cortadora de piso com água para porcelanato grande
+      formato?
+    a: Sim, temos cortadoras de bancada com refrigeração por água disponíveis para
+      locação em Florianópolis, ideais para peças de 60x60, 80x80 e formatos
+      maiores.
 ---
 <p>Cortar porcelanato exige mais cuidado do que cortar uma cerâmica comum — o material é mais denso, mais duro e mais propenso a lascar nas bordas se a ferramenta ou a técnica não forem adequadas. Entender a diferença entre serra mármore e cortadora de piso evita desperdício de material.</p>
 
