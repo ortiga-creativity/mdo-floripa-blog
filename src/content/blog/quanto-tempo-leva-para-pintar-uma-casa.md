@@ -1,19 +1,26 @@
 ---
 title: "Quanto tempo leva para pintar uma casa: planejamento com o equipamento certo"
-excerpt: "O prazo de uma pintura completa depende menos da metragem e mais da escolha dos equipamentos certos para cada etapa. Veja como planejar."
-category: "Pintura"
-image: "https://images.unsplash.com/photo-1674485190969-4347f72aad0e?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: O prazo de uma pintura completa depende menos da metragem e mais da
+  escolha dos equipamentos certos para cada etapa. Veja como planejar.
+category: Pintura
+image: https://plus.unsplash.com/premium_photo-1726826693849-208029303ce0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-18"
+pubDate: 2026-09-18
 faq:
-  - q: "Quantos dias leva para pintar uma casa de médio porte?"
-    a: "Com rolo e pincel, o prazo total costuma ficar entre 7 e 12 dias úteis, considerando preparação, demãos e secagem. Usando máquina airless para as áreas de maior metragem, esse prazo pode cair para 4 a 6 dias."
-  - q: "Trocar de tom escuro para claro aumenta o prazo da pintura?"
-    a: "Sim, geralmente exige uma demão extra para cobrir completamente a cor anterior, o que acrescenta ao menos mais um dia de secagem e aplicação ao cronograma."
-  - q: "Alugar equipamentos reduz o custo total da pintura?"
-    a: "Sim, alugar lixadeira de parede e máquina airless reduz o tempo de mão de obra necessário, o que muitas vezes compensa o valor da diária de locação, especialmente em obras de maior metragem."
+  - q: Quantos dias leva para pintar uma casa de médio porte?
+    a: Com rolo e pincel, o prazo total costuma ficar entre 7 e 12 dias úteis,
+      considerando preparação, demãos e secagem. Usando máquina airless para as
+      áreas de maior metragem, esse prazo pode cair para 4 a 6 dias.
+  - q: Trocar de tom escuro para claro aumenta o prazo da pintura?
+    a: Sim, geralmente exige uma demão extra para cobrir completamente a cor
+      anterior, o que acrescenta ao menos mais um dia de secagem e aplicação ao
+      cronograma.
+  - q: Alugar equipamentos reduz o custo total da pintura?
+    a: Sim, alugar lixadeira de parede e máquina airless reduz o tempo de mão de
+      obra necessário, o que muitas vezes compensa o valor da diária de locação,
+      especialmente em obras de maior metragem.
 ---
 <p>Uma das perguntas mais comuns antes de iniciar uma pintura é sobre o prazo: quantos dias leva para pintar uma casa inteira? A resposta varia conforme o estado da superfície, a metragem e, principalmente, os equipamentos utilizados em cada etapa.</p>
 
