@@ -3,7 +3,7 @@ title: "Quanto tempo leva para pintar uma casa: planejamento com o equipamento c
 excerpt: O prazo de uma pintura completa depende menos da metragem e mais da
   escolha dos equipamentos certos para cada etapa. Veja como planejar.
 category: Pintura
-image: https://plus.unsplash.com/premium_photo-1726826693849-208029303ce0?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://images.unsplash.com/photo-1742900280864-bcc27353ceba?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 author: Equipe MDO Floripa
 published: true
 featured: false
