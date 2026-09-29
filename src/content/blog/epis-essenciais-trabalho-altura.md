@@ -1,18 +1,25 @@
 ---
-title: "EPIs essenciais para trabalho em altura"
-excerpt: "Trabalhar em andaimes e escadas exige equipamentos de proteção adequados. Veja a lista completa."
-category: "Construcao"
-image: "https://images.pexels.com/photos/8961065/pexels-photo-8961065.jpeg"
-author: "Equipe MDO Floripa"
+title: EPIs essenciais para trabalho em altura
+excerpt: Trabalhar em andaimes e escadas exige equipamentos de proteção
+  adequados. Veja a lista completa.
+category: Construcao
+image: https://images.unsplash.com/photo-1594988930347-30d449190da0?q=80&w=1712&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-09-16"
+pubDate: 2026-09-16
 faq:
-  - q: "A partir de que altura é obrigatório o uso de cinto de segurança?"
-    a: "A NR-35 considera trabalho em altura toda atividade executada acima de 2 metros do nível inferior, com risco de queda. A partir desse limite, o uso de cinto tipo paraquedista e sistema de ancoragem é obrigatório."
-  - q: "Quem pode trabalhar em altura?"
-    a: "Somente trabalhadores capacitados, com treinamento específico em NR-35, aptos em exame médico (ASO) e autorizados formalmente pela empresa responsável pela obra."
-  - q: "Com que frequência os EPIs de altura devem ser inspecionados?"
-    a: "A inspeção deve ser feita antes de cada uso, verificando costuras, fivelas, mosquetões e o talabarte do cinto. Qualquer sinal de desgaste, corte ou deformação exige a substituição imediata do item."
+  - q: A partir de que altura é obrigatório o uso de cinto de segurança?
+    a: A NR-35 considera trabalho em altura toda atividade executada acima de 2
+      metros do nível inferior, com risco de queda. A partir desse limite, o uso
+      de cinto tipo paraquedista e sistema de ancoragem é obrigatório.
+  - q: Quem pode trabalhar em altura?
+    a: Somente trabalhadores capacitados, com treinamento específico em NR-35, aptos
+      em exame médico (ASO) e autorizados formalmente pela empresa responsável
+      pela obra.
+  - q: Com que frequência os EPIs de altura devem ser inspecionados?
+    a: A inspeção deve ser feita antes de cada uso, verificando costuras, fivelas,
+      mosquetões e o talabarte do cinto. Qualquer sinal de desgaste, corte ou
+      deformação exige a substituição imediata do item.
 ---
 <p>O trabalho em altura é uma das atividades de maior risco na construção civil, respondendo por boa parte dos acidentes graves registrados em canteiros de obra no Brasil. O uso correto de EPIs não é opcional — é exigência legal, prevista na Norma Regulamentadora 35, e a diferença entre um serviço seguro e um acidente com consequências sérias.</p><h3>EPIs obrigatórios</h3><ul><li><strong>Cinto de segurança tipo paraquedista:</strong> Para trabalhos acima de 2 metros, deve estar sempre conectado a um ponto de ancoragem resistente, nunca a estruturas provisórias ou frágeis;</li><li><strong>Capacete com jugular:</strong> Evita queda do capacete em movimentação e impacto na cabeça em caso de objetos em queda ou colisão contra estruturas;</li><li><strong>Calçado de segurança com biqueira:</strong> Protege contra quedas de objetos e perfurações, além de oferecer solado antiderrapante essencial em superfícies de andaime;</li><li><strong>Luvas de proteção:</strong> Para manuseio de materiais e ferramentas, evitando cortes e melhorando a aderência em superfícies escorregadias;</li><li><strong>Talabarte de posicionamento e trava-quedas:</strong> Complementam o cinto de segurança, garantindo que uma eventual queda seja interrompida rapidamente, sem impacto violento contra estruturas inferiores.</li></ul><h3>NR-35: o que a norma exige</h3><p>A Norma Regulamentadora 35 estabelece os requisitos mínimos para trabalho em altura, incluindo planejamento, organização e execução do serviço. Todo trabalhador deve receber treinamento específico (com carga horária mínima e reciclagem periódica), passar por avaliação médica compatível com a atividade, e os equipamentos devem ser inspecionados antes de cada uso — tanto pelo próprio trabalhador quanto pelo responsável técnico da obra.</p><h3>Cuidados na montagem de andaimes e uso de escadas</h3><p>Além dos EPIs individuais, o trabalho em altura seguro depende da estrutura utilizada: andaimes bem nivelados, com guarda-corpo e rodapé nas plataformas, e escadas apoiadas em superfície firme, com ângulo adequado e fixação no topo sempre que possível. Um EPI de qualidade não compensa uma estrutura de apoio inadequada.</p><h3>Alugue equipamentos e andaimes com segurança</h3><p>A MDO Floripa fornece andaimes tubulares, fachadeiros e móveis revisados para locação em Florianópolis, prontos para o trabalho em altura dentro das normas de segurança. Entre em contato com nossa equipe pelo WhatsApp para orientação sobre o equipamento ideal para o seu serviço.</p>
