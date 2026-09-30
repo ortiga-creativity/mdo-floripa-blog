@@ -2,7 +2,7 @@ backend:
   name: github
   repo: ortiga-creativity/mdo-floripa-blog
   branch: main
-  base_url: https://locacaoequipamentos.blog.br
+  base_url: https://mdo-floripa-blog.rodrigoortiga.workers.dev
   auth_endpoint: oauth/auth
 
 media_folder: "public/images/uploads"
