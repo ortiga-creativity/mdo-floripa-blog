@@ -2,6 +2,9 @@
   "name": "mdo-floripa-blog",
   "main": "worker/index.js",
   "compatibility_date": "2026-09-01",
+  "vars": {
+    "GITHUB_CLIENT_ID": "Ov23li4dq7n5OaXR9au0"
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
