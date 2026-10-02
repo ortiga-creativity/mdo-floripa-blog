@@ -49,4 +49,4 @@ faq:
 <p>Independente do tamanho escolhido, sempre lave o tambor com água e um pouco de brita antes da primeira mistura do dia — isso remove resíduos secos da diária anterior e evita que a argamassa nova perca qualidade por contaminação de material endurecido.</p>
 
 <h3>Alugue a betoneira ideal com a MDO Floripa</h3>
-<p>A MDO Floripa tem betoneiras de 200 e 400 litros disponíveis para locação em Florianópolis, revisadas e entregues prontas para uso. Fale com nossa equipe pelo WhatsApp e escolha o tamanho certo para o volume da sua obra.</p>
+<p>A MDO Floripa tem betoneiras de 200 e 400 litros profissionais e especializadas disponíveis para locação em Florianópolis, revisadas e entregues prontas para uso. Fale com nossa equipe pelo WhatsApp e escolha o tamanho certo para o volume da sua obra.</p>
