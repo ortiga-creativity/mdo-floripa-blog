@@ -1,0 +1,155 @@
+---
+import siteSettings from '../content/settings/site.json';
+import '../styles/calculator.css';
+
+interface Props {
+  heading?: 'h1' | 'h2';
+}
+const { heading: Heading = 'h2' } = Astro.props;
+---
+
+<div class="calc-layout" id="calculadora-de-tinta">
+  <div class="calc-card">
+    <Heading>Calculadora de Tinta</Heading>
+    <p class="calc-intro">Informe as medidas do ambiente e veja quantos litros de tinta você precisa.</p>
+
+    <form id="tinta-form" novalidate>
+      <div class="field-grid">
+        <label class="field"><span>Comprimento (m)</span><input type="number" id="tinta-comprimento" inputmode="decimal" min="1" max="100" step="0.1" value="4" /></label>
+        <label class="field"><span>Largura (m)</span><input type="number" id="tinta-largura" inputmode="decimal" min="1" max="100" step="0.1" value="3" /></label>
+        <label class="field"><span>Pé-direito (m)</span><input type="number" id="tinta-pe" inputmode="decimal" min="1.8" max="15" step="0.1" value="2.8" /></label>
+      </div>
+      <div class="field-grid">
+        <label class="field"><span>Portas</span><input type="number" id="tinta-portas" inputmode="numeric" min="0" max="50" step="1" value="1" /></label>
+        <label class="field"><span>Janelas</span><input type="number" id="tinta-janelas" inputmode="numeric" min="0" max="50" step="1" value="1" /></label>
+        <label class="field"><span>Demãos</span>
+          <select id="tinta-demaos">
+            <option value="1">1 demão</option>
+            <option value="2" selected>2 demãos</option>
+            <option value="3">3 demãos</option>
+            <option value="4">4 demãos</option>
+          </select>
+        </label>
+      </div>
+      <label class="field">
+        <span>Rendimento da tinta</span>
+        <select id="tinta-rendimento">
+          <option value="8">8 m²/L: parede porosa ou texturizada</option>
+          <option value="10" selected>10 m²/L: padrão</option>
+          <option value="12">12 m²/L: tinta premium, superfície lisa</option>
+        </select>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="tinta-teto" />
+        <span>Pintar o teto também</span>
+      </label>
+    </form>
+
+    <div id="tinta-alertas" class="alertas" role="status"></div>
+
+    <table class="result-table">
+      <thead>
+        <tr><th>Resultado</th><th class="qtd">Valor</th></tr>
+      </thead>
+      <tbody id="tinta-resultado"></tbody>
+    </table>
+    <p id="tinta-resumo" class="resumo"></p>
+
+    <div class="calc-actions">
+      <a id="tinta-whatsapp" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer" data-gtag-event="whatsapp_click">Falar com um especialista</a>
+      <a href="/blog/quantos-litros-de-tinta-preciso-calcular-por-m2" class="btn-outline">Como o cálculo funciona</a>
+    </div>
+    <p class="disclaimer">Estimativa baseada em rendimento médio. Confira o rendimento real na embalagem da tinta escolhida. Portas de 0,80 x 2,10 m e janelas de 1,20 x 1,20 m são descontadas da área. Inclui 10% de margem de segurança.</p>
+  </div>
+</div>
+
+<script define:vars={{ whatsappNumber: siteSettings.whatsappNumber }}>
+  window.__WA_NUMBER__ = whatsappNumber;
+</script>
+
+<script>
+  import { calcularTinta } from '../lib/tinta';
+
+  const el = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const num = (id: string) => parseFloat(el(id).value.replace(',', '.'));
+  const tbody = document.getElementById('tinta-resultado')!;
+  const alertas = document.getElementById('tinta-alertas')!;
+  const resumo = document.getElementById('tinta-resumo')!;
+  const wa = document.getElementById('tinta-whatsapp') as HTMLAnchorElement;
+  const form = document.getElementById('tinta-form')!;
+
+  const f = (n: number, d = 2) => n.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: d });
+  const L = (n: number) => `${f(n)} L`;
+
+  function row(nome: string, valor: string, opts: { nota?: string; destaque?: boolean } = {}) {
+    const tr = document.createElement('tr');
+    if (opts.destaque) tr.className = 'destaque';
+    const td1 = document.createElement('td');
+    td1.textContent = nome;
+    if (opts.nota) {
+      const s = document.createElement('small');
+      s.textContent = opts.nota;
+      td1.appendChild(s);
+    }
+    const td2 = document.createElement('td');
+    td2.className = 'qtd';
+    td2.textContent = valor;
+    tr.append(td1, td2);
+    tbody.appendChild(tr);
+  }
+
+  function render() {
+    tbody.innerHTML = '';
+    alertas.innerHTML = '';
+
+    const c = num('tinta-comprimento');
+    const l = num('tinta-largura');
+    const h = num('tinta-pe');
+    const portas = parseInt(el('tinta-portas').value || '0', 10);
+    const janelas = parseInt(el('tinta-janelas').value || '0', 10);
+    const valido = c >= 1 && c <= 100 && l >= 1 && l <= 100 && h >= 1.8 && h <= 15 && portas >= 0 && janelas >= 0;
+
+    if (!valido) {
+      resumo.textContent = 'Informe medidas válidas (comprimento e largura a partir de 1 m, pé-direito a partir de 1,8 m).';
+      wa.removeAttribute('href');
+      return;
+    }
+
+    const demaos = parseInt(el('tinta-demaos').value, 10);
+    const r = calcularTinta({
+      comprimento: c,
+      largura: l,
+      peDireito: h,
+      portas,
+      janelas,
+      teto: el('tinta-teto').checked,
+      demaos,
+      rendimento: parseFloat(el('tinta-rendimento').value),
+    });
+
+    row('Área das paredes', `${f(r.areaParedes)} m²`);
+    if (r.areaTeto > 0) row('Área do teto', `${f(r.areaTeto)} m²`);
+    if (r.descontos > 0) row('Portas e janelas', `− ${f(r.descontos)} m²`);
+    row('Área a pintar', `${f(r.areaPintura)} m²`, { nota: `${demaos} demão${demaos > 1 ? 's' : ''}` });
+    row('Tinta necessária', L(r.litros));
+    row('Compre (com 10% de margem)', L(r.litrosComMargem), { destaque: true });
+    const latasTxt = r.latas.map((x) => `${x.qtd}x ${f(x.litros)} L`).join(' + ');
+    row('Sugestão de embalagens', latasTxt || '-', { nota: `Total de ${L(r.totalLatas)} (tamanhos comerciais mais comuns)` });
+
+    for (const msg of r.alertas) {
+      const p = document.createElement('p');
+      p.textContent = msg;
+      alertas.appendChild(p);
+    }
+
+    resumo.textContent = `Ambiente de ${f(c)} x ${f(l)} m, pé-direito de ${f(h)} m.`;
+
+    const texto = `Olá! Calculei no blog a tinta para um ambiente de ${f(c)} x ${f(l)} m (pé-direito ${f(h)} m), ${demaos} demão(s): ${f(r.areaPintura)} m² a pintar, cerca de ${L(r.litrosComMargem)} de tinta. Preciso da ajuda de um especialista.`;
+    wa.href = `https://wa.me/${(window as any).__WA_NUMBER__}?text=${encodeURIComponent(texto)}`;
+  }
+
+  form.addEventListener('input', render);
+  form.addEventListener('change', render);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  render();
+</script>

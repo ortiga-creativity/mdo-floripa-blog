@@ -127,6 +127,8 @@ No entanto, o airless exige proteção adequada de portas, janelas, pisos e áre
 
 Para obras maiores, vale considerar a locação de máquina airless, especialmente quando o objetivo é ganhar produtividade e manter um padrão de aplicação mais uniforme.
 
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de tinta: faça a conta em segundos</h3><p>Informe as medidas do ambiente, o número de portas e janelas e as demãos. A calculadora descobre a área, desconta os vãos e sugere quantas latas comprar.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-tinta" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular minha tinta</a></p></div>
+
 ### Conclusão
 
 Saber quantos litros de tinta você precisa evita desperdício, atrasos e gastos desnecessários. Meça a área corretamente, confira o rendimento da embalagem, considere o número de demãos e prepare a superfície antes da aplicação.

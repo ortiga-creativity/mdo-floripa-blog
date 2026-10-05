@@ -1,0 +1,75 @@
+/* Estilos compartilhados pelas calculadoras (andaime, tinta, ...). Tudo sob .calc-layout para não vazar. */
+.calc-layout { max-width: 760px; margin: 0 auto; }
+.calc-layout .calc-card {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-accent);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  box-shadow: var(--shadow-md);
+}
+.calc-layout .calc-card h1,
+.calc-layout .calc-card h2 { font-size: 26px; color: var(--color-primary-dark); margin-bottom: 6px; }
+.calc-layout .calc-intro { margin: 0 0 20px; color: var(--color-text-muted); font-size: 15px; }
+
+.calc-layout .field-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 14px; margin-bottom: 14px; }
+.calc-layout .field span { display: block; font-size: 14px; color: var(--color-text-muted); margin-bottom: 6px; }
+.calc-layout .field input,
+.calc-layout .field select {
+  width: 100%;
+  max-width: 280px;
+  padding: 12px 14px;
+  font: inherit;
+  font-size: 18px;
+  border: 1px solid #cfd6de;
+  border-radius: var(--radius-md);
+  background: white;
+}
+.calc-layout .field-grid .field input,
+.calc-layout .field-grid .field select { max-width: none; }
+.calc-layout .field input:focus,
+.calc-layout .field select:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+.calc-layout .check { display: flex; align-items: center; gap: 10px; font-size: 15px; cursor: pointer; margin: 16px 0 20px; }
+.calc-layout .check input { width: 18px; height: 18px; accent-color: var(--color-accent); }
+
+.calc-layout .alertas:empty { display: none; }
+.calc-layout .alertas { margin-bottom: 20px; }
+.calc-layout .alertas p {
+  margin: 0 0 8px;
+  padding: 12px 14px;
+  background: #FFF6E5;
+  border-left: 4px solid var(--color-accent);
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.calc-layout .result-table { width: 100%; border-collapse: collapse; }
+.calc-layout .result-table th { text-align: left; font-size: 14px; padding: 12px; background: var(--color-bg); border-bottom: 1px solid var(--color-border); }
+.calc-layout .result-table td { padding: 14px 12px; border-bottom: 1px solid var(--color-border); font-size: 16px; }
+.calc-layout .result-table td small { display: block; font-size: 12.5px; color: var(--color-text-muted); margin-top: 2px; }
+.calc-layout .result-table .qtd { text-align: right; width: 130px; white-space: nowrap; font-weight: 800; font-size: 20px; color: var(--color-primary-dark); }
+.calc-layout .result-table th.qtd { font-size: 14px; font-weight: 700; color: var(--color-text); }
+.calc-layout .result-table tr.destaque td { background: #FFF6E5; }
+
+.calc-layout .resumo { font-size: 14px; color: var(--color-text-muted); margin: 14px 0 24px; }
+.calc-layout .calc-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.calc-layout .btn-primary,
+.calc-layout .btn-outline {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 15px;
+  transition: background 0.3s, transform 0.3s;
+}
+.calc-layout .btn-primary { background: var(--color-accent); color: var(--color-primary-dark); }
+.calc-layout .btn-primary:hover { background: var(--color-accent-light); transform: translateY(-2px); }
+.calc-layout .btn-outline { border: 1px solid var(--color-primary-dark); color: var(--color-primary-dark); }
+.calc-layout .btn-outline:hover { background: var(--color-bg); }
+.calc-layout .disclaimer { margin: 20px 0 0; font-size: 12.5px; color: var(--color-text-light); line-height: 1.5; }
+
+@media (max-width: 600px) {
+  .calc-layout .calc-card { padding: 20px; }
+  .calc-layout .result-table .qtd { width: 90px; font-size: 18px; }
+}

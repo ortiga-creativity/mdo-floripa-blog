@@ -5,6 +5,8 @@ import FeaturedSection from '../components/home/FeaturedSection.astro';
 import CategoriesSection from '../components/home/CategoriesSection.astro';
 import RecentSection from '../components/home/RecentSection.astro';
 import AndaimeCalculator from '../components/AndaimeCalculator.astro';
+import TintaCalculator from '../components/TintaCalculator.astro';
+import CalcBanner from '../components/CalcBanner.astro';
 import { getCollection } from 'astro:content';
 import siteSettings from '../content/settings/site.json';
 
@@ -33,34 +35,23 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
       <h1>{siteSettings.heroTitle}</h1>
       <p>{siteSettings.heroSubtitle}</p>
       <div class="hero-actions">
-        <a href="#calculadora" class="btn-primary" id="open-calc">Calculadora de Andaime</a>
+        <a href="#calculadoras" class="btn-primary">Calculadoras</a>
         <a href="/blog" class="btn-secondary">Ver todos os artigos</a>
         <a href="/fale-conosco" class="btn-secondary">Fale Conosco</a>
       </div>
     </div>
   </section>
 
-  <section class="calc-home" id="calculadora">
+  <section class="calc-home" id="calculadoras">
     <div class="container">
-      <details class="calc-banner" id="calc-banner">
-        <summary>
-          <span class="banner-icon" aria-hidden="true">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8" y2="11.01"/><line x1="12" y1="11" x2="12" y2="11.01"/><line x1="16" y1="11" x2="16" y2="11.01"/><line x1="8" y1="15" x2="8" y2="15.01"/><line x1="12" y1="15" x2="12" y2="15.01"/><line x1="16" y1="15" x2="16" y2="15.01"/></svg>
-          </span>
-          <span class="banner-text">
-            <strong>Calculadora de Andaime</strong>
-            <span>Descubra quantas peças você precisa para montar sua torre</span>
-          </span>
-          <span class="banner-action">
-            <span class="when-closed">Calcular agora</span>
-            <span class="when-open">Fechar</span>
-            <svg class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </span>
-        </summary>
-        <div class="banner-body">
-          <AndaimeCalculator heading="h2" />
-        </div>
-      </details>
+      <CalcBanner id="calculadora" title="Calculadora de Andaime" subtitle="Descubra quantas peças você precisa para montar sua torre">
+        <svg slot="icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8" y2="11.01"/><line x1="12" y1="11" x2="12" y2="11.01"/><line x1="16" y1="11" x2="16" y2="11.01"/><line x1="8" y1="15" x2="8" y2="15.01"/><line x1="12" y1="15" x2="12" y2="15.01"/><line x1="16" y1="15" x2="16" y2="15.01"/></svg>
+        <AndaimeCalculator heading="h2" />
+      </CalcBanner>
+      <CalcBanner id="calculadora-tinta" title="Calculadora de Tinta" subtitle="Descubra quantos litros de tinta você precisa para pintar">
+        <svg slot="icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2z"/><path d="M7 11V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/><path d="M12 17v4"/></svg>
+        <TintaCalculator heading="h2" />
+      </CalcBanner>
     </div>
   </section>
 
@@ -90,76 +81,16 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
 </Layout>
 
 <script>
-  document.getElementById('open-calc')?.addEventListener('click', () => {
-    (document.getElementById('calc-banner') as HTMLDetailsElement | null)?.setAttribute('open', '');
-  });
-  if (location.hash === '#calculadora') {
-    document.getElementById('calc-banner')?.setAttribute('open', '');
+  function openFromHash() {
+    const target = location.hash ? document.querySelector(location.hash) : null;
+    if (target instanceof HTMLDetailsElement) target.open = true;
   }
+  openFromHash();
+  window.addEventListener('hashchange', openFromHash);
 </script>
 
 <style>
   .calc-home { padding: 24px 0 0; }
-  .calc-banner {
-    max-width: 1000px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-md);
-    border-left: 6px solid var(--color-accent);
-    overflow: hidden;
-  }
-  .calc-banner summary {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    padding: 18px 24px;
-    cursor: pointer;
-    color: white;
-    list-style: none;
-  }
-  .calc-banner summary::-webkit-details-marker { display: none; }
-  .banner-icon {
-    flex-shrink: 0;
-    width: 52px;
-    height: 52px;
-    border-radius: 12px;
-    background: var(--color-accent);
-    color: var(--color-primary-dark);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .banner-text { display: flex; flex-direction: column; flex: 1; min-width: 0; }
-  .banner-text strong { font-size: 20px; font-weight: 800; }
-  .banner-text span { font-size: 14px; color: rgba(255,255,255,0.75); }
-  .banner-action {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--color-accent);
-    color: var(--color-primary-dark);
-    font-weight: 700;
-    font-size: 14px;
-    padding: 10px 16px;
-    border-radius: var(--radius-md);
-    white-space: nowrap;
-  }
-  .banner-action .when-open { display: none; }
-  .calc-banner[open] .when-open { display: inline; }
-  .calc-banner[open] .when-closed { display: none; }
-  .chevron { transition: transform 0.3s; }
-  .calc-banner[open] .chevron { transform: rotate(180deg); }
-  .calc-banner summary:hover .banner-action { background: var(--color-accent-light); }
-  .banner-body { padding: 0 24px 24px; }
-  @media (max-width: 600px) {
-    .calc-banner summary { padding: 14px 16px; gap: 12px; }
-    .banner-icon { width: 42px; height: 42px; }
-    .banner-text strong { font-size: 17px; }
-    .banner-text span { display: none; }
-    .banner-action .when-closed, .banner-action .when-open { font-size: 13px; }
-    .banner-body { padding: 0 12px 16px; }
-  }
 </style>
 
 <style define:vars={{ heroImage: `url(${siteSettings.heroImageUrl})` }}>
