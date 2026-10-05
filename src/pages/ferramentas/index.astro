@@ -1,0 +1,70 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HelmetIcon from '../../components/HelmetIcon.astro';
+
+const tools = [
+  {
+    href: '/ferramentas/calculadora-de-andaime',
+    title: 'Calculadora de Andaime',
+    text: 'Descubra quantos painéis, pisos, travas, escadas e rodízios você precisa para montar a sua torre.',
+  },
+];
+---
+
+<Layout
+  title="Ferramentas e Calculadoras para Obra - MDO Floripa"
+  description="Calculadoras gratuitas da MDO Floripa para planejar sua obra: quantidade de peças de andaime e mais."
+>
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb"><a href="/">Início</a> / Ferramentas</span>
+      <div class="hero-badge-row">
+        <HelmetIcon size={24} color="#F5A623" />
+        <span>MDO Floripa</span>
+      </div>
+      <h1>Ferramentas para sua obra</h1>
+      <p>Calculadoras gratuitas para planejar a locação de equipamentos com mais segurança.</p>
+    </div>
+  </section>
+
+  <section class="tools-section">
+    <div class="container">
+      <div class="tools-grid">
+        {tools.map((t) => (
+          <a href={t.href} class="tool-card">
+            <h2>{t.title}</h2>
+            <p>{t.text}</p>
+            <span class="tool-link">Abrir calculadora →</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+  .page-hero { background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%); color: white; padding: 140px 24px 64px; }
+  .breadcrumb { font-size: 14px; color: rgba(255,255,255,0.5); margin-bottom: 16px; display: block; }
+  .breadcrumb a { color: rgba(255,255,255,0.7); transition: color 0.3s; }
+  .breadcrumb a:hover { color: #F5A623; }
+  .hero-badge-row { display: inline-flex; align-items: center; gap: 10px; color: #F5A623; font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+  .page-hero h1 { font-size: 44px; font-weight: 900; margin-bottom: 12px; color: white; }
+  .page-hero p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 600px; }
+
+  .tools-section { padding: 48px 0 0; }
+  .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }
+  .tool-card {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  .tool-card:hover { box-shadow: var(--shadow-md); transform: translateY(-4px); }
+  .tool-card h2 { font-size: 22px; color: var(--color-primary-dark); margin-bottom: 8px; }
+  .tool-card p { color: var(--color-text-muted); margin: 0 0 16px; font-size: 15px; }
+  .tool-link { color: var(--color-accent-dark); font-weight: 700; font-size: 15px; }
+
+  @media (max-width: 600px) { .page-hero h1 { font-size: 26px; } }
+</style>

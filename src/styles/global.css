@@ -35,6 +35,8 @@
   --transition: 0.3s ease;
 }
 
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+
 * {
   box-sizing: border-box;
 }

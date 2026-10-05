@@ -1,0 +1,175 @@
+---
+import siteSettings from '../content/settings/site.json';
+
+interface Props {
+  heading?: 'h1' | 'h2';
+}
+const { heading: Heading = 'h2' } = Astro.props;
+---
+
+<div class="calc-layout" id="calculadora-de-andaime">
+  <div class="calc-card">
+    <Heading>Calculadora de Andaime</Heading>
+    <p class="calc-intro">Informe a altura da torre 1,5 x 1,5 m e veja quantas peças você precisa.</p>
+
+    <form id="calc-form" novalidate>
+      <label class="field">
+        <span>Altura da torre (m)</span>
+        <input type="number" id="altura" inputmode="decimal" min="1.5" max="30" step="0.5" value="6" />
+      </label>
+      <label class="check">
+        <input type="checkbox" id="rodas" checked />
+        <span>Torre móvel (com rodízios no lugar das sapatas)</span>
+      </label>
+    </form>
+
+    <div id="alertas" class="alertas" role="status"></div>
+
+    <table class="result-table">
+      <thead>
+        <tr><th>Peça</th><th class="qtd">Quantidade</th></tr>
+      </thead>
+      <tbody id="resultado"></tbody>
+    </table>
+    <p id="resumo" class="resumo"></p>
+
+    <div class="calc-actions">
+      <a id="btn-whatsapp" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer" data-gtag-event="whatsapp_click">Pedir orçamento no WhatsApp</a>
+      <a href={siteSettings.catalogUrl} class="btn-outline" target="_blank" rel="noopener noreferrer" data-gtag-event="catalog_click">Ver catálogo</a>
+    </div>
+    <p class="disclaimer">Cálculo estimado. A montagem deve seguir o manual do fabricante e a NR-18, com pessoal capacitado. Nossa equipe confirma a lista antes da entrega.</p>
+  </div>
+</div>
+
+<script define:vars={{ whatsappNumber: siteSettings.whatsappNumber }}>
+  window.__WA_NUMBER__ = whatsappNumber;
+</script>
+
+<script>
+  import { calcularTorre } from '../lib/andaime';
+
+  const $ = (id: string) => document.getElementById(id) as HTMLElement;
+  const altura = $('altura') as HTMLInputElement;
+  const rodas = $('rodas') as HTMLInputElement;
+  const tbody = $('resultado');
+  const alertas = $('alertas');
+  const resumo = $('resumo');
+  const wa = $('btn-whatsapp') as HTMLAnchorElement;
+
+  const fmt = (n: number) => n.toString().replace('.', ',');
+
+  function render() {
+    const a = parseFloat(altura.value.replace(',', '.'));
+    tbody.innerHTML = '';
+    alertas.innerHTML = '';
+
+    if (!(a >= 1.5 && a <= 30)) {
+      resumo.textContent = 'Informe uma altura entre 1,5 e 30 m.';
+      wa.removeAttribute('href');
+      return;
+    }
+
+    const r = calcularTorre({ altura: a, rodas: rodas.checked });
+
+    for (const item of r.itens) {
+      const tr = document.createElement('tr');
+      const nome = document.createElement('td');
+      nome.textContent = item.nome;
+      if (item.nota) {
+        const small = document.createElement('small');
+        small.textContent = item.nota;
+        nome.appendChild(small);
+      }
+      const qtd = document.createElement('td');
+      qtd.className = 'qtd';
+      qtd.textContent = item.qtd;
+      tr.append(nome, qtd);
+      tbody.appendChild(tr);
+    }
+
+    for (const msg of r.alertas) {
+      const p = document.createElement('p');
+      p.textContent = msg;
+      alertas.appendChild(p);
+    }
+
+    resumo.textContent = `Torre de ${fmt(r.alturaReal)} m (${r.modulos} módulo${r.modulos > 1 ? 's' : ''} de 1,5 m).`;
+
+    const linhas = r.itens.map((i) => `- ${i.qtd}x ${i.nome}`).join('\n');
+    const texto = `Olá! Calculei no blog uma torre de andaime 1,5 x 1,5 m com ${fmt(r.alturaReal)} m de altura e preciso de orçamento:\n${linhas}`;
+    wa.href = `https://wa.me/${(window as any).__WA_NUMBER__}?text=${encodeURIComponent(texto)}`;
+  }
+
+  [altura, rodas].forEach((el) => el.addEventListener('input', render));
+  $('calc-form').addEventListener('submit', (e) => e.preventDefault());
+  render();
+</script>
+
+<style>
+  .calc-layout { max-width: 760px; margin: 0 auto; }
+  .calc-card {
+    background: white;
+    border: 1px solid var(--color-border);
+    border-top: 4px solid var(--color-accent);
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    box-shadow: var(--shadow-md);
+  }
+  .calc-card :global(h1), .calc-card :global(h2) { font-size: 26px; color: var(--color-primary-dark); margin-bottom: 6px; }
+  .calc-intro { margin: 0 0 20px; color: var(--color-text-muted); font-size: 15px; }
+
+  .field span { display: block; font-size: 14px; color: var(--color-text-muted); margin-bottom: 6px; }
+  .field input {
+    width: 100%;
+    max-width: 280px;
+    padding: 12px 14px;
+    font: inherit;
+    font-size: 18px;
+    border: 1px solid #cfd6de;
+    border-radius: var(--radius-md);
+    background: white;
+  }
+  .field input:focus { outline: 2px solid var(--color-accent); outline-offset: 1px; }
+  .check { display: flex; align-items: center; gap: 10px; font-size: 15px; cursor: pointer; margin: 16px 0 20px; }
+  .check input { width: 18px; height: 18px; accent-color: var(--color-accent); }
+
+  .alertas:empty { display: none; }
+  .alertas { margin-bottom: 20px; }
+  .alertas p {
+    margin: 0 0 8px;
+    padding: 12px 14px;
+    background: #FFF6E5;
+    border-left: 4px solid var(--color-accent);
+    border-radius: var(--radius-sm);
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .result-table { width: 100%; border-collapse: collapse; }
+  .result-table th { text-align: left; font-size: 14px; padding: 12px; background: var(--color-bg); border-bottom: 1px solid var(--color-border); }
+  .result-table :global(td) { padding: 14px 12px; border-bottom: 1px solid var(--color-border); font-size: 16px; }
+  .result-table :global(td small) { display: block; font-size: 12.5px; color: var(--color-text-muted); margin-top: 2px; }
+  .result-table :global(.qtd) { text-align: right; width: 110px; white-space: nowrap; font-weight: 800; font-size: 20px; color: var(--color-primary-dark); }
+  .result-table th.qtd { font-size: 14px; font-weight: 700; color: var(--color-text); }
+
+  .resumo { font-size: 14px; color: var(--color-text-muted); margin: 14px 0 24px; }
+  .calc-actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn-primary, .btn-outline {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 15px;
+    transition: background 0.3s, transform 0.3s;
+  }
+  .btn-primary { background: var(--color-accent); color: var(--color-primary-dark); }
+  .btn-primary:hover { background: var(--color-accent-light); transform: translateY(-2px); }
+  .btn-outline { border: 1px solid var(--color-primary-dark); color: var(--color-primary-dark); }
+  .btn-outline:hover { background: var(--color-bg); }
+  .disclaimer { margin: 20px 0 0; font-size: 12.5px; color: var(--color-text-light); line-height: 1.5; }
+
+  @media (max-width: 600px) {
+    .calc-card { padding: 20px; }
+    .result-table :global(.qtd) { width: 80px; font-size: 18px; }
+  }
+</style>
