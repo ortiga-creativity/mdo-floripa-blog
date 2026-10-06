@@ -1,21 +1,30 @@
 ---
 title: "Massa corrida ou massa acrílica: qual usar em cada parede"
-excerpt: Entenda a diferença entre massa corrida PVA e massa acrílica, onde cada uma funciona melhor e como aplicar e lixar para um acabamento sem marcas.
+excerpt: Entenda a diferença entre massa corrida PVA e massa acrílica, onde cada
+  uma funciona melhor e como aplicar e lixar para um acabamento sem marcas.
 category: Pintura
-image: https://images.pexels.com/photos/6473978/pexels-photo-6473978.jpeg
+image: https://images.pexels.com/photos/5915151/pexels-photo-5915151.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-09
 faq:
-  - q: "Qual a principal diferença entre massa corrida e massa acrílica?"
-    a: "A massa corrida (PVA) é indicada para paredes internas e secas, e é mais fácil de aplicar e lixar. A massa acrílica resiste melhor à umidade e pode ser usada em áreas externas e molhadas, mas costuma custar mais e dar mais trabalho no lixamento."
-  - q: "Posso usar massa corrida em área externa ou banheiro?"
-    a: "Não é recomendado. A massa corrida PVA absorve umidade e tende a descascar ou esfarelar em áreas externas, banheiros e cozinhas. Nesses locais, use massa acrílica."
-  - q: "Quantas demãos de massa devo aplicar?"
-    a: "Em geral, são necessárias duas ou três demãos finas. Camadas grossas racham e demoram a secar. Respeite o intervalo indicado pelo fabricante entre cada uma e lixe depois de seca."
-  - q: "Qual lixa usar para lixar massa corrida?"
-    a: "Para o acabamento final, costuma-se usar lixas de granulação fina, como a 180 ou 220. Lixas mais grossas deixam riscos que aparecem depois da pintura."
+  - q: Qual a principal diferença entre massa corrida e massa acrílica?
+    a: A massa corrida (PVA) é indicada para paredes internas e secas, e é mais
+      fácil de aplicar e lixar. A massa acrílica resiste melhor à umidade e pode
+      ser usada em áreas externas e molhadas, mas costuma custar mais e dar mais
+      trabalho no lixamento.
+  - q: Posso usar massa corrida em área externa ou banheiro?
+    a: Não é recomendado. A massa corrida PVA absorve umidade e tende a descascar ou
+      esfarelar em áreas externas, banheiros e cozinhas. Nesses locais, use
+      massa acrílica.
+  - q: Quantas demãos de massa devo aplicar?
+    a: Em geral, são necessárias duas ou três demãos finas. Camadas grossas racham e
+      demoram a secar. Respeite o intervalo indicado pelo fabricante entre cada
+      uma e lixe depois de seca.
+  - q: Qual lixa usar para lixar massa corrida?
+    a: Para o acabamento final, costuma-se usar lixas de granulação fina, como a 180
+      ou 220. Lixas mais grossas deixam riscos que aparecem depois da pintura.
 ---
 Na hora de preparar a parede, quase todo mundo fica na dúvida na prateleira da loja: massa corrida ou massa acrílica? As duas servem para nivelar e corrigir imperfeições antes da tinta, mas não são intercambiáveis. Usar a errada pode fazer a pintura descascar em poucos meses.
 
