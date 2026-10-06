@@ -2,11 +2,12 @@
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
-import { getCollection, render } from 'astro:content';
+import { render } from 'astro:content';
+import { getPublishedPosts } from '../../lib/posts';
 import siteSettings from '../../content/settings/site.json';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => data.published);
+  const posts = await getPublishedPosts();
   return posts.map((p) => ({
     params: { slug: p.id },
     props: { post: p },
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-const allPosts = await getCollection('blog', ({ data }) => data.published);
+const allPosts = await getPublishedPosts();
 const related = allPosts
   .filter((p) => p.data.category === post.data.category && p.id !== post.id)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())

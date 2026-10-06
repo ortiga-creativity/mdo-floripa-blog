@@ -7,10 +7,10 @@ import RecentSection from '../components/home/RecentSection.astro';
 import AndaimeCalculator from '../components/AndaimeCalculator.astro';
 import TintaCalculator from '../components/TintaCalculator.astro';
 import CalcBanner from '../components/CalcBanner.astro';
-import { getCollection } from 'astro:content';
+import { getPublishedPosts } from '../lib/posts';
 import siteSettings from '../content/settings/site.json';
 
-const allPosts = (await getCollection('blog', ({ data }) => data.published))
+const allPosts = (await getPublishedPosts())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const featuredPosts = allPosts.filter((p) => p.data.featured).slice(0, 3);

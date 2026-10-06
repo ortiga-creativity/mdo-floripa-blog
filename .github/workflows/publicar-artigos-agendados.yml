@@ -1,0 +1,36 @@
+name: Publicar artigos agendados
+
+# O site é estático: um artigo com pubDate futura só aparece depois de um novo build.
+# Todo dia, logo após a meia-noite de Brasília, se existir artigo com a data de hoje,
+# este workflow faz um commit vazio para disparar o deploy.
+on:
+  schedule:
+    - cron: '10 3 * * *' # 00:10 em Brasília (UTC-3)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Há artigo agendado para hoje?
+        id: check
+        run: |
+          TODAY=$(TZ=America/Sao_Paulo date +%F)
+          if grep -lE "^pubDate: \"?${TODAY}\"?\s*$" src/content/blog/*.md > /dev/null; then
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Disparar novo deploy
+        if: steps.check.outputs.publish == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit --allow-empty -m "Publicar artigos agendados de hoje"
+          git push

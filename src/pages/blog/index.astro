@@ -2,9 +2,9 @@
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
-import { getCollection } from 'astro:content';
+import { getPublishedPosts } from '../../lib/posts';
 
-const allPosts = await getCollection('blog', ({ data }) => data.published);
+const allPosts = await getPublishedPosts();
 const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 

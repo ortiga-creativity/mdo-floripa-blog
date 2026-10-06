@@ -2,7 +2,7 @@
 import Layout from '../../../layouts/Layout.astro';
 import HelmetIcon from '../../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel, CATEGORIES } from '../../../lib/supabase';
-import { getCollection } from 'astro:content';
+import { getPublishedPosts } from '../../../lib/posts';
 
 export async function getStaticPaths() {
   return CATEGORIES.map(c => ({
@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { category } = Astro.params;
 const categoryLabel = getCategoryLabel(category || '');
 
-const allPosts = await getCollection('blog', ({ data }) => data.published && data.category === category);
+const allPosts = await getPublishedPosts(({ data }) => data.category === category);
 const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
