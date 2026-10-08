@@ -10,6 +10,7 @@ import GeradorCalculator from '../components/GeradorCalculator.astro';
 import CalcBanner from '../components/CalcBanner.astro';
 import { getPublishedPosts } from '../lib/posts';
 import siteSettings from '../content/settings/site.json';
+import { localOptimized } from '../lib/images';
 
 const allPosts = (await getPublishedPosts())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -98,7 +99,7 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
   .calc-home { padding: 24px 0 0; }
 </style>
 
-<style define:vars={{ heroImage: `url(${siteSettings.heroImageUrl})` }}>
+<style define:vars={{ heroImage: `url(${localOptimized(siteSettings.heroImageUrl)})` }}>
   .container {
     max-width: 1280px;
     margin: 0 auto;

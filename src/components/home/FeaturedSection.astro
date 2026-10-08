@@ -1,5 +1,6 @@
 ---
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
+import PostImage from '../PostImage.astro';
 
 interface Props {
   heroPost: any;
@@ -18,7 +19,7 @@ const { heroPost, secondaryFeatured } = Astro.props;
     <div class="featured-grid">
       <a href={`/blog/${heroPost.id}/`} class="featured-card featured-card-large">
         <div class="card-image">
-          {heroPost.data.image && <img src={heroPost.data.image} alt={heroPost.data.title} loading="lazy" />}
+          {heroPost.data.image && <PostImage src={heroPost.data.image} alt={heroPost.data.title} widths={[480, 800, 1100]} sizes="(max-width: 968px) 100vw, 66vw" />}
         </div>
         <div class="card-body">
           <span class="card-category">{getCategoryLabel(heroPost.data.category)}</span>
@@ -34,7 +35,7 @@ const { heroPost, secondaryFeatured } = Astro.props;
       {secondaryFeatured.map((post: any) => (
         <a href={`/blog/${post.id}/`} class="featured-card">
           <div class="card-image">
-            {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
+            {post.data.image && <PostImage src={post.data.image} alt={post.data.title} sizes="(max-width: 968px) 100vw, 33vw" />}
           </div>
           <div class="card-body">
             <span class="card-category">{getCategoryLabel(post.data.category)}</span>

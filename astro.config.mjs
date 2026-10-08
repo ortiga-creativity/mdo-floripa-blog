@@ -36,6 +36,8 @@ export default defineConfig({
   site: 'https://locacaoequipamentos.blog.br',
   integrations: [react(), sitemap()],
   output: 'static',
+  // Embute o CSS no HTML: elimina requisições que bloqueiam a renderização.
+  build: { inlineStylesheets: 'always' },
   markdown: {
     rehypePlugins: [rehypeInternalTrailingSlash],
   },

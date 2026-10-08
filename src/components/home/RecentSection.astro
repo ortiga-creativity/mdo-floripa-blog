@@ -1,4 +1,5 @@
 ---
+import PostImage from '../PostImage.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
 
 interface Props {
@@ -19,7 +20,7 @@ const { restPosts } = Astro.props;
         {restPosts.map((post: any) => (
           <a href={`/blog/${post.id}/`} class="post-card">
             <div class="card-image">
-              {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
+              {post.data.image && <PostImage src={post.data.image} alt={post.data.title} sizes="(max-width: 600px) 100vw, (max-width: 968px) 50vw, 25vw" />}
             </div>
             <div class="card-body">
               <span class="card-category">{getCategoryLabel(post.data.category)}</span>

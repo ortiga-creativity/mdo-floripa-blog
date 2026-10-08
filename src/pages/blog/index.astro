@@ -1,4 +1,5 @@
 ---
+import PostImage from '../../components/PostImage.astro';
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
@@ -36,7 +37,7 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
           {posts.map((post) => (
             <a href={`/blog/${post.id}/`} class="post-card">
               <div class="card-image">
-                {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
+                {post.data.image && <PostImage src={post.data.image} alt={post.data.title} sizes="(max-width: 600px) 100vw, (max-width: 968px) 50vw, 33vw" />}
               </div>
               <div class="card-body">
                 <span class="card-category">{getCategoryLabel(post.data.category)}</span>

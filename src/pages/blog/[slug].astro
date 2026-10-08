@@ -1,4 +1,5 @@
 ---
+import PostImage from '../../components/PostImage.astro';
 import Layout from '../../layouts/Layout.astro';
 import HelmetIcon from '../../components/HelmetIcon.astro';
 import { formatDate, getCategoryLabel } from '../../lib/supabase';
@@ -82,7 +83,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
     <div class="container">
       {postData.image && (
         <div class="article-cover">
-          <img src={postData.image} alt={postData.title} />
+          <PostImage src={postData.image} alt={postData.title} widths={[640, 960, 1200]} sizes="(max-width: 968px) 100vw, 900px" priority />
         </div>
       )}
 
@@ -139,7 +140,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
           {related.map((rp) => (
             <a href={`/blog/${rp.id}/`} class="related-card">
               <div class="card-image">
-                {rp.data.image && <img src={rp.data.image} alt={rp.data.title} loading="lazy" />}
+                {rp.data.image && <PostImage src={rp.data.image} alt={rp.data.title} sizes="(max-width: 600px) 100vw, (max-width: 968px) 50vw, 33vw" />}
               </div>
               <div class="card-body">
                 <span class="card-category">{getCategoryLabel(rp.data.category)}</span>
