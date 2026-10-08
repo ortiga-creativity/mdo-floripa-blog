@@ -1,21 +1,33 @@
 ---
-title: "Como tirar mofo da parede antes de pintar (sem ele voltar)"
-excerpt: Pintar por cima do mofo não resolve. Veja o passo a passo para eliminar o fungo, tratar a causa da umidade e preparar a parede para a tinta.
+title: Como tirar mofo da parede antes de pintar (sem ele voltar)
+excerpt: Pintar por cima do mofo não resolve. Veja o passo a passo para eliminar
+  o fungo, tratar a causa da umidade e preparar a parede para a tinta.
 category: Pintura
-image: https://images.pexels.com/photos/7218579/pexels-photo-7218579.jpeg
+image: https://images.pexels.com/photos/7506161/pexels-photo-7506161.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-06
 faq:
-  - q: "Posso pintar direto por cima do mofo?"
-    a: "Não. A tinta não elimina o fungo e a mancha costuma reaparecer em poucas semanas, descascando a pintura. O correto é limpar, deixar a parede secar completamente, tratar a causa da umidade e só então aplicar selador e tinta."
+  - q: Posso pintar direto por cima do mofo?
+    a: Não. A tinta não elimina o fungo e a mancha costuma reaparecer em poucas
+      semanas, descascando a pintura. O correto é limpar, deixar a parede secar
+      completamente, tratar a causa da umidade e só então aplicar selador e
+      tinta.
   - q: "Vinagre ou água sanitária: qual é melhor para tirar mofo da parede?"
-    a: "A água sanitária diluída em água costuma ter ação mais forte sobre o fungo em superfícies pintadas ou rebocadas, enquanto o vinagre serve para manchas leves. Nunca misture os dois produtos, nem com amoníaco ou outros limpadores, porque a mistura libera gases tóxicos."
-  - q: "Quanto tempo preciso esperar a parede secar antes de pintar?"
-    a: "Depende da ventilação e da umidade do ambiente, mas em geral são de 24 a 48 horas depois da limpeza, e bem mais se houve infiltração. A parede deve estar visivelmente seca e sem cheiro de umidade antes de receber selador ou tinta."
-  - q: "Existe tinta antimofo que resolve o problema sozinha?"
-    a: "A tinta antimofo ajuda a dificultar o retorno do fungo, mas não resolve infiltração nem falta de ventilação. Ela funciona como etapa final de um tratamento que começa na limpeza e na correção da causa da umidade."
+    a: A água sanitária diluída em água costuma ter ação mais forte sobre o fungo em
+      superfícies pintadas ou rebocadas, enquanto o vinagre serve para manchas
+      leves. Nunca misture os dois produtos, nem com amoníaco ou outros
+      limpadores, porque a mistura libera gases tóxicos.
+  - q: Quanto tempo preciso esperar a parede secar antes de pintar?
+    a: Depende da ventilação e da umidade do ambiente, mas em geral são de 24 a 48
+      horas depois da limpeza, e bem mais se houve infiltração. A parede deve
+      estar visivelmente seca e sem cheiro de umidade antes de receber selador
+      ou tinta.
+  - q: Existe tinta antimofo que resolve o problema sozinha?
+    a: A tinta antimofo ajuda a dificultar o retorno do fungo, mas não resolve
+      infiltração nem falta de ventilação. Ela funciona como etapa final de um
+      tratamento que começa na limpeza e na correção da causa da umidade.
 ---
 Quem já pintou uma parede com mofo sabe como termina: algumas semanas depois, as manchas escuras voltam, a tinta forma bolhas e o trabalho vai por água abaixo. O motivo é simples. Mofo é um fungo vivo, que se alimenta de umidade, e a tinta apenas o cobre, sem eliminá-lo.
 
