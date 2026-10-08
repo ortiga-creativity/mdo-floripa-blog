@@ -129,14 +129,14 @@ const { heroPost, secondaryFeatured } = Astro.props;
     background: var(--color-border);
   }
 
-  .card-image img {
+  .card-image :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .featured-card:hover .card-image img {
+  .featured-card:hover .card-image :global(img) {
     transform: scale(1.05);
   }
 

@@ -250,7 +250,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
     z-index: 2;
   }
 
-  .article-cover img {
+  .article-cover :global(img) {
     width: 100%;
     height: 420px;
     object-fit: cover;
@@ -486,14 +486,14 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
     background: var(--color-border);
   }
 
-  .related-card .card-image img {
+  .related-card .card-image :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
   }
 
-  .related-card:hover .card-image img {
+  .related-card:hover .card-image :global(img) {
     transform: scale(1.05);
   }
 
@@ -539,7 +539,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
       grid-template-columns: repeat(2, 1fr);
     }
 
-    .article-cover img {
+    .article-cover :global(img) {
       height: 280px;
     }
   }
@@ -557,7 +557,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
       grid-template-columns: 1fr;
     }
 
-    .article-cover img {
+    .article-cover :global(img) {
       height: 200px;
     }
   }

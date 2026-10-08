@@ -101,14 +101,14 @@ const { restPosts } = Astro.props;
     background: var(--color-border);
   }
 
-  .post-card .card-image img {
+  .post-card .card-image :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s ease;
   }
 
-  .post-card:hover .card-image img {
+  .post-card:hover .card-image :global(img) {
     transform: scale(1.05);
   }
 

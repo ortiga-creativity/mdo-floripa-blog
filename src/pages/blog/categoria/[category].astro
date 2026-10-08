@@ -183,14 +183,14 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
     background: var(--color-border);
   }
 
-  .card-image img {
+  .card-image :global(img) {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
   }
 
-  .post-card:hover .card-image img {
+  .post-card:hover .card-image :global(img) {
     transform: scale(1.05);
   }
 
