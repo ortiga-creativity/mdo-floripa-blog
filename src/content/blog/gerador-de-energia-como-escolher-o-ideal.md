@@ -38,5 +38,7 @@ faq:
 <h3>Cuidado ao ligar ferramentas sensíveis</h3>
 <p>Equipamentos com placas eletrônicas mais sensíveis (algumas máquinas de solda inversora, por exemplo) exigem geradores com onda senoidal estável. Geradores de baixa qualidade, com onda instável, podem danificar esse tipo de equipamento — vale confirmar essa compatibilidade antes de ligar ferramentas mais caras e sensíveis à rede gerada.</p>
 
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de gerador: descubra a potência da sua obra</h3><p>Selecione os equipamentos que vão funcionar ao mesmo tempo e veja a potência necessária, em kW e kVA, já considerando o pico de partida dos motores.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-gerador/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular meu gerador</a></p></div>
+
 <h3>Alugue o gerador ideal com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza geradores de diferentes potências para locação em Florianópolis, com orientação técnica para dimensionar corretamente a carga da sua obra. Fale com nossa equipe pelo WhatsApp e evite imprevistos por gerador subdimensionado.</p>

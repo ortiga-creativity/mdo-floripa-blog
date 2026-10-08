@@ -6,6 +6,7 @@ import CategoriesSection from '../components/home/CategoriesSection.astro';
 import RecentSection from '../components/home/RecentSection.astro';
 import AndaimeCalculator from '../components/AndaimeCalculator.astro';
 import TintaCalculator from '../components/TintaCalculator.astro';
+import GeradorCalculator from '../components/GeradorCalculator.astro';
 import CalcBanner from '../components/CalcBanner.astro';
 import { getPublishedPosts } from '../lib/posts';
 import siteSettings from '../content/settings/site.json';
@@ -51,6 +52,10 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
       <CalcBanner id="calculadora-tinta" title="Calculadora de Tinta" subtitle="Descubra quantos litros de tinta você precisa para pintar">
         <svg slot="icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 11H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-2a2 2 0 0 0-2-2z"/><path d="M7 11V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v2"/><path d="M12 17v4"/></svg>
         <TintaCalculator heading="h2" />
+      </CalcBanner>
+      <CalcBanner id="calculadora-gerador" title="Calculadora de Gerador" subtitle="Descubra a potência de gerador que sua obra precisa">
+        <svg slot="icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+        <GeradorCalculator heading="h2" />
       </CalcBanner>
     </div>
   </section>

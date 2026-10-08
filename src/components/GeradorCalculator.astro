@@ -1,0 +1,134 @@
+---
+import siteSettings from '../content/settings/site.json';
+import { EQUIPAMENTOS } from '../lib/gerador';
+import '../styles/calculator.css';
+
+interface Props {
+  heading?: 'h1' | 'h2';
+}
+const { heading: Heading = 'h2' } = Astro.props;
+---
+
+<div class="calc-layout" id="calculadora-de-gerador">
+  <div class="calc-card">
+    <Heading>Calculadora de Gerador</Heading>
+    <p class="calc-intro">Informe os equipamentos que vão funcionar ao mesmo tempo e veja a potência de gerador que sua obra precisa.</p>
+
+    <form id="ger-form" novalidate>
+      <div class="equip-list">
+        {EQUIPAMENTOS.map((e) => (
+          <label class="equip-row">
+            <span class="equip-name">{e.nome}<small>{e.watts.toLocaleString('pt-BR')} W</small></span>
+            <input type="number" id={`ger-${e.id}`} data-equip={e.id} inputmode="numeric" min="0" max="50" step="1" value={e.padrao ?? 0} aria-label={`Quantidade de ${e.nome}`} />
+          </label>
+        ))}
+      </div>
+
+      <div class="equip-custom">
+        <p class="custom-title">Outro equipamento</p>
+        <div class="field-grid">
+          <label class="field"><span>Potência (W)</span><input type="number" id="ger-custom-w" inputmode="numeric" min="0" max="50000" step="50" value="0" /></label>
+          <label class="field"><span>Quantidade</span><input type="number" id="ger-custom-q" inputmode="numeric" min="0" max="50" step="1" value="1" /></label>
+          <label class="field"><span>Pico de partida</span>
+            <select id="ger-custom-p">
+              <option value="1">Sem pico (resistência, LED)</option>
+              <option value="2">2x (motor comum)</option>
+              <option value="3">3x (compressor, bomba)</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </form>
+
+    <div id="ger-alertas" class="alertas" role="status"></div>
+
+    <table class="result-table">
+      <thead>
+        <tr><th>Resultado</th><th class="qtd">Valor</th></tr>
+      </thead>
+      <tbody id="ger-resultado"></tbody>
+    </table>
+    <p id="ger-resumo" class="resumo"></p>
+
+    <div class="calc-actions">
+      <a id="ger-whatsapp" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer" data-gtag-event="whatsapp_click">Pedir orçamento do gerador</a>
+      <a href="/blog/gerador-de-energia-como-escolher-o-ideal/" class="btn-outline">Como escolher o gerador</a>
+    </div>
+    <p class="disclaimer">Estimativa com potências típicas de mercado. Confira a potência na plaqueta de cada equipamento. Considera fator de potência 0,8, margem de 20% sobre o consumo e de 10% sobre o pico de partida. Nossa equipe confirma o dimensionamento antes da locação.</p>
+  </div>
+</div>
+
+<script define:vars={{ whatsappNumber: siteSettings.whatsappNumber }}>
+  window.__WA_NUMBER__ = whatsappNumber;
+</script>
+
+<script>
+  import { calcularGerador, EQUIPAMENTOS, type ItemSelecionado } from '../lib/gerador';
+
+  const form = document.getElementById('ger-form')!;
+  const tbody = document.getElementById('ger-resultado')!;
+  const alertas = document.getElementById('ger-alertas')!;
+  const resumo = document.getElementById('ger-resumo')!;
+  const wa = document.getElementById('ger-whatsapp') as HTMLAnchorElement;
+  const val = (id: string) => (document.getElementById(id) as HTMLInputElement).value;
+  const int = (id: string) => Math.max(0, parseInt(val(id) || '0', 10) || 0);
+
+  const f = (n: number) => n.toLocaleString('pt-BR', { maximumFractionDigits: 1 });
+  const kw = (w: number) => `${f(w / 1000)} kW`;
+
+  function row(nome: string, valor: string, opts: { nota?: string; destaque?: boolean } = {}) {
+    const tr = document.createElement('tr');
+    if (opts.destaque) tr.className = 'destaque';
+    const td1 = document.createElement('td');
+    td1.textContent = nome;
+    if (opts.nota) {
+      const s = document.createElement('small');
+      s.textContent = opts.nota;
+      td1.appendChild(s);
+    }
+    const td2 = document.createElement('td');
+    td2.className = 'qtd';
+    td2.textContent = valor;
+    tr.append(td1, td2);
+    tbody.appendChild(tr);
+  }
+
+  function render() {
+    tbody.innerHTML = '';
+    alertas.innerHTML = '';
+
+    const itens: ItemSelecionado[] = EQUIPAMENTOS.map((e) => ({ nome: e.nome, qtd: int(`ger-${e.id}`), watts: e.watts, partida: e.partida }));
+    itens.push({ nome: 'Outro equipamento', qtd: int('ger-custom-q'), watts: int('ger-custom-w'), partida: parseInt(val('ger-custom-p'), 10) });
+
+    const selecionados = itens.filter((i) => i.qtd > 0 && i.watts > 0);
+    if (selecionados.length === 0) {
+      resumo.textContent = 'Informe a quantidade de pelo menos um equipamento.';
+      wa.removeAttribute('href');
+      return;
+    }
+
+    const r = calcularGerador(itens);
+
+    row('Consumo dos equipamentos', kw(r.consumo), { nota: 'Todos funcionando ao mesmo tempo' });
+    row('Pico de partida', kw(r.pico), { nota: 'Consumo mais a partida do maior motor' });
+    row('Potência necessária', `${kw(r.necessaria)} (${f(r.kva)} kVA)`, { nota: 'Com margem de segurança, fator de potência 0,8' });
+    row('Gerador sugerido', r.sugeridoKva ? `${f(r.sugeridoKva)} kVA` : 'Sob consulta', { destaque: true, nota: r.combustivel });
+
+    for (const msg of r.alertas) {
+      const p = document.createElement('p');
+      p.textContent = msg;
+      alertas.appendChild(p);
+    }
+
+    resumo.textContent = `${selecionados.reduce((t, i) => t + i.qtd, 0)} equipamento(s) selecionado(s).`;
+
+    const linhas = selecionados.map((i) => `- ${i.qtd}x ${i.nome}`).join('\n');
+    const texto = `Olá! Calculei no blog o gerador para minha obra e preciso de orçamento. Resultado: ${kw(r.necessaria)} (${f(r.kva)} kVA), gerador sugerido ${r.sugeridoKva ? f(r.sugeridoKva) + ' kVA' : 'sob consulta'}.\nEquipamentos:\n${linhas}`;
+    wa.href = `https://wa.me/${(window as any).__WA_NUMBER__}?text=${encodeURIComponent(texto)}`;
+  }
+
+  form.addEventListener('input', render);
+  form.addEventListener('change', render);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  render();
+</script>

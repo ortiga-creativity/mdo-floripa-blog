@@ -1,0 +1,68 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HelmetIcon from '../../components/HelmetIcon.astro';
+import GeradorCalculator from '../../components/GeradorCalculator.astro';
+
+const pageUrl = 'https://locacaoequipamentos.blog.br/ferramentas/calculadora-de-gerador';
+
+const appSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Calculadora de Gerador de Energia',
+  url: pageUrl,
+  applicationCategory: 'UtilitiesApplication',
+  operatingSystem: 'Any',
+  inLanguage: 'pt-BR',
+  description: 'Descubra a potência de gerador de energia que sua obra precisa, somando os equipamentos e o pico de partida dos motores.',
+  publisher: { '@type': 'Organization', name: 'MDO Floripa - Mestre da Obra Locações' },
+};
+---
+
+<Layout
+  title="Calculadora de Gerador: qual potência preciso? - MDO Floripa"
+  description="Selecione os equipamentos da obra e descubra a potência do gerador, em kW e kVA, com margem de segurança."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(appSchema)} />
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb"><a href="/">Início</a> / <a href="/ferramentas/">Ferramentas</a> / Calculadora de Gerador</span>
+      <div class="hero-badge-row">
+        <HelmetIcon size={24} color="#F5A623" />
+        <span>MDO Floripa</span>
+      </div>
+      <h1>Calculadora de Gerador</h1>
+      <p>Selecione os equipamentos que vão funcionar juntos e veja a potência de gerador ideal para a obra.</p>
+    </div>
+  </section>
+
+  <section class="calc-section">
+    <div class="container">
+      <GeradorCalculator heading="h2" />
+      <p class="read-more">Quer entender melhor o cálculo? <a href="/blog/quantos-litros-de-tinta-preciso-calcular-por-m2/">Leia: Quantos litros de tinta preciso? →</a></p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+
+  .page-hero {
+    background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%);
+    color: white;
+    padding: 140px 24px 64px;
+  }
+  .breadcrumb { font-size: 14px; color: rgba(255,255,255,0.5); margin-bottom: 16px; display: block; }
+  .breadcrumb a { color: rgba(255,255,255,0.7); transition: color 0.3s; }
+  .breadcrumb a:hover { color: #F5A623; }
+  .hero-badge-row { display: inline-flex; align-items: center; gap: 10px; color: #F5A623; font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+  .page-hero h1 { font-size: 44px; font-weight: 900; margin-bottom: 12px; color: white; }
+  .page-hero p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 640px; }
+
+  .calc-section { padding: 48px 0 0; }
+  .read-more { text-align: center; margin-top: 24px; font-size: 15px; color: var(--color-text-muted); }
+  .read-more a { color: var(--color-accent-dark); font-weight: 600; }
+
+  @media (max-width: 968px) { .page-hero h1 { font-size: 32px; } }
+  @media (max-width: 600px) { .page-hero h1 { font-size: 26px; } }
+</style>
