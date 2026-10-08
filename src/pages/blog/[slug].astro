@@ -24,7 +24,7 @@ const related = allPosts
   .slice(0, 3);
 
 const postData = post.data;
-const pageUrl = `https://locacaoequipamentos.blog.br/blog/${post.id}`;
+const pageUrl = `https://locacaoequipamentos.blog.br/blog/${post.id}/`;
 
 const articleSchema = {
   '@context': 'https://schema.org',
@@ -60,7 +60,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
     <div class="article-hero">
       <div class="container">
         <span class="breadcrumb">
-          <a href="/">Início</a> / <a href="/blog">Blog</a> / <a href={`/blog/categoria/${encodeURIComponent(postData.category)}`}>{getCategoryLabel(postData.category)}</a>
+          <a href="/">Início</a> / <a href="/blog/">Blog</a> / <a href={`/blog/categoria/${encodeURIComponent(postData.category)}/`}>{getCategoryLabel(postData.category)}</a>
         </span>
         <div class="hero-badge-row">
           <HelmetIcon size={20} color="#F5A623" />
@@ -107,7 +107,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
             <h3>Precisa alugar equipamentos para sua obra?</h3>
             <p>A MDO Floripa (Mestre da Obra Locações — Florianópolis) tem o equipamento certo para o seu serviço, com entrega rápida e suporte técnico.</p>
             <div class="inline-cta-actions">
-              <a href="/fale-conosco" class="btn-primary">Fale Conosco</a>
+              <a href="/fale-conosco/" class="btn-primary">Fale Conosco</a>
               <a href={`https://wa.me/${siteSettings.whatsappNumber}`} target="_blank" rel="noopener noreferrer" class="btn-secondary" data-gtag-event="whatsapp_click">Chamar no WhatsApp</a>
               <a href={siteSettings.catalogUrl} target="_blank" rel="noopener noreferrer" class="btn-secondary" data-gtag-event="catalog_click">Ver Catálogo</a>
             </div>
@@ -116,15 +116,15 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
         <aside class="article-sidebar">
           <div class="sidebar-box">
             <h3>Categorias</h3>
-            <a href="/blog/categoria/Construcao">Construção</a>
-            <a href="/blog/categoria/Pintura">Pintura</a>
-            <a href="/blog/categoria/Manutencao%20de%20Equipamentos">Manutenção de Equipamentos</a>
-            <a href="/blog/categoria/Limpeza">Limpeza</a>
+            <a href="/blog/categoria/Construcao/">Construção</a>
+            <a href="/blog/categoria/Pintura/">Pintura</a>
+            <a href="/blog/categoria/Manutencao%20de%20Equipamentos/">Manutenção de Equipamentos</a>
+            <a href="/blog/categoria/Limpeza/">Limpeza</a>
           </div>
           <div class="sidebar-box cta-box">
             <h3>Precisa de equipamentos?</h3>
             <p>A MDO Floripa tem tudo o que sua obra precisa. Alugue com o Mestre da Obra Locações — Florianópolis.</p>
-            <a href="/fale-conosco" class="btn-primary">Fale Conosco</a>
+            <a href="/fale-conosco/" class="btn-primary">Fale Conosco</a>
           </div>
         </aside>
       </div>
@@ -137,7 +137,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
         <h2>Artigos Relacionados</h2>
         <div class="related-grid">
           {related.map((rp) => (
-            <a href={`/blog/${rp.id}`} class="related-card">
+            <a href={`/blog/${rp.id}/`} class="related-card">
               <div class="card-image">
                 {rp.data.image && <img src={rp.data.image} alt={rp.data.title} loading="lazy" />}
               </div>

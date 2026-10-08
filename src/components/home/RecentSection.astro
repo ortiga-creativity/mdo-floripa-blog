@@ -13,11 +13,11 @@ const { restPosts } = Astro.props;
     <div class="container">
       <div class="section-header">
         <h2>Artigos Recentes</h2>
-        <a href="/blog" class="see-all">Ver todos →</a>
+        <a href="/blog/" class="see-all">Ver todos →</a>
       </div>
       <div class="recent-grid">
         {restPosts.map((post: any) => (
-          <a href={`/blog/${post.id}`} class="post-card">
+          <a href={`/blog/${post.id}/`} class="post-card">
             <div class="card-image">
               {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
             </div>

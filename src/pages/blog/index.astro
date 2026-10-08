@@ -24,17 +24,17 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
   <section class="blog-content">
     <div class="container">
       <div class="filter-bar">
-        <a href="/blog" class="filter-chip active">Todos</a>
-        <a href="/blog/categoria/Construcao" class="filter-chip">Construção</a>
-        <a href="/blog/categoria/Pintura" class="filter-chip">Pintura</a>
-        <a href="/blog/categoria/Manutencao%20de%20Equipamentos" class="filter-chip">Manutenção de Equipamentos</a>
-        <a href="/blog/categoria/Limpeza" class="filter-chip">Limpeza</a>
+        <a href="/blog/" class="filter-chip active">Todos</a>
+        <a href="/blog/categoria/Construcao/" class="filter-chip">Construção</a>
+        <a href="/blog/categoria/Pintura/" class="filter-chip">Pintura</a>
+        <a href="/blog/categoria/Manutencao%20de%20Equipamentos/" class="filter-chip">Manutenção de Equipamentos</a>
+        <a href="/blog/categoria/Limpeza/" class="filter-chip">Limpeza</a>
       </div>
 
       {posts && posts.length > 0 ? (
         <div class="posts-grid">
           {posts.map((post) => (
-            <a href={`/blog/${post.id}`} class="post-card">
+            <a href={`/blog/${post.id}/`} class="post-card">
               <div class="card-image">
                 {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
               </div>

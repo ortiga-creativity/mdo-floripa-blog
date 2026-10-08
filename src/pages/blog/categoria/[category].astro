@@ -20,7 +20,7 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
 <Layout title={`${categoryLabel} - MDO Floripa`} description={`Artigos sobre ${categoryLabel} no blog da MDO Floripa.`}>
   <section class="page-hero">
     <div class="container">
-      <span class="breadcrumb"><a href="/">Início</a> / <a href="/blog">Blog</a> / {categoryLabel}</span>
+      <span class="breadcrumb"><a href="/">Início</a> / <a href="/blog/">Blog</a> / {categoryLabel}</span>
       <div class="hero-badge-row">
         <HelmetIcon size={24} color="#F5A623" />
         <span>MDO Floripa</span>
@@ -33,17 +33,17 @@ const posts = allPosts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.
   <section class="blog-content">
     <div class="container">
       <div class="filter-bar">
-        <a href="/blog" class="filter-chip">Todos</a>
-        <a href="/blog/categoria/Construcao" class={`filter-chip ${category === 'Construcao' ? 'active' : ''}`}>Construção</a>
-        <a href="/blog/categoria/Pintura" class={`filter-chip ${category === 'Pintura' ? 'active' : ''}`}>Pintura</a>
-        <a href="/blog/categoria/Manutencao%20de%20Equipamentos" class={`filter-chip ${category === 'Manutencao de Equipamentos' ? 'active' : ''}`}>Manutenção de Equipamentos</a>
-        <a href="/blog/categoria/Limpeza" class={`filter-chip ${category === 'Limpeza' ? 'active' : ''}`}>Limpeza</a>
+        <a href="/blog/" class="filter-chip">Todos</a>
+        <a href="/blog/categoria/Construcao/" class={`filter-chip ${category === 'Construcao' ? 'active' : ''}`}>Construção</a>
+        <a href="/blog/categoria/Pintura/" class={`filter-chip ${category === 'Pintura' ? 'active' : ''}`}>Pintura</a>
+        <a href="/blog/categoria/Manutencao%20de%20Equipamentos/" class={`filter-chip ${category === 'Manutencao de Equipamentos' ? 'active' : ''}`}>Manutenção de Equipamentos</a>
+        <a href="/blog/categoria/Limpeza/" class={`filter-chip ${category === 'Limpeza' ? 'active' : ''}`}>Limpeza</a>
       </div>
 
       {posts && posts.length > 0 ? (
         <div class="posts-grid">
           {posts.map((post) => (
-            <a href={`/blog/${post.id}`} class="post-card">
+            <a href={`/blog/${post.id}/`} class="post-card">
               <div class="card-image">
                 {post.data.image && <img src={post.data.image} alt={post.data.title} loading="lazy" />}
               </div>
