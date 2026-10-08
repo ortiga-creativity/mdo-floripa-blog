@@ -3,7 +3,7 @@ title: "Massa corrida ou massa acrílica: qual usar em cada parede"
 excerpt: Entenda a diferença entre massa corrida PVA e massa acrílica, onde cada
   uma funciona melhor e como aplicar e lixar para um acabamento sem marcas.
 category: Pintura
-image: https://images.pexels.com/photos/5915151/pexels-photo-5915151.jpeg
+image: https://images.pexels.com/photos/6474308/pexels-photo-6474308.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
