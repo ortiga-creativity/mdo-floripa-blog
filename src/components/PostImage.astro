@@ -8,7 +8,7 @@ interface Props {
   sizes?: string;
   priority?: boolean;
 }
-const { src, alt, widths = [400, 800], sizes = '(max-width: 600px) 100vw, 400px', priority = false } = Astro.props;
+const { src, alt, widths = [320, 480, 720], sizes = '(max-width: 600px) 100vw, 400px', priority = false } = Astro.props;
 const fallbackWidth = widths[Math.min(1, widths.length - 1)];
 ---
 
@@ -16,6 +16,8 @@ const fallbackWidth = widths[Math.min(1, widths.length - 1)];
   src={resizeImage(src, fallbackWidth)}
   srcset={srcSet(src, widths)}
   sizes={sizes}
+  width={fallbackWidth}
+  height={Math.round(fallbackWidth * 0.625)}
   alt={alt}
   loading={priority ? 'eager' : 'lazy'}
   fetchpriority={priority ? 'high' : undefined}

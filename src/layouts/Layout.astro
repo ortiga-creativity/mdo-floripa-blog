@@ -9,9 +9,10 @@ interface Props {
   description?: string;
   image?: string;
   type?: 'website' | 'article';
+  preloadImages?: { href: string; media?: string }[];
 }
 
-const { image, type = 'website', title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
+const { image, type = 'website', preloadImages = [], title = 'MDO Floripa - Blog | Mestre da Obra Locações - Florianópolis', description = 'Blog da MDO Floripa (Mestre da Obra Locações - Florianópolis): dicas e informações sobre construção, pintura, manutenção de equipamentos e limpeza.' } = Astro.props;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = image ? new URL(image, Astro.site).href : new URL(siteSettings.heroImageUrl, Astro.site).href;
 const logoSrc = localOptimized(siteSettings.logoUrl);
@@ -37,12 +38,29 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 		<meta property="og:image" content={ogImage} />
 		<meta name="twitter:card" content="summary_large_image" />
 		<link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
-		<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-YLMZ03J9SQ"></script>
+		{preloadImages.map((img) => <link rel="preload" as="image" href={img.href} media={img.media} fetchpriority="high" />)}
 		<script is:inline>
+			// Google Analytics carrega só na primeira interação (ou após 6 s), para não
+			// competir com o carregamento inicial da página. Os eventos ficam na fila.
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
 			gtag('config', 'G-YLMZ03J9SQ');
+			(function () {
+				var loaded = false;
+				function load() {
+					if (loaded) return;
+					loaded = true;
+					var s = document.createElement('script');
+					s.async = true;
+					s.src = 'https://www.googletagmanager.com/gtag/js?id=G-YLMZ03J9SQ';
+					document.head.appendChild(s);
+				}
+				['pointerdown', 'scroll', 'keydown', 'touchstart'].forEach(function (e) {
+					window.addEventListener(e, load, { once: true, passive: true });
+				});
+				setTimeout(load, 6000);
+			})();
 		</script>
 	</head>
 	<body>

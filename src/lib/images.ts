@@ -37,3 +37,11 @@ export function localOptimized(url: string): string {
   if (optimized === url) return url;
   return fs.existsSync(path.join(process.cwd(), 'public', optimized)) ? optimized : url;
 }
+
+// Versão ainda menor (nome.opt-sm.webp) para celulares, se existir.
+export function localOptimizedSmall(url: string): string {
+  const base = localOptimized(url);
+  if (!base.endsWith('.opt.webp')) return base;
+  const small = base.replace(/\.opt\.webp$/, '.opt-sm.webp');
+  return fs.existsSync(path.join(process.cwd(), 'public', small)) ? small : base;
+}

@@ -10,7 +10,7 @@ import GeradorCalculator from '../components/GeradorCalculator.astro';
 import CalcBanner from '../components/CalcBanner.astro';
 import { getPublishedPosts } from '../lib/posts';
 import siteSettings from '../content/settings/site.json';
-import { localOptimized } from '../lib/images';
+import { localOptimized, localOptimizedSmall } from '../lib/images';
 
 const allPosts = (await getPublishedPosts())
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
@@ -22,11 +22,14 @@ const heroPost = featuredPosts.length > 0 ? featuredPosts[0] : (recentPosts.leng
 const secondaryFeatured = featuredPosts.slice(1, 3);
 const restPosts = recentPosts.filter((p) => p.id !== heroPost?.id).slice(0, 4);
 
+const heroLg = localOptimized(siteSettings.heroImageUrl);
+const heroSm = localOptimizedSmall(siteSettings.heroImageUrl);
+
 const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' }, { section: 'categories' }, { section: 'recent' }])
   .map((entry: any) => entry.section);
 ---
 
-<Layout>
+<Layout preloadImages={[{ href: heroSm, media: '(max-width: 700px)' }, { href: heroLg, media: '(min-width: 701px)' }]}>
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
@@ -99,7 +102,7 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
   .calc-home { padding: 24px 0 0; }
 </style>
 
-<style define:vars={{ heroImage: `url(${localOptimized(siteSettings.heroImageUrl)})` }}>
+<style define:vars={{ heroImage: `url(${heroLg})`, heroImageSm: `url(${heroSm})` }}>
   .container {
     max-width: 1280px;
     margin: 0 auto;
@@ -130,6 +133,12 @@ const sectionOrder = (siteSettings.homeSectionOrder || [{ section: 'featured' },
     background: var(--heroImage) center/cover;
     opacity: 0.10;
     z-index: -1;
+  }
+
+  @media (max-width: 700px) {
+    .hero-bg::after {
+      background-image: var(--heroImageSm);
+    }
   }
 
   .hero-content {
