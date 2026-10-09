@@ -1,21 +1,34 @@
 ---
 title: "Como limpar telhado com segurança: lavadora, produtos e cuidados"
-excerpt: Musgo, limo e sujeira no telhado reduzem a vida útil das telhas. Veja como limpar cada tipo de telhado, quando usar lavadora e os riscos que exigem atenção.
+excerpt: Musgo, limo e sujeira no telhado reduzem a vida útil das telhas. Veja
+  como limpar cada tipo de telhado, quando usar lavadora e os riscos que exigem
+  atenção.
 category: Limpeza
-image: https://images.unsplash.com/photo-1718152521364-b9655b8a7926?auto=format&fit=crop&w=1200&q=80
+image: https://images.pexels.com/photos/38867780/pexels-photo-38867780.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-08
 faq:
-  - q: "Posso lavar telhado com lavadora de alta pressão?"
-    a: "Em telhas cerâmicas e de concreto em bom estado, sim, desde que com pressão moderada, bico de leque e jato em ângulo, sempre no sentido do caimento. Pressão excessiva desloca telhas, remove o acabamento e empurra água para debaixo da cobertura."
-  - q: "Telhado de fibrocimento pode ser lavado com jato?"
-    a: "Telhas antigas de fibrocimento podem conter amianto, e jato de pressão ou escovação a seco pode liberar fibras. Se você não tem certeza do tipo de telha, não use alta pressão nem raspe a seco, e consulte um profissional habilitado."
-  - q: "Com que frequência devo limpar o telhado?"
-    a: "Em geral, uma vez por ano, e antes da estação das chuvas. Em regiões úmidas e com muita vegetação ao redor, como é comum em Florianópolis, o musgo e o limo se formam mais rápido e a inspeção pode ser mais frequente."
-  - q: "Preciso de equipamento de segurança para limpar telhado?"
-    a: "Sim. Trabalho em altura exige cinto de segurança tipo paraquedista, trava-quedas, linha de vida ou ponto de ancoragem, calçado antiderrapante e capacete. Telhas molhadas e cobertas de musgo são extremamente escorregadias."
+  - q: Posso lavar telhado com lavadora de alta pressão?
+    a: Em telhas cerâmicas e de concreto em bom estado, sim, desde que com pressão
+      moderada, bico de leque e jato em ângulo, sempre no sentido do caimento.
+      Pressão excessiva desloca telhas, remove o acabamento e empurra água para
+      debaixo da cobertura.
+  - q: Telhado de fibrocimento pode ser lavado com jato?
+    a: Telhas antigas de fibrocimento podem conter amianto, e jato de pressão ou
+      escovação a seco pode liberar fibras. Se você não tem certeza do tipo de
+      telha, não use alta pressão nem raspe a seco, e consulte um profissional
+      habilitado.
+  - q: Com que frequência devo limpar o telhado?
+    a: Em geral, uma vez por ano, e antes da estação das chuvas. Em regiões úmidas e
+      com muita vegetação ao redor, como é comum em Florianópolis, o musgo e o
+      limo se formam mais rápido e a inspeção pode ser mais frequente.
+  - q: Preciso de equipamento de segurança para limpar telhado?
+    a: Sim. Trabalho em altura exige cinto de segurança tipo paraquedista,
+      trava-quedas, linha de vida ou ponto de ancoragem, calçado antiderrapante
+      e capacete. Telhas molhadas e cobertas de musgo são extremamente
+      escorregadias.
 ---
 O telhado é uma das partes mais esquecidas da casa, até o dia em que aparecem goteiras, manchas escuras no forro ou água transbordando da calha. Boa parte desses problemas começa com sujeira acumulada: folhas, poeira, musgo e limo que retêm umidade e aceleram o desgaste das telhas.
 
