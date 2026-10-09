@@ -1,21 +1,32 @@
 ---
 title: "Como calcular concreto para laje, piso e viga: volume, materiais e betoneira"
-excerpt: Aprenda a calcular quantos metros cúbicos de concreto você precisa, quanto de cimento, areia e brita comprar e como dimensionar a betoneira para o serviço.
+excerpt: Aprenda a calcular quantos metros cúbicos de concreto você precisa,
+  quanto de cimento, areia e brita comprar e como dimensionar a betoneira para o
+  serviço.
 category: Construcao
-image: https://images.pexels.com/photos/6138083/pexels-photo-6138083.jpeg
+image: https://images.pexels.com/photos/29519165/pexels-photo-29519165.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-07
 faq:
-  - q: "Como calcular quantos metros cúbicos de concreto preciso?"
-    a: "Multiplique comprimento, largura e espessura, todos em metros. Uma laje de 4 m por 5 m com 10 cm de espessura tem 4 × 5 × 0,10 = 2 m³. Some de 5% a 10% para cobrir perdas e pequenas variações de nível."
-  - q: "Quantos sacos de cimento são necessários por metro cúbico de concreto?"
-    a: "No traço 1:2:3 em volume (cimento, areia e brita), a referência é de aproximadamente 7 sacos de 50 kg por metro cúbico. O número exato varia com a umidade da areia, o tipo de brita e o fck exigido em projeto."
-  - q: "Posso fazer laje e viga com concreto feito na betoneira?"
-    a: "Para elementos estruturais, como lajes, vigas e pilares, o traço e a resistência devem seguir o projeto do engenheiro responsável. Em obras maiores, o concreto usinado costuma garantir mais controle de qualidade, enquanto a betoneira atende bem pisos, calçadas e pequenos serviços."
-  - q: "Qual betoneira escolher para concretar um piso?"
-    a: "Depende do volume e da frequência de uso. Para pequenos reparos e calçadas, a de 150 a 200 litros resolve. Para pisos maiores, a de 400 litros reduz o número de massas e o tempo de serviço."
+  - q: Como calcular quantos metros cúbicos de concreto preciso?
+    a: Multiplique comprimento, largura e espessura, todos em metros. Uma laje de 4
+      m por 5 m com 10 cm de espessura tem 4 × 5 × 0,10 = 2 m³. Some de 5% a 10%
+      para cobrir perdas e pequenas variações de nível.
+  - q: Quantos sacos de cimento são necessários por metro cúbico de concreto?
+    a: No traço 1:2:3 em volume (cimento, areia e brita), a referência é de
+      aproximadamente 7 sacos de 50 kg por metro cúbico. O número exato varia
+      com a umidade da areia, o tipo de brita e o fck exigido em projeto.
+  - q: Posso fazer laje e viga com concreto feito na betoneira?
+    a: Para elementos estruturais, como lajes, vigas e pilares, o traço e a
+      resistência devem seguir o projeto do engenheiro responsável. Em obras
+      maiores, o concreto usinado costuma garantir mais controle de qualidade,
+      enquanto a betoneira atende bem pisos, calçadas e pequenos serviços.
+  - q: Qual betoneira escolher para concretar um piso?
+    a: Depende do volume e da frequência de uso. Para pequenos reparos e calçadas, a
+      de 150 a 200 litros resolve. Para pisos maiores, a de 400 litros reduz o
+      número de massas e o tempo de serviço.
 ---
 Comprar concreto de menos faz a concretagem parar no meio, o que pode gerar uma junta fria e um ponto fraco na laje. Comprar demais é dinheiro jogado fora. Por isso, calcular o volume certo é a primeira etapa de qualquer concretagem.
 
