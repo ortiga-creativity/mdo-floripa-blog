@@ -33,13 +33,15 @@ const articleSchema = {
   headline: postData.title,
   description: postData.excerpt || postData.title,
   image: postData.image,
-  author: { '@type': 'Organization', name: postData.author },
+  author: { '@type': 'Organization', name: postData.author, url: 'https://locacaoequipamentos.blog.br/' },
   publisher: {
     '@type': 'Organization',
     name: 'MDO Floripa - Mestre da Obra Locações',
     logo: { '@type': 'ImageObject', url: `https://locacaoequipamentos.blog.br${siteSettings.logoUrl}` },
   },
   datePublished: postData.pubDate.toISOString(),
+  dateModified: (postData.updatedDate ?? postData.pubDate).toISOString(),
+  inLanguage: 'pt-BR',
   mainEntityOfPage: pageUrl,
 };
 
@@ -76,6 +78,7 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
           </span>
           <span class="meta-sep">•</span>
           <span>{formatDate(postData.pubDate)}</span>
+          {postData.updatedDate && <><span class="meta-sep">•</span><span>Atualizado em {formatDate(postData.updatedDate)}</span></>}
         </div>
       </div>
     </div>
@@ -282,6 +285,58 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
     font-size: 17px;
     line-height: 1.8;
     color: var(--color-text);
+  }
+
+  .article-body :global(h2) {
+    font-size: 28px;
+    margin: 40px 0 16px;
+    color: var(--color-primary-dark);
+  }
+
+  .article-body :global(ol) {
+    margin: 0 0 16px;
+    padding-left: 24px;
+  }
+
+  .article-body :global(a) {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+  }
+
+  .article-body :global(.table-wrap) {
+    overflow-x: auto;
+    margin: 0 0 24px;
+  }
+
+  .article-body :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .article-body :global(th),
+  .article-body :global(td) {
+    border: 1px solid var(--color-border);
+    padding: 10px 12px;
+    text-align: left;
+  }
+
+  .article-body :global(th) {
+    background: #F1F4F8;
+    color: var(--color-primary-dark);
+  }
+
+  .article-body :global(.quick-answer) {
+    margin: 0 0 28px;
+    padding: 18px 20px;
+    border-left: 4px solid #F5A623;
+    border-radius: 8px;
+    background: #FFF6E5;
+  }
+
+  .article-body :global(.quick-answer p) {
+    margin: 0;
   }
 
   .article-body :global(h3) {

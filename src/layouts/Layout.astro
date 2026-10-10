@@ -17,6 +17,29 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = image ? new URL(image, Astro.site).href : new URL(siteSettings.heroImageUrl, Astro.site).href;
 const logoSrc = localOptimized(siteSettings.logoUrl);
 const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encodeURIComponent(siteSettings.whatsappMessage)}`;
+const businessSchema = {
+	'@context': 'https://schema.org',
+	'@type': 'LocalBusiness',
+	'@id': 'https://locacaoequipamentos.blog.br/#business',
+	name: 'MDO Floripa - Mestre da Obra Locações',
+	description: 'Locação de equipamentos para obra, pintura e limpeza em Florianópolis e região.',
+	url: 'https://locacaoequipamentos.blog.br/',
+	telephone: '+55 48 99612-6565',
+	email: siteSettings.contactEmail,
+	image: new URL(siteSettings.heroImageUrl, Astro.site).href,
+	address: {
+		'@type': 'PostalAddress',
+		streetAddress: 'Rua Joe Collaço, 744',
+		addressLocality: 'Florianópolis',
+		addressRegion: 'SC',
+		addressCountry: 'BR',
+	},
+	areaServed: { '@type': 'City', name: 'Florianópolis' },
+	openingHoursSpecification: [
+		{ '@type': 'OpeningHoursSpecification', dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday'], opens: '07:30', closes: '17:30' },
+		{ '@type': 'OpeningHoursSpecification', dayOfWeek: 'Friday', opens: '07:30', closes: '17:00' },
+	],
+};
 ---
 
 <!doctype html>
@@ -37,6 +60,7 @@ const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encode
 		<meta property="og:url" content={canonicalUrl} />
 		<meta property="og:image" content={ogImage} />
 		<meta name="twitter:card" content="summary_large_image" />
+		<script type="application/ld+json" set:html={JSON.stringify(businessSchema)} />
 		<link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
 		{preloadImages.map((img) => <link rel="preload" as="image" href={img.href} media={img.media} fetchpriority="high" />)}
 		<script is:inline>
