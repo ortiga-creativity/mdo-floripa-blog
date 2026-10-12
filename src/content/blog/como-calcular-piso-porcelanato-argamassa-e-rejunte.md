@@ -79,12 +79,12 @@ Para 20 m², serão cerca de 3,4 kg. Compre um pouco mais, porque o valor é est
 
 ### Como cortar porcelanato sem desperdício
 
-Perda por lascado é uma das maiores causas de desperdício. Com a ferramenta e o disco certos, o corte fica limpo. Veja o guia [serra mármore ou cortadora de piso: como cortar porcelanato sem lascar](/blog/serra-marmore-cortadora-de-piso-como-cortar-porcelanato).
+Perda por lascado é uma das maiores causas de desperdício. Com a ferramenta e o disco certos, o corte fica limpo. Veja o guia [serra mármore ou cortadora de piso: como cortar porcelanato sem lascar](/blog/serra-marmore-cortadora-de-piso-como-cortar-porcelanato/).
 
 ### Depois da obra: limpeza do piso novo
 
-Resíduos de argamassa e rejunte devem ser removidos na hora certa, antes de endurecer. Para o acabamento final, consulte a [limpeza pós-obra essencial](/blog/limpeza-pos-obra-essencial) e os [equipamentos que fazem diferença na limpeza pesada](/blog/limpeza-pesada-pos-reforma-equipamentos-que-fazem-diferenca).
+Resíduos de argamassa e rejunte devem ser removidos na hora certa, antes de endurecer. Para o acabamento final, consulte a [limpeza pós-obra essencial](/blog/limpeza-pos-obra-essencial/) e os [equipamentos que fazem diferença na limpeza pesada](/blog/limpeza-pesada-pos-reforma-equipamentos-que-fazem-diferenca/).
 
 ### Equipamentos para assentar piso
 
-A MDO Floripa aluga serra mármore, cortadora de piso, misturador e outros equipamentos para obra e reforma. Fale com a equipe pelo WhatsApp e peça seu orçamento. Se estiver comparando alugar com comprar, veja [alugar ou comprar equipamento de obra](/blog/alugar-ou-comprar-equipamento-de-obra).
+A MDO Floripa aluga serra mármore, cortadora de piso, misturador e outros equipamentos para obra e reforma. Fale com a equipe pelo WhatsApp e peça seu orçamento. Se estiver comparando alugar com comprar, veja [alugar ou comprar equipamento de obra](/blog/alugar-ou-comprar-equipamento-de-obra/).

@@ -60,7 +60,7 @@ Sim, e é o mais comum. Use a corrida em quartos e salas e a acrílica em áreas
 
 ### Como aplicar a massa sem marcas
 
-**1. Prepare a base.** Remova poeira, gordura, tinta solta e mofo. Se a parede tem mofo, veja [como tirar mofo da parede antes de pintar](/blog/como-tirar-mofo-da-parede-antes-de-pintar). Parede nova ou muito absorvente pode pedir selador antes da massa.
+**1. Prepare a base.** Remova poeira, gordura, tinta solta e mofo. Se a parede tem mofo, veja [como tirar mofo da parede antes de pintar](/blog/como-tirar-mofo-da-parede-antes-de-pintar/). Parede nova ou muito absorvente pode pedir selador antes da massa.
 
 **2. Aplique em camadas finas.** Espalhe com desempenadeira de aço ou espátula, pressionando e puxando o excesso. Camadas grossas racham e demoram a secar. É melhor aplicar duas ou três demãos finas.
 
@@ -70,11 +70,11 @@ Sim, e é o mais comum. Use a corrida em quartos e salas e a acrílica em áreas
 
 **5. Limpe o pó.** Retire todo o pó com pano levemente úmido ou espanador antes do selador e da tinta.
 
-**6. Aplique selador e pinte.** O selador uniformiza a absorção e evita manchas. Leia mais no guia de [preparação de parede para pintura](/blog/preparacao-de-parede-para-pintura).
+**6. Aplique selador e pinte.** O selador uniformiza a absorção e evita manchas. Leia mais no guia de [preparação de parede para pintura](/blog/preparacao-de-parede-para-pintura/).
 
 ### Lixar à mão ou com lixadeira?
 
-Em cômodos pequenos, o lixamento manual resolve. Em paredes grandes ou na obra inteira, o trabalho manual é cansativo e a qualidade varia. Uma lixadeira de parede acelera o serviço e deixa o acabamento mais uniforme. Compare os modelos em [lixadeira de parede x lixadeira orbital](/blog/lixadeira-de-parede-x-lixadeira-orbital).
+Em cômodos pequenos, o lixamento manual resolve. Em paredes grandes ou na obra inteira, o trabalho manual é cansativo e a qualidade varia. Uma lixadeira de parede acelera o serviço e deixa o acabamento mais uniforme. Compare os modelos em [lixadeira de parede x lixadeira orbital](/blog/lixadeira-de-parede-x-lixadeira-orbital/).
 
 Como o lixamento levanta muito pó fino, use máscara PFF2, óculos de proteção e proteja pisos e móveis.
 
@@ -86,7 +86,7 @@ Como o lixamento levanta muito pó fino, use máscara PFF2, óculos de proteçã
 - pintar sem remover o pó do lixamento;
 - pular o selador.
 
-Veja mais armadilhas no artigo [erros comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede). Depois da massa, calcule a tinta com a nossa [calculadora de tinta](/ferramentas/calculadora-de-tinta).
+Veja mais armadilhas no artigo [erros comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede/). Depois da massa, calcule a tinta com a nossa [calculadora de tinta](/ferramentas/calculadora-de-tinta/).
 
 ### Equipamento certo para um acabamento profissional
 

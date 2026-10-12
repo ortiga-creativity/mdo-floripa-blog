@@ -61,17 +61,17 @@ Mantenha o ambiente ventilado, com janelas abertas, e proteja o piso e os móvei
 
 **2. Lave a superfície.** Prepare uma solução de água sanitária diluída em água, por exemplo uma parte de produto para três de água, e aplique com esponja ou escova. Nunca misture com vinagre, amoníaco ou outros limpadores. Em manchas leves, vinagre branco puro também ajuda.
 
-**3. Deixe agir e enxágue.** Aguarde cerca de 15 a 30 minutos e passe um pano limpo e úmido para retirar o resíduo. Em paredes externas, uma lavadora de alta pressão agiliza o trabalho, desde que a parede esteja em boas condições. Veja mais em nosso guia sobre [como lavar fachada e piso com lavadora de alta pressão](/blog/lavadora-de-alta-pressao-como-lavar-fachada-e-piso).
+**3. Deixe agir e enxágue.** Aguarde cerca de 15 a 30 minutos e passe um pano limpo e úmido para retirar o resíduo. Em paredes externas, uma lavadora de alta pressão agiliza o trabalho, desde que a parede esteja em boas condições. Veja mais em nosso guia sobre [como lavar fachada e piso com lavadora de alta pressão](/blog/lavadora-de-alta-pressao-como-lavar-fachada-e-piso/).
 
 **4. Deixe secar por completo.** Use ventilação natural, ventilador ou desumidificador. Essa é a etapa que mais se pula, e a que mais causa retrabalho. Pintar com a parede úmida faz o fungo voltar.
 
 **5. Corrija a causa.** Vede trincas, conserte vazamentos, limpe calhas e, quando houver umidade vinda de dentro da parede, avalie impermeabilização com um profissional.
 
-**6. Corrija e lixe.** Reponha o reboco que foi removido, aplique massa corrida ou acrílica onde necessário e lixe até nivelar. Para áreas maiores, uma [lixadeira de parede](/blog/lixadeira-de-parede-x-lixadeira-orbital) economiza tempo e deixa o acabamento mais uniforme.
+**6. Corrija e lixe.** Reponha o reboco que foi removido, aplique massa corrida ou acrílica onde necessário e lixe até nivelar. Para áreas maiores, uma [lixadeira de parede](/blog/lixadeira-de-parede-x-lixadeira-orbital/) economiza tempo e deixa o acabamento mais uniforme.
 
-**7. Aplique selador ou fundo preparador.** Ele uniformiza a absorção e melhora a aderência da tinta, como explicamos no artigo sobre [preparação de parede para pintura](/blog/preparacao-de-parede-para-pintura).
+**7. Aplique selador ou fundo preparador.** Ele uniformiza a absorção e melhora a aderência da tinta, como explicamos no artigo sobre [preparação de parede para pintura](/blog/preparacao-de-parede-para-pintura/).
 
-**8. Pinte com tinta adequada.** Em banheiros, cozinhas e áreas úmidas, prefira tinta com proteção antimofo ou tintas laváveis. Escolher bem a tinta faz diferença, e o artigo [tipos de tinta: qual usar](/blog/tipos-de-tinta-qual-usar) ajuda nessa decisão.
+**8. Pinte com tinta adequada.** Em banheiros, cozinhas e áreas úmidas, prefira tinta com proteção antimofo ou tintas laváveis. Escolher bem a tinta faz diferença, e o artigo [tipos de tinta: qual usar](/blog/tipos-de-tinta-qual-usar/) ajuda nessa decisão.
 
 ### Como evitar que o mofo volte
 
@@ -85,6 +85,6 @@ Depois de pintar, alguns hábitos mantêm a parede saudável:
 
 ### Quando vale chamar um profissional ou alugar equipamento
 
-Se o mofo cobre grandes áreas, volta repetidamente ou está acompanhado de infiltração, vale uma avaliação técnica antes de gastar com tinta. Para a parte do trabalho que depende de equipamento, como lixar áreas extensas, lavar paredes externas ou pintar com máquina airless em grandes metragens, a locação costuma sair mais em conta do que comprar. Confira também como [evitar os erros mais comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede).
+Se o mofo cobre grandes áreas, volta repetidamente ou está acompanhado de infiltração, vale uma avaliação técnica antes de gastar com tinta. Para a parte do trabalho que depende de equipamento, como lixar áreas extensas, lavar paredes externas ou pintar com máquina airless em grandes metragens, a locação costuma sair mais em conta do que comprar. Confira também como [evitar os erros mais comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede/).
 
 A equipe da MDO Floripa ajuda a escolher o equipamento certo para cada etapa. Fale com a gente pelo WhatsApp e monte seu orçamento.

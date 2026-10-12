@@ -52,9 +52,9 @@ Antes de qualquer produto, pense em como você vai chegar e se manter no telhado
 - **Ancoragem:** use linha de vida ou ponto de ancoragem projetado para esse fim.
 - **Condições do tempo:** nunca suba com chuva, vento forte ou telhado molhado.
 - **Pisar com cuidado:** telhas cerâmicas e de fibrocimento quebram. Use passarelas ou tábuas para distribuir o peso.
-- **Acesso:** um [andaime fachadeiro ou móvel](/blog/como-escolher-o-andaime-ideal) permite acessar beirais e áreas baixas do telhado com plataforma estável, sem improvisar com escadas.
+- **Acesso:** um [andaime fachadeiro ou móvel](/blog/como-escolher-o-andaime-ideal/) permite acessar beirais e áreas baixas do telhado com plataforma estável, sem improvisar com escadas.
 
-Para entender melhor os equipamentos, leia o guia de [EPIs essenciais para trabalho em altura](/blog/epis-essenciais-trabalho-altura). Se o telhado é alto, íngreme ou o serviço é extenso, contratar uma equipe habilitada em NR-35 é a decisão mais segura.
+Para entender melhor os equipamentos, leia o guia de [EPIs essenciais para trabalho em altura](/blog/epis-essenciais-trabalho-altura/). Se o telhado é alto, íngreme ou o serviço é extenso, contratar uma equipe habilitada em NR-35 é a decisão mais segura.
 
 ### Atenção: telhas de fibrocimento e amianto
 
@@ -70,7 +70,7 @@ Telhas de fibrocimento fabricadas há muito tempo podem conter amianto. O risco 
 
 **3. Aplique um produto removedor de musgo.** Existem produtos específicos para fungos e algas em telhados. Siga a diluição e o tempo de ação do fabricante, e proteja plantas e a vegetação ao redor, porque o escorrimento pode danificá-las.
 
-**4. Lave com pressão moderada.** Em telhas cerâmicas e de concreto, use a lavadora com bico de leque aberto, mantendo distância e jato inclinado, **sempre no sentido do caimento**, de cima para baixo. Jato contra o sentido das telhas empurra água para dentro da cobertura. Conheça os modelos no guia [como escolher uma lavadora de alta pressão](/blog/como-escolher-lavadora-de-alta-pressao).
+**4. Lave com pressão moderada.** Em telhas cerâmicas e de concreto, use a lavadora com bico de leque aberto, mantendo distância e jato inclinado, **sempre no sentido do caimento**, de cima para baixo. Jato contra o sentido das telhas empurra água para dentro da cobertura. Conheça os modelos no guia [como escolher uma lavadora de alta pressão](/blog/como-escolher-lavadora-de-alta-pressao/).
 
 **5. Limpe calhas e rufos.** Desentupa calhas e condutores para a água escoar sem acumular. Teste com uma mangueira.
 
@@ -86,6 +86,6 @@ Telhas de fibrocimento fabricadas há muito tempo podem conter amianto. O risco 
 
 ### Vale alugar a lavadora e o andaime?
 
-Para uma limpeza anual, comprar uma lavadora profissional raramente compensa. A locação entrega potência e equipamento adequado sem custo de manutenção e armazenagem. Veja a comparação em [lavagem de fachada: quando vale alugar lavadora profissional](/blog/lavagem-de-fachada-quando-vale-alugar-lavadora-profissional).
+Para uma limpeza anual, comprar uma lavadora profissional raramente compensa. A locação entrega potência e equipamento adequado sem custo de manutenção e armazenagem. Veja a comparação em [lavagem de fachada: quando vale alugar lavadora profissional](/blog/lavagem-de-fachada-quando-vale-alugar-lavadora-profissional/).
 
 A MDO Floripa aluga lavadoras de alta pressão e andaimes, com orientação sobre o equipamento certo para o seu serviço. Fale com a equipe pelo WhatsApp e peça seu orçamento.

@@ -84,12 +84,12 @@ Não existe resposta única. A escolha depende do volume e do prazo:
 
 A capacidade da betoneira é uma referência do volume de material, e a massa de concreto pronta costuma render menos que o número nominal. Por isso, planeje o número de massas com folga e confira o manual do equipamento.
 
-Para a decisão entre os modelos, veja nosso comparativo [betoneira 200 ou 400 litros: qual é a ideal para sua obra](/blog/betoneira-200-ou-400-litros-qual-escolher). Em resumo:
+Para a decisão entre os modelos, veja nosso comparativo [betoneira 200 ou 400 litros: qual é a ideal para sua obra](/blog/betoneira-200-ou-400-litros-qual-escolher/). Em resumo:
 
 - **150 a 200 litros:** reparos, calçadas, pequenos pisos e obras residenciais menores.
 - **400 litros:** pisos grandes, fundações e obras com produção contínua.
 
-Se a obra é pontual, vale comparar custo de locação com compra. Veja [alugar ou comprar equipamento de obra](/blog/alugar-ou-comprar-equipamento-de-obra) para fazer essa conta com segurança.
+Se a obra é pontual, vale comparar custo de locação com compra. Veja [alugar ou comprar equipamento de obra](/blog/alugar-ou-comprar-equipamento-de-obra/) para fazer essa conta com segurança.
 
 ### Cuidados na hora de concretar
 
@@ -97,7 +97,7 @@ Se a obra é pontual, vale comparar custo de locação com compra. Veja [alugar 
 - Umedeça a base e as formas antes do lançamento.
 - Adense o concreto com vibrador ou, em pisos pequenos, com régua e desempenadeira.
 - Faça a cura úmida nos primeiros dias, molhando a superfície para evitar fissuras por retração.
-- Mantenha a betoneira limpa ao fim de cada dia. Confira a [manutenção preventiva de betoneiras](/blog/manutencao-preventiva-de-betoneiras).
+- Mantenha a betoneira limpa ao fim de cada dia. Confira a [manutenção preventiva de betoneiras](/blog/manutencao-preventiva-de-betoneiras/).
 
 ### Alugue a betoneira certa com a MDO Floripa
 
