@@ -7,7 +7,11 @@
   "vars": {
     "GITHUB_CLIENT_ID": "Ov23li4dq7n5OaXR9au0"
   },
+  "routes": [
+    { "pattern": "www.locacaoequipamentos.blog.br", "custom_domain": true }
+  ],
   "assets": {
+    "run_worker_first": true,
     "directory": "./dist",
     "binding": "ASSETS",
     "html_handling": "auto-trailing-slash",

@@ -2,6 +2,12 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // www -> domínio principal (301 preserva caminho e query)
+    if (url.hostname.startsWith('www.')) {
+      url.hostname = url.hostname.slice(4);
+      url.protocol = 'https:';
+      return Response.redirect(url.toString(), 301);
+    }
     if (url.pathname === '/oauth/auth') return startAuth(url, env);
     if (url.pathname === '/oauth/callback') return finishAuth(request, url, env);
     return env.ASSETS.fetch(request);
