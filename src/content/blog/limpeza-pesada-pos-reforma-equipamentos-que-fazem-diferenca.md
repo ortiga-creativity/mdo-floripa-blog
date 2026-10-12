@@ -48,5 +48,7 @@ faq:
 <h3>Por que a ordem importa</h3>
 <p>Encerar antes de remover toda a poeira fina é o erro mais comum: a poeira se mistura à cera e cria uma película opaca, exigindo remoção completa e reaplicação. Seguir a ordem correta evita retrabalho e garante que o resultado final — piso limpo, brilhante e sem resíduos — apareça já na primeira tentativa.</p>
 
+<p>Para uma visão geral dos produtos e do planejamento da limpeza final, leia <a href="/blog/limpeza-pos-obra-essencial/">Limpeza pós-obra: produtos e equipamentos essenciais</a>.</p>
+
 <h3>Alugue o kit completo com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza aspiradores industriais, lavadoras de alta pressão e enceradeiras para locação em Florianópolis, prontos para acelerar a limpeza pós-reforma. Fale com nossa equipe pelo WhatsApp e monte o kit ideal para o seu imóvel.</p>

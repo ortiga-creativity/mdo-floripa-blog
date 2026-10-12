@@ -39,5 +39,7 @@ faq:
 <h3>Periodicidade recomendada</h3>
 <p>Em regiões litorâneas, com maior umidade e maresia, o ideal é lavar a fachada a cada 12 a 18 meses para evitar que a sujeira se torne incrustada e mais difícil de remover. Em áreas urbanas mais secas, o intervalo pode se estender para 2 anos sem grandes prejuízos estéticos.</p>
 
+<p>Depois de uma obra ou reforma, a lavadora também ajuda na limpeza final. Veja o guia de <a href="/blog/limpeza-pos-obra-essencial/">limpeza pós-obra: produtos e equipamentos essenciais</a>.</p>
+
 <h3>Alugue a lavadora profissional com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza lavadoras de alta pressão profissionais para locação em Florianópolis, ideais para devolver o visual da fachada da sua casa ou empresa. Fale com nossa equipe pelo WhatsApp e agende a limpeza.</p>

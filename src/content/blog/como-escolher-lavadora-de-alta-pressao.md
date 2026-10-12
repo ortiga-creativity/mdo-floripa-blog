@@ -151,6 +151,8 @@ Antes de escolher, responda:
 - O material suporta alta pressão?
 - O uso será pontual ou frequente?
 
+Para o uso na limpeza final de reformas, confira também [limpeza pós-obra: produtos e equipamentos essenciais](/blog/limpeza-pos-obra-essencial/).
+
 ### Conclusão
 
 Saber como escolher uma lavadora de alta pressão vai além de comparar potência ou preço. Pressão, vazão, tipo de superfície, acessórios e frequência de uso precisam entrar na decisão.
