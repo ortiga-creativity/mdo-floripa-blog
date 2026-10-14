@@ -1,25 +1,42 @@
 ---
-title: "Betoneira de 400 litros: quanto concreto produz por dia e quantas betonadas você precisa"
-excerpt: "Uma betoneira de 400 L rende cerca de 250 a 280 litros de concreto por betonada. Veja quantas betonadas e sacos de cimento são necessários para 1, 3, 5 ou 10 m³."
-category: "Construcao"
-image: "https://images.pexels.com/photos/6138083/pexels-photo-6138083.jpeg"
-author: "Equipe MDO Floripa"
+title: "Betoneira de 400 litros: quanto concreto produz por dia e quantas
+  betonadas você precisa"
+excerpt: Uma betoneira de 400 L rende cerca de 250 a 280 litros de concreto por
+  betonada. Veja quantas betonadas e sacos de cimento são necessários para 1, 3,
+  5 ou 10 m³.
+category: Construcao
+image: https://images.pexels.com/photos/6106878/pexels-photo-6106878.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-10"
+pubDate: 2026-10-10
 faq:
-  - q: "Quantos litros de concreto uma betoneira de 400 litros produz por betonada?"
-    a: "Em média de 250 a 280 litros de concreto pronto por betonada. A capacidade de 400 litros é o volume do tambor, não o volume de concreto, porque é preciso deixar espaço para a mistura girar."
-  - q: "Quantas betonadas são necessárias para 1 metro cúbico de concreto?"
-    a: "Cerca de 4 betonadas de 400 litros, considerando rendimento de aproximadamente 270 litros por betonada. Com betoneira de 200 litros, são cerca de 8 betonadas."
-  - q: "Quanto concreto uma betoneira de 400 litros faz por dia?"
-    a: "Depende da equipe que abastece e retira a massa. Com ritmo contínuo e material próximo da betoneira, vários metros cúbicos por dia são possíveis. Com equipe pequena ou material longe, o rendimento cai bastante, porque a máquina fica esperando."
-  - q: "Quantos sacos de cimento por betonada de 400 litros?"
-    a: "Em torno de 2 sacos de 50 kg por betonada, em traços usuais de concreto como 1:2:3 (cimento, areia e brita em volume). O valor exato depende do traço definido para o serviço."
-  - q: "Posso fazer laje e viga com betoneira?"
-    a: "Pode misturar, mas peças estruturais (laje, viga, pilar) exigem concreto com resistência (fck) e traço definidos pelo projeto estrutural, controle de dosagem e acompanhamento de responsável técnico. Para grandes volumes estruturais, avalie concreto usinado."
-  - q: "Betoneira de 400 litros precisa de gerador?"
-    a: "Se não houver rede elétrica no local, sim. O motor consome cerca de 1.500 W e tem pico de partida de aproximadamente o dobro. Um gerador de 5 kVA atende uma betoneira com pouca folga para outras ferramentas."
+  - q: Quantos litros de concreto uma betoneira de 400 litros produz por betonada?
+    a: Em média de 250 a 280 litros de concreto pronto por betonada. A capacidade de
+      400 litros é o volume do tambor, não o volume de concreto, porque é
+      preciso deixar espaço para a mistura girar.
+  - q: Quantas betonadas são necessárias para 1 metro cúbico de concreto?
+    a: Cerca de 4 betonadas de 400 litros, considerando rendimento de
+      aproximadamente 270 litros por betonada. Com betoneira de 200 litros, são
+      cerca de 8 betonadas.
+  - q: Quanto concreto uma betoneira de 400 litros faz por dia?
+    a: Depende da equipe que abastece e retira a massa. Com ritmo contínuo e
+      material próximo da betoneira, vários metros cúbicos por dia são
+      possíveis. Com equipe pequena ou material longe, o rendimento cai
+      bastante, porque a máquina fica esperando.
+  - q: Quantos sacos de cimento por betonada de 400 litros?
+    a: Em torno de 2 sacos de 50 kg por betonada, em traços usuais de concreto como
+      1:2:3 (cimento, areia e brita em volume). O valor exato depende do traço
+      definido para o serviço.
+  - q: Posso fazer laje e viga com betoneira?
+    a: Pode misturar, mas peças estruturais (laje, viga, pilar) exigem concreto com
+      resistência (fck) e traço definidos pelo projeto estrutural, controle de
+      dosagem e acompanhamento de responsável técnico. Para grandes volumes
+      estruturais, avalie concreto usinado.
+  - q: Betoneira de 400 litros precisa de gerador?
+    a: Se não houver rede elétrica no local, sim. O motor consome cerca de 1.500 W e
+      tem pico de partida de aproximadamente o dobro. Um gerador de 5 kVA atende
+      uma betoneira com pouca folga para outras ferramentas.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> uma betoneira de 400 litros produz em média <strong>250 a 280 litros de concreto por betonada</strong>, o que dá cerca de <strong>4 betonadas por metro cúbico</strong>. O rendimento diário depende menos da máquina e mais da equipe que abastece e retira a massa.</p></div>
 <p>Quem vai concretar costuma perguntar duas coisas: quanto de concreto a betoneira faz por dia e quantas betonadas serão necessárias para a obra. As duas respostas saem da mesma conta, e entender a lógica evita comprar material de menos ou alugar a máquina errada.</p>
