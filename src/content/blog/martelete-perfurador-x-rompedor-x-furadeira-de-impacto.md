@@ -1,23 +1,38 @@
 ---
-title: "Martelete perfurador x rompedor x furadeira de impacto: qual usar em cada serviço"
-excerpt: "Furadeira de impacto, martelete perfurador e martelete rompedor parecem iguais, mas servem para tarefas diferentes. Veja a diferença, o encaixe das ponteiras e qual escolher."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+title: "Martelete perfurador x rompedor x furadeira de impacto: qual usar em
+  cada serviço"
+excerpt: Furadeira de impacto, martelete perfurador e martelete rompedor parecem
+  iguais, mas servem para tarefas diferentes. Veja a diferença, o encaixe das
+  ponteiras e qual escolher.
+category: Construcao
+image: https://images.pexels.com/photos/6790943/pexels-photo-6790943.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-10"
+pubDate: 2026-10-10
 faq:
-  - q: "Qual a diferença entre furadeira de impacto e martelete?"
-    a: "A furadeira de impacto gera a percussão por atrito entre engrenagens e serve para furos leves em alvenaria e concreto fino. O martelete usa mecanismo pneumático, com energia de impacto bem maior, e fura concreto armado com muito mais rapidez e menos esforço."
-  - q: "Martelete perfurador quebra piso?"
-    a: "Alguns modelos têm função de cinzel para pequenos serviços de quebra, como abrir rasgos e remover pequenas áreas de reboco. Para quebrar contrapiso, piso ou concreto em área maior, o indicado é o martelete rompedor."
-  - q: "O que é SDS-plus e SDS-max?"
-    a: "São padrões de encaixe de brocas e ponteiras. O SDS-plus é usado em marteletes perfuradores leves e médios. O SDS-max é maior e mais robusto, usado em marteletes de maior impacto e em rompedores de porte médio. As ponteiras de um padrão não encaixam no outro."
-  - q: "Posso furar parede de concreto com furadeira de impacto?"
-    a: "Em concreto comum e pequenos diâmetros é possível, mas lento e cansativo. Em concreto armado ou furos maiores, o martelete perfurador faz o serviço mais rápido e com menos risco de forçar o motor."
-  - q: "Vale alugar martelete ou comprar?"
-    a: "Para uso eventual, alugar costuma compensar: você usa um equipamento profissional, com ponteira adequada ao serviço, e não paga por manutenção nem armazenamento. A compra faz sentido para uso frequente."
+  - q: Qual a diferença entre furadeira de impacto e martelete?
+    a: A furadeira de impacto gera a percussão por atrito entre engrenagens e serve
+      para furos leves em alvenaria e concreto fino. O martelete usa mecanismo
+      pneumático, com energia de impacto bem maior, e fura concreto armado com
+      muito mais rapidez e menos esforço.
+  - q: Martelete perfurador quebra piso?
+    a: Alguns modelos têm função de cinzel para pequenos serviços de quebra, como
+      abrir rasgos e remover pequenas áreas de reboco. Para quebrar contrapiso,
+      piso ou concreto em área maior, o indicado é o martelete rompedor.
+  - q: O que é SDS-plus e SDS-max?
+    a: São padrões de encaixe de brocas e ponteiras. O SDS-plus é usado em
+      marteletes perfuradores leves e médios. O SDS-max é maior e mais robusto,
+      usado em marteletes de maior impacto e em rompedores de porte médio. As
+      ponteiras de um padrão não encaixam no outro.
+  - q: Posso furar parede de concreto com furadeira de impacto?
+    a: Em concreto comum e pequenos diâmetros é possível, mas lento e cansativo. Em
+      concreto armado ou furos maiores, o martelete perfurador faz o serviço
+      mais rápido e com menos risco de forçar o motor.
+  - q: Vale alugar martelete ou comprar?
+    a: "Para uso eventual, alugar costuma compensar: você usa um equipamento
+      profissional, com ponteira adequada ao serviço, e não paga por manutenção
+      nem armazenamento. A compra faz sentido para uso frequente."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> use <strong>furadeira de impacto</strong> para furos leves em parede e concreto fino, <strong>martelete perfurador</strong> para furos em concreto armado e pequenos rasgos, e <strong>martelete rompedor</strong> para quebrar piso, contrapiso, concreto e demolir. A diferença está na energia de impacto e no encaixe da ponteira.</p></div>
 <p>Muita gente chama tudo de "furadeira" ou "martelete" e acaba usando a ferramenta errada, com serviço lento, equipamento forçado e risco de acidente. Veja o que cada uma faz.</p>
