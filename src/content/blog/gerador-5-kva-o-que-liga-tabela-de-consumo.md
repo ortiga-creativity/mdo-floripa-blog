@@ -1,25 +1,38 @@
 ---
 title: "Gerador de 5 kVA: o que ele liga? Tabela de consumo para casa e obra"
-excerpt: "Um gerador de 5 kVA entrega cerca de 4 kW reais. Veja o que ele consegue ligar ao mesmo tempo, o pico de partida de cada aparelho e como dimensionar sem queimar nada."
-category: "Manutencao de Equipamentos"
-image: "https://images.unsplash.com/photo-1658260867231-535a1f7c98b9?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Um gerador de 5 kVA entrega cerca de 4 kW reais. Veja o que ele
+  consegue ligar ao mesmo tempo, o pico de partida de cada aparelho e como
+  dimensionar sem queimar nada.
+category: Manutencao de Equipamentos
+image: https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-10"
+pubDate: 2026-10-10
 faq:
-  - q: "Quantos watts tem um gerador de 5 kVA?"
-    a: "Com fator de potência típico de 0,8, um gerador de 5 kVA entrega cerca de 4.000 W (4 kW) de potência real. A conta é kVA multiplicado por 0,8."
-  - q: "Gerador de 5 kVA liga ar-condicionado?"
-    a: "Liga um aparelho de 9.000 a 12.000 BTU junto com geladeira, iluminação LED e TV, desde que o ar seja ligado antes dos outros equipamentos grandes, porque o compressor tem pico de partida de cerca de 3 vezes o consumo normal. Não é indicado para vários aparelhos de ar ao mesmo tempo."
-  - q: "Gerador de 5 kVA liga chuveiro elétrico?"
-    a: "Normalmente não. Chuveiros elétricos usam entre 4.500 W e 7.500 W, o que consome ou ultrapassa toda a capacidade real de um gerador de 5 kVA (4 kW)."
-  - q: "Posso ligar o gerador direto na tomada ou no quadro de casa?"
-    a: "Não sem uma chave de transferência (reversora) instalada por eletricista. Ligar o gerador na instalação sem isolar a rede da concessionária pode retornar energia para a rua e causar acidentes graves."
-  - q: "Gerador pode ficar dentro de casa ou da garagem fechada?"
-    a: "Não. Geradores a combustão emitem monóxido de carbono, gás sem cheiro e perigoso. Use sempre ao ar livre, afastado de janelas, portas e frestas."
-  - q: "Como saber o pico de partida de um aparelho?"
-    a: "A plaqueta ou o manual informa a potência nominal e, em alguns casos, a corrente de partida. Na falta dessa informação, use como referência 2 a 3 vezes a potência nominal para motores e compressores."
+  - q: Quantos watts tem um gerador de 5 kVA?
+    a: Com fator de potência típico de 0,8, um gerador de 5 kVA entrega cerca de
+      4.000 W (4 kW) de potência real. A conta é kVA multiplicado por 0,8.
+  - q: Gerador de 5 kVA liga ar-condicionado?
+    a: Liga um aparelho de 9.000 a 12.000 BTU junto com geladeira, iluminação LED e
+      TV, desde que o ar seja ligado antes dos outros equipamentos grandes,
+      porque o compressor tem pico de partida de cerca de 3 vezes o consumo
+      normal. Não é indicado para vários aparelhos de ar ao mesmo tempo.
+  - q: Gerador de 5 kVA liga chuveiro elétrico?
+    a: Normalmente não. Chuveiros elétricos usam entre 4.500 W e 7.500 W, o que
+      consome ou ultrapassa toda a capacidade real de um gerador de 5 kVA (4
+      kW).
+  - q: Posso ligar o gerador direto na tomada ou no quadro de casa?
+    a: Não sem uma chave de transferência (reversora) instalada por eletricista.
+      Ligar o gerador na instalação sem isolar a rede da concessionária pode
+      retornar energia para a rua e causar acidentes graves.
+  - q: Gerador pode ficar dentro de casa ou da garagem fechada?
+    a: Não. Geradores a combustão emitem monóxido de carbono, gás sem cheiro e
+      perigoso. Use sempre ao ar livre, afastado de janelas, portas e frestas.
+  - q: Como saber o pico de partida de um aparelho?
+    a: A plaqueta ou o manual informa a potência nominal e, em alguns casos, a
+      corrente de partida. Na falta dessa informação, use como referência 2 a 3
+      vezes a potência nominal para motores e compressores.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> um gerador de 5 kVA entrega cerca de <strong>4.000 W</strong> de potência real (5 kVA × 0,8). Ele liga, ao mesmo tempo, geladeira, TV, iluminação LED, notebook, roteador e um ar-condicionado de 9.000 a 12.000 BTU. Não aguenta chuveiro elétrico, e o pico de partida de motores e compressores precisa caber na capacidade do gerador.</p></div>
 <p>A dúvida "o que um gerador de 5 kVA liga?" aparece em dois cenários muito diferentes: queda de energia em casa e obra sem rede elétrica. A conta é a mesma nos dois: somar o que vai funcionar ao mesmo tempo e conferir o pico de partida dos motores.</p>
