@@ -1,25 +1,38 @@
 ---
 title: "Checklist de inspeção do andaime: o que conferir antes de subir"
-excerpt: "Piso, sapatas, travamento, rodízios, guarda-corpo e clima: um checklist de 12 itens para conferir o andaime antes de cada uso e evitar quedas."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1594988930347-30d449190da0?q=80&w=1712&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-author: "Equipe MDO Floripa"
+excerpt: "Piso, sapatas, travamento, rodízios, guarda-corpo e clima: um
+  checklist de 12 itens para conferir o andaime antes de cada uso e evitar
+  quedas."
+category: Construcao
+image: https://images.pexels.com/photos/11739070/pexels-photo-11739070.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-16"
+pubDate: 2026-10-16
 faq:
-  - q: "Quando devo inspecionar o andaime?"
-    a: "Antes de cada início de turno de trabalho e sempre que houver chuva forte, vento, impacto na estrutura ou mudança de posição da torre."
-  - q: "Posso usar andaime com peça amassada ou enferrujada?"
-    a: "Não. Peças deformadas, trincadas ou com corrosão avançada perdem resistência e devem ser trocadas antes da montagem. Informe a locadora para substituir o item."
-  - q: "Preciso de guarda-corpo em andaime baixo?"
-    a: "Sim. A plataforma de trabalho precisa de guarda-corpo e rodapé, o que reduz o risco de queda de pessoas e de ferramentas. A altura de referência do guarda-corpo é de cerca de 1,20 m."
-  - q: "Posso trabalhar no andaime com vento ou chuva?"
-    a: "Não é recomendado. Ventos fortes, chuva e raios aumentam o risco de queda e de tombamento da torre. Interrompa o serviço, desça e retome só com a estrutura reconferida."
-  - q: "Como subir no andaime com segurança?"
-    a: "Use a escada de acesso ou o acesso previsto pelo sistema, e não escale pelos painéis. Suba com as mãos livres e, se necessário, içe ferramentas por corda ou balde em vez de carregar."
-  - q: "Posso usar escada em cima do andaime para ganhar altura?"
-    a: "Não. Improvisar escada, caixas ou tábuas sobre a plataforma é uma das causas mais comuns de queda. Se faltar altura, o correto é adicionar um módulo à torre, respeitando o limite de projeto."
+  - q: Quando devo inspecionar o andaime?
+    a: Antes de cada início de turno de trabalho e sempre que houver chuva forte,
+      vento, impacto na estrutura ou mudança de posição da torre.
+  - q: Posso usar andaime com peça amassada ou enferrujada?
+    a: Não. Peças deformadas, trincadas ou com corrosão avançada perdem resistência
+      e devem ser trocadas antes da montagem. Informe a locadora para substituir
+      o item.
+  - q: Preciso de guarda-corpo em andaime baixo?
+    a: Sim. A plataforma de trabalho precisa de guarda-corpo e rodapé, o que reduz o
+      risco de queda de pessoas e de ferramentas. A altura de referência do
+      guarda-corpo é de cerca de 1,20 m.
+  - q: Posso trabalhar no andaime com vento ou chuva?
+    a: Não é recomendado. Ventos fortes, chuva e raios aumentam o risco de queda e
+      de tombamento da torre. Interrompa o serviço, desça e retome só com a
+      estrutura reconferida.
+  - q: Como subir no andaime com segurança?
+    a: Use a escada de acesso ou o acesso previsto pelo sistema, e não escale pelos
+      painéis. Suba com as mãos livres e, se necessário, içe ferramentas por
+      corda ou balde em vez de carregar.
+  - q: Posso usar escada em cima do andaime para ganhar altura?
+    a: Não. Improvisar escada, caixas ou tábuas sobre a plataforma é uma das causas
+      mais comuns de queda. Se faltar altura, o correto é adicionar um módulo à
+      torre, respeitando o limite de projeto.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> antes de subir no andaime, confira <strong>piso firme e nivelado, sapatas ou rodízios freados, peças sem deformação, diagonais travadas, plataforma completa com guarda-corpo e rodapé, acesso seguro e clima</strong>. Se qualquer item falhar, não suba: corrija ou chame a locadora.</p></div>
 <p>A maioria das quedas em andaime tem origem em falhas simples de montagem e uso, e não em falha da peça. Um checklist rápido, repetido todo dia, evita boa parte delas. Este roteiro serve para torres de aluguel usadas em reformas, pintura e manutenção. Ele não substitui o manual do fabricante, o projeto (quando exigido) nem o treinamento dos trabalhadores.</p>
