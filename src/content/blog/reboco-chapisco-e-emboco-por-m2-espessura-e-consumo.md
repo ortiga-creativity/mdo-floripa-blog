@@ -1,25 +1,43 @@
 ---
 title: "Reboco, chapisco e emboço por m²: espessura, camadas e quanta massa comprar"
-excerpt: "Entenda a diferença entre chapisco, emboço e reboco, qual espessura usar em parede interna e externa e como calcular a quantidade de argamassa para a sua obra."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+excerpt: Entenda a diferença entre chapisco, emboço e reboco, qual espessura
+  usar em parede interna e externa e como calcular a quantidade de argamassa
+  para a sua obra.
+category: Construcao
+image: https://images.pexels.com/photos/10383588/pexels-photo-10383588.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-17"
+pubDate: 2026-10-17
 faq:
-  - q: "Qual a diferença entre chapisco, emboço e reboco?"
-    a: "O chapisco é uma camada fina e áspera que ajuda a argamassa a aderir à parede. O emboço regulariza a superfície e corrige desníveis. O reboco é a camada final, mais fina, que deixa a parede pronta para receber massa corrida e pintura. Hoje é comum aplicar uma massa única, que reúne emboço e reboco."
-  - q: "Qual a espessura ideal do reboco?"
-    a: "As espessuras exigidas pela NBR 13749 são de 5 a 20 mm para o revestimento total de paredes internas e de 20 a 30 mm para paredes externas. Camadas mais grossas que o indicado pelo fabricante devem ser feitas em duas demãos."
-  - q: "Quantos quilos de massa por m² de reboco?"
-    a: "Argamassas industrializadas costumam render em torno de 18 a 20 kg por m² para cada centímetro de espessura. Em 2 cm, isso dá cerca de 36 a 40 kg por m². O valor exato está na embalagem do produto."
-  - q: "Como calcular quanta argamassa preciso para a parede?"
-    a: "Multiplique a área a revestir (m²) pela espessura (m) para achar o volume em m³. Exemplo: 20 m² com 2 cm de espessura dá 0,4 m³. Acrescente uma margem de perda, que varia com o cuidado na aplicação."
-  - q: "Quanto tempo esperar entre o reboco e a pintura?"
-    a: "Em geral recomenda-se aguardar a cura do reboco, em torno de 28 dias, antes de pintar. Siga a orientação do fabricante da argamassa e da tinta, que pode ser mais curta ou mais longa."
-  - q: "Preciso de chapisco em toda parede?"
-    a: "O chapisco é indicado em superfícies lisas, como concreto, ou de baixa aderência, para a argamassa não soltar. Sobre alvenaria de tijolo ou bloco cerâmico, muitos sistemas dispensam ou usam produtos específicos. Confirme com o responsável técnico e o fabricante."
+  - q: Qual a diferença entre chapisco, emboço e reboco?
+    a: O chapisco é uma camada fina e áspera que ajuda a argamassa a aderir à
+      parede. O emboço regulariza a superfície e corrige desníveis. O reboco é a
+      camada final, mais fina, que deixa a parede pronta para receber massa
+      corrida e pintura. Hoje é comum aplicar uma massa única, que reúne emboço
+      e reboco.
+  - q: Qual a espessura ideal do reboco?
+    a: As espessuras exigidas pela NBR 13749 são de 5 a 20 mm para o revestimento
+      total de paredes internas e de 20 a 30 mm para paredes externas. Camadas
+      mais grossas que o indicado pelo fabricante devem ser feitas em duas
+      demãos.
+  - q: Quantos quilos de massa por m² de reboco?
+    a: Argamassas industrializadas costumam render em torno de 18 a 20 kg por m²
+      para cada centímetro de espessura. Em 2 cm, isso dá cerca de 36 a 40 kg
+      por m². O valor exato está na embalagem do produto.
+  - q: Como calcular quanta argamassa preciso para a parede?
+    a: "Multiplique a área a revestir (m²) pela espessura (m) para achar o volume em
+      m³. Exemplo: 20 m² com 2 cm de espessura dá 0,4 m³. Acrescente uma margem
+      de perda, que varia com o cuidado na aplicação."
+  - q: Quanto tempo esperar entre o reboco e a pintura?
+    a: Em geral recomenda-se aguardar a cura do reboco, em torno de 28 dias, antes
+      de pintar. Siga a orientação do fabricante da argamassa e da tinta, que
+      pode ser mais curta ou mais longa.
+  - q: Preciso de chapisco em toda parede?
+    a: O chapisco é indicado em superfícies lisas, como concreto, ou de baixa
+      aderência, para a argamassa não soltar. Sobre alvenaria de tijolo ou bloco
+      cerâmico, muitos sistemas dispensam ou usam produtos específicos. Confirme
+      com o responsável técnico e o fabricante.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> para saber o volume de argamassa de revestimento, <strong>multiplique a área (m²) pela espessura (m)</strong>. Cada centímetro de espessura equivale a cerca de <strong>10 litros por m²</strong>. Uma massa industrializada rende em torno de <strong>18 a 20 kg por m² por cm</strong>. Pela <strong>NBR 13749</strong>, a espessura total do revestimento é de 5 a 20 mm em parede interna e de 20 a 30 mm em parede externa.</p></div>
 <p>Antes de chamar o pedreiro ou comprar material, quase todo mundo tem a mesma dúvida: quantos sacos de massa vão ser necessários e qual espessura aplicar. Este guia explica cada camada e traz a conta para você estimar sozinho, de modo que dê para conferir o orçamento.</p>
