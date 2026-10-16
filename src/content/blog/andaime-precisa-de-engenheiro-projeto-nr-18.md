@@ -1,25 +1,42 @@
 ---
-title: "Andaime precisa de engenheiro e projeto? O que a NR-18 diz para obra e reforma"
-excerpt: "Torre única baixa pode dispensar projeto, mas andaime com pisos interligados, fachadeiro e suspenso exigem profissional habilitado e ART. Entenda cada caso antes de alugar."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1636362556682-11231883c01c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-author: "Equipe MDO Floripa"
+title: Andaime precisa de engenheiro e projeto? O que a NR-18 diz para obra e reforma
+excerpt: Torre única baixa pode dispensar projeto, mas andaime com pisos
+  interligados, fachadeiro e suspenso exigem profissional habilitado e ART.
+  Entenda cada caso antes de alugar.
+category: Construcao
+image: https://images.pexels.com/photos/38706749/pexels-photo-38706749.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-14"
+pubDate: 2026-10-14
 faq:
-  - q: "Preciso de engenheiro para montar um andaime em reforma de casa?"
-    a: "Depende do tipo de montagem. Uma torre única, apoiada no chão, com altura menor que 4 vezes a menor dimensão da base, pode dispensar projeto, desde que seja montada seguindo o manual do fabricante. Se houver pisos de trabalho interligados, ou se o andaime for fachadeiro, suspenso ou em balanço, a NR-18 exige projeto de profissional habilitado."
-  - q: "Qual a altura máxima de um andaime sem projeto?"
-    a: "Não existe uma altura em metros que valha para todos os casos. Para torre única apoiada e não estaiada, o limite de referência é 4 vezes a menor dimensão da base. Em uma torre de base 1,5 x 1,5 m, isso dá 6 m. Acima disso a torre precisa ser estaiada ou fixada à estrutura."
-  - q: "O que é ART e quando ela entra?"
-    a: "A Anotação de Responsabilidade Técnica registra quem assume tecnicamente um projeto ou serviço de engenharia. Para andaimes fachadeiros, suspensos e em balanço, os projetos devem vir acompanhados de ART."
-  - q: "Quem pode montar um andaime?"
-    a: "Trabalhadores capacitados, com treinamento específico para o tipo de andaime usado. Trabalho acima de 2 metros de diferença de nível também se enquadra na NR-35 (trabalho em altura)."
-  - q: "A locadora precisa entregar manual do andaime?"
-    a: "Sim. O fabricante ou o locador deve fornecer o manual de instruções, em português, com as orientações de montagem, uso e carga máxima. Peça o manual na hora de alugar."
-  - q: "Posso usar andaime de aluguel para pintar fachada de sobrado?"
-    a: "Pode, mas sobrado costuma exigir torre mais alta e mais de um ponto de trabalho. Nesses casos, confirme com a locadora e com um profissional habilitado se a montagem pode ser feita pelo manual ou se exige projeto."
+  - q: Preciso de engenheiro para montar um andaime em reforma de casa?
+    a: Depende do tipo de montagem. Uma torre única, apoiada no chão, com altura
+      menor que 4 vezes a menor dimensão da base, pode dispensar projeto, desde
+      que seja montada seguindo o manual do fabricante. Se houver pisos de
+      trabalho interligados, ou se o andaime for fachadeiro, suspenso ou em
+      balanço, a NR-18 exige projeto de profissional habilitado.
+  - q: Qual a altura máxima de um andaime sem projeto?
+    a: Não existe uma altura em metros que valha para todos os casos. Para torre
+      única apoiada e não estaiada, o limite de referência é 4 vezes a menor
+      dimensão da base. Em uma torre de base 1,5 x 1,5 m, isso dá 6 m. Acima
+      disso a torre precisa ser estaiada ou fixada à estrutura.
+  - q: O que é ART e quando ela entra?
+    a: A Anotação de Responsabilidade Técnica registra quem assume tecnicamente um
+      projeto ou serviço de engenharia. Para andaimes fachadeiros, suspensos e
+      em balanço, os projetos devem vir acompanhados de ART.
+  - q: Quem pode montar um andaime?
+    a: Trabalhadores capacitados, com treinamento específico para o tipo de andaime
+      usado. Trabalho acima de 2 metros de diferença de nível também se enquadra
+      na NR-35 (trabalho em altura).
+  - q: A locadora precisa entregar manual do andaime?
+    a: Sim. O fabricante ou o locador deve fornecer o manual de instruções, em
+      português, com as orientações de montagem, uso e carga máxima. Peça o
+      manual na hora de alugar.
+  - q: Posso usar andaime de aluguel para pintar fachada de sobrado?
+    a: Pode, mas sobrado costuma exigir torre mais alta e mais de um ponto de
+      trabalho. Nesses casos, confirme com a locadora e com um profissional
+      habilitado se a montagem pode ser feita pelo manual ou se exige projeto.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> uma <strong>torre única de andaime tubular</strong>, apoiada no chão e com altura menor que <strong>4 vezes a menor dimensão da base</strong>, pode ser montada sem projeto, seguindo o manual do fabricante. Já andaime com <strong>pisos interligados</strong>, <strong>fachadeiro</strong>, <strong>suspenso</strong> ou <strong>em balanço</strong> exige projeto de profissional habilitado, e os três últimos também ART.</p></div>
 <p>Quem vai alugar um andaime para pintar, reformar ou fazer manutenção costuma travar em uma pergunta: "preciso contratar um engenheiro só para isso?". A resposta é "depende do tipo de andaime e de como ele será montado". Este guia organiza os casos mais comuns com base na NR-18, a norma que trata da segurança na construção civil.</p>
