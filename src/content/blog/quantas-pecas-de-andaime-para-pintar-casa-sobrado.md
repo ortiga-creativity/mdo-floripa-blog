@@ -1,23 +1,35 @@
 ---
-title: "Quantas peças de andaime preciso para pintar uma casa ou sobrado?"
-excerpt: "Veja quantos painéis, diagonais, pisos e rodízios uma torre de andaime 1,5 x 1,5 m precisa para casa térrea e sobrado, e quando mais de uma torre é a melhor solução."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1636362556682-11231883c01c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-author: "Equipe MDO Floripa"
+title: Quantas peças de andaime preciso para pintar uma casa ou sobrado?
+excerpt: Veja quantos painéis, diagonais, pisos e rodízios uma torre de andaime
+  1,5 x 1,5 m precisa para casa térrea e sobrado, e quando mais de uma torre é a
+  melhor solução.
+category: Construcao
+image: https://images.pexels.com/photos/39494030/pexels-photo-39494030.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-15"
+pubDate: 2026-10-15
 faq:
-  - q: "Que altura de andaime preciso para pintar a fachada de um sobrado?"
-    a: "A parede de um sobrado costuma ter entre 6 e 7 metros até o beiral. Como o pintor alcança em torno de 1,5 a 2 m acima do piso da plataforma, uma torre com plataforma entre 4,5 e 6 m de altura costuma atender, conforme o pé-direito e o telhado. Meça a sua fachada antes de alugar."
-  - q: "Quantos painéis tem uma torre de andaime de 3 metros?"
-    a: "Em torre com painéis de 1,5 x 1,5 m, são 2 módulos de altura e 4 painéis (2 por módulo), mais diagonais de travamento, pisos de plataforma, guarda-corpo e rodízios ou sapatas."
-  - q: "Um andaime só dá conta de pintar a casa inteira?"
-    a: "Pode dar, se for móvel (com rodízios) e o piso for plano. A torre é reposicionada a cada trecho de parede. Para obras longas, duas torres adiantam o serviço, mas pisos interligados exigem projeto de profissional habilitado."
-  - q: "Posso mover o andaime com o pintor em cima?"
-    a: "Não. A torre deve ser movida vazia, com os rodízios destravados só durante o deslocamento e travados novamente antes de qualquer pessoa subir."
-  - q: "Andaime serve em terreno desnivelado ou gramado?"
-    a: "Só com sapatas reguláveis e base firme (por exemplo, pranchas ou chapas que distribuam o peso). Rodízios em solo mole ou inclinado são perigosos."
+  - q: Que altura de andaime preciso para pintar a fachada de um sobrado?
+    a: A parede de um sobrado costuma ter entre 6 e 7 metros até o beiral. Como o
+      pintor alcança em torno de 1,5 a 2 m acima do piso da plataforma, uma
+      torre com plataforma entre 4,5 e 6 m de altura costuma atender, conforme o
+      pé-direito e o telhado. Meça a sua fachada antes de alugar.
+  - q: Quantos painéis tem uma torre de andaime de 3 metros?
+    a: Em torre com painéis de 1,5 x 1,5 m, são 2 módulos de altura e 4 painéis (2
+      por módulo), mais diagonais de travamento, pisos de plataforma,
+      guarda-corpo e rodízios ou sapatas.
+  - q: Um andaime só dá conta de pintar a casa inteira?
+    a: Pode dar, se for móvel (com rodízios) e o piso for plano. A torre é
+      reposicionada a cada trecho de parede. Para obras longas, duas torres
+      adiantam o serviço, mas pisos interligados exigem projeto de profissional
+      habilitado.
+  - q: Posso mover o andaime com o pintor em cima?
+    a: Não. A torre deve ser movida vazia, com os rodízios destravados só durante o
+      deslocamento e travados novamente antes de qualquer pessoa subir.
+  - q: Andaime serve em terreno desnivelado ou gramado?
+    a: Só com sapatas reguláveis e base firme (por exemplo, pranchas ou chapas que
+      distribuam o peso). Rodízios em solo mole ou inclinado são perigosos.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> para pintar a fachada de um sobrado, normalmente basta uma torre móvel de <strong>4,5 a 6 m de altura</strong>, com base de 1,5 x 1,5 m. Isso dá de <strong>6 a 8 painéis</strong>, 2 a 3 diagonais, rodízios com freio, pisos de plataforma e guarda-corpo. Casa térrea costuma resolver com torre de 1,5 a 3 m.</p></div>
 <p>Antes de alugar andaime, o cliente costuma perguntar "quantas peças eu preciso?". A resposta depende da altura da parede, do tipo de piso e de como a torre vai se mover ao redor da casa. Os números abaixo seguem a mesma regra da <a href="/ferramentas/calculadora-de-andaime/">calculadora de andaime do blog</a>, para torre de painéis 1,5 x 1,5 m.</p>
