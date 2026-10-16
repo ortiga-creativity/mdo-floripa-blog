@@ -1,25 +1,39 @@
 ---
-title: "Quantos tijolos por m² de parede? Tabela por tipo e consumo de argamassa"
-excerpt: "Tijolo de 6 furos, 8 furos ou bloco de concreto: veja quantas unidades por m², como descontar portas e janelas, quanto comprar de perda e quanta argamassa de assentamento usar."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+title: Quantos tijolos por m² de parede? Tabela por tipo e consumo de argamassa
+excerpt: "Tijolo de 6 furos, 8 furos ou bloco de concreto: veja quantas unidades
+  por m², como descontar portas e janelas, quanto comprar de perda e quanta
+  argamassa de assentamento usar."
+category: Construcao
+image: https://images.pexels.com/photos/19688828/pexels-photo-19688828.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-16"
+pubDate: 2026-10-16
 faq:
-  - q: "Quantos tijolos de 8 furos vão em 1 m² de parede?"
-    a: "Em torno de 25 unidades por m² para o tijolo de 8 furos de 9 x 19 x 19 cm assentado com a face de 19 x 19 cm para fora e junta de 1 cm. Some cerca de 10% de perda na compra."
-  - q: "Quantos tijolos de 6 furos vão em 1 m²?"
-    a: "Para o tijolo de 6 furos de 9 x 14 x 19 cm, assentado com a face de 14 x 19 cm para fora (parede de 9 cm), são cerca de 33 unidades por m² com junta de 1 cm. Assentado deitado, com a face de 9 x 19 cm para fora, são cerca de 50 por m², e a parede fica com 14 cm."
-  - q: "Quanto de perda devo considerar ao comprar tijolos?"
-    a: "Costuma-se acrescentar cerca de 10% à quantidade calculada, para cobrir quebra no transporte, cortes e ajustes."
-  - q: "Como calculo a área da parede para comprar tijolos?"
-    a: "Multiplique comprimento por altura de cada parede, some tudo e subtraia a área de portas e janelas. Multiplique o resultado pelo número de tijolos por m² e acrescente a perda."
-  - q: "Quanta argamassa de assentamento preciso por m² de parede?"
-    a: "Como ordem de grandeza, de 8 a 12 litros por m² de parede de tijolo de 9 cm com junta de 1 cm, já contando alguma perda. O valor varia com o tipo de bloco, a espessura da junta e a argamassa usada, então confira a ficha técnica do fabricante."
-  - q: "Preciso de betoneira para fazer argamassa de assentamento?"
-    a: "Para pouca alvenaria, a mistura manual resolve. Em paredes de maior área, a betoneira padroniza o traço, economiza tempo e dá uniformidade à massa."
+  - q: Quantos tijolos de 8 furos vão em 1 m² de parede?
+    a: Em torno de 25 unidades por m² para o tijolo de 8 furos de 9 x 19 x 19 cm
+      assentado com a face de 19 x 19 cm para fora e junta de 1 cm. Some cerca
+      de 10% de perda na compra.
+  - q: Quantos tijolos de 6 furos vão em 1 m²?
+    a: Para o tijolo de 6 furos de 9 x 14 x 19 cm, assentado com a face de 14 x 19
+      cm para fora (parede de 9 cm), são cerca de 33 unidades por m² com junta
+      de 1 cm. Assentado deitado, com a face de 9 x 19 cm para fora, são cerca
+      de 50 por m², e a parede fica com 14 cm.
+  - q: Quanto de perda devo considerar ao comprar tijolos?
+    a: Costuma-se acrescentar cerca de 10% à quantidade calculada, para cobrir
+      quebra no transporte, cortes e ajustes.
+  - q: Como calculo a área da parede para comprar tijolos?
+    a: Multiplique comprimento por altura de cada parede, some tudo e subtraia a
+      área de portas e janelas. Multiplique o resultado pelo número de tijolos
+      por m² e acrescente a perda.
+  - q: Quanta argamassa de assentamento preciso por m² de parede?
+    a: Como ordem de grandeza, de 8 a 12 litros por m² de parede de tijolo de 9 cm
+      com junta de 1 cm, já contando alguma perda. O valor varia com o tipo de
+      bloco, a espessura da junta e a argamassa usada, então confira a ficha
+      técnica do fabricante.
+  - q: Preciso de betoneira para fazer argamassa de assentamento?
+    a: Para pouca alvenaria, a mistura manual resolve. Em paredes de maior área, a
+      betoneira padroniza o traço, economiza tempo e dá uniformidade à massa.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> uma parede usa em média <strong>25 tijolos de 8 furos (9 x 19 x 19 cm)</strong> ou <strong>33 tijolos de 6 furos (9 x 14 x 19 cm)</strong> por m², com junta de 1 cm. Calcule a área, desconte portas e janelas e <strong>acrescente 10% de perda</strong>. A argamassa de assentamento fica na ordem de <strong>8 a 12 litros por m²</strong>.</p></div>
 <p>"Quantos tijolos eu compro?" é uma das perguntas mais comuns de quem vai erguer um muro, uma parede ou uma edícula. A conta é simples, mas depende de três coisas: o tamanho do tijolo, a face que fica para fora e a espessura da junta.</p>
