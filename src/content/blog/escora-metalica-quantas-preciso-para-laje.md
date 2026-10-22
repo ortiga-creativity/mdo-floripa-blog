@@ -1,25 +1,43 @@
 ---
 title: "Escora metálica: quantas preciso para escorar uma laje?"
-excerpt: "Entenda como o peso do concreto define a quantidade de escoras, quais cuidados evitam acidente e por que o espaçamento deve vir do projeto de escoramento, não de regra de bolso."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1636362556682-11231883c01c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-author: "Equipe MDO Floripa"
+excerpt: Entenda como o peso do concreto define a quantidade de escoras, quais
+  cuidados evitam acidente e por que o espaçamento deve vir do projeto de
+  escoramento, não de regra de bolso.
+category: Construcao
+image: https://images.pexels.com/photos/35886617/pexels-photo-35886617.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-23"
+pubDate: 2026-10-23
 faq:
-  - q: "Quantas escoras metálicas preciso por m² de laje?"
-    a: "Não existe um número fixo. A quantidade depende da espessura da laje, do vão, das fôrmas e vigas de apoio, da carga de execução e da capacidade da escora. Como ilustração, em malha de 0,75 x 0,75 m são cerca de 1,8 escoras por m², e em malha de 0,50 x 0,50 m, cerca de 4 por m². O espaçamento correto deve vir do projeto de escoramento."
-  - q: "Qual a capacidade de carga de uma escora metálica?"
-    a: "Depende do modelo e da altura da regulagem: quanto mais estendida, menor a carga admissível. Em manuais de fabricante, escoras de cerca de 3,1 m aparecem com capacidade na ordem de 600 kg e de 4,5 m na ordem de 550 kg, mas a ficha técnica do equipamento alugado é que vale."
-  - q: "Que altura uma escora metálica alcança?"
-    a: "Os modelos regulam em geral de cerca de 2 até 4,5 metros, com ajuste em degraus e ajuste fino na rosca. Escolha o modelo cuja faixa de uso contenha o pé-direito da obra, sem usar a escora totalmente estendida."
-  - q: "Quanto tempo as escoras ficam na laje?"
-    a: "Até o concreto atingir a resistência definida pelo engenheiro para a desforma. O prazo depende do concreto, do clima e do projeto, e a retirada deve seguir a orientação do responsável técnico, nunca por \"sentimento\"."
-  - q: "Escora de madeira ou metálica?"
-    a: "A metálica tem altura regulável, capacidade conhecida e reutilização, o que facilita o nivelamento e a segurança. A de madeira depende do material e da bitola e exige mais cuidado. Em ambos os casos, o dimensionamento deve ser feito por profissional habilitado."
-  - q: "Posso escorar laje sem engenheiro?"
-    a: "Para laje nova ou reforço de estrutura, o escoramento deve seguir projeto de profissional habilitado, conforme a NBR 15696. Nunca improvise quantidade, espaçamento ou travamento."
+  - q: Quantas escoras metálicas preciso por m² de laje?
+    a: Não existe um número fixo. A quantidade depende da espessura da laje, do vão,
+      das fôrmas e vigas de apoio, da carga de execução e da capacidade da
+      escora. Como ilustração, em malha de 0,75 x 0,75 m são cerca de 1,8
+      escoras por m², e em malha de 0,50 x 0,50 m, cerca de 4 por m². O
+      espaçamento correto deve vir do projeto de escoramento.
+  - q: Qual a capacidade de carga de uma escora metálica?
+    a: "Depende do modelo e da altura da regulagem: quanto mais estendida, menor a
+      carga admissível. Em manuais de fabricante, escoras de cerca de 3,1 m
+      aparecem com capacidade na ordem de 600 kg e de 4,5 m na ordem de 550 kg,
+      mas a ficha técnica do equipamento alugado é que vale."
+  - q: Que altura uma escora metálica alcança?
+    a: Os modelos regulam em geral de cerca de 2 até 4,5 metros, com ajuste em
+      degraus e ajuste fino na rosca. Escolha o modelo cuja faixa de uso
+      contenha o pé-direito da obra, sem usar a escora totalmente estendida.
+  - q: Quanto tempo as escoras ficam na laje?
+    a: Até o concreto atingir a resistência definida pelo engenheiro para a
+      desforma. O prazo depende do concreto, do clima e do projeto, e a retirada
+      deve seguir a orientação do responsável técnico, nunca por "sentimento".
+  - q: Escora de madeira ou metálica?
+    a: A metálica tem altura regulável, capacidade conhecida e reutilização, o que
+      facilita o nivelamento e a segurança. A de madeira depende do material e
+      da bitola e exige mais cuidado. Em ambos os casos, o dimensionamento deve
+      ser feito por profissional habilitado.
+  - q: Posso escorar laje sem engenheiro?
+    a: Para laje nova ou reforço de estrutura, o escoramento deve seguir projeto de
+      profissional habilitado, conforme a NBR 15696. Nunca improvise quantidade,
+      espaçamento ou travamento.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> não existe um número fixo de escoras por m². A quantidade vem do <strong>projeto de escoramento</strong>, que considera o peso do concreto (cerca de <strong>250 kg/m² em laje de 10 cm</strong>), as fôrmas, a carga de obra e a capacidade da escora. Como ilustração, malha de 0,75 x 0,75 m dá cerca de 1,8 escora por m².</p></div>
 <p>Quem vai concretar uma laje precisa de escoras para sustentar fôrmas e concreto fresco até ele ganhar resistência. A pergunta "quantas escoras eu alugo?" tem uma resposta que parece complicada, mas dá para entender a lógica, sem substituir o projeto do engenheiro.</p>
