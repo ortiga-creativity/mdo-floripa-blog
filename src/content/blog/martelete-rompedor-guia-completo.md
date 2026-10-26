@@ -1,12 +1,13 @@
 ---
-title: "Martelete rompedor: guia completo para quebrar piso e concreto sem errar"
-excerpt: "Quebrar piso, demolir contrapiso ou abrir rasgos em concreto exige a ferramenta certa. Veja como escolher e operar um martelete rompedor com segurança."
+title: "Martelete para quebrar piso e concreto: guia completo"
+excerpt: "Qual martelete usar para quebrar piso, contrapiso e concreto, qual ponteira escolher e como operar com segurança, sem rachar a laje."
 category: "Construcao"
 image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
 author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+updatedDate: "2026-10-26"
 faq:
   - q: "Martelete rompedor elétrico ou a combustão: qual alugar para obra residencial?"
     a: "Para obras residenciais com acesso à rede elétrica, o modelo elétrico é a escolha mais prática: mais silencioso, sem emissão de gases e mais fácil de operar em ambientes fechados."

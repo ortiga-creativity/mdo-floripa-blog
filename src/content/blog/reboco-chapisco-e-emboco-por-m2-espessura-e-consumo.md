@@ -1,14 +1,13 @@
 ---
-title: "Reboco, chapisco e emboço por m²: espessura, camadas e quanta massa comprar"
-excerpt: Entenda a diferença entre chapisco, emboço e reboco, qual espessura
-  usar em parede interna e externa e como calcular a quantidade de argamassa
-  para a sua obra.
+title: "Espessura do reboco, chapisco e emboço (NBR 13749)"
+excerpt: "Cada cm de reboco gasta cerca de 10 litros de massa por m². Veja a espessura de chapisco, emboço e reboco e como calcular a argamassa."
 category: Construcao
 image: https://images.pexels.com/photos/10383588/pexels-photo-10383588.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-17
+updatedDate: "2026-10-26"
 faq:
   - q: Qual a diferença entre chapisco, emboço e reboco?
     a: O chapisco é uma camada fina e áspera que ajuda a argamassa a aderir à

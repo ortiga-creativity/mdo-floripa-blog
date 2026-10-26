@@ -1,15 +1,13 @@
 ---
-title: "Betoneira de 400 litros: quanto concreto produz por dia e quantas
-  betonadas você precisa"
-excerpt: Uma betoneira de 400 L rende cerca de 250 a 280 litros de concreto por
-  betonada. Veja quantas betonadas e sacos de cimento são necessários para 1, 3,
-  5 ou 10 m³.
+title: "Betoneira de 400 L: quantos m³ de concreto faz por dia"
+excerpt: "Uma betoneira de 400 L faz 250 a 280 litros por betonada, cerca de 4 por m³. Veja a tabela de betonadas e sacos de cimento para 1 a 10 m³."
 category: Construcao
 image: https://images.pexels.com/photos/6106878/pexels-photo-6106878.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-10
+updatedDate: "2026-10-26"
 faq:
   - q: Quantos litros de concreto uma betoneira de 400 litros produz por betonada?
     a: Em média de 250 a 280 litros de concreto pronto por betonada. A capacidade de

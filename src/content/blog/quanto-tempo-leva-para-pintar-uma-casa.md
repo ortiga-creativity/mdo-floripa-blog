@@ -1,13 +1,13 @@
 ---
-title: "Quanto tempo leva para pintar uma casa: planejamento com o equipamento certo"
-excerpt: O prazo de uma pintura completa depende menos da metragem e mais da
-  escolha dos equipamentos certos para cada etapa. Veja como planejar.
+title: "Quanto tempo leva para pintar uma casa: 7 a 12 dias"
+excerpt: "Com rolo, uma casa de médio porte leva de 7 a 12 dias úteis; com airless, de 4 a 6. Veja o prazo de cada etapa e o que atrasa a pintura."
 category: Pintura
 image: https://images.unsplash.com/photo-1742900280864-bcc27353ceba?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Quantos dias leva para pintar uma casa de médio porte?
     a: Com rolo e pincel, o prazo total costuma ficar entre 7 e 12 dias úteis,

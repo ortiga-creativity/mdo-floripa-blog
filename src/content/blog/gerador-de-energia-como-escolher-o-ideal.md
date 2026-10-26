@@ -1,12 +1,13 @@
 ---
-title: "Gerador de energia: como escolher o ideal para obra e ferramentas elétricas"
-excerpt: "Escolher um gerador subdimensionado compromete o funcionamento das ferramentas elétricas. Veja como calcular a potência necessária para a obra."
+title: "Como calcular a potência do gerador para obra"
+excerpt: "Some o que liga ao mesmo tempo, considere o pico de partida dos motores e confira em kVA. Passo a passo com exemplo e calculadora de gerador."
 category: "Manutencao de Equipamentos"
 image: "https://images.unsplash.com/photo-1658260867231-535a1f7c98b9?auto=format&fit=crop&w=1200&q=80"
 author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+updatedDate: "2026-10-26"
 faq:
   - q: "Quantos watts precisa um gerador para uma obra pequena?"
     a: "Para ferramentas básicas como furadeira, esmerilhadeira e iluminação, um gerador entre 2.000W e 3.000W costuma atender, desde que se considere o pico de partida dos motores elétricos."
@@ -15,6 +16,7 @@ faq:
   - q: "A MDO Floripa orienta sobre o dimensionamento do gerador?"
     a: "Sim, nossa equipe ajuda a calcular a potência necessária considerando os equipamentos que serão usados simultaneamente na sua obra, evitando um gerador subdimensionado."
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> some a potência (W) de tudo que vai funcionar <strong>ao mesmo tempo</strong>, troque o motor que mais pesa pelo seu <strong>pico de partida</strong> (2 a 3 vezes a potência nominal) e divida o total por <strong>0,8</strong> para chegar aos kVA. Para uma betoneira de 400 L com iluminação, um gerador de 3.500 a 4.000 W atende. Faça a conta na <a href="/ferramentas/calculadora-de-gerador/">calculadora de gerador</a>.</p></div>
 <p>Em obras sem acesso à rede elétrica ou em locais onde a energia é instável, o gerador se torna equipamento essencial. O erro mais comum, no entanto, é escolher pela potência genérica do aparelho sem considerar a real demanda das ferramentas que serão ligadas nele.</p>
 
 <h3>Como calcular a potência necessária</h3>
