@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-09
+updatedDate: "2026-10-26"
 faq:
   - q: Qual a principal diferença entre massa corrida e massa acrílica?
     a: A massa corrida (PVA) é indicada para paredes internas e secas, e é mais
@@ -26,6 +27,8 @@ faq:
     a: Para o acabamento final, costuma-se usar lixas de granulação fina, como a 180
       ou 220. Lixas mais grossas deixam riscos que aparecem depois da pintura.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> a <strong>massa corrida (PVA)</strong> é para ambientes internos e secos e é mais fácil de lixar. A <strong>massa acrílica</strong> é para fachadas, áreas externas, banheiros, cozinhas e paredes sujeitas a umidade, e é mais resistente e mais cara. Usar a errada pode fazer a pintura descascar em poucos meses.</p></div>
+
 Na hora de preparar a parede, quase todo mundo fica na dúvida na prateleira da loja: massa corrida ou massa acrílica? As duas servem para nivelar e corrigir imperfeições antes da tinta, mas não são intercambiáveis. Usar a errada pode fazer a pintura descascar em poucos meses.
 
 Veja a diferença entre elas e como escolher.

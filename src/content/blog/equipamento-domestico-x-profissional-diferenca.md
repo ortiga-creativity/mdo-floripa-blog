@@ -10,6 +10,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Vale a pena comprar uma ferramenta profissional para usar uma vez só?
     a: Normalmente não. O investimento em uma ferramenta profissional só se paga com
@@ -24,6 +25,8 @@ faq:
       profissional, revisados entre locações, prontos para suportar o ritmo de
       uma obra.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> a diferença está dentro da ferramenta: o motor doméstico é feito para <strong>uso intermitente</strong> (minutos, com descanso) e o profissional para <strong>uso contínuo de horas</strong>, com rolamentos metálicos, engrenagens reforçadas e melhor vedação contra poeira e impacto. Para quem usa poucas vezes por ano em casa, esses itens são dispensáveis e caros.</p></div>
+
 <p>É comum se perguntar por que duas ferramentas aparentemente iguais — mesma função, formato parecido — têm preços tão diferentes. A resposta está nos componentes internos, na durabilidade sob uso intenso e na finalidade para a qual cada linha foi projetada.</p>
 
 <h3>O que muda no motor</h3>

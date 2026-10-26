@@ -9,6 +9,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-29
+updatedDate: "2026-10-26"
 faq:
   - q: Quantos litros de tinta preciso para pintar uma parede?
     a: Multiplique largura por altura para descobrir a área. Depois, multiplique
@@ -26,6 +27,8 @@ faq:
       uma margem de segurança, principalmente se a parede for nova, texturizada
       ou estiver recebendo uma mudança forte de cor.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> <strong>litros = área a pintar × número de demãos ÷ rendimento por litro</strong>, com o rendimento informado pelo fabricante. Um quarto de 4 x 3 m com pé-direito de 2,80 m tem 39,2 m² de parede, antes de descontar portas e janelas. Para fazer a conta pronta, use a <a href="/ferramentas/calculadora-de-tinta/">calculadora de tinta</a>.</p></div>
+
 Uma das dúvidas mais comuns antes de pintar uma casa, um cômodo ou uma fachada é: quantos litros de tinta preciso comprar?
 
 Errar esse cálculo pode gerar dois problemas. Se a quantidade for insuficiente, você interrompe o serviço e pode ter dificuldade para encontrar a mesma tinta ou o mesmo lote depois. Se comprar demais, parte do material pode sobrar sem utilidade — e o orçamento da reforma fica maior do que deveria.

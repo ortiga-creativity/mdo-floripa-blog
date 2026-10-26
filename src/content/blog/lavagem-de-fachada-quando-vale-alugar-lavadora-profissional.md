@@ -7,6 +7,7 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-18"
+updatedDate: "2026-10-26"
 faq:
   - q: "Com que frequência devo lavar a fachada em Florianópolis?"
     a: "Em regiões litorâneas como Florianópolis, com maior umidade e maresia, o recomendado é lavar a fachada a cada 12 a 18 meses para evitar sujeira incrustada e formação de mofo."
@@ -15,6 +16,8 @@ faq:
   - q: "A MDO Floripa entrega a lavadora com mangueira de extensão para fachadas altas?"
     a: "Sim, é possível alugar equipamentos com mangueiras de maior extensão para alcançar fachadas de dois ou mais pavimentos. Fale com nossa equipe para verificar a configuração ideal."
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> vale alugar lavadora profissional para <strong>sujeira acumulada de anos ou fachadas grandes</strong>; as domésticas (1.400 a 1.600 PSI) resolvem manutenção leve. Em fachada pintada, use <strong>1.200 a 1.800 PSI</strong>, trabalhe de cima para baixo e aplique biocida antes em manchas de mofo resistentes.</p></div>
+
 <p>Com o tempo, toda fachada acumula sujeira que vai muito além da poeira superficial: mofo, fungos, poluição atmosférica e manchas de escorrimento de água da chuva formam camadas que uma lavadora doméstica de baixa potência dificilmente remove por completo.</p>
 
 <h3>Sinais de que a fachada precisa de lavagem profissional</h3>

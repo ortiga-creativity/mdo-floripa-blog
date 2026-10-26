@@ -1,4 +1,8 @@
 // Worker do Cloudflare: serve o site estático e o login do Decap CMS com GitHub.
+const REDIRECTS = {
+  '/blog/tipos-de-ponteiro-para-martelete/': '/blog/tipos-de-ponteira-para-martelete/',
+};
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -8,6 +12,9 @@ export default {
       url.protocol = 'https:';
       return Response.redirect(url.toString(), 301);
     }
+    // Endereços antigos que o Google ainda mostra: 301 para o artigo atual
+    const destino = REDIRECTS[url.pathname.replace(/\/?$/, '/')];
+    if (destino) return Response.redirect(`${url.origin}${destino}`, 301);
     if (url.pathname === '/oauth/auth') return startAuth(url, env);
     if (url.pathname === '/oauth/callback') return finishAuth(request, url, env);
     return env.ASSETS.fetch(request);

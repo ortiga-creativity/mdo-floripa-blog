@@ -2,6 +2,7 @@ import type { APIRoute } from 'astro';
 import { getPublishedPosts } from '../lib/posts';
 import { getCategoryLabel } from '../lib/supabase';
 import siteSettings from '../content/settings/site.json';
+import { HUBS } from '../lib/hubs';
 
 const SITE = 'https://locacaoequipamentos.blog.br';
 
@@ -32,6 +33,10 @@ export const GET: APIRoute = async () => {
     '- Os artigos trazem números de referência (consumos, traços, potências) com a fonte de cálculo explicada no texto. Valores variam por fabricante e obra: confirme a ficha técnica do equipamento.',
     '- Itens estruturais (laje, escoramento, andaime acima de certa altura) dependem de projeto de profissional habilitado.',
     '- Cada artigo mostra a data de atualização. As calculadoras seguem as mesmas fórmulas dos artigos.',
+    '',
+    '## Guias por equipamento',
+    '',
+    ...HUBS.map((h) => `- [${h.h1}](${SITE}/equipamentos/${h.slug}/): ${h.descricao}`),
     '',
     '## Ferramentas',
     '',

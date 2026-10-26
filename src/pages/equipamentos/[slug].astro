@@ -1,0 +1,162 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import HelmetIcon from '../../components/HelmetIcon.astro';
+import siteSettings from '../../content/settings/site.json';
+import { getPublishedPosts } from '../../lib/posts';
+import { HUBS } from '../../lib/hubs';
+
+export function getStaticPaths() {
+  return HUBS.map((hub) => ({ params: { slug: hub.slug }, props: { hub } }));
+}
+
+const { hub } = Astro.props;
+const SITE = 'https://locacaoequipamentos.blog.br';
+const pageUrl = `${SITE}/equipamentos/${hub.slug}/`;
+
+// Só entram os guias já publicados, na ordem definida no hub.
+const publicados = await getPublishedPosts();
+const posts = hub.artigos
+  .map((id) => publicados.find((p) => p.id === id))
+  .filter((p): p is NonNullable<typeof p> => Boolean(p));
+
+const whatsappHref = `https://wa.me/${siteSettings.whatsappNumber}?text=${encodeURIComponent(`Olá! Vi a página de ${hub.nome} no blog e gostaria de alugar. Preciso da ajuda de um especialista.`)}`;
+
+const schemas = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: hub.h1,
+    url: pageUrl,
+    description: hub.descricao,
+    inLanguage: 'pt-BR',
+    isPartOf: { '@type': 'WebSite', name: 'MDO Floripa', url: `${SITE}/` },
+    about: { '@id': `${SITE}/#business` },
+    hasPart: posts.map((p) => ({ '@type': 'Article', headline: p.data.title, url: `${SITE}/blog/${p.id}/` })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Equipamentos', item: `${SITE}/equipamentos/` },
+      { '@type': 'ListItem', position: 3, name: hub.h1, item: pageUrl },
+    ],
+  },
+];
+---
+
+<Layout title={`${hub.titulo} - MDO Floripa`} description={hub.descricao}>
+  {schemas.map((s) => <script type="application/ld+json" set:html={JSON.stringify(s)} />)}
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="breadcrumb"><a href="/">Início</a> / <a href="/equipamentos/">Equipamentos</a> / {hub.h1}</span>
+      <div class="hero-badge-row">
+        <HelmetIcon size={24} color="#F5A623" />
+        <span>MDO Floripa</span>
+      </div>
+      <h1>{hub.h1}</h1>
+      <p>{hub.descricao}</p>
+    </div>
+  </section>
+
+  <section class="hub-section">
+    <div class="container hub-layout">
+      <div class="hub-main">
+        {hub.intro.map((t) => <p class="hub-intro">{t}</p>)}
+
+        <h2>O que considerar antes de alugar</h2>
+        <ul class="hub-dicas">
+          {hub.dicas.map((d) => <li>{d}</li>)}
+        </ul>
+
+        {hub.ferramentas.length > 0 && (
+          <>
+            <h2>Calculadora</h2>
+            <div class="hub-tools">
+              {hub.ferramentas.map((f) => (
+                <a href={f.href} class="hub-card tool">
+                  <h3>{f.titulo}</h3>
+                  <p>{f.texto}</p>
+                  <span class="hub-link">Abrir calculadora →</span>
+                </a>
+              ))}
+            </div>
+          </>
+        )}
+
+        <h2>Guias e comparativos</h2>
+        <div class="hub-grid">
+          {posts.map((p) => (
+            <a href={`/blog/${p.id}/`} class="hub-card">
+              <h3>{p.data.title}</h3>
+              {p.data.excerpt && <p>{p.data.excerpt}</p>}
+              <span class="hub-link">Ler o guia →</span>
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <aside class="hub-side">
+        <div class="hub-cta">
+          <h2>Alugue com a MDO Floripa</h2>
+          <p>Mestre da Obra Locações, em Florianópolis. Conte o serviço que vai fazer e a equipe indica o equipamento certo.</p>
+          <a href={whatsappHref} target="_blank" rel="noopener noreferrer" class="btn-main" data-gtag-event="whatsapp_click">Chamar no WhatsApp</a>
+          <a href={siteSettings.catalogUrl} target="_blank" rel="noopener noreferrer" class="btn-ghost" data-gtag-event="catalog_click">Ver catálogo</a>
+          <p class="hub-addr">{siteSettings.address}<br />{siteSettings.hoursWeekday}<br />{siteSettings.hoursFriday}</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .container { max-width: 1280px; margin: 0 auto; padding: 0 24px; }
+  .page-hero { background: linear-gradient(135deg, #1D3557 0%, #376EA5 100%); color: white; padding: 140px 24px 64px; }
+  .breadcrumb { font-size: 14px; color: rgba(255,255,255,0.5); margin-bottom: 16px; display: block; }
+  .breadcrumb a { color: rgba(255,255,255,0.7); transition: color 0.3s; }
+  .breadcrumb a:hover { color: #F5A623; }
+  .hero-badge-row { display: inline-flex; align-items: center; gap: 10px; color: #F5A623; font-size: 14px; font-weight: 600; margin-bottom: 16px; }
+  .page-hero h1 { font-size: 44px; font-weight: 900; margin-bottom: 12px; color: white; }
+  .page-hero p { font-size: 18px; color: rgba(255,255,255,0.75); max-width: 720px; }
+
+  .hub-section { padding: 48px 0 0; }
+  .hub-layout { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 40px; align-items: start; }
+  .hub-main h2 { font-size: 24px; color: var(--color-primary-dark); margin: 36px 0 16px; }
+  .hub-main h2:first-of-type { margin-top: 24px; }
+  .hub-intro { font-size: 17px; line-height: 1.7; color: var(--color-text); margin: 0 0 14px; }
+  .hub-dicas { padding-left: 20px; display: grid; gap: 10px; line-height: 1.6; }
+
+  .hub-grid, .hub-tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; }
+  .hub-card {
+    display: block;
+    background: white;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    padding: 22px;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  .hub-card:hover { box-shadow: var(--shadow-md); transform: translateY(-3px); }
+  .hub-card.tool { border-left: 6px solid var(--color-accent); }
+  .hub-card h3 { font-size: 18px; color: var(--color-primary-dark); margin: 0 0 8px; line-height: 1.35; }
+  .hub-card p { color: var(--color-text-muted); font-size: 14px; line-height: 1.55; margin: 0 0 12px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+  .hub-link { color: var(--color-accent-dark); font-weight: 700; font-size: 14px; }
+
+  .hub-side { position: sticky; top: 100px; }
+  .hub-cta { background: linear-gradient(135deg, #1D3557, #376EA5); color: white; border-radius: var(--radius-lg); padding: 28px; }
+  .hub-cta h2 { color: white; font-size: 20px; margin: 0 0 8px; }
+  .hub-cta p { color: rgba(255,255,255,0.8); font-size: 15px; line-height: 1.55; margin: 0 0 18px; }
+  .btn-main, .btn-ghost { display: block; text-align: center; padding: 12px 20px; border-radius: var(--radius-md); font-weight: 700; font-size: 15px; margin-bottom: 10px; transition: background 0.3s, transform 0.3s; }
+  .btn-main { background: var(--color-accent); color: var(--color-primary-dark); }
+  .btn-main:hover { background: var(--color-accent-light); transform: translateY(-2px); }
+  .btn-ghost { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.4); color: white; }
+  .btn-ghost:hover { background: rgba(255,255,255,0.22); }
+  .hub-cta .hub-addr { font-size: 13px; color: rgba(255,255,255,0.65); margin: 14px 0 0; }
+
+  @media (max-width: 968px) {
+    .hub-layout { grid-template-columns: 1fr; }
+    .hub-side { position: static; }
+    .page-hero h1 { font-size: 32px; }
+  }
+  @media (max-width: 600px) { .page-hero h1 { font-size: 26px; } }
+</style>

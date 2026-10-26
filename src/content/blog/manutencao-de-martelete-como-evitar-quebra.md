@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Por que o martelete perde força de impacto durante o uso?
     a: Geralmente por superaquecimento, escovas de carvão desgastadas (em modelos
@@ -22,6 +23,8 @@ faq:
       lubrificação e verificação dos componentes de impacto, garantindo
       desempenho desde a entrega.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> sinais de que o martelete precisa de manutenção: <strong>perda de impacto, aquecimento excessivo, ruído diferente, vazamento de graxa ou óleo e dificuldade para travar a ponteira</strong>. Lubrifique a haste da ponteira, limpe com ar comprimido após o uso, confira as escovas de carvão e não force a ferramenta travada. O erro mais comum é trocar de ponteira sem lubrificar a haste nova.</p></div>
+
 <p>Poucas ferramentas sofrem tanto desgaste mecânico quanto o martelete. O impacto constante gera calor, vibração e atrito em componentes internos que, sem manutenção adequada, falham justamente no meio de um serviço — o pior momento possível.</p>
 
 <h3>Sinais de que o martelete precisa de manutenção</h3>

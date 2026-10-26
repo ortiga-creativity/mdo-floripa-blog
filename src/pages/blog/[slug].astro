@@ -6,6 +6,7 @@ import { formatDate, getCategoryLabel } from '../../lib/supabase';
 import { render } from 'astro:content';
 import { getPublishedPosts } from '../../lib/posts';
 import siteSettings from '../../content/settings/site.json';
+import { hubsDoArtigo } from '../../lib/hubs';
 
 export async function getStaticPaths() {
   const posts = await getPublishedPosts();
@@ -17,6 +18,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+const hubs = hubsDoArtigo(post.id);
 
 const allPosts = await getPublishedPosts();
 const related = allPosts
@@ -142,6 +144,12 @@ const faqSchema = postData.faq && postData.faq.length > 0 ? {
             <a href="/blog/categoria/Manutencao%20de%20Equipamentos/">Manutenção de Equipamentos</a>
             <a href="/blog/categoria/Limpeza/">Limpeza</a>
           </div>
+          {hubs.length > 0 && (
+            <div class="sidebar-box">
+              <h3>Guia do equipamento</h3>
+              {hubs.map((h) => <a href={`/equipamentos/${h.slug}/`}>{h.h1}</a>)}
+            </div>
+          )}
           <div class="sidebar-box cta-box">
             <h3>Precisa de equipamentos?</h3>
             <p>A MDO Floripa tem tudo o que sua obra precisa. Alugue com o Mestre da Obra Locações — Florianópolis.</p>

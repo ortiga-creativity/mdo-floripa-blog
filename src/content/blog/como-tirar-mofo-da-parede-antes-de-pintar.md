@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-06
+updatedDate: "2026-10-26"
 faq:
   - q: Posso pintar direto por cima do mofo?
     a: Não. A tinta não elimina o fungo e a mancha costuma reaparecer em poucas
@@ -29,6 +30,8 @@ faq:
       infiltração nem falta de ventilação. Ela funciona como etapa final de um
       tratamento que começa na limpeza e na correção da causa da umidade.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> mofo é um fungo vivo, e a tinta por cima não o elimina. <strong>Remova o que está solto, lave com água sanitária diluída (1 parte para 3 de água), deixe agir 15 a 30 minutos, enxágue e seque por completo</strong>, corrija a causa da umidade e só então corrija a parede e pinte. Use máscara PFF2, luvas e óculos, e nunca misture água sanitária com vinagre ou amoníaco.</p></div>
+
 Quem já pintou uma parede com mofo sabe como termina: algumas semanas depois, as manchas escuras voltam, a tinta forma bolhas e o trabalho vai por água abaixo. O motivo é simples. Mofo é um fungo vivo, que se alimenta de umidade, e a tinta apenas o cobre, sem eliminá-lo.
 
 Neste guia você vê como tirar o mofo da parede antes de pintar, em que ordem fazer cada etapa e como evitar que ele volte.

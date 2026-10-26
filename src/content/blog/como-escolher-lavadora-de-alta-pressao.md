@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-29
+updatedDate: "2026-10-26"
 faq:
   - q: O que é PSI em uma lavadora de alta pressão?
     a: PSI é a unidade que indica a pressão da água expelida pela máquina. Quanto
@@ -24,6 +25,8 @@ faq:
       antes de pintura. Assim você evita investir em uma máquina que ficará
       parada.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> <strong>PSI</strong> é a pressão, a força do jato; <strong>vazão</strong> (litros por hora ou por minuto) é o volume de água que arrasta a sujeira. Mais pressão nem sempre é melhor: em material delicado, o jato pode remover pintura, danificar rejunte e desgastar madeira. Para limpeza pesada e áreas grandes, procure equilíbrio entre os dois.</p></div>
+
 A lavadora de alta pressão é uma das ferramentas mais úteis para limpeza de pisos, muros, fachadas, calçadas, veículos, máquinas e áreas externas. Mas escolher o modelo errado pode trazer frustração: pouca força para remover a sujeira, consumo elevado de tempo ou risco de danificar a superfície.
 
 Para acertar na escolha, você precisa entender principalmente dois conceitos: pressão e vazão.

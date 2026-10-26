@@ -7,6 +7,7 @@ author: "Equipe MDO Floripa"
 published: true
 featured: false
 pubDate: "2026-09-29"
+updatedDate: "2026-10-26"
 faq:
   - q: "O que conferir no contrato de aluguel de equipamentos?"
     a: "Identificação do equipamento (marca, modelo e número de série), período, valores, forma de pagamento, horários de retirada e devolução, regras de prorrogação, multas, responsabilidade por danos, furto ou perda, manutenção, caução e condições de frete."
@@ -15,6 +16,8 @@ faq:
   - q: "O que fazer se o equipamento alugado apresentar falha?"
     a: "Pare o uso quando houver risco, registre o ocorrido com fotos ou vídeo, entre em contato com a locadora, informe o que aconteceu e siga a orientação recebida. Nunca tente desmontar ou reparar sem autorização."
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> antes de alugar, <strong>defina o serviço e as condições da obra</strong>, escolha o equipamento pela demanda e não só pelo menor preço (modelo pequeno demais atrasa e desgasta, e grande demais custa mais), faça <strong>vistoria na retirada e na devolução</strong> e deixe o contrato claro para evitar atraso, despesa extra e conflito.</p></div>
+
 Alugar equipamentos pode trazer mais produtividade, economia e praticidade para uma obra. Porém, para que a experiência seja tranquila, é importante verificar alguns pontos antes de retirar, receber e devolver a máquina.
 
 Um equipamento inadequado, uma vistoria incompleta ou um contrato pouco claro podem gerar atraso no cronograma, despesas inesperadas e conflitos na devolução.

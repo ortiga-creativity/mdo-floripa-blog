@@ -9,6 +9,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-08
+updatedDate: "2026-10-26"
 faq:
   - q: Posso lavar telhado com lavadora de alta pressão?
     a: Em telhas cerâmicas e de concreto em bom estado, sim, desde que com pressão
@@ -30,6 +31,8 @@ faq:
       e capacete. Telhas molhadas e cobertas de musgo são extremamente
       escorregadias.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> limpe quando houver <strong>manchas escuras ou esverdeadas, musgo, folhas na calha ou infiltração</strong>. Nunca suba com chuva, vento forte ou telhado molhado, e use cinto tipo paraquedista, trava-quedas, capacete, calçado antiderrapante e ponto de ancoragem. A lavadora só serve em telhas cerâmicas e de concreto em bom estado, com pressão moderada, bico de leque e jato em ângulo.</p></div>
+
 O telhado é uma das partes mais esquecidas da casa, até o dia em que aparecem goteiras, manchas escuras no forro ou água transbordando da calha. Boa parte desses problemas começa com sujeira acumulada: folhas, poeira, musgo e limo que retêm umidade e aceleram o desgaste das telhas.
 
 A limpeza periódica prolonga a vida útil da cobertura. Mas ela envolve trabalho em altura, e é aí que o risco real aparece. Veja como fazer com segurança.

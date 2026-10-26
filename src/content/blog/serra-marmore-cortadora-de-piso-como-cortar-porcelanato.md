@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Qual disco usar para cortar porcelanato sem lascar?
     a: Use sempre disco diamantado específico para porcelanato. Discos genéricos
@@ -23,6 +24,8 @@ faq:
       locação em Florianópolis, ideais para peças de 60x60, 80x80 e formatos
       maiores.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> para <strong>poucos cortes e ajustes</strong>, use a serra mármore com disco diamantado próprio para porcelanato (corta a seco e gera muita poeira, então use máscara). Para <strong>um ambiente inteiro, peças grandes (60x60, 80x80) ou cortes em ângulo</strong>, use a cortadora de bancada com água, que lasca menos.</p></div>
+
 <p>Cortar porcelanato exige mais cuidado do que cortar uma cerâmica comum — o material é mais denso, mais duro e mais propenso a lascar nas bordas se a ferramenta ou a técnica não forem adequadas. Entender a diferença entre serra mármore e cortadora de piso evita desperdício de material.</p>
 
 <h3>Serra mármore: versatilidade em cortes diretos</h3>
