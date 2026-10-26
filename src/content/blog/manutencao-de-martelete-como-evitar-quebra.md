@@ -47,5 +47,7 @@ faq:
 <h3>Periodicidade recomendada</h3>
 <p>Para uso profissional intenso, a limpeza interna e troca de graxa dos componentes de impacto deve ser feita a cada 40 a 60 horas de uso. Em aluguéis de curto prazo, isso já é responsabilidade da locadora — mas cuidados básicos como limpeza externa e lubrificação da ponteira continuam sendo do operador, a cada troca de acessório.</p>
 
+<p><strong>Leia também:</strong> <a href="/blog/troca-de-carvao-furadeira-esmerilhadeira-quando-fazer/">quando trocar o carvão de furadeira e esmerilhadeira</a>.</p>
+
 <h3>Alugue marteletes revisados com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza marteletes elétricos e ponteiras diversas para locação em Florianópolis, sempre revisados entre locações. Fale com nossa equipe pelo WhatsApp e evite pane no meio do serviço.</p>

@@ -52,5 +52,7 @@ faq:
 <h3>Escolha do grão da lixa</h3>
 <p>Para nivelar massa corrida com imperfeições visíveis, comece com grão 80 ou 100. Para o acabamento final antes da pintura, finalize com grão 150 a 220 — quanto mais alto o número, mais fina a lixa e mais liso o resultado.</p>
 
+<p><strong>Leia também:</strong> <a href="/blog/massa-corrida-ou-massa-acrilica-qual-usar/">massa corrida ou massa acrílica</a>, <a href="/blog/airless-para-pintura-vale-a-pena-alugar/">airless para pintura: vale a pena alugar?</a>.</p>
+
 <h3>Alugue lixadeiras com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza lixadeiras de parede e orbitais para locação em Florianópolis, prontas para deixar a superfície impecável antes da pintura. Fale com nossa equipe pelo WhatsApp e agilize a preparação da sua obra.</p>

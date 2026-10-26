@@ -83,6 +83,8 @@ Depois de pintar, alguns hábitos mantêm a parede saudável:
 - repare rapidamente qualquer vazamento ou goteira;
 - mantenha calhas e rufos limpos.
 
+<p><strong>Leia também:</strong> <a href="/blog/quanto-tempo-leva-para-pintar-uma-casa/">quanto tempo leva para pintar uma casa</a>.</p>
+
 ### Quando vale chamar um profissional ou alugar equipamento
 
 Se o mofo cobre grandes áreas, volta repetidamente ou está acompanhado de infiltração, vale uma avaliação técnica antes de gastar com tinta. Para a parte do trabalho que depende de equipamento, como lixar áreas extensas, lavar paredes externas ou pintar com máquina airless em grandes metragens, a locação costuma sair mais em conta do que comprar. Confira também como [evitar os erros mais comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede/).

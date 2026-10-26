@@ -84,5 +84,7 @@ faq:
 </ol>
 <div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de andaime: quantas peças a torre precisa?</h3><p>Informe a altura e veja painéis, diagonais, pisos, guarda-corpo e rodízios. A calculadora também avisa quando a torre passa de 4 vezes a base.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-andaime/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular minha torre de andaime</a></p></div>
 <p>Se ainda não sabe qual tipo alugar, leia <a href="/blog/como-escolher-o-andaime-ideal/">Como escolher o andaime ideal</a>. Para a proteção de quem vai subir, veja <a href="/blog/epis-essenciais-trabalho-altura/">EPIs essenciais para trabalho em altura</a>. E antes de usar, siga o <a href="/blog/checklist-inspecao-andaime-antes-de-subir/">checklist de inspeção do andaime</a>.</p>
+<p><strong>Leia também:</strong> <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist para alugar equipamentos de obra</a>.</p>
+
 <h2>Alugue andaime com orientação em Florianópolis</h2>
 <p>A MDO Floripa (Mestre da Obra Locações) aluga andaimes para obras e reformas em Florianópolis e região. Conte pelo WhatsApp a altura, o tipo de serviço e o local, e nossa equipe orienta qual modelo atende e quais cuidados de montagem considerar.</p>

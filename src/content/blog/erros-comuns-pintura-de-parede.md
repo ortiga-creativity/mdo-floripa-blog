@@ -176,6 +176,8 @@ Nunca improvise apoios instáveis para alcançar partes altas de paredes e facha
 | Escorrimento | Tinta muito diluída, excesso de produto ou aplicação errada |
 | Cobertura fraca | Poucas demãos, cor anterior intensa, tinta inadequada ou diluição excessiva |
 
+<p><strong>Leia também:</strong> <a href="/blog/quanto-tempo-leva-para-pintar-uma-casa/">quanto tempo leva para pintar uma casa</a>, <a href="/blog/airless-para-pintura-vale-a-pena-alugar/">airless para pintura: vale a pena alugar?</a>.</p>
+
 ### Conclusão
 
 Evitar os principais erros na pintura de parede depende de planejamento e execução cuidadosa. Preparar a superfície, escolher a tinta certa, respeitar o tempo entre demãos, diluir corretamente e usar boas ferramentas são etapas que determinam a qualidade do resultado.

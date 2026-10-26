@@ -130,6 +130,8 @@ Antes de fechar a compra ou o aluguel, responda:
 - Existe opção de locação com entrega, retirada e suporte?
 - Preciso de um equipamento profissional ou um modelo simples resolve?
 
+<p><strong>Leia também:</strong> <a href="/blog/equipamento-domestico-x-profissional-diferenca/">equipamento doméstico x profissional</a>, <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist para alugar equipamentos de obra</a>.</p>
+
 ### Conclusão
 
 Não existe uma resposta única para todos os casos. Alugar ou comprar equipamento de obra depende da frequência de uso, do orçamento disponível, da necessidade de manutenção e do tipo de serviço.

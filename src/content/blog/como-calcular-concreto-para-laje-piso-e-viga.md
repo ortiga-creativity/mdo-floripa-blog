@@ -99,6 +99,8 @@ Se a obra é pontual, vale comparar custo de locação com compra. Veja [alugar 
 - Faça a cura úmida nos primeiros dias, molhando a superfície para evitar fissuras por retração.
 - Mantenha a betoneira limpa ao fim de cada dia. Confira a [manutenção preventiva de betoneiras](/blog/manutencao-preventiva-de-betoneiras/).
 
+<p><strong>Leia também:</strong> <a href="/blog/compactador-de-solo-placa-vibratoria-guia/">compactador de solo e placa vibratória</a>.</p>
+
 ### Alugue a betoneira certa com a MDO Floripa
 
 Ficou em dúvida sobre o volume ou sobre o modelo de betoneira? A equipe da MDO Floripa ajuda você a dimensionar o equipamento e fecha a locação pelo tempo que a obra precisar. Chame pelo WhatsApp e peça seu orçamento.

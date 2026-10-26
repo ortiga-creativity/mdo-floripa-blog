@@ -88,6 +88,8 @@ Como o lixamento levanta muito pó fino, use máscara PFF2, óculos de proteçã
 
 Veja mais armadilhas no artigo [erros comuns na pintura de parede](/blog/erros-comuns-pintura-de-parede/). Depois da massa, calcule a tinta com a nossa [calculadora de tinta](/ferramentas/calculadora-de-tinta/).
 
+<p><strong>Leia também:</strong> <a href="/blog/quanto-tempo-leva-para-pintar-uma-casa/">quanto tempo leva para pintar uma casa</a>.</p>
+
 ### Equipamento certo para um acabamento profissional
 
 A MDO Floripa aluga lixadeiras de parede, máquinas airless e outros equipamentos para pintura, com orientação para o seu serviço. Fale com a equipe pelo WhatsApp e monte o seu orçamento.

@@ -79,5 +79,7 @@ faq:
 </ul>
 <p>Depois do contrapiso, calcule argamassa colante e rejunte em <a href="/blog/como-calcular-piso-porcelanato-argamassa-e-rejunte/">Como calcular piso porcelanato, argamassa e rejunte</a>.</p>
 <p><em>Nota: espessura, traço, consumo e prazos de cura variam conforme a base, o clima e o revestimento. Os valores aqui são estimativas de obra: confirme com o responsável técnico e com o fabricante do piso.</em></p>
+<p><strong>Leia também:</strong> <a href="/blog/compactador-de-solo-placa-vibratoria-guia/">compactador de solo e placa vibratória</a>, <a href="/blog/reboco-chapisco-e-emboco-por-m2-espessura-e-consumo/">espessura e consumo de reboco, chapisco e emboço</a>.</p>
+
 <h2>Equipamentos para contrapiso em Florianópolis</h2>
 <p>A MDO Floripa (Mestre da Obra Locações) aluga betoneira, martelete, serra e gerador para quem faz reforma e obra em Florianópolis e região. Informe pelo WhatsApp a área e a espessura, e nossa equipe indica o equipamento certo.</p>

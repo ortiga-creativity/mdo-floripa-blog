@@ -94,5 +94,7 @@ faq:
 </ul>
 <p>Se a obra é maior e você está em dúvida se compensa alugar ou comprar os equipamentos, leia <a href="/blog/alugar-ou-comprar-equipamento-de-obra/">Alugar ou comprar equipamento de obra</a>.</p>
 <p><em>Nota: as quantidades por m² foram calculadas com as dimensões usuais de cada peça e junta de 1 cm, e o consumo de argamassa é uma estimativa. As medidas variam entre fabricantes, então confira a ficha técnica do produto que você vai comprar.</em></p>
+<p><strong>Leia também:</strong> <a href="/blog/reboco-chapisco-e-emboco-por-m2-espessura-e-consumo/">espessura e consumo de reboco, chapisco e emboço</a>.</p>
+
 <h2>Aluguel de equipamentos para alvenaria em Florianópolis</h2>
 <p>A MDO Floripa (Mestre da Obra Locações) tem betoneira, andaime, serra, martelete e gerador para locação em Florianópolis e região. Envie pelo WhatsApp a metragem e o tipo de obra, e nossa equipe indica os equipamentos certos para o seu serviço.</p>

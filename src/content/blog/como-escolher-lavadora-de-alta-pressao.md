@@ -153,6 +153,8 @@ Antes de escolher, responda:
 
 Para o uso na limpeza final de reformas, confira também [limpeza pós-obra: produtos e equipamentos essenciais](/blog/limpeza-pos-obra-essencial/).
 
+<p><strong>Leia também:</strong> <a href="/blog/equipamento-domestico-x-profissional-diferenca/">equipamento doméstico x profissional</a>.</p>
+
 ### Conclusão
 
 Saber como escolher uma lavadora de alta pressão vai além de comparar potência ou preço. Pressão, vazão, tipo de superfície, acessórios e frequência de uso precisam entrar na decisão.
