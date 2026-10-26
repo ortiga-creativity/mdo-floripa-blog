@@ -151,5 +151,12 @@ const { heading: Heading = 'h2' } = Astro.props;
   form.addEventListener('input', render);
   form.addEventListener('change', render);
   form.addEventListener('submit', (e) => e.preventDefault());
+  // Mede o uso da calculadora: um único evento por visita, na primeira interação.
+  let usoRegistrado = false;
+  form.addEventListener('input', () => {
+    if (usoRegistrado) return;
+    usoRegistrado = true;
+    (window as any).gtag?.('event', 'calculator_use', { calculator: 'tinta', page_path: window.location.pathname });
+  });
   render();
 </script>

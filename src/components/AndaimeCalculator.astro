@@ -103,5 +103,12 @@ const { heading: Heading = 'h2' } = Astro.props;
 
   [altura, rodas].forEach((el) => el.addEventListener('input', render));
   $('calc-form').addEventListener('submit', (e) => e.preventDefault());
+  // Mede o uso da calculadora: um único evento por visita, na primeira interação.
+  let usoRegistrado = false;
+  $('calc-form').addEventListener('input', () => {
+    if (usoRegistrado) return;
+    usoRegistrado = true;
+    (window as any).gtag?.('event', 'calculator_use', { calculator: 'andaime', page_path: window.location.pathname });
+  });
   render();
 </script>
