@@ -101,6 +101,9 @@ Se a obra é pontual, vale comparar custo de locação com compra. Veja [alugar 
 
 <p><strong>Leia também:</strong> <a href="/blog/compactador-de-solo-placa-vibratoria-guia/">compactador de solo e placa vibratória</a>.</p>
 
+
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de concreto</h3><p>Calcule o volume e os sacos de cimento de pisos, calçadas e fundações simples. Para laje e viga, siga o projeto estrutural.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-concreto/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular meu concreto</a></p></div>
+
 ### Alugue a betoneira certa com a MDO Floripa
 
 Ficou em dúvida sobre o volume ou sobre o modelo de betoneira? A equipe da MDO Floripa ajuda você a dimensionar o equipamento e fecha a locação pelo tempo que a obra precisar. Chame pelo WhatsApp e peça seu orçamento.

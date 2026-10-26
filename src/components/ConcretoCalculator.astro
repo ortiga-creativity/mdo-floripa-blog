@@ -1,0 +1,133 @@
+---
+import siteSettings from '../content/settings/site.json';
+import '../styles/calculator.css';
+
+interface Props {
+  heading?: 'h1' | 'h2';
+}
+const { heading: Heading = 'h2' } = Astro.props;
+---
+
+<div class="calc-layout" id="calculadora-de-concreto">
+  <div class="calc-card">
+    <Heading>Calculadora de Concreto</Heading>
+    <p class="calc-intro">Informe as medidas da peça e veja o volume de concreto, os sacos de cimento e as latas de areia e brita.</p>
+
+    <form id="conc-form" novalidate>
+      <div class="field-grid">
+        <label class="field"><span>Comprimento (m)</span><input type="number" id="conc-comprimento" inputmode="decimal" min="0.1" max="200" step="0.1" value="10" /></label>
+        <label class="field"><span>Largura (m)</span><input type="number" id="conc-largura" inputmode="decimal" min="0.1" max="200" step="0.1" value="1" /></label>
+        <label class="field"><span>Espessura (cm)</span><input type="number" id="conc-espessura" inputmode="decimal" min="1" max="100" step="1" value="8" /></label>
+      </div>
+      <label class="field">
+        <span>Traço (cimento : areia : brita)</span>
+        <select id="conc-traco">
+          <option value="1:2:3" selected>1:2:3: pisos, calçadas e peças de maior exigência</option>
+          <option value="1:2:4">1:2:4: fundações, sapatas e baldrames</option>
+        </select>
+      </label>
+    </form>
+
+    <div id="conc-alertas" class="alertas" role="status"></div>
+
+    <table class="result-table">
+      <thead>
+        <tr><th>Resultado</th><th class="qtd">Valor</th></tr>
+      </thead>
+      <tbody id="conc-resultado"></tbody>
+    </table>
+    <p id="conc-resumo" class="resumo"></p>
+
+    <div class="calc-actions">
+      <a id="conc-whatsapp" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer" data-gtag-event="whatsapp_click">Alugar betoneira</a>
+      <a href="/blog/traco-de-concreto-cimento-areia-brita-sacos-por-m3/" class="btn-outline">Como o cálculo funciona</a>
+    </div>
+    <p class="disclaimer">Estimativa de obra, com 10% de perda, sacos de cimento de 50 kg e latas de 18 litros. O consumo varia com a umidade da areia, a brita e a água. Laje, viga e pilar exigem traço definido em projeto estrutural.</p>
+  </div>
+</div>
+
+<script define:vars={{ whatsappNumber: siteSettings.whatsappNumber }}>
+  window.__WA_NUMBER__ = whatsappNumber;
+</script>
+
+<script>
+  import { calcularConcreto } from '../lib/concreto';
+
+  const el = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const num = (id: string) => parseFloat(el(id).value.replace(',', '.'));
+  const tbody = document.getElementById('conc-resultado')!;
+  const alertas = document.getElementById('conc-alertas')!;
+  const resumo = document.getElementById('conc-resumo')!;
+  const wa = document.getElementById('conc-whatsapp') as HTMLAnchorElement;
+  const form = document.getElementById('conc-form')!;
+
+  const f = (n: number, d = 2) => n.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: d });
+
+  function row(nome: string, valor: string, opts: { nota?: string; destaque?: boolean } = {}) {
+    const tr = document.createElement('tr');
+    if (opts.destaque) tr.className = 'destaque';
+    const td1 = document.createElement('td');
+    td1.textContent = nome;
+    if (opts.nota) {
+      const s = document.createElement('small');
+      s.textContent = opts.nota;
+      td1.appendChild(s);
+    }
+    const td2 = document.createElement('td');
+    td2.className = 'qtd';
+    td2.textContent = valor;
+    tr.append(td1, td2);
+    tbody.appendChild(tr);
+  }
+
+  function render() {
+    tbody.innerHTML = '';
+    alertas.innerHTML = '';
+
+    const c = num('conc-comprimento');
+    const l = num('conc-largura');
+    const e = num('conc-espessura');
+    const valido = c >= 0.1 && c <= 200 && l >= 0.1 && l <= 200 && e >= 1 && e <= 100;
+
+    if (!valido) {
+      resumo.textContent = 'Informe medidas válidas (comprimento e largura a partir de 0,1 m e espessura de 1 a 100 cm).';
+      wa.removeAttribute('href');
+      return;
+    }
+
+    const traco = el('conc-traco').value;
+    const r = calcularConcreto({ comprimento: c, largura: l, espessuraCm: e, traco });
+
+    row('Área', `${f(r.area)} m²`);
+    row('Volume de concreto', `${f(r.volume, 3)} m³`);
+    row('Volume com 10% de perda', `${f(r.volumeComPerda, 3)} m³`, { destaque: true });
+    row('Cimento (sacos de 50 kg)', `${r.sacos} ${r.sacos === 1 ? 'saco' : 'sacos'}`, { destaque: true });
+    row('Areia (latas de 18 L)', `${r.latasAreia} latas`);
+    row('Brita (latas de 18 L)', `${r.latasBrita} latas`);
+    const bet = r.betonadasMin === r.betonadasMax ? `${r.betonadasMin}` : `${r.betonadasMin} a ${r.betonadasMax}`;
+    row('Betonadas de betoneira 400 L', bet, { nota: 'Cada betonada rende de 250 a 280 litros de concreto' });
+
+    for (const msg of r.alertas) {
+      const p = document.createElement('p');
+      p.textContent = msg;
+      alertas.appendChild(p);
+    }
+
+    resumo.textContent = `Peça de ${f(c)} x ${f(l)} m com ${f(e)} cm de espessura, traço ${traco}.`;
+
+    const texto = `Olá! Calculei no blog o concreto de uma peça de ${f(c)} x ${f(l)} m com ${f(e)} cm (traço ${traco}): ${f(r.volumeComPerda, 3)} m³, cerca de ${r.sacos} sacos de cimento. Gostaria de alugar uma betoneira.`;
+    wa.href = `https://wa.me/${(window as any).__WA_NUMBER__}?text=${encodeURIComponent(texto)}`;
+  }
+
+  form.addEventListener('input', render);
+  form.addEventListener('change', render);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  // Mede o uso da calculadora: um único evento por visita, na primeira interação.
+  let usoRegistrado = false;
+  form.addEventListener('input', () => {
+    if (usoRegistrado) return;
+    usoRegistrado = true;
+    (window as any).gtag?.('event', 'calculator_use', { calculator: 'concreto', page_path: window.location.pathname });
+  });
+  render();
+</script>

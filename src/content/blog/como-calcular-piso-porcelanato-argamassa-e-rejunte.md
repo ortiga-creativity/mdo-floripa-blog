@@ -85,6 +85,9 @@ Perda por lascado é uma das maiores causas de desperdício. Com a ferramenta e 
 
 Resíduos de argamassa e rejunte devem ser removidos na hora certa, antes de endurecer. Para o acabamento final, consulte a [limpeza pós-obra essencial](/blog/limpeza-pos-obra-essencial/) e os [equipamentos que fazem diferença na limpeza pesada](/blog/limpeza-pesada-pos-reforma-equipamentos-que-fazem-diferenca/).
 
+
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de piso e porcelanato</h3><p>Informe o ambiente e a peça e veja as caixas, a argamassa colante e o rejunte, com a perda do tipo de assentamento.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-piso/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular meu piso</a></p></div>
+
 ### Equipamentos para assentar piso
 
 A MDO Floripa aluga serra mármore, cortadora de piso, misturador e outros equipamentos para obra e reforma. Fale com a equipe pelo WhatsApp e peça seu orçamento. Se estiver comparando alugar com comprar, veja [alugar ou comprar equipamento de obra](/blog/alugar-ou-comprar-equipamento-de-obra/).

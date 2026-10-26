@@ -31,6 +31,9 @@ export const GET: APIRoute = async () => {
     `- [Calculadora de gerador](${SITE}/ferramentas/calculadora-de-gerador/): potência em kW e kVA considerando o pico de partida dos motores`,
     `- [Calculadora de andaime](${SITE}/ferramentas/calculadora-de-andaime/): quantidade de peças por altura da torre`,
     `- [Calculadora de tinta](${SITE}/ferramentas/calculadora-de-tinta/): litros de tinta por área`,
+    `- [Calculadora de concreto](${SITE}/ferramentas/calculadora-de-concreto/): volume, sacos de cimento, areia e brita por peça`,
+    `- [Calculadora de tijolos](${SITE}/ferramentas/calculadora-de-tijolos/): tijolos e argamassa de assentamento por parede`,
+    `- [Calculadora de piso e porcelanato](${SITE}/ferramentas/calculadora-de-piso/): caixas, argamassa colante e rejunte por ambiente`,
     '',
     ...[...byCategory.entries()].flatMap(([label, lines]) => [`## ${label}`, '', ...lines, '']),
   ].join('\n');

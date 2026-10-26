@@ -69,5 +69,8 @@ faq:
 </ol>
 <p>Se tem dúvida entre 200 e 400 litros, veja <a href="/blog/betoneira-200-ou-400-litros-qual-escolher/">qual betoneira escolher</a>. Para o contrapiso, que usa argamassa e não concreto, leia <a href="/blog/contrapiso-quanto-material-e-como-nivelar/">Contrapiso: quanto material e como nivelar</a>.</p>
 <p><em>Nota: os consumos são estimativas de obra e variam com a umidade da areia, a granulometria e a água. Peças estruturais exigem traço definido por responsável técnico.</em></p>
+
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de concreto: faça a conta em segundos</h3><p>Informe comprimento, largura e espessura e veja o volume, os sacos de cimento, as latas de areia e brita e as betonadas.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-concreto/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular meu concreto</a></p></div>
+
 <h2>Alugue betoneira em Florianópolis</h2>
 <p>A MDO Floripa (Mestre da Obra Locações) tem betoneiras de 200 e 400 litros para locação em Florianópolis e região. Envie pelo WhatsApp o volume de concreto e o tipo de serviço, e nossa equipe indica o equipamento certo.</p>

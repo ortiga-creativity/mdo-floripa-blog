@@ -1,0 +1,148 @@
+---
+import siteSettings from '../content/settings/site.json';
+import '../styles/calculator.css';
+import { PERDAS } from '../lib/piso';
+
+interface Props {
+  heading?: 'h1' | 'h2';
+}
+const { heading: Heading = 'h2' } = Astro.props;
+---
+
+<div class="calc-layout" id="calculadora-de-piso">
+  <div class="calc-card">
+    <Heading>Calculadora de Piso e Porcelanato</Heading>
+    <p class="calc-intro">Informe o ambiente e a peça e veja as caixas de piso, a argamassa colante e o rejunte.</p>
+
+    <form id="piso-form" novalidate>
+      <div class="field-grid">
+        <label class="field"><span>Comprimento (m)</span><input type="number" id="piso-comprimento" inputmode="decimal" min="0.5" max="200" step="0.1" value="5" /></label>
+        <label class="field"><span>Largura (m)</span><input type="number" id="piso-largura" inputmode="decimal" min="0.5" max="200" step="0.1" value="4" /></label>
+        <label class="field"><span>m² por caixa</span><input type="number" id="piso-caixa" inputmode="decimal" min="0.3" max="10" step="0.01" value="2.2" /></label>
+      </div>
+      <label class="field">
+        <span>Tipo de assentamento (define a perda)</span>
+        <select id="piso-assentamento">
+          {Object.entries(PERDAS).map(([id, p]) => <option value={id} selected={id === 'reto'}>{p.nome}: {Math.round(p.perda * 100)}% de perda</option>)}
+        </select>
+      </label>
+      <div class="field-grid">
+        <label class="field"><span>Peça: comprimento (mm)</span><input type="number" id="piso-pc" inputmode="numeric" min="50" max="3000" step="10" value="600" /></label>
+        <label class="field"><span>Peça: largura (mm)</span><input type="number" id="piso-pl" inputmode="numeric" min="50" max="3000" step="10" value="600" /></label>
+        <label class="field"><span>Espessura (mm)</span><input type="number" id="piso-esp" inputmode="decimal" min="3" max="30" step="0.5" value="10" /></label>
+        <label class="field"><span>Junta (mm)</span><input type="number" id="piso-junta" inputmode="decimal" min="1" max="20" step="0.5" value="3" /></label>
+      </div>
+    </form>
+
+    <div id="piso-alertas" class="alertas" role="status"></div>
+
+    <table class="result-table">
+      <thead>
+        <tr><th>Resultado</th><th class="qtd">Valor</th></tr>
+      </thead>
+      <tbody id="piso-resultado"></tbody>
+    </table>
+    <p id="piso-resumo" class="resumo"></p>
+
+    <div class="calc-actions">
+      <a id="piso-whatsapp" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer" data-gtag-event="whatsapp_click">Falar com um especialista</a>
+      <a href="/blog/como-calcular-piso-porcelanato-argamassa-e-rejunte/" class="btn-outline">Como o cálculo funciona</a>
+    </div>
+    <p class="disclaimer">Estimativa. A argamassa colante usa a faixa de 4 a 6 kg por m² (assentamento simples, AC-III para porcelanato): confira o consumo na embalagem. O rejunte é calculado pela fórmula do artigo e deve ter uma pequena sobra.</p>
+  </div>
+</div>
+
+<script define:vars={{ whatsappNumber: siteSettings.whatsappNumber }}>
+  window.__WA_NUMBER__ = whatsappNumber;
+</script>
+
+<script>
+  import { calcularPiso } from '../lib/piso';
+
+  const el = (id: string) => document.getElementById(id) as HTMLInputElement;
+  const num = (id: string) => parseFloat(el(id).value.replace(',', '.'));
+  const tbody = document.getElementById('piso-resultado')!;
+  const alertas = document.getElementById('piso-alertas')!;
+  const resumo = document.getElementById('piso-resumo')!;
+  const wa = document.getElementById('piso-whatsapp') as HTMLAnchorElement;
+  const form = document.getElementById('piso-form')!;
+
+  const f = (n: number, d = 2) => n.toLocaleString('pt-BR', { minimumFractionDigits: 0, maximumFractionDigits: d });
+
+  function row(nome: string, valor: string, opts: { nota?: string; destaque?: boolean } = {}) {
+    const tr = document.createElement('tr');
+    if (opts.destaque) tr.className = 'destaque';
+    const td1 = document.createElement('td');
+    td1.textContent = nome;
+    if (opts.nota) {
+      const s = document.createElement('small');
+      s.textContent = opts.nota;
+      td1.appendChild(s);
+    }
+    const td2 = document.createElement('td');
+    td2.className = 'qtd';
+    td2.textContent = valor;
+    tr.append(td1, td2);
+    tbody.appendChild(tr);
+  }
+
+  function render() {
+    tbody.innerHTML = '';
+    alertas.innerHTML = '';
+
+    const c = num('piso-comprimento');
+    const l = num('piso-largura');
+    const caixa = num('piso-caixa');
+    const pc = num('piso-pc');
+    const pl = num('piso-pl');
+    const esp = num('piso-esp');
+    const junta = num('piso-junta');
+    const valido = c >= 0.5 && c <= 200 && l >= 0.5 && l <= 200 && caixa >= 0.3 && caixa <= 10 && pc >= 50 && pl >= 50 && esp >= 3 && junta >= 1;
+
+    if (!valido) {
+      resumo.textContent = 'Informe medidas válidas (ambiente a partir de 0,5 m, caixa a partir de 0,3 m² e dados da peça).';
+      wa.removeAttribute('href');
+      return;
+    }
+
+    const r = calcularPiso({
+      comprimento: c,
+      largura: l,
+      assentamento: el('piso-assentamento').value,
+      m2PorCaixa: caixa,
+      pecaC: pc,
+      pecaL: pl,
+      espessura: esp,
+      junta,
+    });
+
+    row('Área do ambiente', `${f(r.area)} m²`);
+    row(`Área com ${Math.round(r.perda * 100)}% de perda`, `${f(r.areaComPerda)} m²`);
+    row('Piso (caixas)', `${r.caixas} ${r.caixas === 1 ? 'caixa' : 'caixas'}`, { destaque: true, nota: `Caixas de ${f(caixa)} m², sempre do mesmo lote` });
+    row('Argamassa colante', `${f(r.argamassaMinKg, 0)} a ${f(r.argamassaMaxKg, 0)} kg`, { nota: `${r.sacosMin} a ${r.sacosMax} sacos de 20 kg (4 a 6 kg/m²)` });
+    row('Rejunte', `${f(r.rejunteKg, 1)} kg`, { nota: `Cerca de ${f(r.rejunteKgM2, 2)} kg por m²; compre uma pequena sobra` });
+
+    for (const msg of r.alertas) {
+      const p = document.createElement('p');
+      p.textContent = msg;
+      alertas.appendChild(p);
+    }
+
+    resumo.textContent = `Ambiente de ${f(c)} x ${f(l)} m com peças de ${f(pc, 0)} x ${f(pl, 0)} mm.`;
+
+    const texto = `Olá! Calculei no blog o piso de um ambiente de ${f(c)} x ${f(l)} m (${f(r.area)} m²): cerca de ${r.caixas} caixas de ${f(caixa)} m². Preciso da ajuda de um especialista.`;
+    wa.href = `https://wa.me/${(window as any).__WA_NUMBER__}?text=${encodeURIComponent(texto)}`;
+  }
+
+  form.addEventListener('input', render);
+  form.addEventListener('change', render);
+  form.addEventListener('submit', (e) => e.preventDefault());
+  // Mede o uso da calculadora: um único evento por visita, na primeira interação.
+  let usoRegistrado = false;
+  form.addEventListener('input', () => {
+    if (usoRegistrado) return;
+    usoRegistrado = true;
+    (window as any).gtag?.('event', 'calculator_use', { calculator: 'piso', page_path: window.location.pathname });
+  });
+  render();
+</script>

@@ -96,5 +96,8 @@ faq:
 <p><em>Nota: as quantidades por m² foram calculadas com as dimensões usuais de cada peça e junta de 1 cm, e o consumo de argamassa é uma estimativa. As medidas variam entre fabricantes, então confira a ficha técnica do produto que você vai comprar.</em></p>
 <p><strong>Leia também:</strong> <a href="/blog/reboco-chapisco-e-emboco-por-m2-espessura-e-consumo/">espessura e consumo de reboco, chapisco e emboço</a>.</p>
 
+
+<div style="margin:32px 0;padding:24px;border-radius:12px;background:#FFF6E5;border:1px solid #F5D9A3;"><h3 style="margin-top:0;">Calculadora de tijolos: quantos comprar para a sua parede</h3><p>Informe as medidas, desconte portas e janelas e veja os tijolos com 10% de perda e a argamassa de assentamento.</p><p style="margin-bottom:0;"><a href="/ferramentas/calculadora-de-tijolos/" style="display:inline-block;background:#F5A623;color:#1D3557;padding:12px 24px;border-radius:10px;font-weight:700;">Calcular meus tijolos</a></p></div>
+
 <h2>Aluguel de equipamentos para alvenaria em Florianópolis</h2>
 <p>A MDO Floripa (Mestre da Obra Locações) tem betoneira, andaime, serra, martelete e gerador para locação em Florianópolis e região. Envie pelo WhatsApp a metragem e o tipo de obra, e nossa equipe indica os equipamentos certos para o seu serviço.</p>
