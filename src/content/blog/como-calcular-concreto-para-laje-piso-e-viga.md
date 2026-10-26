@@ -9,6 +9,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-07
+updatedDate: "2026-10-26"
 faq:
   - q: Como calcular quantos metros cúbicos de concreto preciso?
     a: Multiplique comprimento, largura e espessura, todos em metros. Uma laje de 4
@@ -28,6 +29,8 @@ faq:
       de 150 a 200 litros resolve. Para pisos maiores, a de 400 litros reduz o
       número de massas e o tempo de serviço.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> o volume é <strong>comprimento × largura × espessura</strong>, em metros, com cerca de <strong>10% de folga</strong> para perdas. Uma laje de 4 x 5 m com 10 cm tem 2 m³ e pede 2,2 m³. Para produzir em obra, o traço mais conhecido é o 1:2:3 (cimento, areia e brita em volume). Para laje e viga estruturais, siga o projeto.</p></div>
+
 Comprar concreto de menos faz a concretagem parar no meio, o que pode gerar uma junta fria e um ponto fraco na laje. Comprar demais é dinheiro jogado fora. Por isso, calcular o volume certo é a primeira etapa de qualquer concretagem.
 
 A boa notícia é que a conta básica é simples. Neste guia você aprende a calcular o volume de laje, piso e viga, estimar os materiais e escolher o equipamento certo.

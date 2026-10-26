@@ -9,6 +9,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Quantas passadas de compactador são necessárias por camada?
     a: "Em geral de 4 a 6 passadas sobrepostas por camada, mas o número exato varia
@@ -24,6 +25,8 @@ faq:
       suficiente, já que o solo geralmente é arenoso ou composto por brita, que
       compacta com facilidade em poucas passadas.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> compacte o solo antes de contrapiso, calçada ou fundação para evitar trincas e desnível. Placas de <strong>80 a 100 kg</strong> servem para solo arenoso e brita; acima de 100 kg, para solo argiloso. Passe em linhas retas cobrindo cerca de <strong>20%</strong> da faixa anterior e nunca compacte solo encharcado.</p></div>
+
 <p>Também conhecido como "placa vibratória" ou, na obra, simplesmente "sapo", o compactador de solo tem uma função que muita gente subestima: preparar o terreno para receber fundação, contrapiso, calçada ou pavimentação sem risco de afundamento posterior.</p>
 
 <h3>Por que compactar o solo antes de construir</h3>

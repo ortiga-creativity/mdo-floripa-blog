@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Betoneira de 200 litros serve para fazer laje?
     a: Serve para lajes pequenas, mas exige mais batidas e mais tempo de
@@ -23,6 +24,8 @@ faq:
       revisado e pronto para uso, sem necessidade de o cliente providenciar
       transporte.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> se a obra usa <strong>menos de 1 m³</strong> de concreto ou argamassa por dia, a betoneira de <strong>200 litros</strong> (120 a 140 L por batida) atende e economiza no aluguel. Acima disso, em laje ou fundação, a de <strong>400 litros</strong> (250 a 280 L por batida) compensa pela produtividade.</p></div>
+
 <p>Antes de fechar o aluguel de uma betoneira, a primeira pergunta que qualquer mestre de obras deveria fazer é: qual é o volume de concreto ou argamassa que preciso produzir por dia? A resposta define se 200 litros são suficientes ou se vale a pena partir direto para os 400 litros.</p>
 
 <h3>Betoneira de 200 litros: para quê serve</h3>

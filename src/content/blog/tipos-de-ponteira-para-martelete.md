@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Qual ponteira usar para demolir piso cerâmico?
     a: A ponteira tipo talhadeira (ponta chata) é a mais indicada, pois a lâmina
@@ -22,6 +23,8 @@ faq:
       serviço. Fale com nossa equipe pelo WhatsApp para confirmar a
       disponibilidade do modelo certo.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> use a <strong>talhadeira (ponta chata)</strong> para demolir piso e remover revestimentos, a <strong>ponta (bedame)</strong> para concreto maciço, a <strong>canaleta</strong> para rasgos de tubulação e a <strong>espátula larga</strong> para piso vinílico e carpete colado. Antes de escolher, confirme o encaixe do martelete (os mais comuns são SDS-Max e Hex 28 mm).</p></div>
+
 <p>De nada adianta alugar um martelete potente e usar a ponteira errada para o serviço. Cada formato foi desenvolvido para um tipo específico de trabalho, e a escolha certa acelera a obra e evita desgaste desnecessário tanto da ferramenta quanto do material.</p>
 
 <h3>Ponteira tipo talhadeira (ponta chata)</h3>

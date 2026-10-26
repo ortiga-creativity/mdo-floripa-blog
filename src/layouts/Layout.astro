@@ -27,6 +27,7 @@ const businessSchema = {
 	telephone: '+55 48 99612-6565',
 	email: siteSettings.contactEmail,
 	image: new URL(siteSettings.heroImageUrl, Astro.site).href,
+	logo: new URL(siteSettings.logoUrl, Astro.site).href,
 	address: {
 		'@type': 'PostalAddress',
 		streetAddress: 'Rua Joe Collaço, 744',

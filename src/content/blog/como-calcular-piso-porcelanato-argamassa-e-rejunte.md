@@ -7,6 +7,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-10-10
+updatedDate: "2026-10-26"
 faq:
   - q: "Quanto de perda devo considerar ao comprar porcelanato?"
     a: "A margem usual é de 10% para assentamento reto. Em ambientes com muitos recortes, assentamento em diagonal ou peças de formato grande, considere de 15% a 20%. Também vale guardar algumas peças do mesmo lote para reposição futura."
@@ -17,6 +18,8 @@ faq:
   - q: "Como calcular o consumo de rejunte?"
     a: "Use a fórmula: consumo em kg/m² = ((C + L) ÷ (C × L)) × E × J × 1,7, com comprimento (C), largura (L), espessura da peça (E) e largura da junta (J) em milímetros. O resultado é uma estimativa e varia com o tipo de rejunte."
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> área do ambiente × perda de <strong>10%</strong> (assentamento reto), <strong>15%</strong> (diagonal) ou até <strong>20%</strong> (desenhos complexos), dividida pelos m² da caixa. Para porcelanato use argamassa <strong>AC-III</strong>, em referência de 4 a 6 kg por m². Para uma sala de 20 m² com 10% de perda, são 22 m², ou 10 caixas de 2,2 m².</p></div>
+
 Entre sobrar piso e faltar uma caixa no meio do assentamento, a segunda opção é pior: o lote pode mudar de tonalidade e o piso fica com faixas visíveis. Por outro lado, comprar muito além do necessário pesa no orçamento.
 
 Veja como calcular com precisão a metragem do porcelanato, a argamassa e o rejunte.

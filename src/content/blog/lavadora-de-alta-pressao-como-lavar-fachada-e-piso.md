@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: Qual pressão de lavadora usar em piso de garagem?
     a: Pisos de concreto e garagens suportam pressão alta, geralmente acima de 2.000
@@ -21,6 +22,8 @@ faq:
       tipos de superfície, e nossa equipe orienta sobre qual usar em cada
       situação.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> concreto e pisos externos resistentes suportam <strong>acima de 2.000 PSI</strong>; fachadas pintadas e cerâmica, <strong>1.200 a 1.800 PSI</strong> com bico de leque mais aberto; madeira e pintura antiga, <strong>abaixo de 1.200 PSI</strong>. Comece com o bico a <strong>30 a 40 cm</strong> da superfície e teste antes numa área pequena.</p></div>
+
 <p>A lavadora de alta pressão remove sujeira pesada, mofo, gordura e resíduos de obra de forma muito mais rápida do que a limpeza manual. Mas o mesmo jato capaz de remover sujeira incrustada também pode danificar superfícies mais sensíveis se usado sem ajuste de pressão e distância adequados.</p>
 
 <h3>Ajustando a pressão para cada superfície</h3>

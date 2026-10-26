@@ -16,6 +16,8 @@ faq:
   - q: "A MDO Floripa fornece EPIs junto com o martelete?"
     a: "Consulte a disponibilidade com nossa equipe — o essencial é que o operador utilize óculos de proteção, protetor auricular e luvas antivibração durante todo o uso do equipamento."
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> para quebrar piso e contrapiso residencial, use um martelete rompedor de <strong>10 a 20 joules</strong> de impacto; para concreto armado, modelos acima de <strong>25 joules</strong>, operados por quem tem experiência. Em obra com energia, o elétrico é o mais prático. Use óculos, protetor auricular e luvas antivibração e confira se há fiação ou tubulação embutida antes de quebrar.</p></div>
+
 <p>O martelete rompedor é a ferramenta usada quando o trabalho exige força de impacto puro: quebrar piso cerâmico, demolir contrapiso, abrir valas em concreto ou remover revestimentos antigos. Diferente da furadeira de impacto, ele não gira a ponteira — apenas percute, o que o torna muito mais eficiente para demolição.</p>
 
 <h3>Quando alugar um martelete rompedor</h3>

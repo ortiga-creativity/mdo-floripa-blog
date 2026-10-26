@@ -22,6 +22,8 @@ faq:
       obra necessário, o que muitas vezes compensa o valor da diária de locação,
       especialmente em obras de maior metragem.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> uma casa de médio porte leva de <strong>7 a 12 dias úteis</strong> com rolo e pincel e de <strong>4 a 6 dias</strong> com máquina airless nas paredes lisas e grandes. A preparação da superfície costuma ser a etapa mais demorada, de 1 a 3 dias por ambiente, e a troca de cor escura para clara exige uma demão extra.</p></div>
+
 <p>Uma das perguntas mais comuns antes de iniciar uma pintura é sobre o prazo: quantos dias leva para pintar uma casa inteira? A resposta varia conforme o estado da superfície, a metragem e, principalmente, os equipamentos utilizados em cada etapa.</p>
 
 <h3>As etapas que determinam o prazo</h3>

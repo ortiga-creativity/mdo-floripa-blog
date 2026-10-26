@@ -8,6 +8,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: O que acontece se eu não trocar as escovas de carvão a tempo?
     a: O contato elétrico passa a acontecer direto entre metais, gerando faíscas que
@@ -23,6 +24,8 @@ faq:
       revisão entre locações, para que o equipamento chegue pronto para uso sem
       risco de queima do motor.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> troque o carvão ao notar <strong>faíscas intensas, perda de potência, cheiro de queimado ou motor intermitente</strong>. Verifique a cada <strong>2 ou 3 meses</strong> em uso profissional diário e a cada <strong>6 meses</strong> em uso ocasional. Com o carvão gasto, o comutador é danificado, e o conserto pode exigir a troca do motor inteiro.</p></div>
+
 <p>As escovas de carvão são um componente barato e simples, mas responsável por um dos problemas mais caros em ferramentas elétricas: a queima do motor. Elas fazem o contato elétrico entre a parte fixa e a parte giratória do motor, e se desgastam naturalmente com o uso — o segredo é trocar antes que o desgaste comprometa o restante do equipamento.</p>
 
 <h3>Sinais de que o carvão está no fim</h3>

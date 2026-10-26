@@ -9,6 +9,7 @@ author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
+updatedDate: "2026-10-26"
 faq:
   - q: A lixadeira de parede substitui a orbital em algum caso?
     a: Para lixar superfícies grandes e planas, sim, com vantagem de velocidade. Mas
@@ -23,6 +24,8 @@ faq:
       sistema de aspiração, reduzindo bastante a poeira em ambientes internos
       habitados.
 ---
+<div class="quick-answer"><p><strong>Resposta rápida:</strong> use a <strong>lixadeira de parede (giraffe)</strong> para nivelar massa corrida em paredes e tetos, e a <strong>lixadeira orbital</strong> para portas, batentes, rodapés, móveis e madeira que vai receber verniz ou esmalte, porque ela não deixa marcas de redemoinho.</p></div>
+
 <p>Antes de qualquer pintura de qualidade, a superfície precisa estar lisa, sem imperfeições e livre de poeira. É nessa etapa que a escolha da lixadeira certa faz diferença tanto no resultado final quanto no tempo gasto na preparação.</p>
 
 <h3>Lixadeira de parede (giraffe)</h3>
