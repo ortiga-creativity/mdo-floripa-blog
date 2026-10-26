@@ -23,6 +23,12 @@ faq:
     a: Sim, os modelos de lixadeira de parede disponíveis para locação contam com
       sistema de aspiração, reduzindo bastante a poeira em ambientes internos
       habitados.
+  - q: "Como evitar marcas e ondulações ao lixar a parede?"
+    a: "Espere a massa secar completamente, use movimentos amplos sem parar num ponto e confira o resultado com luz lateral. Termine sempre com grão mais fino e remova todo o pó antes de aplicar fundo ou tinta."
+  - q: "Preciso lixar parede que já está pintada?"
+    a: "Depende do estado. Descascamento e partes soltas devem ser removidos, e imperfeições corrigidas e lixadas antes da nova pintura. Superfície em bom estado costuma pedir só limpeza e um lixamento leve para melhorar a aderência."
+  - q: "Dá para lixar parede com mofo?"
+    a: "Primeiro trate o mofo e deixe a parede secar por completo, corrigindo a causa da umidade. Só depois corrija, lixe e pinte. Lixar sobre mofo ativo espalha esporos e o problema volta."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> use a <strong>lixadeira de parede (giraffe)</strong> para nivelar massa corrida em paredes e tetos, e a <strong>lixadeira orbital</strong> para portas, batentes, rodapés, móveis e madeira que vai receber verniz ou esmalte, porque ela não deixa marcas de redemoinho.</p></div>
 
@@ -56,6 +62,31 @@ faq:
 <p>Para nivelar massa corrida com imperfeições visíveis, comece com grão 80 ou 100. Para o acabamento final antes da pintura, finalize com grão 150 a 220 — quanto mais alto o número, mais fina a lixa e mais liso o resultado.</p>
 
 <p><strong>Leia também:</strong> <a href="/blog/massa-corrida-ou-massa-acrilica-qual-usar/">massa corrida ou massa acrílica</a>, <a href="/blog/airless-para-pintura-vale-a-pena-alugar/">airless para pintura: vale a pena alugar?</a>.</p>
+
+<!-- EXPANDIDO -->
+<h3>Resumo: etapa, lixadeira e grão</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Etapa</th><th>Lixadeira</th><th>Grão de referência</th></tr></thead>
+<tbody>
+<tr><td>Nivelar massa corrida em parede e teto</td><td>Lixadeira de parede</td><td>80 ou 100</td></tr>
+<tr><td>Acabamento fino antes da pintura</td><td>Lixadeira de parede</td><td>150 a 220</td></tr>
+<tr><td>Portas, batentes, rodapés e móveis</td><td>Lixadeira orbital</td><td>Conforme o acabamento da madeira</td></tr>
+<tr><td>Remover tinta antiga de peça pequena de madeira ou metal</td><td>Lixadeira orbital</td><td>Mais grosso no início, depois mais fino</td></tr>
+</tbody>
+</table></div>
+<h3>Como lixar a parede, passo a passo</h3>
+<ol>
+<li><strong>Espere a massa secar por completo</strong>: lixar massa úmida enrola e deixa marcas;</li>
+<li><strong>Comece com grão 80 ou 100</strong> para nivelar as imperfeições visíveis;</li>
+<li><strong>Use movimentos amplos e contínuos</strong>, sem parar num ponto, para não criar depressões;</li>
+<li><strong>Confira com uma luz lateral</strong>, que revela ondulações e falhas que a luz de frente esconde;</li>
+<li><strong>Passe ao grão mais fino</strong> (150 a 220) para o acabamento;</li>
+<li><strong>Remova todo o pó</strong> antes do fundo ou da tinta: o pó impede a aderência.</li>
+</ol>
+<h3>Poeira e proteção</h3>
+<p>Lixar parede gera poeira fina. Use máscara e óculos, proteja móveis e pisos e prefira o modelo com aspiração acoplada em ambiente habitado. Se a parede teve mofo, trate e seque antes de lixar: veja <a href="/blog/como-tirar-mofo-da-parede-antes-de-pintar/">como tirar mofo da parede antes de pintar</a>.</p>
+<h3>Onde a lixadeira entra no planejamento da pintura</h3>
+<p>A lixadeira trabalha na etapa de preparação, que é a mais demorada: confira o passo a passo em <a href="/blog/preparacao-de-parede-para-pintura/">preparação de parede para pintura</a>, a escolha da massa em <a href="/blog/massa-corrida-ou-massa-acrilica-qual-usar/">massa corrida ou acrílica</a> e o prazo total em <a href="/blog/quanto-tempo-leva-para-pintar-uma-casa/">quanto tempo leva para pintar uma casa</a>. Para as demãos em áreas grandes, veja <a href="/blog/airless-para-pintura-vale-a-pena-alugar/">airless para pintura</a>.</p>
 
 <h3>Alugue lixadeiras com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza lixadeiras de parede e orbitais para locação em Florianópolis, prontas para deixar a superfície impecável antes da pintura. Fale com nossa equipe pelo WhatsApp e agilize a preparação da sua obra.</p>

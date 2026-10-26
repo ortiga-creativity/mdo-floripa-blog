@@ -23,6 +23,12 @@ faq:
     a: Sim, as escovas de carvão e demais componentes de desgaste são verificados na
       revisão entre locações, para que o equipamento chegue pronto para uso sem
       risco de queima do motor.
+  - q: "Posso trocar só uma escova de carvão?"
+    a: "Não é recomendado. Troque sempre o par completo, mesmo que uma escova pareça menos gasta, para manter o equilíbrio de contato no motor."
+  - q: "Como saber qual escova de carvão comprar?"
+    a: "Consulte o manual ou o código do fabricante para o seu modelo. Uma escova de tamanho ou formato diferente prejudica o contato e acelera o desgaste do comutador."
+  - q: "Toda ferramenta elétrica tem escova de carvão?"
+    a: "Não. Motores com escovas, comuns em furadeiras e esmerilhadeiras, usam carvão. Modelos com motor sem escovas (brushless) não têm essa peça. Confira o manual do equipamento."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> troque o carvão ao notar <strong>faíscas intensas, perda de potência, cheiro de queimado ou motor intermitente</strong>. Verifique a cada <strong>2 ou 3 meses</strong> em uso profissional diário e a cada <strong>6 meses</strong> em uso ocasional. Com o carvão gasto, o comutador é danificado, e o conserto pode exigir a troca do motor inteiro.</p></div>
 
@@ -45,6 +51,35 @@ faq:
 
 <h3>Como é feita a troca</h3>
 <p>Na maioria das furadeiras e esmerilhadeiras profissionais, as escovas ficam acessíveis por pequenas tampas rosqueadas nas laterais do motor, sem necessidade de abrir todo o equipamento. É uma manutenção rápida, geralmente resolvida em poucos minutos — mas que exige sempre trocar o par completo (as duas escovas), mesmo que uma pareça mais gasta que a outra, para manter o equilíbrio de contato do motor.</p>
+
+<!-- EXPANDIDO -->
+<h3>Sinais, causa provável e o que fazer</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Sinal</th><th>O que costuma indicar</th><th>O que fazer</th></tr></thead>
+<tbody>
+<tr><td>Faíscas intensas pelas aberturas de ventilação</td><td>Carvão gasto, com contato elétrico direto entre metais</td><td>Parar de usar e trocar o par de escovas</td></tr>
+<tr><td>Perda de potência com a ferramenta limpa</td><td>Contato fraco entre escova e comutador</td><td>Verificar o comprimento das escovas</td></tr>
+<tr><td>Cheiro de queimado</td><td>Superaquecimento por contato ruim</td><td>Desligar e inspecionar antes de continuar</td></tr>
+<tr><td>Liga e desliga sozinha</td><td>Escova sem contato firme</td><td>Verificar escovas e molas</td></tr>
+</tbody>
+</table></div>
+<h3>Passo a passo da troca</h3>
+<ol>
+<li><strong>Desligue e desconecte</strong> a ferramenta da tomada;</li>
+<li><strong>Abra as tampas rosqueadas</strong> das laterais do motor e retire as escovas;</li>
+<li><strong>Compare com a marca de desgaste</strong> indicada pelo fabricante: perto do limite, é hora de trocar;</li>
+<li><strong>Troque sempre o par completo</strong>, mesmo que uma pareça menos gasta;</li>
+<li><strong>Encaixe as escovas novas</strong> sem forçar e feche as tampas;</li>
+<li><strong>Teste em vazio</strong> antes de voltar ao serviço e observe se as faíscas diminuíram.</li>
+</ol>
+<h3>Qual carvão comprar</h3>
+<p>Use o modelo indicado para a sua ferramenta, de acordo com o manual ou o código do fabricante. Peça incompatível em tamanho ou formato prejudica o contato e acelera o desgaste do comutador, justamente o dano que a troca quer evitar.</p>
+<h3>Outros cuidados que evitam queima do motor</h3>
+<ul>
+<li>Mantenha as aberturas de ventilação limpas. Poeira de concreto e cerâmica superaquece o motor, como explicamos em <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>;</li>
+<li>Não force a ferramenta além da capacidade: equipamento doméstico em serviço pesado sofre mais. Entenda a diferença em <a href="/blog/equipamento-domestico-x-profissional-diferenca/">equipamento doméstico x profissional</a>;</li>
+<li>Ao alugar, peça para ver o estado do equipamento na retirada: veja o <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist para alugar equipamentos de obra</a>.</li>
+</ul>
 
 <h3>Alugue furadeiras e esmerilhadeiras revisadas com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza furadeiras e esmerilhadeiras de linha profissional para locação em Florianópolis, sempre revisadas entre locações. Fale com nossa equipe pelo WhatsApp e trabalhe sem risco de queima do motor.</p>
