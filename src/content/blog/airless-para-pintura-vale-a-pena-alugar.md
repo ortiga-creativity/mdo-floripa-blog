@@ -20,6 +20,12 @@ faq:
     a: "É recomendável. A alta pressão exige cuidado no manuseio, principalmente para não apontar o jato para a pele. A MDO Floripa orienta sobre o uso seguro no momento da locação."
   - q: "Quanto tempo leva para limpar a máquina airless depois do uso?"
     a: "Em geral de 15 a 30 minutos, passando água ou solvente pelo sistema até sair limpo. Esse tempo é rápido se comparado à economia de horas de trabalho manual em áreas grandes."
+  - q: "Qual bico usar na máquina airless?"
+    a: "Depende da viscosidade da tinta: bicos maiores servem para texturas e tintas mais espessas, e bicos menores para acabamentos finos. Siga a orientação do fabricante da tinta e da máquina e teste antes em uma área discreta."
+  - q: "A airless serve para pintar parede interna?"
+    a: "Serve, principalmente em ambientes grandes e em forros e tetos, onde o rolo cansa mais. Exige proteger com cuidado portas, janelas, móveis e piso, porque a pulverização gera respingo e névoa de tinta."
+  - q: "Preciso preparar a parede antes de usar a airless?"
+    a: "Sim. A máquina acelera a aplicação, mas não corrige defeitos: mofo, umidade, trincas e descascamento devem ser tratados antes, e a parede precisa estar limpa, seca e lixada."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> a pintura airless cobre parede grande de <strong>3 a 5 vezes</strong> mais rápido que rolo e pincel e compensa em <strong>fachadas, muros, galpões, forros e prazos apertados</strong>. Em cômodos pequenos ou retoques, o preparo da máquina costuma ser maior que o ganho.</p></div>
 
@@ -55,6 +61,38 @@ faq:
 
 <h3>Resumo prático</h3>
 <p>Para metragens grandes e prazos curtos, o airless paga o aluguel em economia de mão de obra e tempo. Para pinturas pequenas e pontuais, o rolo tradicional continua sendo a opção mais prática.</p>
+
+<!-- EXPANDIDO -->
+<h3>Rolo ou airless: comparativo</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Critério</th><th>Rolo e pincel</th><th>Máquina airless</th></tr></thead>
+<tbody>
+<tr><td>Velocidade em parede grande</td><td>Referência</td><td>De 3 a 5 vezes mais rápida</td></tr>
+<tr><td>Acabamento</td><td>Pode deixar marcas de rolo e sobreposição</td><td>Uniforme, sem marcas</td></tr>
+<tr><td>Preparação do serviço</td><td>Simples</td><td>Regulagem, limpeza e proteção do entorno</td></tr>
+<tr><td>Respingo e névoa</td><td>Baixo</td><td>Alto: exige proteger portas, janelas, móveis e piso</td></tr>
+<tr><td>Cansaço da equipe</td><td>Maior em obras grandes</td><td>Menor</td></tr>
+<tr><td>Melhor uso</td><td>Cômodos pequenos e retoques</td><td>Fachadas, muros, galpões, forros e prazos apertados</td></tr>
+</tbody>
+</table></div>
+<h3>Passo a passo de uso</h3>
+<ol>
+<li><strong>Proteja o entorno</strong>: cubra portas, janelas, móveis e piso, e vede o que não será pintado;</li>
+<li><strong>Prepare a parede</strong>, pois a airless não corrige defeito de superfície. Veja <a href="/blog/preparacao-de-parede-para-pintura/">preparação de parede para pintura</a>;</li>
+<li><strong>Coe a tinta</strong> antes de colocar no reservatório;</li>
+<li><strong>Escolha o bico</strong> conforme a viscosidade: maiores para texturas, menores para acabamentos finos;</li>
+<li><strong>Regule a pressão</strong> para o tipo de tinta e teste em uma área discreta;</li>
+<li><strong>Aplique em passadas regulares e sobrepostas</strong>, mantendo distância e velocidade constantes;</li>
+<li><strong>Limpe a máquina</strong> imediatamente ao terminar.</li>
+</ol>
+<h3>Segurança: o risco que ninguém pode ignorar</h3>
+<ul>
+<li>Nunca aponte o jato para as mãos ou a pele: a alta pressão pode injetar tinta sob a pele, acidente sério que exige atendimento médico imediato;</li>
+<li>Use máscara adequada, óculos e luvas, e trabalhe em local ventilado, por causa da névoa de tinta;</li>
+<li>Siga as orientações de uso do fabricante da máquina e da tinta.</li>
+</ul>
+<h3>Planeje o serviço</h3>
+<p>Calcule a tinta com a <a href="/ferramentas/calculadora-de-tinta/">calculadora de tinta</a>, escolha o produto em <a href="/blog/tipos-de-tinta-qual-usar/">tipos de tinta</a> e veja o prazo em <a href="/blog/quanto-tempo-leva-para-pintar-uma-casa/">quanto tempo leva para pintar uma casa</a>. Para a preparação, use a <a href="/blog/lixadeira-de-parede-x-lixadeira-orbital/">lixadeira de parede</a>, e para evitar falhas, confira os <a href="/blog/erros-comuns-pintura-de-parede/">erros comuns na pintura de parede</a>.</p>
 
 <h3>Alugue sua máquina airless com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza máquinas airless revisadas para locação em Florianópolis, com orientação sobre bicos e regulagem de pressão para o seu tipo de tinta. Fale com nossa equipe pelo WhatsApp e agilize a pintura da sua obra.</p>

@@ -24,6 +24,12 @@ faq:
     a: Sim, todo o catálogo da MDO Floripa é composto por equipamentos de linha
       profissional, revisados entre locações, prontos para suportar o ritmo de
       uma obra.
+  - q: "Como saber se uma ferramenta é de linha profissional?"
+    a: "Confira no manual e na ficha técnica: ciclo de trabalho contínuo, rolamentos e engrenagens metálicas e vedação contra poeira são características da linha profissional. A embalagem e o fabricante costumam indicar a linha de uso."
+  - q: "Ferramenta profissional é sempre a melhor escolha?"
+    a: "Não. Para quem usa poucas vezes por ano, em casa, os recursos extras são dispensáveis e caros. A profissional faz diferença quando o uso é frequente ou quando a parada por defeito gera prejuízo."
+  - q: "Posso usar ferramenta doméstica em obra?"
+    a: "Para tarefas leves e ocasionais, sim. Em serviço pesado e contínuo, como demolição, a vida útil cai e o risco de queimar o motor aumenta. Nesses casos, alugar o equipamento profissional costuma ser mais vantajoso."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> a diferença está dentro da ferramenta: o motor doméstico é feito para <strong>uso intermitente</strong> (minutos, com descanso) e o profissional para <strong>uso contínuo de horas</strong>, com rolamentos metálicos, engrenagens reforçadas e melhor vedação contra poeira e impacto. Para quem usa poucas vezes por ano em casa, esses itens são dispensáveis e caros.</p></div>
 
@@ -46,6 +52,30 @@ faq:
 
 <h3>Por que alugar em vez de comprar</h3>
 <p>Para quem precisa de desempenho profissional apenas durante o período de uma obra ou reforma pontual, alugar o equipamento profissional costuma ser mais vantajoso do que comprar uma ferramenta doméstica que não aguenta o ritmo — ou investir em uma profissional que ficará parada na maior parte do tempo depois da obra concluída.</p>
+
+<!-- EXPANDIDO -->
+<h3>Comparativo: doméstico x profissional</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Critério</th><th>Linha doméstica</th><th>Linha profissional</th></tr></thead>
+<tbody>
+<tr><td>Motor</td><td>Uso intermitente: minutos de trabalho com longos descansos</td><td>Uso contínuo, com ciclos de horas seguidas</td></tr>
+<tr><td>Rolamentos e engrenagens</td><td>Menor durabilidade, com peças plásticas comuns</td><td>Rolamentos metálicos e engrenagens reforçadas</td></tr>
+<tr><td>Proteção contra poeira e impacto</td><td>Básica</td><td>Vedação mais eficiente e carcaça reforçada</td></tr>
+<tr><td>Uso ideal</td><td>Pequenos reparos e uso de poucas horas por mês</td><td>Uso diário ou quase diário, obras e prestação de serviço</td></tr>
+<tr><td>Custo</td><td>Menor</td><td>Maior</td></tr>
+</tbody>
+</table></div>
+<h3>Como decidir em 4 perguntas</h3>
+<ol>
+<li><strong>Quantas horas vou usar?</strong> Poucas horas por mês, a doméstica atende; uso diário pede profissional;</li>
+<li><strong>Qual o esforço?</strong> Carga pesada e contínua, como demolição e concretagem, castiga a ferramenta doméstica;</li>
+<li><strong>Quanto custa a ferramenta parada?</strong> Se parar por defeito gera prejuízo de tempo e produtividade, vá de profissional;</li>
+<li><strong>O uso é só durante esta obra?</strong> Se sim, alugar o equipamento profissional costuma compensar mais que comprar.</li>
+</ol>
+<h3>Por que a diferença aparece na obra</h3>
+<p>Poeira fina de concreto, quedas e umidade são rotina em canteiro. Em ferramenta doméstica, o calor acumulado e o desgaste de peças como as escovas de carvão aparecem mais rápido. Veja os sinais em <a href="/blog/troca-de-carvao-furadeira-esmerilhadeira-quando-fazer/">troca de carvão em furadeira e esmerilhadeira</a> e os cuidados de <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>.</p>
+<h3>Alugar ou comprar</h3>
+<p>Faça a conta completa em <a href="/blog/alugar-ou-comprar-equipamento-de-obra/">alugar ou comprar equipamento de obra</a> e, ao alugar, use o <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist de aluguel</a>. Para ver equipamentos específicos, consulte a <a href="/equipamentos/">página de equipamentos</a>.</p>
 
 <h3>Alugue equipamentos de linha profissional com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza ferramentas e máquinas de linha profissional para locação em Florianópolis, revisadas e prontas para suportar o ritmo da sua obra. Fale com nossa equipe pelo WhatsApp e economize sem abrir mão de desempenho.</p>
