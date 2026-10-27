@@ -1,15 +1,15 @@
 ---
-title: "Compactador de solo (placa vibratória): quando e como usar"
 excerpt: Terreno mal compactado gera trincas e afundamento depois da obra
   pronta. Entenda quando alugar o compactador de solo, popularmente chamado de
   sapo.
+updatedDate: 2026-10-26
+title: "Compactador de solo (placa vibratória): quando e como usar"
 category: Construcao
-image: https://plus.unsplash.com/premium_photo-1680787300133-4045e12bd61e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+image: https://images.pexels.com/photos/17315723/pexels-photo-17315723.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
-updatedDate: "2026-10-26"
 faq:
   - q: Quantas passadas de compactador são necessárias por camada?
     a: "Em geral de 4 a 6 passadas sobrepostas por camada, mas o número exato varia
@@ -24,12 +24,18 @@ faq:
     a: Para calçadas e pátios residenciais, uma placa entre 80 e 100 kg costuma ser
       suficiente, já que o solo geralmente é arenoso ou composto por brita, que
       compacta com facilidade em poucas passadas.
-  - q: "Preciso compactar o solo antes de fazer o contrapiso?"
-    a: "Sim, quando o terreno é aterrado ou recém-mexido. Solo solto ou recém-aterrado tem vazios entre as partículas e vai se acomodar sob o peso da obra, causando trincas e desnível de piso. A compactação prévia evita esse problema."
-  - q: "Qual a espessura máxima de cada camada de solo?"
-    a: "O ideal é compactar em camadas de no máximo 15 a 20 cm. Camadas mais grossas ficam firmes só na superfície, com o solo de baixo ainda solto."
-  - q: "A placa vibratória serve para compactar brita?"
-    a: "Sim. Para solos granulares, como brita e pedrisco, placas mais leves, de 80 a 100 kg, já compactam com eficiência em poucas passadas, antes da concretagem."
+  - q: Preciso compactar o solo antes de fazer o contrapiso?
+    a: Sim, quando o terreno é aterrado ou recém-mexido. Solo solto ou
+      recém-aterrado tem vazios entre as partículas e vai se acomodar sob o peso
+      da obra, causando trincas e desnível de piso. A compactação prévia evita
+      esse problema.
+  - q: Qual a espessura máxima de cada camada de solo?
+    a: O ideal é compactar em camadas de no máximo 15 a 20 cm. Camadas mais grossas
+      ficam firmes só na superfície, com o solo de baixo ainda solto.
+  - q: A placa vibratória serve para compactar brita?
+    a: Sim. Para solos granulares, como brita e pedrisco, placas mais leves, de 80 a
+      100 kg, já compactam com eficiência em poucas passadas, antes da
+      concretagem.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> compacte o solo antes de contrapiso, calçada ou fundação para evitar trincas e desnível. Placas de <strong>80 a 100 kg</strong> servem para solo arenoso e brita; acima de 100 kg, para solo argiloso. Passe em linhas retas cobrindo cerca de <strong>20%</strong> da faixa anterior e nunca compacte solo encharcado.</p></div>
 
