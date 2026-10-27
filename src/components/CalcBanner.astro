@@ -77,6 +77,11 @@ const { id, title, subtitle } = Astro.props;
   summary:hover .banner-action { background: var(--color-accent-light); }
   .banner-body { padding: 0 24px 24px; }
 
+  /* Altura igual em todos os banners, mesmo quando a descrição quebra em duas linhas */
+  @media (min-width: 601px) {
+    summary { min-height: 113px; box-sizing: border-box; }
+  }
+
   @media (max-width: 600px) {
     summary { padding: 14px 16px; gap: 12px; }
     .banner-icon { width: 42px; height: 42px; }
