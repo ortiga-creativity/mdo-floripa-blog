@@ -22,6 +22,12 @@ faq:
     a: Sim, é possível alugar lavadora de alta pressão, aspirador industrial e
       enceradeira juntos, com entrega em Florianópolis. Fale com nossa equipe
       pelo WhatsApp para montar o kit ideal.
+  - q: "Posso usar aspirador doméstico para a poeira da reforma?"
+    a: "Não é recomendado. O aspirador doméstico pode queimar o motor com o volume de poeira fina de uma obra. O modelo profissional de pó e água aspira poeira, líquidos e detritos maiores com segurança."
+  - q: "A lavadora de alta pressão pode riscar ou danificar o piso?"
+    a: "Pode, se a pressão e a distância não forem adequadas. Jato concentrado e muito próximo desgasta o rejunte. Use o bico correto, mantenha distância e teste antes numa área pequena, e veja o guia de PSI por superfície."
+  - q: "Como limpar a poeira de vãos de janela e frestas?"
+    a: "Com aspirador de pó e água, na etapa de aspiração geral, antes de raspar, lavar e encerar. Poeira fina de gesso e cimento se acumula nesses pontos e volta a cair se não for removida antes do acabamento."
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> os equipamentos que mais ajudam são o <strong>aspirador de pó e água</strong> (o mais importante), a <strong>lavadora de alta pressão</strong> para respingos de tinta e cimento em áreas externas, a <strong>enceradeira industrial</strong> para devolver o brilho ao piso e o <strong>raspador com lâmina plástica</strong> para respingos endurecidos, sem riscar.</p></div>
 
@@ -52,6 +58,31 @@ faq:
 <p>Encerar antes de remover toda a poeira fina é o erro mais comum: a poeira se mistura à cera e cria uma película opaca, exigindo remoção completa e reaplicação. Seguir a ordem correta evita retrabalho e garante que o resultado final — piso limpo, brilhante e sem resíduos — apareça já na primeira tentativa.</p>
 
 <p>Para uma visão geral dos produtos e do planejamento da limpeza final, leia <a href="/blog/limpeza-pos-obra-essencial/">Limpeza pós-obra: produtos e equipamentos essenciais</a>.</p>
+
+<!-- EXPANDIDO -->
+<h3>Cada equipamento: quando usar e o que evitar</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Equipamento</th><th>Quando usar</th><th>O que evitar</th></tr></thead>
+<tbody>
+<tr><td>Aspirador de pó e água</td><td>Poeira fina, líquidos e detritos, em paredes, tetos, rodapés e vãos de janela</td><td>Aspirador doméstico, que queima o motor com o volume de sujeira de obra</td></tr>
+<tr><td>Lavadora de alta pressão</td><td>Respingos de tinta, cimento e argamassa em pisos e áreas externas, como varandas e calçadas</td><td>Jato concentrado e muito próximo, que danifica o rejunte</td></tr>
+<tr><td>Raspador com lâmina plástica</td><td>Respingos endurecidos de tinta e massa no piso</td><td>Ferramenta metálica, que risca o piso</td></tr>
+<tr><td>Enceradeira industrial</td><td>Devolver o brilho e remover resíduos finos de porcelanato e granito</td><td>Usar antes de remover toda a poeira abrasiva</td></tr>
+</tbody>
+</table></div>
+<h3>Checklist de entrega do imóvel</h3>
+<ul>
+<li>Entulho grosso e sobras de material retirados;</li>
+<li>Poeira removida de paredes, tetos, rodapés e vãos de janela;</li>
+<li>Piso sem respingos de tinta e sem resíduos abrasivos;</li>
+<li>Vidros, esquadrias e bancadas limpos e sem manchas;</li>
+<li>Áreas externas lavadas, com a pressão adequada ao revestimento;</li>
+<li>Cera ou polimento aplicados só no final.</li>
+</ul>
+<h3>Por que o tempo cai de dias para horas</h3>
+<p>Cada equipamento elimina um trabalho manual demorado: o aspirador substitui varrer e passar pano várias vezes, a lavadora dispensa raspagem pesada e a enceradeira recupera o brilho de uma vez. Com o kit certo e na ordem certa, evita-se o retrabalho de limpar duas vezes.</p>
+<h3>Continue lendo</h3>
+<p>Veja os produtos e os cuidados por superfície em <a href="/blog/limpeza-pos-obra-essencial/">limpeza pós-obra: produtos e equipamentos essenciais</a>. Para usar a lavadora sem danificar, leia <a href="/blog/lavadora-de-alta-pressao-como-lavar-fachada-e-piso/">como lavar fachada e piso</a> e <a href="/blog/como-escolher-lavadora-de-alta-pressao/">como escolher uma lavadora de alta pressão</a>. Se a reforma incluiu piso novo, veja <a href="/blog/como-calcular-piso-porcelanato-argamassa-e-rejunte/">como calcular piso, argamassa e rejunte</a>. E para decidir entre alugar ou contratar, leia <a href="/blog/alugar-ou-comprar-equipamento-de-obra/">alugar ou comprar equipamento de obra</a>.</p>
 
 <h3>Alugue o kit completo com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza aspiradores industriais, lavadoras de alta pressão e enceradeiras para locação em Florianópolis, prontos para acelerar a limpeza pós-reforma. Fale com nossa equipe pelo WhatsApp e monte o kit ideal para o seu imóvel.</p>
