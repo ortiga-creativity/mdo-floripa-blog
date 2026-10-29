@@ -1,25 +1,40 @@
 ---
 title: "Entulho de obra: classes de resíduo, caçamba e descarte correto"
-excerpt: "Entenda as classes de resíduos da construção civil (CONAMA 307), como separar o entulho da sua reforma, quando usar caçamba e por que descartar errado dá multa."
-category: "Construcao"
-image: "https://images.pexels.com/photos/4567378/pexels-photo-4567378.jpeg"
-author: "Equipe MDO Floripa"
+excerpt: Entenda as classes de resíduos da construção civil (CONAMA 307), como
+  separar o entulho da sua reforma, quando usar caçamba e por que descartar
+  errado dá multa.
+category: Construcao
+image: https://images.pexels.com/photos/2002142/pexels-photo-2002142.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-29"
+pubDate: 2026-10-29
 faq:
-  - q: "Quem é responsável pelo entulho da obra?"
-    a: "O gerador, ou seja, o dono da obra e quem a executa. Jogar entulho em terreno baldio, rua ou beira de rio configura descarte irregular e pode gerar multa e responsabilização ambiental."
-  - q: "O que é a Resolução CONAMA 307?"
-    a: "É a norma federal que define regras para a gestão dos resíduos da construção civil e os classifica em grupos (A, B, C e D). Ela determina que o gerador deve priorizar não gerar, reduzir, reutilizar, reciclar e só então dar destinação final adequada."
-  - q: "Posso misturar entulho de obra com lixo comum?"
-    a: "Não. Entulho não deve ir para a coleta domiciliar. Separe por tipo, principalmente materiais perigosos como tintas, solventes e amianto, que exigem destinação própria."
-  - q: "Quando vale contratar uma caçamba?"
-    a: "Quando o volume de entulho é grande para sacos, como em demolição, troca de piso, reforma de banheiro completa e retirada de reboco. Pense no volume total e no espaço disponível para posicionar a caçamba."
-  - q: "Posso colocar a caçamba na rua?"
-    a: "Isso depende das regras do município, que podem exigir sinalização e autorização. Consulte a prefeitura ou a empresa de caçambas antes de posicionar em via pública."
-  - q: "Como reduzir o entulho da obra?"
-    a: "Planeje as quantidades, evite desperdício de argamassa e concreto, reaproveite sobras como contrapiso ou aterro quando possível, e separe os resíduos por tipo desde o início."
+  - q: Quem é responsável pelo entulho da obra?
+    a: O gerador, ou seja, o dono da obra e quem a executa. Jogar entulho em terreno
+      baldio, rua ou beira de rio configura descarte irregular e pode gerar
+      multa e responsabilização ambiental.
+  - q: O que é a Resolução CONAMA 307?
+    a: É a norma federal que define regras para a gestão dos resíduos da construção
+      civil e os classifica em grupos (A, B, C e D). Ela determina que o gerador
+      deve priorizar não gerar, reduzir, reutilizar, reciclar e só então dar
+      destinação final adequada.
+  - q: Posso misturar entulho de obra com lixo comum?
+    a: Não. Entulho não deve ir para a coleta domiciliar. Separe por tipo,
+      principalmente materiais perigosos como tintas, solventes e amianto, que
+      exigem destinação própria.
+  - q: Quando vale contratar uma caçamba?
+    a: Quando o volume de entulho é grande para sacos, como em demolição, troca de
+      piso, reforma de banheiro completa e retirada de reboco. Pense no volume
+      total e no espaço disponível para posicionar a caçamba.
+  - q: Posso colocar a caçamba na rua?
+    a: Isso depende das regras do município, que podem exigir sinalização e
+      autorização. Consulte a prefeitura ou a empresa de caçambas antes de
+      posicionar em via pública.
+  - q: Como reduzir o entulho da obra?
+    a: Planeje as quantidades, evite desperdício de argamassa e concreto,
+      reaproveite sobras como contrapiso ou aterro quando possível, e separe os
+      resíduos por tipo desde o início.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> o entulho é de responsabilidade de quem faz a obra. Separe por tipo (classes A, B, C e D da <strong>Resolução CONAMA 307</strong>), contrate uma caçamba ou serviço licenciado e <strong>nunca</strong> descarte em terreno, rua ou na coleta comum. Para o volume e as regras locais, confirme com a prefeitura ou a empresa de caçambas.</p></div>
 <p>Reforma gera entulho, e o cuidado com ele começa antes da primeira demolição. Planejar onde e como descartar evita multa, vizinho reclamando e obra parada por acúmulo de material.</p>
