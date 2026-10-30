@@ -1,14 +1,14 @@
 ---
-title: "Betoneira 200 litros ou 400 litros: qual é a ideal para sua obra"
 excerpt: A capacidade da betoneira define o ritmo da obra. Entenda quando 200
   litros bastam e quando os 400 litros compensam o investimento.
+updatedDate: 2026-10-26
+title: "Betoneira 200 litros ou 400 litros: qual é a ideal para sua obra"
 category: Construcao
-image: https://images.pexels.com/photos/6138083/pexels-photo-6138083.jpeg
+image: https://images.pexels.com/photos/12845907/pexels-photo-12845907.jpeg
 author: Equipe MDO Floripa
 published: true
 featured: false
 pubDate: 2026-09-18
-updatedDate: "2026-10-26"
 faq:
   - q: Betoneira de 200 litros serve para fazer laje?
     a: Serve para lajes pequenas, mas exige mais batidas e mais tempo de
@@ -23,12 +23,18 @@ faq:
     a: A MDO Floripa entrega o equipamento no endereço da obra em Florianópolis, já
       revisado e pronto para uso, sem necessidade de o cliente providenciar
       transporte.
-  - q: "Quantas betonadas de 200 litros fazem 1 m³ de concreto?"
-    a: "Com o rendimento de 120 a 140 litros por batida, são cerca de 8 a 9 betonadas para 1 m³. Na betoneira de 400 litros, que rende 250 a 280 litros por batida, são 4 betonadas."
-  - q: "A betoneira serve só para concreto?"
-    a: "Não. Ela também prepara argamassa, para reboco, assentamento de blocos e contrapiso. O tamanho depende do volume diário de material que a obra consome."
-  - q: "A betoneira de 400 litros passa por corredor ou escada?"
-    a: "É mais pesada e volumosa, e exige acesso mais amplo. Em terreno estreito, escadas ou corredores apertados, a de 200 litros costuma ser mais prática. Confira as medidas do modelo e do acesso antes de alugar."
+  - q: Quantas betonadas de 200 litros fazem 1 m³ de concreto?
+    a: Com o rendimento de 120 a 140 litros por batida, são cerca de 8 a 9 betonadas
+      para 1 m³. Na betoneira de 400 litros, que rende 250 a 280 litros por
+      batida, são 4 betonadas.
+  - q: A betoneira serve só para concreto?
+    a: Não. Ela também prepara argamassa, para reboco, assentamento de blocos e
+      contrapiso. O tamanho depende do volume diário de material que a obra
+      consome.
+  - q: A betoneira de 400 litros passa por corredor ou escada?
+    a: É mais pesada e volumosa, e exige acesso mais amplo. Em terreno estreito,
+      escadas ou corredores apertados, a de 200 litros costuma ser mais prática.
+      Confira as medidas do modelo e do acesso antes de alugar.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> se a obra usa <strong>menos de 1 m³</strong> de concreto ou argamassa por dia, a betoneira de <strong>200 litros</strong> (120 a 140 L por batida) atende e economiza no aluguel. Acima disso, em laje ou fundação, a de <strong>400 litros</strong> (250 a 280 L por batida) compensa pela produtividade.</p></div>
 
