@@ -82,7 +82,7 @@ faq:
 <h3>Energia, barulho e entulho</h3>
 <p>Em obra sem rede elétrica, dimensione o gerador para o martelete elétrico com a <a href="/ferramentas/calculadora-de-gerador/">calculadora de gerador</a>. Demolição faz barulho: respeite o <a href="/blog/barulho-de-obra-em-florianopolis-horarios-e-multa/">horário permitido em Florianópolis</a>. E planeje o destino do material em <a href="/blog/entulho-de-obra-cacamba-classes-e-descarte-correto/">entulho de obra e caçamba</a>.</p>
 <h3>Continue aprendendo</h3>
-<p>Escolha a ponteira em <a href="/blog/tipos-de-ponteira-para-martelete/">tipos de ponteira para martelete</a>, compare com <a href="/blog/martelete-perfurador-x-rompedor-x-furadeira-de-impacto/">martelete perfurador x rompedor x furadeira de impacto</a> e cuide do equipamento em <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>.</p>
+<p>Escolha a ponteira em <a href="/blog/tipos-de-ponteira-para-martelete/">tipos de ponteira para martelete</a>, compare com <a href="/blog/martelete-perfurador-x-rompedor-x-furadeira-de-impacto/">martelete perfurador x rompedor x furadeira de impacto</a> e cuide do equipamento em <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>. Veja também <a href="/blog/como-quebrar-piso-e-contrapiso-sem-rachar-a-laje/">como quebrar piso e contrapiso sem rachar a laje</a>.</p>
 
 <h3>Alugue seu martelete rompedor com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza marteletes rompedores de diferentes potências para locação em Florianópolis, com ponteiras adequadas para cada tipo de demolição. Fale com nossa equipe pelo WhatsApp e agilize sua obra.</p>

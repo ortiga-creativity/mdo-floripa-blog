@@ -91,7 +91,7 @@ faq:
 <ol>
 <li><strong>Estime o volume</strong> de concreto ou argamassa por dia com a <a href="/ferramentas/calculadora-de-concreto/">calculadora de concreto</a>;</li>
 <li><strong>Confira o acesso</strong>: terreno estreito, escadas ou corredores apertados favorecem a de 200 litros;</li>
-<li><strong>Veja a energia</strong>: a obra tem tomada ou precisa de gerador? Para a de 400 L, veja <a href="/blog/gerador-5-kva-o-que-liga-tabela-de-consumo/">o que um gerador de 5 kVA liga</a>;</li>
+<li><strong>Veja a energia</strong>: a obra tem tomada ou precisa de gerador? Para a de 400 L, veja <a href="/blog/gerador-5-kva-o-que-liga-tabela-de-consumo/">o que um gerador de 5 kVA liga</a> e, para escolher o tipo, <a href="/blog/gerador-a-gasolina-diesel-ou-inversor-qual-escolher/">gerador a gasolina, diesel ou inversor</a>;</li>
 <li><strong>Considere o prazo</strong>: concretagem com hora marcada, como laje, pede o ritmo da de 400 litros.</li>
 </ol>
 <h3>Depois de escolher</h3>

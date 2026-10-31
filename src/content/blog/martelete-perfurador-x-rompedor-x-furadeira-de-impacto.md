@@ -52,7 +52,7 @@ faq:
 <h2>Martelete perfurador</h2>
 <p>Usa um pistão pneumático que dá golpes de maior energia na ponta. Com brocas SDS-plus, fura concreto armado com facilidade, faz furos para chumbar ferragens, passa eletrodutos e abre rasgos com cinzel. Muitos modelos têm três funções: só rotação, rotação com percussão e só percussão (para cinzelar).</p>
 <h2>Martelete rompedor</h2>
-<p>É o equipamento de demolição. Com ponteiras e talhadeiras, quebra contrapiso, piso cerâmico, concreto e alvenaria. Por trabalhar com impacto alto, exige as duas mãos, equipamentos de proteção e atenção ao que existe embaixo e dentro da área (tubulação, fiação, laje). Veja o guia completo em <a href="/blog/martelete-rompedor-guia-completo/">Martelete rompedor: guia completo para quebrar piso e concreto</a>.</p>
+<p>É o equipamento de demolição. Com ponteiras e talhadeiras, quebra contrapiso, piso cerâmico, concreto e alvenaria. Por trabalhar com impacto alto, exige as duas mãos, equipamentos de proteção e atenção ao que existe embaixo e dentro da área (tubulação, fiação, laje). Veja o guia completo em <a href="/blog/martelete-rompedor-guia-completo/">Martelete rompedor: guia completo para quebrar piso e concreto</a> e, para não rachar a estrutura, <a href="/blog/como-quebrar-piso-e-contrapiso-sem-rachar-a-laje/">como quebrar piso e contrapiso sem rachar a laje</a>.</p>
 <h2>Ponteiras: escolha pelo encaixe e pelo serviço</h2>
 <p>Não adianta alugar o equipamento certo com a ponteira errada. O encaixe SDS-plus e o SDS-max não são compatíveis, e cada serviço pede um tipo de ponta (pontiaguda, talhadeira larga, espátula). Todos os formatos estão em <a href="/blog/tipos-de-ponteira-para-martelete/">Tipos de ponteira para martelete</a>.</p>
 <h2>Como escolher em 3 perguntas</h2>

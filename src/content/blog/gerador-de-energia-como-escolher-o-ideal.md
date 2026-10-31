@@ -32,7 +32,7 @@ faq:
 <p>Se a intenção é usar a betoneira e a iluminação ao mesmo tempo, por exemplo, o gerador precisa suportar o pico de partida da betoneira (cerca de 3.000W) somado ao consumo da iluminação — um gerador de 3.500W a 4.000W atende essa combinação com folga de segurança.</p>
 
 <h3>Gerador a gasolina ou a diesel</h3>
-<p>Para uso de curta duração e potência moderada, geradores a gasolina são mais leves e de partida mais simples. Para obras de maior porte, com uso prolongado ao longo do dia, os modelos a diesel são mais econômicos no consumo de combustível por hora de uso e, em geral, têm vida útil mais longa sob operação contínua.</p>
+<p>Para uso de curta duração e potência moderada, geradores a gasolina são mais leves e de partida mais simples. Para obras de maior porte, com uso prolongado ao longo do dia, os modelos a diesel são mais econômicos no consumo de combustível por hora de uso e, em geral, têm vida útil mais longa sob operação contínua. Para comparar também o gerador inversor, veja <a href="/blog/gerador-a-gasolina-diesel-ou-inversor-qual-escolher/">gerador a gasolina, diesel ou inversor: qual escolher</a>.</p>
 
 <h3>Gerador silencioso: quando é necessário</h3>
 <p>Em obras dentro de áreas residenciais ou comerciais com restrição de ruído — especialmente em horários noturnos ou em condomínios — vale priorizar geradores da categoria "silenciosa", que utilizam carenagem acústica para reduzir o nível de decibéis emitidos, evitando reclamações de vizinhança e problemas com legislação municipal de ruído.</p>

@@ -78,7 +78,7 @@ faq:
 <li><strong>Use EPIs</strong>: óculos, protetor auricular e luvas antivibração.</li>
 </ul>
 <h3>Leia também</h3>
-<p>Entenda qual martelete escolher em <a href="/blog/martelete-rompedor-guia-completo/">martelete rompedor: guia completo</a>, compare em <a href="/blog/martelete-perfurador-x-rompedor-x-furadeira-de-impacto/">martelete perfurador x rompedor x furadeira de impacto</a> e conheça os cuidados do equipamento em <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>. Para delimitar a área de corte antes da demolição, veja <a href="/blog/serra-marmore-cortadora-de-piso-como-cortar-porcelanato/">serra mármore e cortadora de piso</a>.</p>
+<p>Entenda qual martelete escolher em <a href="/blog/martelete-rompedor-guia-completo/">martelete rompedor: guia completo</a>, compare em <a href="/blog/martelete-perfurador-x-rompedor-x-furadeira-de-impacto/">martelete perfurador x rompedor x furadeira de impacto</a> e conheça os cuidados do equipamento em <a href="/blog/manutencao-de-martelete-como-evitar-quebra/">manutenção de martelete</a>. Para quebrar piso e contrapiso sem danificar a laje, veja <a href="/blog/como-quebrar-piso-e-contrapiso-sem-rachar-a-laje/">como quebrar piso e contrapiso sem rachar a laje</a>. Para delimitar a área de corte antes da demolição, veja <a href="/blog/serra-marmore-cortadora-de-piso-como-cortar-porcelanato/">serra mármore e cortadora de piso</a>.</p>
 
 <h3>Alugue martelete e ponteiras com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza marteletes e ponteiras de diferentes formatos para locação em Florianópolis. Fale com nossa equipe pelo WhatsApp e escolha o conjunto certo para o seu serviço.</p>

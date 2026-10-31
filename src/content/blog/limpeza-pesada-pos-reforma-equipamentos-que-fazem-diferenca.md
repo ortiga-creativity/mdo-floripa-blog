@@ -72,7 +72,7 @@ faq:
 </table></div>
 <h3>Checklist de entrega do imóvel</h3>
 <ul>
-<li>Entulho grosso e sobras de material retirados;</li>
+<li>Entulho grosso e sobras de material retirados (veja a <a href="/blog/entulho-de-obra-cacamba-classes-e-descarte-correto/">classe e o descarte correto do entulho</a>);</li>
 <li>Poeira removida de paredes, tetos, rodapés e vãos de janela;</li>
 <li>Piso sem respingos de tinta e sem resíduos abrasivos;</li>
 <li>Vidros, esquadrias e bancadas limpos e sem manchas;</li>

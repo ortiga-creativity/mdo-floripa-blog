@@ -46,7 +46,7 @@ faq:
 </ul>
 
 <h3>Periodicidade recomendada</h3>
-<p>Em regiões litorâneas, com maior umidade e maresia, o ideal é lavar a fachada a cada 12 a 18 meses para evitar que a sujeira se torne incrustada e mais difícil de remover. Em áreas urbanas mais secas, o intervalo pode se estender para 2 anos sem grandes prejuízos estéticos.</p>
+<p>Em regiões litorâneas, com maior umidade e maresia, o ideal é lavar a fachada a cada 12 a 18 meses para evitar que a sujeira se torne incrustada e mais difícil de remover. Em áreas urbanas mais secas, o intervalo pode se estender para 2 anos sem grandes prejuízos estéticos. Veja também como a maresia age sobre a fachada e os equipamentos em <a href="/blog/maresia-como-proteger-equipamentos-e-fachadas-no-litoral/">maresia: como proteger equipamentos e fachadas no litoral</a>.</p>
 
 <p>Depois de uma obra ou reforma, a lavadora também ajuda na limpeza final. Veja o guia de <a href="/blog/limpeza-pos-obra-essencial/">limpeza pós-obra: produtos e equipamentos essenciais</a>.</p>
 
@@ -81,7 +81,7 @@ faq:
 <h3>Altura e segurança</h3>
 <p>Fachadas altas envolvem trabalho em altura: acima de 2 metros, valem os cuidados da NR-35. Use estrutura segura, como o andaime, em vez de improvisar. Veja <a href="/blog/como-escolher-o-andaime-ideal/">como escolher o andaime ideal</a> e os <a href="/blog/epis-essenciais-trabalho-altura/">EPIs essenciais para trabalho em altura</a>.</p>
 <h3>Depois da lavagem</h3>
-<p>Se a fachada tinha pintura comprometida, a limpeza é o primeiro passo para repintar. Prepare a superfície com <a href="/blog/preparacao-de-parede-para-pintura/">preparação de parede para pintura</a>, trate o mofo conforme <a href="/blog/como-tirar-mofo-da-parede-antes-de-pintar/">como tirar mofo da parede</a> e escolha a tinta em <a href="/blog/tipos-de-tinta-qual-usar/">tipos de tinta</a>. Para a técnica de lavagem, veja <a href="/blog/lavadora-de-alta-pressao-como-lavar-fachada-e-piso/">como lavar fachada e piso</a> e <a href="/blog/lavadora-de-alta-pressao-psi-para-cada-superficie/">PSI para cada superfície</a>.</p>
+<p>Se a fachada tinha pintura comprometida, a limpeza é o primeiro passo para repintar. Prepare a superfície com <a href="/blog/preparacao-de-parede-para-pintura/">preparação de parede para pintura</a>, trate o mofo conforme <a href="/blog/como-tirar-mofo-da-parede-antes-de-pintar/">como tirar mofo da parede</a> e escolha a tinta em <a href="/blog/tipos-de-tinta-qual-usar/">tipos de tinta</a>. Para a técnica de lavagem, veja <a href="/blog/lavadora-de-alta-pressao-como-lavar-fachada-e-piso/">como lavar fachada e piso</a>, <a href="/blog/lavadora-de-alta-pressao-psi-para-cada-superficie/">PSI para cada superfície</a> e <a href="/blog/lavadora-de-alta-pressao-consumo-de-agua-por-hora/">quanto a lavadora consome de água por hora</a>.</p>
 
 <h3>Alugue a lavadora profissional com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza lavadoras de alta pressão profissionais para locação em Florianópolis, ideais para devolver o visual da fachada da sua casa ou empresa. Fale com nossa equipe pelo WhatsApp e agende a limpeza.</p>

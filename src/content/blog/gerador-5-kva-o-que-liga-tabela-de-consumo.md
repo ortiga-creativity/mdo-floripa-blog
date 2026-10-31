@@ -86,6 +86,6 @@ faq:
 <li>Reabasteça somente com o gerador desligado e frio;</li>
 <li>Proteja o equipamento da chuva e mantenha extensões em bom estado, com bitola adequada à potência.</li>
 </ul>
-<p>Para escolher entre diferentes tipos de gerador e entender melhor o dimensionamento em obra, leia também <a href="/blog/gerador-de-energia-como-escolher-o-ideal/">Gerador de energia: como escolher o ideal para obra</a>. Se a betoneira é um dos equipamentos que vai ligar, veja <a href="/blog/betoneira-200-ou-400-litros-qual-escolher/">Betoneira 200 ou 400 litros: qual escolher</a>.</p>
+<p>Para escolher entre diferentes tipos de gerador e entender melhor o dimensionamento em obra, leia também <a href="/blog/gerador-de-energia-como-escolher-o-ideal/">Gerador de energia: como escolher o ideal para obra</a> e <a href="/blog/gerador-a-gasolina-diesel-ou-inversor-qual-escolher/">gerador a gasolina, diesel ou inversor: qual escolher</a>. Se a betoneira é um dos equipamentos que vai ligar, veja <a href="/blog/betoneira-200-ou-400-litros-qual-escolher/">Betoneira 200 ou 400 litros: qual escolher</a>.</p>
 <h2>Alugue o gerador certo com a MDO Floripa</h2>
 <p>Na MDO Floripa (Mestre da Obra Locações), em Florianópolis, nossa equipe ajuda a calcular a potência necessária para os equipamentos da sua obra ou do seu evento e indica o gerador adequado, sem subdimensionar nem pagar por capacidade que você não vai usar. Fale pelo WhatsApp e informe a lista do que será ligado.</p>

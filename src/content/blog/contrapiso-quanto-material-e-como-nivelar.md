@@ -73,7 +73,7 @@ faq:
 <h2>Equipamentos que ajudam</h2>
 <ul>
 <li><strong>Betoneira</strong> para argamassa em quantidade e traço uniforme: veja <a href="/blog/betoneira-200-ou-400-litros-qual-escolher/">200 ou 400 litros</a>;</li>
-<li><strong>Martelete rompedor</strong> para retirar contrapiso velho: veja o <a href="/blog/martelete-rompedor-guia-completo/">guia do martelete rompedor</a>;</li>
+<li><strong>Martelete rompedor</strong> para retirar contrapiso velho sem rachar a laje: veja o <a href="/blog/martelete-rompedor-guia-completo/">guia do martelete rompedor</a> e <a href="/blog/como-quebrar-piso-e-contrapiso-sem-rachar-a-laje/">como quebrar piso e contrapiso sem rachar a laje</a>, e descarte o material em <a href="/blog/entulho-de-obra-cacamba-classes-e-descarte-correto/">entulho de obra: caçamba e classes</a>;</li>
 <li><strong>Gerador</strong> se a obra não tem energia: veja o <a href="/blog/gerador-5-kva-o-que-liga-tabela-de-consumo/">gerador de 5 kVA</a>;</li>
 <li><strong>Serra mármore ou cortadora de piso</strong> para as juntas de dilatação e para cortar o piso depois: veja <a href="/blog/serra-marmore-cortadora-de-piso-como-cortar-porcelanato/">como cortar porcelanato</a>.</li>
 </ul>

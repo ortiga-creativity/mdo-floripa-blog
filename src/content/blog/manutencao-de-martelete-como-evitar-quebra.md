@@ -90,7 +90,7 @@ faq:
 <li><strong>Guarde seco e protegido</strong> da poeira e da umidade.</li>
 </ol>
 <h3>Leia também</h3>
-<p>Entenda quando e como trocar as escovas em <a href="/blog/troca-de-carvao-furadeira-esmerilhadeira-quando-fazer/">troca de carvão</a>, escolha a ponteira em <a href="/blog/tipos-de-ponteira-para-martelete/">tipos de ponteira para martelete</a> e veja o uso correto no <a href="/blog/martelete-rompedor-guia-completo/">guia do martelete rompedor</a>. Se você vai alugar, confira o <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist de aluguel de equipamentos</a>, com a vistoria na retirada e na devolução.</p>
+<p>Entenda quando e como trocar as escovas em <a href="/blog/troca-de-carvao-furadeira-esmerilhadeira-quando-fazer/">troca de carvão</a>, escolha a ponteira em <a href="/blog/tipos-de-ponteira-para-martelete/">tipos de ponteira para martelete</a>, veja o uso correto no <a href="/blog/martelete-rompedor-guia-completo/">guia do martelete rompedor</a> e o destino certo do entulho em <a href="/blog/entulho-de-obra-cacamba-classes-e-descarte-correto/">entulho de obra: caçamba, classes e descarte correto</a>. Se o equipamento for guardado perto do litoral, veja também <a href="/blog/maresia-como-proteger-equipamentos-e-fachadas-no-litoral/">como proteger equipamentos da maresia</a>. Se você vai alugar, confira o <a href="/blog/checklist-aluguel-equipamentos-de-obra/">checklist de aluguel de equipamentos</a>, com a vistoria na retirada e na devolução.</p>
 
 <h3>Alugue marteletes revisados com a MDO Floripa</h3>
 <p>A MDO Floripa disponibiliza marteletes elétricos e ponteiras diversas para locação em Florianópolis, sempre revisados entre locações. Fale com nossa equipe pelo WhatsApp e evite pane no meio do serviço.</p>
