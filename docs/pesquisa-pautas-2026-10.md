@@ -37,7 +37,8 @@ Formato padrão para cada novo artigo:
 | 7 | Quanto de reboco/chapisco/emboço por m² | massa para reboco |
 | 8 | Quantos andaimes preciso para fachada de X m² | andaime por altura |
 | 9 | Quantos litros de água por hora gasta uma lavadora de alta pressão | consumo da lavadora |
-| 10 | Quanto custa alugar betoneira/andaime/martelete/gerador por dia (faixas) | preço de aluguel |
+| 10 | ~~Quanto custa alugar betoneira/andaime/martelete/gerador por dia~~ | **Removida: o blog não publica preços** |
+| 10b | Vantagens de alugar equipamentos de obra e o impacto no custo final (artigo pilar, sem valores) | por que alugar equipamento |
 
 ### Prioridade B – comparativos "X ou Y" (intenção de decisão, convertem em orçamento)
 - Martelete perfurador x rompedor x furadeira de impacto
@@ -78,7 +79,6 @@ Formato padrão para cada novo artigo:
 
 ### Prioridade F – ferramentas (atraem links e citações)
 - Calculadora de concreto, de argamassa/rejunte, de tijolos
-- Comparador "alugar x comprar" em R$
 - Tabela de consumo de aparelhos para gerador (página própria e citável)
 
 ## 4. Ações técnicas para virar fonte de IA
@@ -118,7 +118,7 @@ Formato padrão para cada novo artigo:
 |---|---|
 | 1 | llms.txt, LocalBusiness, dateModified; reescrever "gerador" e "betoneira" |
 | 2 | Pautas A1, A3, A4 (+ tabela de consumo) |
-| 3 | A10 (preços), B1, B2 |
+| 3 | A10b (artigo pilar de vantagens de alugar), B1, B2 |
 | 4 | A2, A5, A6 + calculadora de concreto |
 | 5 | Pautas D (NR-35, ruído/alvará, entulho) |
 | 6 | Revisão com Search Console e reforço do que ganhou impressão |
