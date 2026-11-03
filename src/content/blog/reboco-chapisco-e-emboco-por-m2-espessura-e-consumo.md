@@ -1,6 +1,6 @@
 ---
-title: "Espessura do reboco, chapisco e emboço (NBR 13749)"
-excerpt: "Cada cm de reboco gasta cerca de 10 litros de massa por m². Veja a espessura de chapisco, emboço e reboco e como calcular a argamassa."
+title: "Reboco, chapisco e emboço: espessura e massa por m²"
+excerpt: "Quanta massa cada camada gasta por m², que espessura usar em chapisco, emboço e reboco (NBR 13749) e como calcular a argamassa da sua parede."
 category: Construcao
 image: https://images.pexels.com/photos/10383588/pexels-photo-10383588.jpeg
 author: Equipe MDO Floripa

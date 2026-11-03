@@ -1,7 +1,6 @@
 ---
-title: "Troca de carvão em furadeira e esmerilhadeira: quando fazer"
-excerpt: Escovas de carvão gastas são a causa mais comum de queima de motor em
-  ferramentas elétricas. Saiba identificar o momento certo de trocar.
+title: "Carvão da furadeira e esmerilhadeira: quando trocar"
+excerpt: "Carvão gasto queima o motor da ferramenta. Veja os sinais de desgaste e o momento certo de trocar, antes de perder a máquina."
 category: Manutencao de Equipamentos
 image: https://images.pexels.com/photos/17419786/pexels-photo-17419786.jpeg
 author: Equipe MDO Floripa

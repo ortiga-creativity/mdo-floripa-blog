@@ -1,6 +1,6 @@
 ---
-title: "Quanto tempo leva para pintar uma casa: 7 a 12 dias"
-excerpt: "Com rolo, uma casa de médio porte leva de 7 a 12 dias úteis; com airless, de 4 a 6. Veja o prazo de cada etapa e o que atrasa a pintura."
+title: "Quanto tempo leva para pintar uma casa (rolo x airless)"
+excerpt: "Prazo de cada etapa de uma pintura completa, a diferença entre rolo e airless e o que mais atrasa a obra, antes de você marcar a data."
 category: Pintura
 image: https://images.unsplash.com/photo-1742900280864-bcc27353ceba?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 author: Equipe MDO Floripa

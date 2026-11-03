@@ -1,8 +1,6 @@
 ---
-title: "Gerador de 5 kVA: o que ele liga? Tabela de consumo para casa e obra"
-excerpt: Um gerador de 5 kVA entrega cerca de 4 kW reais. Veja o que ele
-  consegue ligar ao mesmo tempo, o pico de partida de cada aparelho e como
-  dimensionar sem queimar nada.
+title: "Gerador 5 kVA: o que liga? Tabela de aparelhos"
+excerpt: "Tabela com consumo e pico de partida de cada aparelho. Veja o que um gerador de 5 kVA liga ao mesmo tempo sem queimar nada."
 category: Manutencao de Equipamentos
 image: https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg
 author: Equipe MDO Floripa

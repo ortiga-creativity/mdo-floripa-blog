@@ -1,6 +1,6 @@
 ---
-title: "Martelete para quebrar piso e concreto: guia completo"
-excerpt: "Qual martelete usar para quebrar piso, contrapiso e concreto, qual ponteira escolher e como operar com segurança, sem rachar a laje."
+title: "Martelete para quebrar piso: qual escolher e como usar"
+excerpt: "Qual martelete e qual ponteira usar para quebrar piso, contrapiso e concreto sem rachar a laje, com o passo a passo seguro."
 category: "Construcao"
 image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
 author: "Equipe MDO Floripa"

@@ -1,6 +1,6 @@
 ---
-title: "Traço de concreto: quanto de cimento, areia e brita para 1 m³ (e em latas)"
-excerpt: "Veja os traços de concreto mais usados em obra residencial, quantos sacos de cimento vão em 1 m³, como converter para latas de 18 litros e quando o traço precisa vir de um engenheiro."
+title: "Traço de concreto: cimento, areia e brita por m³ (e em latas)"
+excerpt: "Os traços mais usados em obra residencial, sacos de cimento por m³, conversão para latas de 18 litros e quando o traço precisa vir de um engenheiro."
 category: "Construcao"
 image: "https://images.pexels.com/photos/6138083/pexels-photo-6138083.jpeg"
 author: "Equipe MDO Floripa"
