@@ -1,27 +1,43 @@
 ---
 title: "Lavadora de alta pressão: qual PSI usar em cada superfície sem danificar"
-excerpt: "1.700 a 1.900 PSI resolvem a maior parte do uso doméstico, mas pressão, vazão e bico mudam conforme a superfície. Veja como lavar calçada, fachada, telhado, madeira e carro com segurança."
-category: "Limpeza"
-image: "https://images.unsplash.com/photo-1707897283710-4beef9a1b066?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-author: "Equipe MDO Floripa"
+excerpt: 1.700 a 1.900 PSI resolvem a maior parte do uso doméstico, mas pressão,
+  vazão e bico mudam conforme a superfície. Veja como lavar calçada, fachada,
+  telhado, madeira e carro com segurança.
+category: Limpeza
+image: https://images.pexels.com/photos/34194579/pexels-photo-34194579.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-10-24"
+pubDate: 2026-10-24
 faq:
-  - q: "Quantos PSI preciso para uso doméstico?"
-    a: "Para casa, carro, moto, calçada e quintal, a faixa de 1.700 a 1.900 PSI (cerca de 120 a 130 bar) costuma dar conta com folga. Acima de 2.400 PSI, o uso é mais frequente ou semiprofissional."
-  - q: "Como converter PSI em bar?"
-    a: "1 bar equivale a cerca de 14,5 PSI. Assim, 1.450 PSI são aproximadamente 100 bar e 1.900 PSI são cerca de 131 bar."
+  - q: Quantos PSI preciso para uso doméstico?
+    a: Para casa, carro, moto, calçada e quintal, a faixa de 1.700 a 1.900 PSI
+      (cerca de 120 a 130 bar) costuma dar conta com folga. Acima de 2.400 PSI,
+      o uso é mais frequente ou semiprofissional.
+  - q: Como converter PSI em bar?
+    a: 1 bar equivale a cerca de 14,5 PSI. Assim, 1.450 PSI são aproximadamente 100
+      bar e 1.900 PSI são cerca de 131 bar.
   - q: "Vazão ou pressão: o que importa mais?"
-    a: "Os dois. A pressão solta a sujeira, e a vazão (litros por hora) a leva embora e define a velocidade da limpeza. Modelos domésticos costumam ficar entre 300 e 420 L/h. Olhar só para o PSI é um erro comum."
-  - q: "O PSI da embalagem é o que a máquina entrega?"
-    a: "Geralmente é a pressão máxima, de pico. A pressão de trabalho real costuma ser menor, o que vale ter em mente ao comparar modelos."
-  - q: "Posso lavar telhado e madeira com lavadora de alta pressão?"
-    a: "Pode, com cuidado: use a menor pressão possível, bico leque aberto e distância maior da superfície, e teste antes em uma área escondida. Pressão alta pode soltar pintura, abrir poros da madeira e danificar telhas."
-  - q: "Como evitar riscar a pintura do carro?"
-    a: "Use bico de leque a cerca de 30 cm da lataria, evite jato concentrado colado na superfície e não use pressão elevada em borrachas, emblemas e áreas com tinta já danificada."
-  - q: "Lavadora elétrica ou a gasolina?"
-    a: "Para uso doméstico e de obra com energia disponível, a elétrica resolve. A gasolina é indicada quando não há rede elétrica ou o serviço é pesado e contínuo. Em uso frequente, o motor de indução aguenta melhor do que o universal, que pede pausas de 20 a 40 minutos."
+    a: Os dois. A pressão solta a sujeira, e a vazão (litros por hora) a leva embora
+      e define a velocidade da limpeza. Modelos domésticos costumam ficar entre
+      300 e 420 L/h. Olhar só para o PSI é um erro comum.
+  - q: O PSI da embalagem é o que a máquina entrega?
+    a: Geralmente é a pressão máxima, de pico. A pressão de trabalho real costuma
+      ser menor, o que vale ter em mente ao comparar modelos.
+  - q: Posso lavar telhado e madeira com lavadora de alta pressão?
+    a: "Pode, com cuidado: use a menor pressão possível, bico leque aberto e
+      distância maior da superfície, e teste antes em uma área escondida.
+      Pressão alta pode soltar pintura, abrir poros da madeira e danificar
+      telhas."
+  - q: Como evitar riscar a pintura do carro?
+    a: Use bico de leque a cerca de 30 cm da lataria, evite jato concentrado colado
+      na superfície e não use pressão elevada em borrachas, emblemas e áreas com
+      tinta já danificada.
+  - q: Lavadora elétrica ou a gasolina?
+    a: Para uso doméstico e de obra com energia disponível, a elétrica resolve. A
+      gasolina é indicada quando não há rede elétrica ou o serviço é pesado e
+      contínuo. Em uso frequente, o motor de indução aguenta melhor do que o
+      universal, que pede pausas de 20 a 40 minutos.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> para uso doméstico, <strong>1.700 a 1.900 PSI</strong> (cerca de 120 a 130 bar) e vazão de <strong>300 a 420 L/h</strong> resolvem calçada, quintal, carro e muros. Em superfícies frágeis, como madeira, telha e pintura, comece pela <strong>menor pressão, com o bico em leque aberto e mais distante</strong>, e teste em área escondida.</p></div>
 <p>A mesma lavadora que deixa a calçada nova pode descascar a pintura de um muro ou marcar uma deck de madeira. A diferença está na pressão, no bico e na distância. Veja como ajustar cada caso.</p>
