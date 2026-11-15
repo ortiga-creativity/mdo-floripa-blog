@@ -1,25 +1,45 @@
 ---
-title: "Como derrubar parede: como saber se é estrutural, o que a norma exige e as ferramentas"
-excerpt: "Antes de quebrar uma parede, descubra se ela é estrutural, o que a NBR 16280 pede em apartamento e qual martelete ou rompedor usar em parede de vedação."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1562630426-5942d5363820?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+title: "Como derrubar parede: como saber se é estrutural, o que a norma exige e
+  as ferramentas"
+excerpt: Antes de quebrar uma parede, descubra se ela é estrutural, o que a NBR
+  16280 pede em apartamento e qual martelete ou rompedor usar em parede de
+  vedação.
+category: Construcao
+image: https://images.pexels.com/photos/8215884/pexels-photo-8215884.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-11-11"
+pubDate: 2026-11-11
 faq:
-  - q: "Como saber se uma parede é estrutural?"
-    a: "Não dá para saber só olhando ou batendo na parede. A confirmação vem do projeto estrutural e da avaliação de um engenheiro ou arquiteto habilitado. Sinais de alerta são parede alinhada com paredes dos andares de cima e de baixo, parede ligada a pilares e vigas, e prédios de alvenaria estrutural, onde quase todas as paredes sustentam a construção."
-  - q: "Posso derrubar parede de apartamento por conta própria?"
-    a: "Não. Em apartamento, a NBR 16280 exige plano de reforma elaborado por profissional habilitado e apresentado ao síndico antes de começar. Mexer em parede estrutural sem projeto pode gerar multa, obrigação de reconstruir e risco real para o prédio."
-  - q: "Precisa de alvará para derrubar parede em Florianópolis?"
-    a: "Depende do tipo de intervenção e da legislação municipal vigente. Alterações estruturais costumam exigir licenciamento e responsável técnico. Confirme na Prefeitura de Florianópolis ou com o arquiteto ou engenheiro da obra antes de iniciar."
-  - q: "Qual ferramenta usar para derrubar parede de tijolo?"
-    a: "Para parede de vedação de tijolo ou bloco cerâmico, um martelete rompedor elétrico com ponteira ou talhadeira resolve a maior parte dos casos. A marreta de mão serve para trechos curtos e acabamentos, mas rende menos e dá menos controle."
-  - q: "Derrubar parede gera muito entulho?"
-    a: "Sim. Uma parede de tijolo vira bastante entulho em pouco tempo, então reserve a caçamba e o local de armazenamento antes de começar, e separe o material conforme as regras de descarte."
-  - q: "Posso trabalhar em qualquer horário?"
-    a: "Não. Existem horários permitidos para ruído de obra e regras do condomínio. Veja as regras para Florianópolis no artigo sobre barulho de obra e combine o cronograma com o síndico."
+  - q: Como saber se uma parede é estrutural?
+    a: Não dá para saber só olhando ou batendo na parede. A confirmação vem do
+      projeto estrutural e da avaliação de um engenheiro ou arquiteto
+      habilitado. Sinais de alerta são parede alinhada com paredes dos andares
+      de cima e de baixo, parede ligada a pilares e vigas, e prédios de
+      alvenaria estrutural, onde quase todas as paredes sustentam a construção.
+  - q: Posso derrubar parede de apartamento por conta própria?
+    a: Não. Em apartamento, a NBR 16280 exige plano de reforma elaborado por
+      profissional habilitado e apresentado ao síndico antes de começar. Mexer
+      em parede estrutural sem projeto pode gerar multa, obrigação de
+      reconstruir e risco real para o prédio.
+  - q: Precisa de alvará para derrubar parede em Florianópolis?
+    a: Depende do tipo de intervenção e da legislação municipal vigente. Alterações
+      estruturais costumam exigir licenciamento e responsável técnico. Confirme
+      na Prefeitura de Florianópolis ou com o arquiteto ou engenheiro da obra
+      antes de iniciar.
+  - q: Qual ferramenta usar para derrubar parede de tijolo?
+    a: Para parede de vedação de tijolo ou bloco cerâmico, um martelete rompedor
+      elétrico com ponteira ou talhadeira resolve a maior parte dos casos. A
+      marreta de mão serve para trechos curtos e acabamentos, mas rende menos e
+      dá menos controle.
+  - q: Derrubar parede gera muito entulho?
+    a: Sim. Uma parede de tijolo vira bastante entulho em pouco tempo, então reserve
+      a caçamba e o local de armazenamento antes de começar, e separe o material
+      conforme as regras de descarte.
+  - q: Posso trabalhar em qualquer horário?
+    a: Não. Existem horários permitidos para ruído de obra e regras do condomínio.
+      Veja as regras para Florianópolis no artigo sobre barulho de obra e
+      combine o cronograma com o síndico.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> antes de derrubar qualquer parede, confirme se ela é <strong>estrutural</strong>. Só parede de vedação (que apenas divide ambientes) pode ser removida sem reforço, e mesmo assim em apartamento é obrigatório seguir a <strong>NBR 16280</strong>, com plano de reforma assinado por engenheiro ou arquiteto e aprovado pelo síndico. Para quebrar parede de tijolo, o equipamento mais usado é o martelete rompedor elétrico.</p></div>
 <p>"Como derrubar uma parede" é uma das dúvidas mais comuns de quem planeja integrar sala e cozinha ou ampliar um quarto. O trabalho em si é simples; o erro caro está em <strong>derrubar a parede errada</strong>. Este guia mostra a ordem correta: primeiro a verificação, depois a autorização e só então a ferramenta.</p>
