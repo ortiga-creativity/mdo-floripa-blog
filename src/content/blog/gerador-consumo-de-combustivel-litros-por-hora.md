@@ -1,25 +1,38 @@
 ---
-title: "Quanto o gerador consome de combustível por hora? Tabela por carga e autonomia"
-excerpt: "Veja quantos litros por hora um gerador a gasolina ou diesel gasta, como a carga muda o consumo e como calcular quanto tempo o tanque dura."
-category: "Manutencao de Equipamentos"
-image: "https://images.unsplash.com/photo-1658260867231-535a1f7c98b9?auto=format&fit=crop&w=1200&q=80"
-author: "Equipe MDO Floripa"
+title: Quanto o gerador consome de combustível por hora? Tabela por carga e autonomia
+excerpt: Veja quantos litros por hora um gerador a gasolina ou diesel gasta,
+  como a carga muda o consumo e como calcular quanto tempo o tanque dura.
+category: Manutencao de Equipamentos
+image: https://images.pexels.com/photos/18816918/pexels-photo-18816918.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-11-13"
+pubDate: 2026-11-13
 faq:
-  - q: "Quantos litros por hora um gerador de 5 kVA a gasolina consome?"
-    a: "Em geral, entre 1,5 e 2,8 litros por hora, dependendo do motor e da carga. Em carga baixa o gasto é menor; perto da capacidade máxima ele sobe bastante. O número exato está no manual ou na ficha técnica do modelo."
-  - q: "Por que o consumo muda tanto de um dia para outro?"
-    a: "Porque o gerador consome conforme a carga ligada. Um gerador alimentando só luzes e geladeira gasta muito menos do que o mesmo gerador com betoneira e ferramentas funcionando ao mesmo tempo."
-  - q: "Como calcular quantas horas o tanque dura?"
-    a: "Divida a capacidade do tanque em litros pelo consumo por hora na carga que você vai usar. Exemplo: tanque de 25 litros e consumo de 2 litros por hora dá cerca de 12 horas de autonomia."
-  - q: "Gerador diesel gasta menos que gerador a gasolina?"
-    a: "Costuma ser mais econômico em jornadas longas e aguenta melhor o trabalho contínuo, mas o equipamento tende a ser mais pesado. O consumo real varia por modelo, então compare a ficha técnica do gerador que você vai usar."
-  - q: "Vale a pena deixar o gerador ligado sem carga?"
-    a: "Não. Funcionar muito abaixo da capacidade gasta combustível sem entregar energia útil e pode favorecer carbonização no motor. Desligue quando não estiver em uso e dimensione o gerador para a carga real."
-  - q: "Gerador inversor economiza combustível?"
-    a: "Geralmente sim, porque o motor ajusta a rotação à carga em vez de ficar sempre acelerado. É uma boa opção para cargas variáveis e eletrônicos sensíveis, dentro da faixa de potência do modelo."
+  - q: Quantos litros por hora um gerador de 5 kVA a gasolina consome?
+    a: Em geral, entre 1,5 e 2,8 litros por hora, dependendo do motor e da carga. Em
+      carga baixa o gasto é menor; perto da capacidade máxima ele sobe bastante.
+      O número exato está no manual ou na ficha técnica do modelo.
+  - q: Por que o consumo muda tanto de um dia para outro?
+    a: Porque o gerador consome conforme a carga ligada. Um gerador alimentando só
+      luzes e geladeira gasta muito menos do que o mesmo gerador com betoneira e
+      ferramentas funcionando ao mesmo tempo.
+  - q: Como calcular quantas horas o tanque dura?
+    a: "Divida a capacidade do tanque em litros pelo consumo por hora na carga que
+      você vai usar. Exemplo: tanque de 25 litros e consumo de 2 litros por hora
+      dá cerca de 12 horas de autonomia."
+  - q: Gerador diesel gasta menos que gerador a gasolina?
+    a: Costuma ser mais econômico em jornadas longas e aguenta melhor o trabalho
+      contínuo, mas o equipamento tende a ser mais pesado. O consumo real varia
+      por modelo, então compare a ficha técnica do gerador que você vai usar.
+  - q: Vale a pena deixar o gerador ligado sem carga?
+    a: Não. Funcionar muito abaixo da capacidade gasta combustível sem entregar
+      energia útil e pode favorecer carbonização no motor. Desligue quando não
+      estiver em uso e dimensione o gerador para a carga real.
+  - q: Gerador inversor economiza combustível?
+    a: Geralmente sim, porque o motor ajusta a rotação à carga em vez de ficar
+      sempre acelerado. É uma boa opção para cargas variáveis e eletrônicos
+      sensíveis, dentro da faixa de potência do modelo.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> um gerador portátil de 5 kVA a gasolina costuma consumir entre <strong>1,5 e 2,8 litros por hora</strong>, conforme o motor e a carga. O consumo cresce com a carga ligada: em ficha técnica de um gerador de 6,5 kVA, por exemplo, o gasto é de cerca de 0,76 L/h com 25% de carga, 1,51 L/h com 50% e 2,27 L/h com 75%. Para saber a autonomia, divida o tamanho do tanque pelo consumo.</p></div>
 <p>Antes de contratar um gerador para obra, evento ou queda de energia, vale saber duas coisas: se a potência dá conta do que será ligado e <strong>quanto combustível você vai precisar abastecer</strong>. Este guia mostra como estimar o consumo sem depender de chute.</p>
