@@ -1,25 +1,40 @@
 ---
 title: "Como furar parede de concreto e porcelanato: broca, furadeira ou martelete?"
-excerpt: "Veja qual broca usar em concreto, tijolo e porcelanato, quando a furadeira de impacto não basta e o martelete resolve, e como furar sem trincar nem acertar tubulação."
-category: "Construcao"
-image: "https://images.pexels.com/photos/7479039/pexels-photo-7479039.jpeg"
-author: "Equipe MDO Floripa"
+excerpt: Veja qual broca usar em concreto, tijolo e porcelanato, quando a
+  furadeira de impacto não basta e o martelete resolve, e como furar sem trincar
+  nem acertar tubulação.
+category: Construcao
+image: https://images.pexels.com/photos/7218567/pexels-photo-7218567.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-11-18"
+pubDate: 2026-11-18
 faq:
-  - q: "Qual broca usar para furar concreto?"
-    a: "Broca de vídia (widia) para furadeira de impacto em furos pequenos, ou broca SDS-plus para martelete em furos maiores e mais profundos. Brocas comuns de aço não furam concreto."
-  - q: "Posso furar concreto com furadeira comum?"
-    a: "Não é indicado. Sem impacto, a broca esquenta e perde a ponta. Use furadeira de impacto para furos pequenos em concreto leve e martelete perfurador para concreto armado e furos maiores."
-  - q: "Como furar porcelanato sem trincar?"
-    a: "Use broca diamantada ou específica para porcelanato, com a furadeira no modo rotação (sem impacto), em baixa velocidade, com leve resfriamento e sem forçar. Comece em ângulo, marque o ponto e endireite a broca com cuidado."
-  - q: "Como evitar furar um cano ou fio?"
-    a: "Antes de furar, consulte o projeto elétrico e hidráulico e use detector de metais ou de tubulação quando possível. Evite furar em linha reta acima de tomadas e interruptores e abaixo de pontos de água."
-  - q: "Qual a diferença entre furadeira de impacto e martelete?"
-    a: "A furadeira de impacto faz o impacto por atrito mecânico, serve para furos pequenos. O martelete usa mecanismo pneumático, com muito mais energia, e fura concreto armado com menos esforço e mais rapidez."
-  - q: "Vale alugar um martelete para poucos furos?"
-    a: "Para uma ou duas buchas em tijolo, a furadeira de impacto resolve. Para vários furos em concreto, furos grandes, chumbadores ou muita profundidade, o martelete perfurador economiza tempo e evita danificar a ferramenta comum."
+  - q: Qual broca usar para furar concreto?
+    a: Broca de vídia (widia) para furadeira de impacto em furos pequenos, ou broca
+      SDS-plus para martelete em furos maiores e mais profundos. Brocas comuns
+      de aço não furam concreto.
+  - q: Posso furar concreto com furadeira comum?
+    a: Não é indicado. Sem impacto, a broca esquenta e perde a ponta. Use furadeira
+      de impacto para furos pequenos em concreto leve e martelete perfurador
+      para concreto armado e furos maiores.
+  - q: Como furar porcelanato sem trincar?
+    a: Use broca diamantada ou específica para porcelanato, com a furadeira no modo
+      rotação (sem impacto), em baixa velocidade, com leve resfriamento e sem
+      forçar. Comece em ângulo, marque o ponto e endireite a broca com cuidado.
+  - q: Como evitar furar um cano ou fio?
+    a: Antes de furar, consulte o projeto elétrico e hidráulico e use detector de
+      metais ou de tubulação quando possível. Evite furar em linha reta acima de
+      tomadas e interruptores e abaixo de pontos de água.
+  - q: Qual a diferença entre furadeira de impacto e martelete?
+    a: A furadeira de impacto faz o impacto por atrito mecânico, serve para furos
+      pequenos. O martelete usa mecanismo pneumático, com muito mais energia, e
+      fura concreto armado com menos esforço e mais rapidez.
+  - q: Vale alugar um martelete para poucos furos?
+    a: Para uma ou duas buchas em tijolo, a furadeira de impacto resolve. Para
+      vários furos em concreto, furos grandes, chumbadores ou muita
+      profundidade, o martelete perfurador economiza tempo e evita danificar a
+      ferramenta comum.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> para furar <strong>concreto</strong>, use <strong>furadeira de impacto com broca de vídia</strong> em furos pequenos ou <strong>martelete perfurador com broca SDS-plus</strong> em furos maiores e profundos. Para <strong>porcelanato</strong>, use <strong>broca diamantada, sem impacto e em baixa velocidade</strong>. Antes de qualquer furo, confirme onde passam fios e tubos.</p></div>
 <p>Parece simples, mas furar a parede errada ou com a ferramenta errada resulta em broca queimada, azulejo trincado e, no pior caso, cano furado. Este guia resume <strong>qual ferramenta e qual broca usar em cada material</strong>.</p>
