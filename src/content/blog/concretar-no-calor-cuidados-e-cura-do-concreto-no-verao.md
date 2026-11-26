@@ -1,25 +1,43 @@
 ---
-title: "Concretar no calor: cuidados e cura do concreto no verão para evitar rachaduras"
-excerpt: "Calor, vento e sol forte aceleram a secagem e racham laje, calçada e piso. Veja como planejar a concretagem de verão, os cuidados com a água e como fazer a cura certa."
-category: "Construcao"
-image: "https://images.unsplash.com/photo-1738817628118-ad34f40733ee?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0"
-author: "Equipe MDO Floripa"
+title: "Concretar no calor: cuidados e cura do concreto no verão para evitar
+  rachaduras"
+excerpt: Calor, vento e sol forte aceleram a secagem e racham laje, calçada e
+  piso. Veja como planejar a concretagem de verão, os cuidados com a água e como
+  fazer a cura certa.
+category: Construcao
+image: https://images.pexels.com/photos/40114906/pexels-photo-40114906.jpeg
+author: Equipe MDO Floripa
 published: true
 featured: false
-pubDate: "2026-11-27"
+pubDate: 2026-11-27
 faq:
-  - q: "Posso concretar em dia de calor forte?"
-    a: "Pode, com cuidados: concretar em horários mais frescos (início da manhã ou fim da tarde), umedecer fôrmas e base antes, evitar sol e vento direto nas primeiras horas e iniciar a cura imediatamente. Evite concretar no pico de calor."
-  - q: "Por que o concreto racha mais no verão?"
-    a: "Porque o calor, o sol e o vento aceleram a evaporação da água da superfície antes de o concreto ganhar resistência. A superfície encolhe mais rápido que o interior e fissura. O calor gerado pela reação do cimento também contribui."
-  - q: "Quantos dias devo molhar o concreto?"
-    a: "É comum recomendar manter o concreto úmido por pelo menos 7 dias após a concretagem, mas o prazo correto depende do tipo de cimento, da peça e da exposição. Siga o projeto e as normas técnicas (como a NBR 14931) e confirme com o responsável técnico."
-  - q: "Posso colocar mais água no concreto para facilitar o trabalho?"
-    a: "Não. Mais água deixa o concreto mais fraco, mais poroso e com mais chance de rachar. Se a massa está dura por causa do calor, reduza o tempo entre a mistura e o lançamento e planeje melhor a equipe."
-  - q: "Chuva logo depois de concretar estraga o concreto?"
-    a: "Chuva forte na superfície fresca pode lavar o cimento e danificar o acabamento. Acompanhe a previsão e tenha lona para cobrir. Em Florianópolis, as pancadas de verão exigem atenção redobrada."
-  - q: "Betoneira serve para concretagem pequena no verão?"
-    a: "Sim, para calçadas, pisos, bases e peças pequenas, desde que o traço seja correto e a equipe consiga lançar e adensar logo após a mistura. Para peças grandes, o concreto usinado costuma ser indicado."
+  - q: Posso concretar em dia de calor forte?
+    a: "Pode, com cuidados: concretar em horários mais frescos (início da manhã ou
+      fim da tarde), umedecer fôrmas e base antes, evitar sol e vento direto nas
+      primeiras horas e iniciar a cura imediatamente. Evite concretar no pico de
+      calor."
+  - q: Por que o concreto racha mais no verão?
+    a: Porque o calor, o sol e o vento aceleram a evaporação da água da superfície
+      antes de o concreto ganhar resistência. A superfície encolhe mais rápido
+      que o interior e fissura. O calor gerado pela reação do cimento também
+      contribui.
+  - q: Quantos dias devo molhar o concreto?
+    a: É comum recomendar manter o concreto úmido por pelo menos 7 dias após a
+      concretagem, mas o prazo correto depende do tipo de cimento, da peça e da
+      exposição. Siga o projeto e as normas técnicas (como a NBR 14931) e
+      confirme com o responsável técnico.
+  - q: Posso colocar mais água no concreto para facilitar o trabalho?
+    a: Não. Mais água deixa o concreto mais fraco, mais poroso e com mais chance de
+      rachar. Se a massa está dura por causa do calor, reduza o tempo entre a
+      mistura e o lançamento e planeje melhor a equipe.
+  - q: Chuva logo depois de concretar estraga o concreto?
+    a: Chuva forte na superfície fresca pode lavar o cimento e danificar o
+      acabamento. Acompanhe a previsão e tenha lona para cobrir. Em
+      Florianópolis, as pancadas de verão exigem atenção redobrada.
+  - q: Betoneira serve para concretagem pequena no verão?
+    a: Sim, para calçadas, pisos, bases e peças pequenas, desde que o traço seja
+      correto e a equipe consiga lançar e adensar logo após a mistura. Para
+      peças grandes, o concreto usinado costuma ser indicado.
 ---
 <div class="quick-answer"><p><strong>Resposta rápida:</strong> para concretar no calor, <strong>trabalhe em horários frescos, umedeça fôrmas e base, não adicione água extra à mistura, lance e acabe rápido e comece a cura logo depois</strong>, mantendo o concreto úmido por vários dias (o mais comum é pelo menos 7, conforme projeto e norma). Sol forte, vento e pouca umidade são os maiores causadores de fissuras.</p></div>
 <p>O verão é a época em que mais se concreta: calçadas, garagens, lajes, pisos externos, bases para churrasqueira e piscina. Só que o calor transforma o concreto num material mais difícil de trabalhar. A água da mistura evapora rápido, a pega acelera e aparecem <strong>fissuras, desagregação e piso esfarelando</strong>. A boa notícia é que quase tudo se evita com planejamento.</p>
